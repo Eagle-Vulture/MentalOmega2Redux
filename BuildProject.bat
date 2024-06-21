@@ -32,6 +32,6 @@ for /f "tokens=*" %%f in ('dir "Source\MIX\" /a:d /b') do (
 	Tools\ccmix.exe --create --lmd --game=ra2 --dir "Source\MIX\%%f" --mix "Build\%%f.mix"
 	echo.
 	)
-echo.
+
 echo Все MIX-архивы были собраны.
 echo Сборка проекта окончена. Пожалуйста, проверьте папку Build.
