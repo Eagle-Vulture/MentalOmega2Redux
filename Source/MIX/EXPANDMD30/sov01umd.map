@@ -3627,6 +3627,7 @@ DestroyableBridges=no
 90=YuriCountry House,NANRCT,256,81,121,64,None,1,0,1,0,0,None,None,None,0,0
 91=YuriCountry House,YAPOWR,256,79,117,64,None,1,0,1,0,0,None,None,None,1,0
 92=YuriCountry House,YAPOWR,256,78,122,64,None,1,0,1,0,0,None,None,None,1,0
+93=Americans House,CABHUT,256,66,76,64,None,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,AI Auto Production America 1,01000000

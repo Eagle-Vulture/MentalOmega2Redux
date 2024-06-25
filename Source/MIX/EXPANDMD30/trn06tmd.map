@@ -602,7 +602,7 @@ Name=16-17
 [01000087]
 0=2,MTNK
 1=2,FV
-2=1,MGTK
+2=1,GHUM
 Name=2 Grizzly, 2 IFV
 Group=-1
 
@@ -650,7 +650,7 @@ AreTeamMembersRecruitable=no
 Name=18-19
 
 [01000090]
-0=3,MGTK
+0=3,GHUM
 Name=3 Mirages
 Group=-1
 
@@ -5632,10 +5632,10 @@ DestroyableBridges=yes
 33=Americans House,MTNK,256,74,98,128,Area Guard,None,0,-1,0,-1,1,0
 34=Americans House,FV,256,65,111,64,Area Guard,None,0,-1,0,-1,1,0
 35=Americans House,FV,256,55,112,96,Area Guard,None,0,-1,0,-1,1,0
-36=Americans House,MGTK,256,147,76,64,Guard,None,0,-1,0,-1,1,0
-37=Americans House,MGTK,256,126,160,64,Guard,None,0,-1,0,-1,1,0
+36=Americans House,GHUM,256,147,76,64,Guard,None,0,-1,0,-1,1,0
+37=Americans House,GHUM,256,126,160,64,Guard,None,0,-1,0,-1,1,0
 38=YuriCountry House,SQD,256,181,109,128,Guard,None,0,-1,0,-1,1,0
-39=Americans House,MGTK,256,62,131,64,Guard,None,0,-1,0,-1,1,0
+39=Americans House,GHUM,256,62,131,64,Guard,None,0,-1,0,-1,1,0
 40=Americans House,DEST,256,150,154,128,Area Guard,None,0,-1,0,-1,1,0
 41=Americans House,DEST,256,39,120,128,Area Guard,None,0,-1,0,-1,1,0
 42=Americans House,DEST,256,32,111,160,Area Guard,None,0,-1,0,-1,1,0
@@ -5648,7 +5648,9 @@ DestroyableBridges=yes
 49=Americans House,DEST,256,156,65,96,Area Guard,None,0,-1,0,-1,1,0
 50=Americans House,FV,256,143,124,64,Area Guard,None,0,-1,0,-1,1,0
 51=Americans House,FV,256,113,141,64,Area Guard,None,0,-1,0,-1,1,0
+52=YuriCountry House,GSHIP,256,178,131,192,Guard,None,555,-1,0,-1,1,0
 53=Americans House,FV,256,64,104,32,Area Guard,None,0,-1,0,-1,1,0
+54=YuriCountry House,GSHIP,256,178,129,192,Guard,None,555,-1,0,-1,1,0
 55=Americans House,FV,256,128,76,96,Area Guard,None,0,-1,0,-1,1,0
 56=Americans House,FV,256,127,66,32,Area Guard,None,0,-1,0,-1,1,0
 57=Americans House,AEGIS,256,104,165,96,Area Guard,None,0,-1,0,-1,1,0
@@ -5663,12 +5665,12 @@ DestroyableBridges=yes
 66=YuriCountry House,SAPC2,256,166,115,64,Guard,None,0,-1,0,-1,1,0
 67=YuriCountry House,SAPC2,256,166,113,64,Guard,None,0,-1,0,-1,1,0
 68=YuriCountry House,DRED,256,184,130,192,Guard,None,555,-1,0,-1,1,0
-69=YuriCountry House,GSHIP,256,180,131,192,Guard,None,555,-1,0,-1,1,0
-70=YuriCountry House,GSHIP,256,180,129,192,Guard,None,555,-1,0,-1,1,0
-71=YuriCountry House,MBT,256,186,128,192,Guard,None,555,-1,0,-1,1,0
-72=YuriCountry House,MBT,256,186,132,192,Guard,None,555,-1,0,-1,1,0
-73=YuriCountry House,BSUB,256,183,133,192,Guard,None,555,-1,0,-1,1,0
-74=YuriCountry House,BSUB,256,183,127,192,Guard,None,555,-1,0,-1,1,0
+69=YuriCountry House,BSUB,256,182,134,192,Guard,None,555,-1,0,-1,1,0
+70=YuriCountry House,BSUB,256,182,126,192,Guard,None,555,-1,0,-1,1,0
+71=YuriCountry House,MBT,256,186,127,192,Guard,None,555,-1,0,-1,1,0
+72=YuriCountry House,MBT,256,186,133,192,Guard,None,555,-1,0,-1,1,0
+73=YuriCountry House,SUB,256,182,132,192,Guard,None,555,-1,0,-1,1,0
+74=YuriCountry House,SUB,256,182,128,192,Guard,None,555,-1,0,-1,1,0
 
 [Waypoints]
 0=116163
