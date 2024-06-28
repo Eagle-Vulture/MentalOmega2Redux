@@ -16,12 +16,6 @@ for /f "tokens=*" %%f in ('dir "Source\" /a:a /b') do (
 	)
 echo.
 
-echo Копирование миссий...
-for /f "tokens=*" %%f in ('dir "Source\MAPS" /a:a /b') do (
-	copy "Source\MAPS\%%f" "Build\%%f"
-	)
-echo.
-
 echo Копирование предкомпилированных архивов...
 for /f "tokens=*" %%f in ('dir "Source\MIX" /a:a /b') do (
 	copy "Source\MIX\%%f" "Build\%%f"
