@@ -4,7 +4,7 @@ echo Mental Omega Redux version 0.1 by Eagle-Vulture
 echo.
 
 : Удаление ранее скомпилированной папки
-rmdir /s /q Build > nul 2> nul
+rmdir /s /q Build
 mkdir Build
 
 echo Копирование файлов клиента...
