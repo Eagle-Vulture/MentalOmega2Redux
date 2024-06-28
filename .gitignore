@@ -26,6 +26,6 @@ Source/CLIENT/Map Editor/FinalAlert.ini
 Source/CLIENT/Map Editor/RA2Tmp.csf
 Source/CLIENT/Map Editor/FinalAlert2Log.txt
 Source/CLIENT/Map Editor/syringe.log
-Source/CLIENT/Saved Games/
+Source/CLIENT/Saved Games/*.sav
 Source/CLIENT/Screenshots/
 Source/CLIENT/Resources/MainMenuTheme.bak
