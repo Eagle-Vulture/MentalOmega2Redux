@@ -6,22 +6,23 @@ echo.
 : Удаление ранее скомпилированной папки
 rmdir /s /q Build > nul 2> nul
 mkdir Build
-: mkdir Build\INI
-: mkdir Build\Resources
 
-echo Копирование расширений в папку Build...
+echo Копирование файлов клиента...
+xcopy /h /y /c /r /s Source\CLIENT\ Build\
+
+echo Копирование расширений...
 for /f "tokens=*" %%f in ('dir "Source\" /a:a /b') do (
 	copy "Source\%%f" "Build\%%f"
 	)
 echo.
 
-echo Копирование карт в папку Build...
+echo Копирование миссий...
 for /f "tokens=*" %%f in ('dir "Source\MAPS" /a:a /b') do (
 	copy "Source\MAPS\%%f" "Build\%%f"
 	)
 echo.
 
-echo Копирование предкомпилированных архивов в папку Build...
+echo Копирование предкомпилированных архивов...
 for /f "tokens=*" %%f in ('dir "Source\MIX" /a:a /b') do (
 	copy "Source\MIX\%%f" "Build\%%f"
 	)
