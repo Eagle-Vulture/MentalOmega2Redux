@@ -693,19 +693,19 @@ TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
 [01000083]
-0=5,SLED
-1=2,MBT
+0=3,SLED
+1=1,MBT
 Name=Yuri Naval 1 (Sled, Frig)
 Group=-1
 
 [01000084]
 0=2,GSHIP
-1=5,SLED
+1=3,SLED
 Name=Yuri Naval 2 (Gat, Sled)
 Group=-1
 
 [01000085]
-0=3,MBT
+0=3,MBT_mis
 1=2,DISK
 Name=Yuri Naval 3 (Krak)
 Group=-1
