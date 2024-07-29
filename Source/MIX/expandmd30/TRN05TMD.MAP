@@ -23,8 +23,126 @@ ROF=50
 [ATGUNE]
 ROF=45
 
+[Alliance]
+Name=Alliance
+Side=GDI
+Color=AlliedLoad
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Alliance
+
+[Americans]
+Name=Americans
+Side=GDI
+Color=AlliedLoad
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans
+
 [AudioVisual]
 IncomingMessage=PsychicSensorDetects
+
+[Basic]
+Name=Cold Air Or No Air
+Theme=No theme
+Player=YuriCountry House
+Percent=0
+GameMode=standard
+InitTime=10000
+Official=yes
+EndOfGame=no
+FreeRadar=yes
+MaxPlayer=8
+MinPlayer=2
+SkipScore=no
+TrainCrate=no
+TruckCrate=no
+OneTimeOnly=no
+CarryOverCap=0
+NewINIFormat=4
+NextScenario=trn05tmd.map
+SkipMapSelect=no
+AltNextScenario=trn05tmd.map
+MultiplayerOnly=0
+IceGrowthEnabled=yes
+VeinGrowthEnabled=yes
+TiberiumGrowthEnabled=yes
+IgnoreGlobalAITriggers=no
+TiberiumDeathToVisceroid=yes
+
+[British]
+Name=British
+Side=GDI
+Color=AlliedLoad
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=British
+
+[China]
+Name=China
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=China
+
+[Confederation]
+Name=Confederation
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Confederation
+
+[French]
+Name=French
+Side=GDI
+Color=AlliedLoad
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=French
+
+[Germans]
+Name=Germans
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Germans
+
+[Germany]
+Name=Germany
+Side=GDI
+Color=AlliedLoad
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Germany
+
+[Greece]
+Name=Greece
+Side=GDI
+Color=AlliedLoad
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Greece
 
 [Headquaters]
 Name=Headquaters
@@ -64,8 +182,38 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Neutral
 
+[NorthKorea]
+Name=NorthKorea
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=NorthKorea
+
+[Russians]
+Name=Russians
+Side=Nod
+Color=DarkRed
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Russians
+
 [SMCV]
 TechLevel=11
+
+[Scorpion]
+Name=Scorpion
+Side=ThirdSide
+Color=ThirdLoad
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Scorpion
 
 [Special]
 Name=Special
@@ -76,6 +224,29 @@ Suffix=JP
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Special
+
+[UriArmy]
+Name=UriArmy
+Side=ThirdSide
+Color=ThirdLoad
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=UriArmy
+
+[YADOME]
+SuperWeapon=none
+
+[YuriCountry]
+Name=YuriCountry
+Side=ThirdSide
+Color=ThirdLoad
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=YuriCountry
 
 
 [Preview]
@@ -1533,16 +1704,6 @@ AreTeamMembersRecruitable=no
 01000153=1,11,4,MISSION:MOPSIXN,0,0,0,0,A
 01000155=0
 
-[Alliance]
-Name=Alliance
-Side=GDI
-Color=AlliedLoad
-Prefix=G
-Suffix=Allied
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Alliance
-
 [Alliance House]
 IQ=5
 Edge=North
@@ -1555,16 +1716,6 @@ TechLevel=10
 PercentBuilt=100
 PlayerControl=no
 
-[Americans]
-Name=Americans
-Side=GDI
-Color=AlliedLoad
-Prefix=G
-Suffix=Allied
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Americans
-
 [Americans House]
 IQ=5
 Edge=North
@@ -1576,44 +1727,6 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
-
-[Basic]
-Name=Cold Air Or No Air
-Theme=No theme
-Player=YuriCountry House
-Percent=0
-GameMode=standard
-InitTime=10000
-Official=yes
-EndOfGame=no
-FreeRadar=yes
-MaxPlayer=8
-MinPlayer=2
-SkipScore=no
-TrainCrate=no
-TruckCrate=no
-OneTimeOnly=no
-CarryOverCap=0
-NewINIFormat=4
-NextScenario=trn05tmd.map
-SkipMapSelect=no
-AltNextScenario=trn05tmd.map
-MultiplayerOnly=0
-IceGrowthEnabled=yes
-VeinGrowthEnabled=yes
-TiberiumGrowthEnabled=yes
-IgnoreGlobalAITriggers=no
-TiberiumDeathToVisceroid=yes
-
-[British]
-Name=British
-Side=GDI
-Color=AlliedLoad
-Prefix=G
-Suffix=Allied
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=British
 
 [British House]
 IQ=5
@@ -1779,16 +1892,6 @@ PlayerControl=no
 172100=01000128
 173096=01000128
 
-[China]
-Name=China
-Side=Nod
-Color=DarkRed
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=China
-
 [China House]
 IQ=5
 Edge=North
@@ -1800,16 +1903,6 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
-
-[Confederation]
-Name=Confederation
-Side=Nod
-Color=DarkRed
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Confederation
 
 [Confederation House]
 IQ=5
@@ -1889,16 +1982,6 @@ PlayerControl=no
 01000153=1,13,0,650
 01000155=2,11,0,11,13,0,40
 
-[French]
-Name=French
-Side=GDI
-Color=AlliedLoad
-Prefix=G
-Suffix=Allied
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=French
-
 [French House]
 IQ=5
 Edge=North
@@ -1910,16 +1993,6 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
-
-[Germans]
-Name=Germans
-Side=Nod
-Color=DarkRed
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Germans
 
 [Germans House]
 IQ=5
@@ -1933,16 +2006,6 @@ TechLevel=10
 PercentBuilt=100
 PlayerControl=no
 
-[Germany]
-Name=Germany
-Side=GDI
-Color=AlliedLoad
-Prefix=G
-Suffix=Allied
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Germany
-
 [Germany House]
 IQ=5
 Edge=North
@@ -1954,16 +2017,6 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
-
-[Greece]
-Name=Greece
-Side=GDI
-Color=AlliedLoad
-Prefix=G
-Suffix=Allied
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Greece
 
 [Greece House]
 IQ=5
@@ -4521,16 +4574,6 @@ TechLevel=10
 PercentBuilt=100
 PlayerControl=no
 
-[NorthKorea]
-Name=NorthKorea
-Side=Nod
-Color=DarkRed
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=NorthKorea
-
 [NorthKorea House]
 IQ=5
 Edge=North
@@ -4635,16 +4678,6 @@ UnderParTitle=GUI:yur0xundertitle
 OverParMessage=GUI:yur0xovermsg
 UnderParMessage=GUI:yur0xundermsg
 
-[Russians]
-Name=Russians
-Side=Nod
-Color=DarkRed
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Russians
-
 [Russians House]
 IQ=5
 Edge=North
@@ -4656,16 +4689,6 @@ NodeCount=0
 TechLevel=9
 PercentBuilt=100
 PlayerControl=no
-
-[Scorpion]
-Name=Scorpion
-Side=ThirdSide
-Color=ThirdLoad
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=Scorpion
 
 [Scorpion House]
 IQ=5
@@ -7339,12 +7362,7 @@ DestroyableBridges=yes
 161112=TREE25
 161123=TREE23
 161125=TREE25
-162054=TREE22
-162055=TREE22
-162057=TREE26
-162060=TREE21
 162061=TREE28
-162063=TREE26
 162080=TREE26
 162081=TREE23
 162087=TREE22
@@ -7362,8 +7380,6 @@ DestroyableBridges=yes
 163055=TREE22
 163057=TREE23
 163059=TREE26
-163060=TREE28
-163063=TREE21
 163080=TREE26
 163081=TREE22
 163087=TREE21
@@ -7375,13 +7391,8 @@ DestroyableBridges=yes
 163103=TREE27
 163124=TREE25
 163125=TREE26
-164048=TREE28
-164049=TREE28
-164050=TREE28
 164055=TREE25
-164058=TREE28
 164061=TREE27
-164065=TREE28
 164080=TREE24
 164082=TREE25
 164091=TREE27
@@ -7395,8 +7406,6 @@ DestroyableBridges=yes
 164124=TREE25
 165048=TREE24
 165057=TREE24
-165060=TREE27
-165061=TREE26
 165063=TREE25
 165088=TREE28
 165090=TREE20
@@ -7406,9 +7415,6 @@ DestroyableBridges=yes
 165124=TREE27
 165125=TREE28
 166061=TREE24
-166062=TREE21
-166080=TREE26
-166081=TREE20
 166083=TREE23
 166088=TREE28
 166092=TREE23
@@ -7420,7 +7426,6 @@ DestroyableBridges=yes
 166124=TREE25
 167062=TREE21
 167069=TREE24
-167082=TREE24
 167087=TREE22
 167089=TREE27
 167090=TREE26
@@ -7434,8 +7439,6 @@ DestroyableBridges=yes
 167124=TREE20
 168055=TREE23
 168056=TREE20
-168079=TREE28
-168081=TREE27
 168088=TREE20
 168091=TREE20
 168092=TREE27
@@ -7448,7 +7451,6 @@ DestroyableBridges=yes
 169058=TREE28
 169066=TREE21
 169079=TREE24
-169081=TREE20
 169088=TREE21
 169090=TREE28
 169091=TREE23
@@ -7474,7 +7476,6 @@ DestroyableBridges=yes
 170070=TREE22
 170071=TREE24
 170081=TREE20
-170082=TREE24
 170087=TREE24
 170088=TREE21
 170090=TREE20
@@ -7491,7 +7492,6 @@ DestroyableBridges=yes
 171059=TREE21
 171060=TREE27
 171070=TREE23
-171082=TREE24
 171088=TREE25
 171097=TREE26
 171098=TREE28
@@ -7504,7 +7504,6 @@ DestroyableBridges=yes
 172069=TREE22
 172070=TREE23
 172078=TREE20
-172081=TREE27
 172083=TREE21
 172096=TREE20
 172099=TREE25
@@ -7522,7 +7521,6 @@ DestroyableBridges=yes
 173061=TREE22
 173071=TREE22
 173073=TREE22
-173081=TREE20
 173082=TREE23
 173097=TREE22
 173099=TREE28
@@ -7540,8 +7538,6 @@ DestroyableBridges=yes
 174071=TREE20
 174072=TREE28
 174073=TREE20
-174082=TREE21
-174083=TREE25
 174084=TREE26
 174103=TREE20
 175038=TREE20
@@ -7556,7 +7552,6 @@ DestroyableBridges=yes
 175068=TREE27
 175080=TREE22
 175081=TREE28
-175083=TREE25
 176039=TREE28
 176040=TREE27
 176041=TREE23
@@ -7977,16 +7972,6 @@ DestroyableBridges=yes
 80=Russians House,DRON,256,83,100,64,Area Guard,None,0,-1,0,-1,1,0
 81=Neutral House,CONVEH,256,117,104,64,Guard,None,0,-1,0,-1,1,0
 
-[UriArmy]
-Name=UriArmy
-Side=ThirdSide
-Color=ThirdLoad
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=UriArmy
-
 [UriArmy House]
 IQ=5
 Edge=North
@@ -8071,19 +8056,6 @@ PlayerControl=no
 68=142136
 98=165094
 99=165095
-
-[YADOME]
-SuperWeapon=none
-
-[YuriCountry]
-Name=YuriCountry
-Side=ThirdSide
-Color=ThirdLoad
-Prefix=B
-Suffix=Soviet
-SmartAI=yes
-CostUnitsMult=1
-ParentCountry=YuriCountry
 
 [YuriCountry House]
 IQ=0

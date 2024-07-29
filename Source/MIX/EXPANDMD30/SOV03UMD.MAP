@@ -4200,6 +4200,18 @@ DestroyableBridges=yes
 251=Americans House,GAPILL,256,107,96,64,None,1,0,1,0,0,None,None,None,1,0
 252=Americans House,GAPILL,256,114,96,64,None,1,0,1,0,0,None,None,None,1,0
 253=Americans House,GAPILL,256,114,100,64,None,1,0,1,0,0,None,None,None,1,0
+254=Americans House,ATESLA,256,92,120,64,None,1,0,1,0,0,None,None,None,0,0
+255=Americans House,ATESLA,256,81,64,64,None,1,0,1,0,0,None,None,None,0,0
+256=Americans House,ATESLA,256,92,114,64,None,1,0,1,0,0,None,None,None,0,0
+257=Americans House,ATESLA,256,81,60,64,None,1,0,1,0,0,None,None,None,0,0
+258=Americans House,ATESLA,256,88,60,64,None,1,0,1,0,0,None,None,None,0,0
+259=Americans House,ATESLA,256,88,64,64,None,1,0,1,0,0,None,None,None,0,0
+260=Americans House,ATESLA,256,110,101,64,None,1,0,1,0,0,None,None,None,0,0
+261=Americans House,ATESLA,256,110,95,64,None,1,0,1,0,0,None,None,None,0,0
+262=Americans House,GAPOWR,256,181,125,64,None,1,0,1,0,0,None,None,None,1,0
+263=Americans House,GAPOWR,256,181,122,64,None,1,0,1,0,0,None,None,None,1,0
+264=Americans House,GAPOWR,256,178,122,64,None,1,0,1,0,0,None,None,None,1,0
+265=Americans House,GAPOWR,256,178,125,64,None,1,0,1,0,0,None,None,None,1,0
 
 [Tags]
 01000001=0,AI Auto Production America 1,01000000
