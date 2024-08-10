@@ -143,6 +143,18 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Germans
 
+[Germansns House]
+IQ=
+Edge=
+Color=
+Allies=YuriCountry House,Germansns House
+Country=
+Credits=
+NodeCount=
+TechLevel=
+PercentBuilt=
+PlayerControl=
+
 [Germany]
 Name=Germany
 Side=GDI
@@ -1213,18 +1225,6 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
-
-[Germansns House]
-IQ=
-Edge=
-Color=
-Allies=YuriCountry House,Germansns House
-Country=
-Credits=
-NodeCount=
-TechLevel=
-PercentBuilt=
-PlayerControl=
 
 [Germany House]
 IQ=5
@@ -6590,7 +6590,7 @@ DestroyableBridges=yes
 66=Russians House,DRON,256,164,45,64,Guard,None,0,-1,0,-1,1,0
 67=Russians House,DRON,256,144,22,64,Guard,None,0,-1,0,-1,1,0
 68=Russians House,DRON,256,116,35,64,Guard,None,0,-1,0,-1,1,0
-69=Russians House,SAPC,256,158,74,0,Guard,None,0,-1,0,-1,1,0
+69=Russians House,SAPC,256,172,78,0,Guard,None,0,-1,0,-1,1,0
 70=Russians House,SAPC,256,155,74,32,Guard,None,0,-1,0,-1,1,0
 71=Russians House,V3,256,129,45,64,Area Guard,None,0,-1,0,-1,1,0
 72=YuriCountry House,YHVR,256,142,253,128,Guard,None,0,-1,0,-1,1,0
@@ -6625,7 +6625,7 @@ DestroyableBridges=yes
 101=YuriCountry House,DISK,256,208,174,64,Sleep,None,777,-1,0,-1,1,0
 102=YuriCountry House,SHAD,256,137,247,192,Guard,None,0,-1,0,-1,1,0
 103=Russians House,DRED,256,154,89,64,Sleep,None,0,-1,0,-1,1,0
-104=Russians House,SAPC,256,152,74,0,Guard,None,0,-1,0,-1,1,0
+104=Russians House,SAPC,256,169,78,0,Guard,None,0,-1,0,-1,1,0
 105=Russians House,DRED,256,121,77,192,Sleep,None,0,-1,0,-1,1,0
 106=Russians House,DRED,256,154,99,64,Sleep,None,0,-1,0,-1,1,0
 107=Russians House,DRED,256,120,92,128,Sleep,None,0,-1,0,-1,1,0
@@ -6645,6 +6645,7 @@ DestroyableBridges=yes
 121=Russians House,DRED,256,110,95,128,Sleep,None,0,-1,0,-1,1,0
 122=Russians House,DRED,256,110,89,128,Sleep,None,0,-1,0,-1,1,0
 123=Russians House,DRED,256,110,83,128,Sleep,None,0,-1,0,-1,1,0
+124=Russians House,HYD,256,113,73,160,Area Guard,None,0,-1,0,-1,1,0
 
 [UriArmy House]
 IQ=5
