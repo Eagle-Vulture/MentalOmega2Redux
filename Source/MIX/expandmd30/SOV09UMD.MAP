@@ -21,10 +21,6 @@ NumCoopHumanStartSpots=4
 [ASSN]
 TechLevel=11
 
-[CACOMN]
-Sensors = yes
-SensorsSight = 15000
-
 [Alliance]
 Name=Alliance
 Side=GDI
@@ -98,6 +94,10 @@ Suffix=Allied
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=British
+
+[CACOMN]
+Sensors=yes
+SensorsSight=15000
 
 [CHITZ]
 TechLevel=11
@@ -315,7 +315,7 @@ GuardSlower=no
 OnTransOnly=no
 AvoidThreats=no
 LooseRecruit=no
-VeteranLevel=1
+VeteranLevel=3
 IsBaseDefense=no
 TransportWaypoint=A
 UseTransportOrigin=yes
@@ -509,7 +509,7 @@ GuardSlower=no
 OnTransOnly=no
 AvoidThreats=no
 LooseRecruit=no
-VeteranLevel=2
+VeteranLevel=3
 IsBaseDefense=no
 TransportWaypoint=J
 UseTransportOrigin=yes
@@ -544,7 +544,7 @@ GuardSlower=no
 OnTransOnly=no
 AvoidThreats=no
 LooseRecruit=no
-VeteranLevel=2
+VeteranLevel=3
 IsBaseDefense=no
 TransportWaypoint=L
 UseTransportOrigin=yes
@@ -579,7 +579,7 @@ GuardSlower=no
 OnTransOnly=no
 AvoidThreats=no
 LooseRecruit=no
-VeteranLevel=2
+VeteranLevel=3
 IsBaseDefense=no
 TransportWaypoint=N
 UseTransportOrigin=yes
@@ -614,7 +614,7 @@ GuardSlower=no
 OnTransOnly=no
 AvoidThreats=no
 LooseRecruit=no
-VeteranLevel=2
+VeteranLevel=3
 IsBaseDefense=no
 TransportWaypoint=P
 UseTransportOrigin=yes
@@ -5307,6 +5307,7 @@ DestroyableBridges=yes
 1=YuriCountry House,GRAV,256,45,116,64,Guard,None,0,-1,0,-1,1,0
 2=YuriCountry House,GRAV,256,81,76,64,Guard,None,0,-1,0,-1,1,0
 3=YuriCountry House,GRAV,256,79,72,64,Guard,None,0,-1,0,-1,1,0
+4=Russians House,SovPerun,256,170,119,64,Guard,None,0,-1,0,-1,1,0
 5=YuriCountry House,GRAV,256,115,114,64,Guard,None,0,-1,0,-1,1,0
 6=YuriCountry House,GRAV,256,103,120,64,Guard,None,0,-1,0,-1,1,0
 8=YuriCountry House,MIND,256,31,98,64,Area Guard,None,0,-1,0,-1,1,0

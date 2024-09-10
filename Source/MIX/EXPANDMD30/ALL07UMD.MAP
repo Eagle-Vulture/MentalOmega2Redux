@@ -50,8 +50,8 @@ TiberiumGrowthEnabled=no
 IgnoreGlobalAITriggers=no
 TiberiumDeathToVisceroid=no
 
-[CARUS03]
-LeaveRubble=yes
+[CAGreatKremlin]
+LeaveRubble=no
 CanBeOccupied=no
 CanOccupyFire=no
 
@@ -4146,8 +4146,8 @@ DestroyableBridges=no
 
 [Structures]
 0=BadGuy3 House,YADUGG,256,123,127,192,None,1,0,1,0,0,None,None,None,1,0
-1=BadGuy3 House,YADUGG,256,128,122,0,None,1,0,1,0,0,None,None,None,1,0
-2=BadGuy3 House,YAGGUN,256,127,120,0,None,1,0,1,0,0,None,None,None,1,0
+1=BadGuy3 House,YADUGG,256,128,120,0,None,1,0,1,0,0,None,None,None,1,0
+2=BadGuy3 House,YAGGUN,256,127,118,0,None,1,0,1,0,0,None,None,None,1,0
 3=BadGuy3 House,YAGGUN,256,121,126,192,None,1,0,1,0,0,None,None,None,1,0
 4=BadGuy3 House,YAPSYT,256,119,118,64,None,1,0,1,0,0,None,None,None,1,0
 5=BadGuy1 House,YADUGG,256,111,115,192,None,1,0,1,0,0,None,None,None,1,0
@@ -4160,8 +4160,7 @@ DestroyableBridges=no
 12=Civie1 House,INGRNLMP,256,124,69,64,None,1,0,1,0,0,None,None,None,0,0
 13=Civie1 House,INGRNLMP,256,133,76,64,None,1,0,1,0,0,None,None,None,0,0
 14=BadGuy1 House,YATECH,256,104,134,64,None,1,0,1,0,0,None,None,None,1,0
-15=BadGuy1 House,YAWEAP,256,109,132,64,None,1,0,1,0,0,None,None,None,1,0
-16=BadGuy1 House,YABRCK,256,106,128,64,None,1,0,1,0,0,None,None,None,1,0
+15=BadGuy1 House,NAHAND,256,105,128,64,None,1,0,1,0,0,None,None,None,0,0
 17=BadGuy1 House,CATHOSP,256,49,100,64,None,1,0,1,0,0,None,None,None,0,0
 18=BadGuy1 House,YAGGUN,256,104,141,0,None,1,0,1,0,0,None,None,None,1,0
 19=BadGuy1 House,YAPSYT,256,101,134,64,None,1,0,1,0,0,None,None,None,1,0
@@ -4251,6 +4250,7 @@ DestroyableBridges=no
 103=Civie1 House,CAMISC01,256,52,57,0,0ABAC2EC,0,0,1,0,0,None,None,None,0,0
 104=Civie1 House,CAMISC02,256,57,53,0,0ABAC2EC,0,0,1,0,0,None,None,None,0,0
 105=Civie1 House,CAMISC01,256,58,52,0,0ABAC2EC,0,0,1,0,0,None,None,None,0,0
+106=BadGuy1 House,NAWEAP,256,109,132,64,None,1,0,1,0,0,None,None,None,0,0
 107=BadGuy1 House,DEPILUS,256,108,107,64,None,1,0,1,0,0,None,None,None,0,0
 108=BadGuy1 House,DEPILUS,256,69,130,64,None,1,0,1,0,0,None,None,None,0,0
 109=Civie1 House,CAMISC01,256,52,73,0,0ABAC2EC,0,0,1,0,0,None,None,None,0,0
@@ -4273,7 +4273,7 @@ DestroyableBridges=no
 1027105=Civie1 House,CARUS05,256,83,56,0,None,0,0,1,0,0,None,None,None,0,0
 1027106=Civie1 House,CARUS06,256,54,40,0,None,0,0,1,0,0,None,None,None,0,0
 1027107=Civie1 House,CARUS04,256,64,40,0,None,0,0,1,0,0,None,None,None,0,0
-1027201=Civie1 House,CARUS03,256,125,122,0,07F3F674,0,0,1,0,0,None,None,None,1,0
+1027201=Civie1 House,CAGreatKremlin,256,125,122,0,07F3F674,0,0,1,0,0,None,None,None,1,0
 1027202=BadGuy1 House,CARUS02B,256,114,124,0,None,0,0,1,0,0,None,None,None,0,0
 1027203=BadGuy1 House,CARUS02B,256,114,120,0,None,0,0,1,0,0,None,None,None,0,0
 1027204=BadGuy1 House,CARUS02B,256,102,89,0,None,0,0,1,0,0,None,None,None,0,0

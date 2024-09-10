@@ -134,9 +134,6 @@ ParentCountry=Germans
 [MGG]
 TechLevel=11
 
-[NAMISL]
-TechLevel=11
-
 [NAYARD]
 TechLevel=11
 
@@ -185,6 +182,9 @@ Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Russians
+
+[mgumkh]
+NeedsEngineer=no
 
 
 [Preview]
@@ -1363,6 +1363,7 @@ PlayerControl=no
 46=Americans House,ENGINEER,256,61,26,0,Guard,64,None,0,-1,0,1,0
 47=Americans House,ENGINEER,256,70,20,0,Guard,64,None,0,-1,0,1,0
 48=Americans House,ENGINEER,256,73,17,0,Guard,64,None,0,-1,0,1,0
+49=Americans House,TANY,256,46,83,1,Guard,64,None,555,-1,0,1,0
 
 [IsoMapPack5]
 1=jA4AIAFBAAEAgAACBABAAAKEAQEABABBKCkAQigrAD8AA+EEQCgpAEEoKQBCKCkAQygpAD
@@ -3040,7 +3041,7 @@ DestroyableBridges=no
 28=French House,GASNPR,256,87,65,64,None,1,0,1,0,0,None,None,None,0,0
 29=French House,GASNPR,256,96,56,64,None,1,0,1,0,0,None,None,None,0,0
 30=French House,GASNPR,256,111,56,64,None,1,0,1,0,0,None,None,None,0,0
-31=French House,NASAM,256,56,68,64,None,1,0,1,0,0,None,None,None,0,0
+31=French House,mgumkh,256,56,68,64,None,1,0,1,0,0,None,None,None,0,0
 32=Arabs House,TESLA,256,76,75,64,None,1,0,1,0,0,None,None,None,1,0
 33=Arabs House,TESLA,256,76,79,64,None,1,0,1,0,0,None,None,None,1,0
 34=Arabs House,TESLA,256,102,79,64,None,1,0,1,0,0,None,None,None,1,0
@@ -3078,6 +3079,7 @@ DestroyableBridges=no
 66=Neutral House,CARUFGL,256,76,103,64,None,1,0,1,0,0,None,None,None,0,0
 67=Arabs House,NAFLAK,256,84,73,0,None,1,0,1,0,0,None,None,None,1,0
 68=Arabs House,NAFLAK,256,92,100,160,None,1,0,1,0,0,None,None,None,1,0
+69=French House,mgumkh,256,113,55,128,None,1,0,1,0,0,None,None,None,0,0
 70=Arabs House,NAFLAK,256,77,120,0,None,1,0,1,0,0,None,None,None,1,0
 71=Arabs House,NAFLAK,256,83,129,64,None,1,0,1,0,0,None,None,None,1,0
 72=Arabs House,NAFLAK,256,110,127,96,None,1,0,1,0,0,None,None,None,1,0
@@ -3117,6 +3119,7 @@ DestroyableBridges=no
 106=Arabs House,TESLA,256,113,83,64,None,1,0,1,0,0,None,None,None,1,0
 107=Arabs House,NALASR,256,101,84,64,None,1,0,1,0,0,None,None,None,1,0
 108=Arabs House,NALASR,256,108,78,128,None,1,0,1,0,0,None,None,None,1,0
+109=French House,mgumkh,256,93,60,128,None,1,0,1,0,0,None,None,None,0,0
 110=Arabs House,NALASR,256,89,85,0,None,1,0,1,0,0,None,None,None,1,0
 111=Arabs House,NAIRON,256,127,72,64,01000123,1,0,1,0,0,None,None,None,1,0
 112=Arabs House,TESLA,256,130,76,64,None,1,0,1,0,0,None,None,None,1,0
@@ -3140,14 +3143,14 @@ DestroyableBridges=no
 130=Neutral House,CABARN02,256,64,63,64,None,1,0,1,0,0,None,None,None,0,0
 131=Arabs House,NAPOWR,256,119,91,64,None,1,0,1,0,0,None,None,None,1,0
 132=Arabs House,NAPOWR,256,109,130,64,None,1,0,1,0,0,None,None,None,1,0
-133=French House,NASAM,256,90,63,64,None,1,0,1,0,0,None,None,None,0,0
-134=French House,NASAM,256,81,63,64,None,1,0,1,0,0,None,None,None,0,0
-135=French House,NASAM,256,68,66,64,None,1,0,1,0,0,None,None,None,0,0
-136=French House,NASAM,256,113,55,64,None,1,0,1,0,0,None,None,None,0,0
-137=French House,NASAM,256,70,64,64,None,1,0,1,0,0,None,None,None,0,0
-138=French House,NASAM,256,63,86,64,None,1,0,1,0,0,None,None,None,0,0
-139=French House,NASAM,256,57,94,64,None,1,0,1,0,0,None,None,None,0,0
-140=French House,NASAM,256,53,112,64,None,1,0,1,0,0,None,None,None,0,0
+133=French House,mgumkh,256,90,63,128,None,1,0,1,0,0,None,None,None,0,0
+134=French House,mgumkh,256,81,62,128,None,1,0,1,0,0,None,None,None,0,0
+135=French House,mgumkh,256,68,66,64,None,1,0,1,0,0,None,None,None,0,0
+136=French House,mgumkh,256,100,53,128,None,1,0,1,0,0,None,None,None,0,0
+137=French House,mgumkh,256,70,64,128,None,1,0,1,0,0,None,None,None,0,0
+138=French House,mgumkh,256,63,86,64,None,1,0,1,0,0,None,None,None,0,0
+139=French House,mgumkh,256,57,94,64,None,1,0,1,0,0,None,None,None,0,0
+140=French House,mgumkh,256,53,112,64,None,1,0,1,0,0,None,None,None,0,0
 141=French House,GAPOWR,256,2,65,64,None,1,0,1,0,0,None,None,None,0,0
 142=French House,GAPOWR,256,3,64,64,None,1,0,1,0,0,None,None,None,0,0
 143=French House,GAPOWR,256,4,63,64,None,1,0,1,0,0,None,None,None,0,0
@@ -3182,15 +3185,13 @@ DestroyableBridges=no
 172=Arabs House,CAOILD,256,66,15,64,None,1,0,1,0,0,None,None,None,0,0
 173=Arabs House,CAOILD,256,73,15,64,None,1,0,1,0,0,None,None,None,0,0
 174=Arabs House,CAOILD,256,60,24,64,None,1,0,1,0,0,None,None,None,0,0
-175=French House,NASAM,256,93,60,64,None,1,0,1,0,0,None,None,None,0,0
-176=French House,NASAM,256,100,53,64,None,1,0,1,0,0,None,None,None,0,0
 177=Americans House,GAPILE,256,50,81,64,None,1,0,1,0,0,None,None,None,0,0
 178=Americans House,GAPOWR,256,34,92,64,None,1,0,1,0,0,None,None,None,0,0
 179=Americans House,GAPOWR,256,30,88,64,None,1,0,1,0,0,None,None,None,0,0
 180=Americans House,GAPOWR,256,32,80,64,None,1,0,1,0,0,None,None,None,0,0
 181=Americans House,GAPOWR,256,34,81,64,None,1,0,1,0,0,None,None,None,0,0
 182=Americans House,GAPOWR,256,36,80,64,None,1,0,1,0,0,None,None,None,0,0
-183=French House,NASAM,256,56,99,64,None,1,0,1,0,0,None,None,None,0,0
+183=French House,mgumkh,256,56,99,64,None,1,0,1,0,0,None,None,None,0,0
 184=Neutral House,CABHUT,256,102,65,64,None,1,0,1,0,0,None,None,None,0,0
 185=Americans House,CACOMN,256,69,22,64,None,1,0,1,0,0,None,None,None,0,0
 186=French House,NANRCT,256,113,160,64,None,1,0,1,0,0,None,None,None,0,0
@@ -4134,6 +4135,9 @@ Image=ftrk
 
 [jeep]
 Image=uaz
+
+[namisl]
+TechLevel=11
 
 [pick]
 Image=buhanka
