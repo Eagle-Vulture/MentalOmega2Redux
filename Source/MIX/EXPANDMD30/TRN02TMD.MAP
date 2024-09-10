@@ -143,18 +143,6 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Germans
 
-[Germansns House]
-IQ=
-Edge=
-Color=
-Allies=YuriCountry House,Germansns House
-Country=
-Credits=
-NodeCount=
-TechLevel=
-PercentBuilt=
-PlayerControl=
-
 [Germany]
 Name=Germany
 Side=GDI
@@ -1225,6 +1213,18 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
+
+[Germansns House]
+IQ=
+Edge=
+Color=
+Allies=YuriCountry House,Germansns House
+Country=
+Credits=
+NodeCount=
+TechLevel=
+PercentBuilt=
+PlayerControl=
 
 [Germany House]
 IQ=5
@@ -5465,18 +5465,18 @@ PlayerControl=no
 4061=7CYIkgAWATwBAAAAAAARAAA=
 
 [Lighting]
-Red=0.990000
-Blue=0.790000
-Green=0.800000
+Red=0.700000
+Blue=0.850000
+Green=0.750000
 Level=0.000000
 Ground=0.000000
-IonRed=0.695000
-Ambient=0.690000
-IonBlue=0.775000
-IonGreen=0.445000
-IonLevel=0.028000
+IonRed=0.300000
+Ambient=0.800000
+IonBlue=0.750000
+IonGreen=0.400000
+IonLevel=0.000000
 IonGround=0.000000
-IonAmbient=0.650000
+IonAmbient=0.870000
 DominatorRed=0.850000
 DominatorBlue=0.300000
 DominatorGreen=0.200000
@@ -6554,24 +6554,24 @@ DestroyableBridges=yes
 30=Russians House,HYD,256,107,79,128,Area Guard,None,0,-1,0,-1,1,0
 31=Russians House,HYD,256,111,103,96,Area Guard,None,0,-1,0,-1,1,0
 32=Russians House,DRED,256,134,91,128,Sleep,None,0,-1,0,-1,1,0
-33=Russians House,HTNK,256,129,71,64,Area Guard,None,0,-1,0,-1,1,0
+33=Russians House,JTNK,256,129,71,64,Area Guard,None,0,-1,0,-1,1,0
 34=Russians House,HTK,256,129,70,64,Area Guard,None,0,-1,0,-1,1,0
-35=Russians House,HTNK,256,144,63,64,Area Guard,None,0,-1,0,-1,1,0
-36=Russians House,HTNK,256,115,85,0,Area Guard,None,0,-1,0,-1,1,0
-37=Russians House,HTNK,256,147,88,0,Area Guard,None,0,-1,0,-1,1,0
+35=Russians House,JTNK,256,144,63,64,Area Guard,None,0,-1,0,-1,1,0
+36=Russians House,JTNK,256,115,85,0,Area Guard,None,0,-1,0,-1,1,0
+37=Russians House,JTNK,256,147,88,0,Area Guard,None,0,-1,0,-1,1,0
 38=Russians House,HTK,256,147,91,128,Area Guard,None,0,-1,0,-1,1,0
 39=Russians House,HTK,256,130,80,0,Area Guard,None,0,-1,0,-1,1,0
 40=Russians House,APOC,256,154,65,64,Area Guard,None,0,-1,0,-1,1,0
 41=Russians House,APOC,256,102,66,160,Area Guard,None,0,-1,0,-1,1,0
 42=Russians House,APOC,256,120,61,192,Area Guard,None,0,-1,0,-1,1,0
-43=Russians House,HTNK,256,178,84,128,Area Guard,None,0,-1,0,-1,1,0
-44=Russians House,HTNK,256,204,80,96,Area Guard,None,0,-1,0,-1,1,0
-45=Russians House,HTNK,256,182,64,96,Guard,None,0,-1,0,-1,1,0
-46=Russians House,HTNK,256,162,43,128,Area Guard,None,0,-1,0,-1,1,0
-47=Russians House,HTNK,256,115,43,128,Guard,None,0,-1,0,-1,1,0
-48=Russians House,HTNK,256,89,73,128,Guard,None,0,-1,0,-1,1,0
-49=Russians House,HTNK,256,79,99,128,Guard,None,0,-1,0,-1,1,0
-50=Russians House,HTNK,256,64,96,160,Area Guard,None,0,-1,0,-1,1,0
+43=Russians House,JTNK,256,178,84,128,Area Guard,None,0,-1,0,-1,1,0
+44=Russians House,JTNK,256,204,80,96,Area Guard,None,0,-1,0,-1,1,0
+45=Russians House,JTNK,256,182,64,96,Guard,None,0,-1,0,-1,1,0
+46=Russians House,JTNK,256,162,43,128,Area Guard,None,0,-1,0,-1,1,0
+47=Russians House,JTNK,256,115,43,128,Guard,None,0,-1,0,-1,1,0
+48=Russians House,JTNK,256,89,73,128,Guard,None,0,-1,0,-1,1,0
+49=Russians House,JTNK,256,79,99,128,Guard,None,0,-1,0,-1,1,0
+50=Russians House,JTNK,256,64,96,160,Area Guard,None,0,-1,0,-1,1,0
 51=Russians House,HYD,256,58,108,160,Area Guard,None,0,-1,0,-1,1,0
 52=Russians House,HYD,256,77,141,128,Area Guard,None,0,-1,0,-1,1,0
 53=Russians House,HYD,256,135,166,128,Area Guard,None,0,-1,0,-1,1,0
@@ -6604,7 +6604,7 @@ DestroyableBridges=yes
 80=Russians House,HCAN,256,130,128,96,Area Guard,None,0,-1,0,-1,1,0
 81=YuriCountry House,YHVR,256,147,253,128,Guard,None,0,-1,0,-1,1,0
 82=YuriCountry House,SLED,256,136,215,0,Guard,None,0,-1,0,-1,1,0
-83=Russians House,DRED,52,145,198,128,Sleep,None,0,-1,0,-1,1,0
+83=Russians House,DRED,256,145,198,128,Sleep,None,0,-1,0,-1,1,0
 84=YuriCountry House,SLED,256,133,214,0,Guard,None,0,-1,0,-1,1,0
 85=YuriCountry House,SLED,256,148,215,0,Guard,None,0,-1,0,-1,1,0
 86=YuriCountry House,SLED,256,153,214,0,Guard,None,0,-1,0,-1,1,0
@@ -6646,6 +6646,12 @@ DestroyableBridges=yes
 122=Russians House,DRED,256,110,89,128,Sleep,None,0,-1,0,-1,1,0
 123=Russians House,DRED,256,110,83,128,Sleep,None,0,-1,0,-1,1,0
 124=Russians House,HYD,256,113,73,160,Area Guard,None,0,-1,0,-1,1,0
+125=YuriCountry House,HCRUIS,256,170,214,0,Guard,None,555,-1,0,-1,1,0
+126=YuriCountry House,CARRIER,256,178,214,0,Guard,None,555,-1,0,-1,1,0
+127=YuriCountry House,DEST,256,180,211,0,Guard,None,555,-1,0,-1,1,0
+128=YuriCountry House,DEST,256,176,211,0,Guard,None,555,-1,0,-1,1,0
+129=YuriCountry House,SUB,256,168,210,0,Guard,None,555,-1,0,-1,1,0
+130=YuriCountry House,SUB,256,172,210,0,Guard,None,555,-1,0,-1,1,0
 
 [UriArmy House]
 IQ=5

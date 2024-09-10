@@ -139,18 +139,13 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Headquaters
 
-[Maverick4]
-Damage=400
-
-[Maverick4E]
-Damage=500
-
 [NAHAND]
-ProduceCashDelay=900
-ProduceCashAmount=0
+Power=0
+ProduceCashAmount = 150
+ProduceCashDelay = 500
 
 [NAMISL]
-Strength=250
+Strength=50
 
 [NAPSYA]
 Power=-500
@@ -778,7 +773,7 @@ PlayerControl=no
 IQ=5
 Edge=North
 Color=SovietUnit
-Allies=China House,Germansns House
+Allies=China House,Germansns House,Russians House
 Country=China
 Credits=0
 NodeCount=0
@@ -2395,6 +2390,12 @@ Size=0,0,75,90
 Theater=TEMPERATE
 LocalSize=6,6,68,73
 
+[Maverick4]
+Damage=400
+
+[Maverick4E]
+Damage=500
+
 [Neutral House]
 IQ=5
 Edge=North
@@ -3141,7 +3142,7 @@ PlayerControl=no
 0=91156
 1=72009
 2=81106
-3=70017
+3=80025
 4=75004
 5=123072
 6=134105

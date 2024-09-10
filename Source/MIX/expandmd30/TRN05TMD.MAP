@@ -114,6 +114,12 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=French
 
+[GRAV]
+Owner=UriArmy,YuriCountry,Headquaters,Scorpion
+Prerequisite=NAWEAP,PROC
+RequiredHouses=UriArmy,YuriCountry,Headquaters,Scorpion
+ForbiddenHouses=Russians House, Russians,Americans House,Americans
+
 [Germans]
 Name=Germans
 Side=Nod
@@ -144,6 +150,9 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Greece
 
+[HIJACKER]
+Prerequisite=NAHAND
+
 [Headquaters]
 Name=Headquaters
 Side=ThirdSide
@@ -153,6 +162,18 @@ Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Headquaters
+
+[INTRUDER]
+Owner=UriArmy,YuriCountry,Headquaters,Scorpion
+Prerequisite=BARRACKS
+RequiredHouses=UriArmy,YuriCountry,Headquaters,Scorpion
+ForbiddenHouses=Russians House, Russians,Americans House,Americans
+
+[LTNK]
+Owner=UriArmy,YuriCountry,Headquaters,Scorpion
+Prerequisite=NAWEAP
+RequiredHouses=UriArmy,YuriCountry,Headquaters,Scorpion
+ForbiddenHouses=Russians House, Russians,Americans House,Americans
 
 [LUNR]
 Prerequisite=NAHAND
@@ -202,9 +223,6 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Russians
 
-[SMCV]
-TechLevel=11
-
 [Scorpion]
 Name=Scorpion
 Side=ThirdSide
@@ -235,8 +253,30 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=UriArmy
 
+[YABRCK]
+Power=0
+
+[YABRCK2]
+Power=0
+
 [YADOME]
+Power=0
 SuperWeapon=none
+
+[YADUGG]
+Power=0
+
+[YTNK]
+Owner=UriArmy,YuriCountry,Headquaters,Scorpion
+Prerequisite=NAWEAP
+RequiredHouses=UriArmy,YuriCountry,Headquaters,Scorpion
+ForbiddenHouses=Russians House, Russians,Americans House,Americans
+
+[YurRepair]
+Owner=UriArmy,YuriCountry,Headquaters,Scorpion
+Prerequisite=NAWEAP
+RequiredHouses=UriArmy,YuriCountry,Headquaters,Scorpion
+ForbiddenHouses=Russians House, Russians,Americans House,Americans
 
 [YuriCountry]
 Name=YuriCountry
@@ -722,7 +762,8 @@ TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
 [01000061]
-0=4,LUNR
+0=3,LUNR
+1=1,SovHokum
 Name=Water Base Patrol 2
 Group=-1
 
@@ -830,7 +871,8 @@ AreTeamMembersRecruitable=no
 Name=Village Patrol 1
 
 [01000068]
-0=2,TTNK
+0=1,TTNK
+1=1,SovT90
 Name=Village Patrol 1
 Group=-1
 
@@ -1016,17 +1058,19 @@ TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
 [01000078]
-0=2,TTNK
+0=1,SovHokum
 1=3,LUNR
 Name=River Patrol
 Group=-1
 
 [01000085]
-0=4,INIT
+0=4,INTRUDER
 1=2,VIRUS
-2=3,HARP
-3=3,YENGINEER
-4=2,yuri
+2=4,YENGINEER
+3=2,yuri
+4=4,INIT
+5=3,HARP2
+6=3,HARP
 Name=Paradrop 1
 Group=-1
 
@@ -1066,7 +1110,8 @@ TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
 [01000087]
-0=5,LUNR
+0=3,LUNR
+1=1,SovHokum
 Name=Cosmonauts AI
 Group=-1
 
@@ -2192,7 +2237,7 @@ TechLevel=11
 123=Neutral House,WOLF,256,30,124,3,Guard,64,None,0,-1,0,1,0
 124=Neutral House,GBEAR,256,62,163,0,Guard,64,None,0,-1,0,1,0
 125=Neutral House,CIV3,256,101,174,1,Guard,64,None,0,-1,0,1,0
-126=Neutral House,CIVSFM,256,94,168,1,Guard,64,None,0,-1,0,1,0
+126=Neutral House,CIVSFM,256,100,156,0,Guard,64,None,0,-1,0,1,0
 127=Neutral House,CIVSTM,256,92,163,1,Guard,64,None,0,-1,0,1,0
 128=Neutral House,CIV1D,256,96,163,1,Guard,64,None,0,-1,0,1,0
 129=Russians House,DOG,256,65,192,0,Area Guard,64,None,0,-1,0,1,0
@@ -2241,9 +2286,21 @@ TechLevel=11
 172=Russians House,DESO,256,113,116,1,Area Guard,64,None,0,-1,0,1,0
 173=Russians House,E2,107,87,168,0,Area Guard,64,None,0,-1,0,1,0
 174=Russians House,E2,110,98,165,0,Area Guard,64,None,0,-1,0,1,0
-175=Russians House,LUNR,256,84,172,1,Area Guard,64,None,0,-1,0,1,0
-176=Russians House,LUNR,92,84,171,0,Area Guard,64,None,0,-1,0,1,0
-177=Russians House,SBTR,256,62,188,1,Guard,64,None,0,-1,0,1,0
+175=Russians House,LUNR,256,82,175,0,Area Guard,64,None,0,-1,0,1,0
+176=Russians House,LUNR,92,86,176,0,Area Guard,64,None,0,-1,0,1,0
+177=Germansns House,SBTR,256,56,188,0,Sleep,64,None,0,-1,0,1,0
+178=Russians House,LUNR,92,79,167,0,Area Guard,64,None,0,-1,0,1,0
+179=Russians House,LUNR,92,80,179,0,Area Guard,64,None,0,-1,0,1,0
+180=Russians House,LUNR,92,68,170,0,Area Guard,64,None,0,-1,0,1,0
+181=Russians House,LUNR,92,73,173,0,Area Guard,64,None,0,-1,0,1,0
+182=Russians House,LUNR,92,65,186,0,Area Guard,64,None,0,-1,0,1,0
+183=Russians House,LUNR,92,56,179,0,Area Guard,64,None,0,-1,0,1,0
+184=Russians House,LUNR,92,60,192,0,Area Guard,64,None,0,-1,0,1,0
+185=Russians House,LUNR,92,73,189,0,Area Guard,64,None,0,-1,0,1,0
+186=Russians House,LUNR,92,65,175,0,Area Guard,64,None,0,-1,0,1,0
+187=Germansns House,SBTR,256,56,189,0,Sleep,64,None,0,-1,0,1,0
+188=Germansns House,SBTR,256,57,188,0,Sleep,64,None,0,-1,0,1,0
+189=Germansns House,SBTR,256,57,189,0,Sleep,64,None,0,-1,0,1,0
 
 [IsoMapPack5]
 1=Aw8AIAGMAAEAgAAEBACLAAIAjW8BBACMSQGHqQGNSAFkAQMABACKAAOEAUkBi0kBjHABbw
@@ -4531,23 +4588,23 @@ TechLevel=11
 2283=AEsA1uUITCgpAE0oKQBOKCsATADX/PEITQDXAPECAAAACAARAAA=
 
 [Lighting]
-Red=1.120000
-Blue=0.920000
-Green=0.720000
+Red=0.710000
+Blue=0.810000
+Green=0.710000
 Level=0.000000
 Ground=0.000000
-IonRed=1.000000
-Ambient=0.616000
-IonBlue=1.000000
-IonGreen=1.000000
-IonLevel=0.032000
+IonRed=0.695000
+Ambient=0.750000
+IonBlue=0.775000
+IonGreen=0.445000
+IonLevel=0.028000
 IonGround=0.000000
-IonAmbient=1.000000
+IonAmbient=0.650000
 DominatorRed=0.850000
 DominatorBlue=0.300000
 DominatorGreen=0.200000
 DominatorLevel=0.000000
-DominatorGround=0.000000
+DominatorGround=0.200000
 DominatorAmbient=1.500000
 DominatorAmbientChangeRate=0.009000
 
@@ -4594,33 +4651,33 @@ PlayerControl=no
 11=aA7/xQGxChH4hAcKCgjQhgyCBwcYH//QAYYMzFgWGgCDBwsL0YcUDf/RbBT/zgGZFhAP1o
 12=MK/9EBhxj+AwAAgQPLZwjZZwz/5AGRCv+ZAWccgGoAACD+WQAAgQXYTAD+5AEAIfKGBggA
 13=AAIMAAiBCf7xAQCBA/4EAAoh9wAK//IBZwL+JgAAgQT+/gEAgQL/GAJmBP7wDQCCBgrAXw
-14=L++wEA//IBZwD6eBqBBv/NAX4GgQbsZASEBAgKB/5JAQCA+wAAIP6DAACBBf4vAACEBwsL
+14=L++wEA//IBZwD6eBqBBv/NAX4GgQbsZASEBAgKB/5JAQCA+QAAIP6DAACBBf4vAACEBwsL
 15=B/7MAQCBAe2EAIMKCAT+nwEAggYI/lsAAIEH/1wAVwT+RgEA7YMA/i0AAIIEBDAH/psBAI
 16=ED/2IAtASCBgn+jwEAggIM834G9BQK/5ABugjJgQLpVgT/XQBWBv+jAQwBgwMKCsxLCoIG
-17=CttWDP+gAbYC/SUG3YEMICCBBv4DAArzSwr/YQHtCO5WBEHRUc/dVQ4gLxAF/5QBgQwBve
-18=2DAgYDAjKBBea7Ev+dAbMS9x0IgQrIuQp0DdOgAig3yYoW/9EBtQ7YvBT/yAG8FMpKCstT
-19=EsqJFtJ0FP/QAZEM/9QBgQz/iQAqBv4bAQCAhgAAIP6IAACDAwoI/isCAIMGCgz+/QEAgQ
-20=UAAv78AQCDAwoJ/sYHAIEE/v8BAIED/ywCigD/8QHMAIEG/gMACv/xAbgCEfWBDcO3BBAF
-21=//EBuAQR8cS2BoED/gMACv/EAbgGE9P+BwAK34AQ/9IBoRaCBg3pdA7/0gGSGoEDyaEY3p
-22=Ic/24BkhyAJQEAIP5xAACBBf4gAACBAf7eAQDecQD+ogEAgQb+AwAHhQYABgYE/jQAAOiS
-23=API8BP5hAQCDBAgK/gMAC/4EAAr/YACbBFIrgwYKDP+RAacEEgOBCP9VAD0Gzz0IgQX/jw
-24=FwAoEI/gcAC4EI/0YAXgjeYgKDAwoN/4sBqAaBBskzCu87BN6mCNFxDP+LAaYIhAYICgr+
-25=BwALhQoICAoH/1gAQQyBAsmmBv+MAaYIU/7+BgAL/1kAQA7KcAT/jAGmDoIEBxoB/gMACv
-26=9fADsQ/5sBZQLANATAOASCBwcCCe5AEt5xBIEDzzwKggYJ/5kBnQL/ZQCcBP/DAXEC/i8A
-27=AMqZDv/zAaQWgwAFAv4LAAr/mAGmFP5bAADQkhT+lwEA7qUa/40BpRqAPwAAIP5CAACBCf
-28=9hABIA/p4BAP9GBkIAggYI//4BigaBAf+5A4kE/2IAEQz+ngEAgRD/MAJDDP4AAgDuQhD+
-29=XAsAgCEAACD+cwAAgQn+/wEA/88BcwDucwL/zwNzAP8xBkIG/o0RAICoAAAg/ikGAIIEBv
-30=7+AQCCBwr//gEqBoMHCwf//wEsCIEI//8BLAr/+wEqCIEDGAD/+wEqDIcGCAYACAsKAAb/
-31=/AEwEIQLCwoI/gQAB4EE//QBNQ6CCAr+CQAL//QBKwqBBkH/FAKEBAAEBP/xATkEBAD+Aw
-32=AKggsK/gUAAIIICP7yAQAKAIsABwgIBgAEBwgKCv/yAS4SgQT+AwAIAgaBB8AoDgYG/8gB
-33=NxiAtgAAIP4sAACLCAoHAAgHAAcLCwj+9QEAgwQHBxIDhAcKCgf++AEAgwcIBAIAgwAIBv
-34=73AQAR+IMICgr/+QE2BIYDAwAGCgv/+gE1AhYDgwsLCv78AQCBCAIA//gBNwYcBYEIBgDM
-35=NgyBBv/rATYACAGBB802DIEB1RcCggcE//4BNwr/9wE1AFYoCCrAMAT/+gFlEP/7AV0UgQ
-36=cT/v/6ATQIMf//+QFeEsAyCP/9AVwUwDIK/6cBWxqALwAAIP5WAACBB/4DAAuDCggE/vkB
-37=AIEI/gMAC4EI/voBAIIDBv4DAAf/+gFcAP6sGQCABQAAIP4AIACABQAAIP4AIACABQAAIP
-38=4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAA
-39=IP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQ
-40=AAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACABQAAIP4AIACA
+17=CttWDP+gAbYC/SUG3YEMICCBAv4DAArzSwr/YQHtCO5WBCHRgQZhz91VDmIg/5QBgQwBve
+18=2DAgYDAjKBBea7Ev+dAbMS9x0IgQrIuQp0DdOgAvN9Av+sAdoO2LwU/8gBvBTKSgrLUxLK
+19=iRbSdBT/0AGRDP/UAYEM/4kAKgb+GwEAgIYAACD+iAAAgwMKCP4rAgCDBgoM/v0BAIEFAA
+20=L+/AEAgwMKCf7GBwCBBP7/AQCBA/8sAooA//EBzACBBv4DAAr/8QG4AhH1gQ3DtwQQBf/x
+21=AbgEEfHEtgaBA/4DAAr/xAG4BhPT/gcACt+AEP/SAaEWggYN6XQO/9IBkhqBA8mhGN6SHP
+22=9uAZIcgCUBACD+cQAAgQX+IAAAgQH+3gEA3nEA/qIBAIEG/gMAB4UGAAYGBP40AADokgDy
+23=PAT+YQEAgwQICv4DAAv+BAAK/2AAmwRSK4MGCgz/kQGnBBIDgQj/VQA9Bs89CIEF/48BcA
+24=KBCP4HAAuBCP9GAF4I3mICgwMKDf+LAagGgQbJMwrvOwTepgjRcQz/iwGmCIQGCAoK/gcA
+25=C4UKCAgKB/9YAEEMgQLJpgb/jAGmCFP+/gYAC/9ZAEAOynAE/4wBpg6CBAcaAf4DAAr/Xw
+26=A7EP+bAWUCwDQEwDgEggcHAgnuQBLecQSBA888CoIGCf+ZAZ0C/2UAnAT/wwFxAv4vAADK
+27=mQ7/8wGkFoMABQL+CwAK/5gBphT+WwAA0JIU/pcBAO6lGv+NAaUagD8AACD+QgAAgQn/YQ
+28=ASAP6eAQD/RgZCAIIGCP/+AYoGgQH/uQOJBP9iABEM/p4BAIEQ/zACQwz+AAIA7kIQ/lwL
+29=AIAhAAAg/nMAAIEJ/v8BAP/PAXMA7nMC/88DcwD/MQZCBv6NEQCAqAAAIP4pBgCCBAb+/g
+30=EAggcK//4BKgaDBwsH//8BLAiBCP//ASwK//sBKgiBAxgA//sBKgyHBggGAAgLCgAG//wB
+31=MBCECwsKCP4EAAeBBP/0ATUOgggK/gkAC//0ASsKgQZB/xQChAQABAT/8QE5BAQA/gMACo
+32=ILCv4FAACCCAj+8gEACgCLAAcICAYABAcICgr/8gEuEoEE/gMACAIGgQfAKA4GBv/IATcY
+33=gLYAACD+LAAAiwgKBwAIBwAHCwsI/vUBAIMEBwcSA4QHCgoH/vgBAIMHCAQCAIMACAb+9w
+34=EAEfiDCAoK//kBNgSGAwMABgoL//oBNQIWA4MLCwr+/AEAgQgCAP/4ATcGHAWBCAYAzDYM
+35=gQb/6wE2AAgBgQfNNgyBAdUXAoIHBP/+ATcK//cBNQBWKAgqwDAE//oBZRD/+wFdFIEHE/
+36=7/+gE0CDH///kBXhLAMgj//QFcFMAyCv+nAVsagC8AACD+VgAAgQf+AwALgwoIBP75AQCB
+37=CP4DAAuBCP76AQCCAwb+AwAH//oBXAD+rBkAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+AC
+38=AAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+
+39=ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAAC
+40=D+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgA==
 
 [OverlayPack]
 1=DAAAIP6XGP+BGv9oB5gWgLIAACD+jAD/gQD+CgD/gRr+9AH/cgD+AwAa/ukB//4EABrOhg
@@ -4635,33 +4692,33 @@ PlayerControl=no
 10=IAFIGu/9IBhRLNWBYAENSEEiAX/+EBhxbZgAz/1AGGEMxnDv/yAWcI3Vkcga3+hgH/gH8A
 11=ACD+WQD/gRrYTAD+5AH/IfKCGhpwBP4OAP+Br//hAXkA/gUAGlAK/iMA//l4AoGu/rcB/4
 12=EA/+YBcwLWZgaDAP+t/tgF/93GBIGx/vUB///2AXkO/iEG//4DAMv++gH/ChT/+wGIGDQA
-13=/i4A/4IeHv/PAboW6oYc/gQAHv5JAf+A9wAAIP5IAP+Brf46AP+By/4NAP+Brv4hAP/+BA
+13=/i4A/4IeHv/PAboW6oYc/gQAHv5JAf+A9QAAIP5IAP+Brf46AP+By/4NAP+Brv4hAP/+BA
 14=Ae/swB/8uDAP4iAP//owGzAIIAAP4KAP+Br/5QAP//owG1AMhXBP5SAP9CAP9dAFYG/0sB
 15=FwP/ugD/B/9lASgH7YMC/5gBsgjJuAbouAqBrfSBCv6NAf/NSABx/4Hy32AK/gMAy82qCt
-16=tWDIEa/tAB/8uEDoGx3VYMIgD+BQAa/5YBxAbuuAoiAHQH45MQ/5cBsA4SAO5UEBH7gcvm
-17=gAr/igGzEvhIANNzFOKLDiX5/5cBuBD/SQAJFNmYFv/IAc8WyZgYy4MO35YW/8YB0hb/QQ
-18=B3Cv/5AboA/kgB/4COAAAg/ogA//4DAMv+BQL/ga/+JQD//gMAGv5/Af+Brf59AP+BGgAC
-19=/vwB//+CAbYC/v0D//9+ADgE/swB/4EA/wACgAz/AAJ/Dv4WAv9N4P4FABr/8AGoCjH1Mg
-20=BABP/uAakS/5IBkxT9Lxb+DAAa4nEY/9AByBLphxr/jwGSGv9DAC8W/0YAZBzjkAL+MAH/
-21=gB0BACD+JAD/ga3+TAD/gRr/QQBRAP5tAf//TQAkAP+SAY4A/jUA//4FAHAQBv9fAD0CgQ
-22=D+CQD/ga//iwGiAP4KAHCB//I8BO9yBP4DABr/eAGuBNAgAv4MAHD+VAD/z6YGgRowFIGw
-23=/4gBqgb+BAAe9jkI8HEA/3oBpAbQHAIB9v4GAB4iAO87CvJxAP+LAXECgnBw/gcAHvQ3CO
-24=VxDIIAAP+XAWYCQgH1NgjmcQz/iQGaDs4iDP9mADQQ/5sBZQL+BAAeXAj/UgBBEtGSCv+X
-25=Aa8A/1cAOwj/fwGWEv9RACAC8GoGyZoQ/3YBpRLXFBjSGhr/TwAUGIEA/g0AGv7yAf/Llx
-26=j/nAGVAIEZ/gMArf4tAP+BGf4oAP//ZAGrCIBQAAAg/kIA/4EZ/1MAEgCBr/6rAf//VABC
-27=AP4EAP+Bsf//AZsA/wACmgD/7gGaBIIAAP//AYoG/7kDiQT/YgARDP/PA6QK/gAC//8ABH
-28=MQ/o0H/4BAAAAg/nMA/4EZ/v8B///PAXMA7nMC/88DcwD/FAZCBoGt/vsB///8AVYO//8B
-29=PhD/7QFSEP8QAlIQ//8DYw7+twP/gJgAACD+KQb/gh4e/hoA//4IAO3/3gFNBNgqBv/lAU
-30=YE/wEEKwiBcP4YAP+Brf/hAUkMEgCCcHD/9gEwDhIAAfz+AwBwzCoM/+QBQhD+BgD//gMA
-31=cDIA/gYAcPc8EoGw/7cBcBISA1H+1CsQ/+EBSBL+BAAeQgD/8gEzFmIAQA7/8wE2Fgn+Q/
-32=3OKxL/5gFFDBP2AAQQCf/JATccgJQAACD+LAD//gMAcAAEg/8eHgAF/vQB//4GAHAgB/4n
-33=AP+Brv/TAVwAFAP/9wE1AAIAVAf/+AE4BDX///gBNwZYBv78Af/+AwBwgh4e//4BOAjNNQ
-34=yCAAD/7AFFBM80DNNGDhIo//sBNgz//wExCMA0AMQsAv/8ATsM//gBNAA1/f/6AV0QVf7/
-35=/AFkEP/9AVsa/6gBXRaAPwAAIP5WAP+EcHAeHv4DAHD++QH//gUAcP76Af/+BgBw/u8F/4
-36=Gt/wQGTwb/8gNKCjPygbP+DAb///wDSgr+sAH/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+
-37=ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAAC
-38=D+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUA
-39=ACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gA==
+16=tWDIEa/tAB/8uEDoGx3VYMIgD+BQAa/5YBxAbuuAoiAHQH4pMQ/5gBrw4SAO5UEBH7gcvm
+17=gAr/igGzEvhIANNzFOKLDmX5/9EBsw7IRxTZmBb/yAHPFsmYGMuDDuOWFv/CAdYW/0EAdw
+18=r/+QG6AP5IAf+AjgAAIP6IAP/+AwDL/gUC/4Gv/iUA//4DABr+fwH/ga3+fQD/gRoAAv78
+19=Af//ggG2Av79A///fgA4BP7MAf+BAP8AAoAM/wACfw7+FgL/TeD+BQAa//ABqAox9TIAQA
+20=T/7gGpEv+SAZMU/S8W/gwAGuJxGP/QAcgS6Yca/48Bkhr/QwAvFv9GAGQc45AC/jAB/4Ad
+21=AQAg/iQA/4Gt/kwA/4Ea/0EAUQD+bQH//00AJAD/kgGOAP41AP/+BQBwEAb/XwA9AoEA/g
+22=kA/4Gv/4sBogD+CgBwgf/yPATvcgT+AwAa/3gBrgTQIAL+DABw/lQA/8+mBoEaMBSBsP+I
+23=AaoG/gQAHvY5CPBxAP96AaQG0BwCAfb+BgAeIgDvOwrycQD/iwFxAoJwcP4HAB70NwjlcQ
+24=yCAAD/lwFmAkIB9TYI5nEM/4kBmg7OIgz/ZgA0EP+bAWUC/gQAHlwI/1IAQRLRkgr/lwGv
+25=AP9XADsI/38BlhL/UQAgAvBqBsmaEP92AaUS1xQY0hoa/08AFBiBAP4NABr+8gH/y5cY/5
+26=wBlQCBGf4DAK3+LQD/gRn+KAD//2QBqwiAUAAAIP5CAP+BGf9TABIAga/+qwH//1QAQgD+
+27=BAD/gbH//wGbAP8AApoA/+4BmgSCAAD//wGKBv+5A4kE/2IAEQz/zwOkCv4AAv//AARzEP
+28=6NB/+AQAAAIP5zAP+BGf7/Af//zwFzAO5zAv/PA3MA/xQGQgaBrf77Af///AFWDv//AT4Q
+29=/+0BUhD/EAJSEP//A2MO/rcD/4CYAAAg/ikG/4IeHv4aAP/+CADt/94BTQTYKgb/5QFGBP
+30=8BBCsIgXD+GAD/ga3/4QFJDBIAgnBw//YBMA4SAAH8/gMAcMwqDP/kAUIQ/gYA//4DAHAy
+31=AP4GAHD3PBKBsP+3AXASEgNR/tQrEP/hAUgS/gQAHkIA//IBMxZiAEAO//MBNhYJ/kP9zi
+32=sS/+YBRQwT9gAEEAn/yQE3HICUAAAg/iwA//4DAHAABIP/Hh4ABf70Af/+BgBwIAf+JwD/
+33=ga7/0wFcABQD//cBNQACAFQH//gBOAQ1///4ATcGWAb+/AH//gMAcIIeHv/+ATgIzTUMgg
+34=AA/+wBRQTPNAzTRg4SKP/7ATYM//8BMQjANADELAL//AE7DP/4ATQANf3/+gFdEFX+//wB
+35=ZBD//QFbGv+oAV0WgD8AACD+VgD/hHBwHh7+AwBw/vkB//4FAHD++gH//gYAcP7vBf+Brf
+36=8EBk8G//IDSgoz8oGz/gwG///8A0oK/rAB/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg
+37=/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/g
+38=Ag/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg
+39=/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4AFAAAg/gAg/4A=
 
 [Ranking]
 ParTimeEasy=02:15:00
@@ -4829,7 +4886,7 @@ DestroyableBridges=yes
 74=Neutral House,CAARMY01,256,136,85,64,None,1,0,1,0,0,None,None,None,0,0
 75=Neutral House,CAFRMB,256,134,91,64,None,1,0,1,0,0,None,None,None,0,0
 76=Neutral House,CAMISC03,256,138,93,64,None,1,0,1,0,0,None,None,None,0,0
-77=Neutral House,CABHUT,256,68,124,64,None,1,0,1,0,0,None,None,None,0,0
+77=Neutral House,mgpepr,256,82,161,32,None,1,0,1,0,0,None,None,None,0,0
 78=Neutral House,CABARR01,256,66,123,64,None,1,0,1,0,0,None,None,None,0,0
 79=Neutral House,CABARR02,256,67,119,64,None,1,0,1,0,0,None,None,None,0,0
 80=Neutral House,CAMSC11,256,129,83,64,None,1,0,1,0,0,None,None,None,0,0
@@ -4846,7 +4903,7 @@ DestroyableBridges=yes
 91=Neutral House,CABUNK02,256,142,108,64,None,1,0,1,0,0,None,None,None,0,0
 92=Neutral House,CABUNK03,256,156,55,64,None,1,0,1,0,0,None,None,None,0,0
 93=Neutral House,CABUNK04,256,134,125,64,None,1,0,1,0,0,None,None,None,0,0
-94=Neutral House,CABHUT,256,68,149,64,None,1,0,1,0,0,None,None,None,0,0
+94=Neutral House,mgpepr,256,83,176,128,None,1,0,1,0,0,None,None,None,0,0
 95=Neutral House,KENNL,256,139,95,64,None,1,0,1,0,0,None,None,None,0,0
 96=Neutral House,CABARR01,256,68,151,64,None,1,0,1,0,0,None,None,None,0,0
 97=Russians House,NAREFN,256,61,189,64,None,1,0,1,0,0,None,None,None,1,0
@@ -4956,7 +5013,7 @@ DestroyableBridges=yes
 201=Russians House,NABNKR,256,164,109,64,None,1,0,1,0,0,None,None,None,1,0
 202=Russians House,NALASR,256,151,105,0,None,1,0,1,0,0,None,None,None,1,0
 203=Russians House,NALASR,256,157,105,0,None,1,0,1,0,0,None,None,None,1,0
-204=Russians House,CAWT01,256,107,115,64,None,1,0,1,0,0,None,None,None,0,0
+204=Neutral House,mgpepr,256,63,115,32,None,1,0,1,0,0,None,None,None,0,0
 205=Russians House,NALASR,256,154,110,64,None,1,0,1,0,0,None,None,None,0,0
 206=Russians House,NAFLAK,256,147,108,224,None,1,0,1,0,0,None,None,None,1,0
 207=Neutral House,CAMISC06,256,152,123,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5062,6 +5119,9 @@ DestroyableBridges=yes
 307=Neutral House,CARUFGL,256,149,18,64,None,1,0,1,0,0,None,None,None,0,0
 308=Neutral House,CARUFGL,256,133,28,64,None,1,0,1,0,0,None,None,None,0,0
 309=Neutral House,INGALITE,256,141,21,64,None,1,0,1,0,0,None,None,None,0,0
+310=Neutral House,mgpepr,256,46,126,160,None,1,0,1,0,0,None,None,None,0,0
+311=Neutral House,mgpepr,256,64,162,32,None,1,0,1,0,0,None,None,None,0,0
+312=Neutral House,mgpepr,256,140,119,32,None,1,0,1,0,0,None,None,None,0,0
 313=Neutral House,CAARMY01,45,77,203,64,None,1,0,1,0,0,None,None,None,0,0
 314=Neutral House,INGALITE,256,74,206,64,None,1,0,1,0,0,None,None,None,0,0
 315=Neutral House,CACOMN,36,15,140,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5115,6 +5175,8 @@ DestroyableBridges=yes
 363=Neutral House,CABARR02,256,66,117,64,None,1,0,1,0,0,None,None,None,0,0
 364=Neutral House,CABARR02,256,67,115,64,None,1,0,1,0,0,None,None,None,0,0
 365=Neutral House,CABARR02,256,64,114,64,None,1,0,1,0,0,None,None,None,0,0
+366=Neutral House,mgpepr,256,138,126,160,None,1,0,1,0,0,None,None,None,0,0
+367=Neutral House,CAEURO05,256,94,165,64,01000128,1,0,1,0,0,None,None,None,0,0
 368=Neutral House,CABARR01,256,65,119,64,None,1,0,1,0,0,None,None,None,0,0
 369=Neutral House,CABARR01,256,68,114,64,None,1,0,1,0,0,None,None,None,0,0
 371=Neutral House,CABARR02,256,64,150,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5127,7 +5189,6 @@ DestroyableBridges=yes
 379=Neutral House,CAEUR1,256,101,167,64,None,1,0,1,0,0,None,None,None,0,0
 380=Neutral House,CAEUR1,256,97,161,64,None,1,0,1,0,0,None,None,None,0,0
 381=Neutral House,CAEUR2,256,94,171,64,None,1,0,1,0,0,None,None,None,0,0
-382=Neutral House,CAEURO05,256,94,165,64,01000128,1,0,1,0,0,None,None,None,0,0
 383=Neutral House,CAMISC03,256,92,169,64,None,1,0,1,0,0,None,None,None,0,0
 384=Neutral House,CAFRMB,256,89,165,64,None,1,0,1,0,0,None,None,None,0,0
 385=Neutral House,CAWT01,256,89,170,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5162,15 +5223,8 @@ DestroyableBridges=yes
 426=Russians House,NAPOWR,256,102,110,64,None,1,0,1,0,0,None,None,None,1,0
 427=Russians House,NAWEAP,256,103,119,64,None,1,0,1,0,0,None,None,None,1,0
 428=Russians House,NAHAND,256,102,114,64,None,1,0,1,0,0,None,None,None,1,0
-429=Russians House,CAWT01,256,112,121,64,None,1,0,1,0,0,None,None,None,0,0
 430=Russians House,CAWT01,256,112,119,64,None,1,0,1,0,0,None,None,None,0,0
-431=Russians House,CAWT01,256,110,123,64,None,1,0,1,0,0,None,None,None,0,0
-432=Russians House,CAWT01,256,110,121,64,None,1,0,1,0,0,None,None,None,0,0
-433=Russians House,CAWT01,256,110,119,64,None,1,0,1,0,0,None,None,None,0,0
-434=Russians House,CAWT01,256,110,117,64,None,1,0,1,0,0,None,None,None,0,0
 435=Russians House,CAWT01,256,112,117,64,None,1,0,1,0,0,None,None,None,0,0
-436=Russians House,CAWT01,256,106,116,64,None,1,0,1,0,0,None,None,None,0,0
-437=Russians House,CAWT01,256,106,114,64,None,1,0,1,0,0,None,None,None,0,0
 438=Russians House,CAWT01,256,120,112,64,None,1,0,1,0,0,None,None,None,0,0
 439=Russians House,CAWT01,256,120,110,64,None,1,0,1,0,0,None,None,None,0,0
 440=Russians House,CAWT01,256,120,108,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5206,7 +5260,6 @@ DestroyableBridges=yes
 470=Neutral House,V2RACK,256,113,93,64,None,1,0,1,0,0,None,None,None,0,0
 471=Neutral House,V2RACK,256,116,92,64,None,1,0,1,0,0,None,None,None,0,0
 472=Neutral House,CAMISC06,256,105,122,64,None,1,0,1,0,0,None,None,None,0,0
-473=Neutral House,CAMISC06,256,103,122,64,None,1,0,1,0,0,None,None,None,0,0
 474=Neutral House,CAMISC06,256,107,112,64,None,1,0,1,0,0,None,None,None,0,0
 475=Neutral House,CAMISC06,256,123,113,64,None,1,0,1,0,0,None,None,None,0,0
 476=Neutral House,CAMISC06,256,121,105,64,None,1,0,1,0,0,None,None,None,0,0
@@ -6054,8 +6107,6 @@ DestroyableBridges=yes
 79170=TREE28
 79171=TREE22
 79174=TREE23
-79186=TREE20
-79187=TREE22
 79192=TREE26
 80072=TREE26
 80076=TREE21
@@ -6081,7 +6132,6 @@ DestroyableBridges=yes
 80174=TREE21
 80175=TREE22
 80186=TREE28
-80187=TREE26
 81071=TREE26
 81072=TREE19
 81075=TREE19
@@ -6116,9 +6166,6 @@ DestroyableBridges=yes
 82171=TREE22
 82172=TREE23
 82173=TREE28
-82189=TREE26
-82190=TREE28
-82191=TREE26
 83076=TREE26
 83077=TREE22
 83079=TREE19
@@ -6137,7 +6184,6 @@ DestroyableBridges=yes
 83167=TREE27
 83169=TREE26
 83170=TREE22
-83190=TREE23
 83191=TREE26
 84072=TREE19
 84076=TREE21
@@ -6156,7 +6202,6 @@ DestroyableBridges=yes
 84167=TREE22
 84168=TREE28
 84169=TREE26
-84191=TREE20
 85071=TREE26
 85072=TREE21
 85103=TREE25
@@ -6870,7 +6915,6 @@ DestroyableBridges=yes
 119092=TREE22
 119101=TREE28
 119139=TREE24
-119140=TREE24
 119141=TREE24
 120043=TREE23
 120071=TREE25
@@ -6883,8 +6927,6 @@ DestroyableBridges=yes
 120100=TREE23
 120101=TREE23
 120138=TREE21
-120139=TREE25
-120140=TREE25
 120142=TREE25
 121026=TREE24
 121030=TREE26
@@ -6897,7 +6939,6 @@ DestroyableBridges=yes
 121080=TREE26
 121137=TREE26
 121139=TREE22
-121141=TREE24
 122024=TREE28
 122025=TREE19
 122032=TREE22
@@ -6907,11 +6948,6 @@ DestroyableBridges=yes
 122083=TREE21
 122084=TREE27
 122136=TREE26
-122138=TREE21
-122139=TREE24
-122140=TREE24
-122141=TREE22
-122142=TREE25
 123026=TREE23
 123030=TREE23
 123033=TREE23
@@ -6929,10 +6965,8 @@ DestroyableBridges=yes
 123092=TREE22
 123095=TREE25
 123135=TREE20
-123137=TREE26
+123137=TREE24
 123139=TREE22
-123140=TREE26
-123141=TREE25
 123146=TREE20
 124023=TREE24
 124024=TREE19
@@ -6956,11 +6990,8 @@ DestroyableBridges=yes
 124096=TREE23
 124098=TREE23
 124099=TREE26
-124135=TREE27
-124136=TREE24
-124137=TREE26
-124138=TREE25
-124140=TREE23
+124138=TREE22
+124141=TREE28
 124145=TREE22
 124146=TREE22
 124147=TREE28
@@ -6995,9 +7026,6 @@ DestroyableBridges=yes
 125105=TREE27
 125108=TREE24
 125137=TREE22
-125138=TREE22
-125139=TREE24
-125140=TREE23
 125145=TREE25
 125146=TREE21
 125147=TREE27
@@ -7022,8 +7050,6 @@ DestroyableBridges=yes
 126109=TREE21
 126120=TREE28
 126121=TREE22
-126137=TREE28
-126139=TREE28
 126144=TREE28
 126145=TREE22
 126147=TREE28
@@ -7048,7 +7074,6 @@ DestroyableBridges=yes
 127123=TREE25
 127131=TREE24
 127137=TREE21
-127138=TREE25
 127147=TREE27
 127148=TREE25
 128029=TREE19
@@ -7803,10 +7828,10 @@ DestroyableBridges=yes
 11=Russians House,HTK,256,146,93,96,Area Guard,None,0,-1,0,-1,1,0
 12=Russians House,HTK,256,152,86,128,Area Guard,None,0,-1,0,-1,1,0
 13=Russians House,HTNK,256,149,95,128,Area Guard,None,0,-1,0,-1,1,0
-14=Russians House,SUB,256,140,136,160,Area Guard,None,0,-1,0,-1,1,0
+14=Russians House,SUB,256,137,138,160,Area Guard,None,0,-1,0,-1,1,0
 15=Russians House,SUB,256,140,140,128,Area Guard,None,0,-1,0,-1,1,0
 16=Russians House,MSUB,256,140,134,128,Area Guard,None,0,-1,0,-1,1,0
-17=Russians House,SAPC,256,139,131,128,Area Guard,None,0,-1,0,-1,1,0
+17=Russians House,SAPC,256,138,131,128,Area Guard,None,0,-1,0,-1,1,0
 18=Neutral House,BCAB,256,158,67,64,Guard,None,0,-1,0,-1,1,0
 19=Neutral House,PROPA,256,160,61,64,Guard,None,0,-1,0,-1,1,0
 20=Neutral House,PTRUCK,256,174,71,64,Guard,None,0,-1,0,-1,1,0
@@ -7819,7 +7844,7 @@ DestroyableBridges=yes
 27=Russians House,HTNK,256,141,114,192,Area Guard,None,0,-1,0,-1,1,0
 28=Russians House,HTNK,256,161,118,32,Area Guard,None,0,-1,0,-1,1,0
 29=Russians House,HTK,256,164,112,64,Area Guard,None,0,-1,0,-1,1,0
-30=Russians House,HTK,256,144,127,128,Area Guard,None,0,-1,0,-1,1,0
+30=Russians House,HTK,256,143,127,128,Area Guard,None,0,-1,0,-1,1,0
 31=Russians House,HTNK,256,149,123,64,Area Guard,None,0,-1,0,-1,1,0
 32=Russians House,TTNK,256,182,95,192,Area Guard,None,0,-1,0,-1,1,0
 33=Russians House,TTNK,256,183,93,160,Area Guard,None,0,-1,0,-1,1,0
@@ -7837,8 +7862,10 @@ DestroyableBridges=yes
 45=Russians House,HARV,256,65,190,64,Guard,None,0,-1,0,-1,1,0
 46=Russians House,HARV,256,80,191,64,Guard,None,0,-1,0,-1,1,0
 47=Russians House,HTK,256,64,179,64,Guard,None,0,-1,0,-1,1,0
+48=Russians House,HTNK,256,72,175,0,Area Guard,None,0,-1,0,-1,1,0
 49=Russians House,HTK,256,79,188,64,Area Guard,None,0,-1,0,-1,1,0
-51=Russians House,HTNK,256,72,176,64,Area Guard,None,0,-1,0,-1,1,0
+50=Russians House,SAPC,256,140,131,128,Area Guard,None,0,-1,0,-1,1,0
+51=Russians House,HTK,256,145,127,128,Area Guard,None,0,-1,0,-1,1,0
 52=Russians House,HTNK,256,55,185,224,Area Guard,None,0,-1,0,-1,1,0
 53=Russians House,TTNK,256,139,19,64,Area Guard,None,0,-1,0,-1,1,0
 54=Russians House,HTNK,256,115,118,128,Area Guard,None,0,-1,0,-1,1,0
@@ -7869,6 +7896,9 @@ DestroyableBridges=yes
 79=Russians House,DRON,256,74,101,64,Area Guard,None,0,-1,0,-1,1,0
 80=Russians House,DRON,256,83,100,64,Area Guard,None,0,-1,0,-1,1,0
 81=Neutral House,CONVEH,256,117,104,64,Guard,None,0,-1,0,-1,1,0
+82=Russians House,SovT90,256,96,116,192,Guard,None,0,-1,0,-1,1,0
+83=Russians House,SovT90,256,115,156,0,Sleep,None,666,-1,0,-1,1,0
+84=Russians House,SovT90,256,96,105,192,Guard,None,0,-1,0,-1,1,0
 
 [UriArmy House]
 IQ=5
@@ -7922,7 +7952,7 @@ PlayerControl=no
 36=95177
 37=47149
 38=75188
-39=167094
+39=159095
 40=181111
 41=114154
 42=116106
@@ -7953,7 +7983,7 @@ PlayerControl=no
 67=151141
 68=142136
 98=165094
-99=165095
+99=157097
 
 [YuriCountry House]
 IQ=0
@@ -8014,15 +8044,6 @@ Image=golovast
 
 [suvb]
 Image=volga1
-
-[yabrk]
-Power=0
-
-[yabrk2]
-Power=0
-
-[yadome]
-Power=0
 
 [ycab]
 Image=zaz1
