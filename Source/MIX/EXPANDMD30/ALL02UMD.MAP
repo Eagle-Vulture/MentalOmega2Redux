@@ -161,15 +161,15 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=YuriCountry
 
-[mghyst]
+[CGtechRail]
 Power=0
 NeedsEngineer=no
 
-[mgpepr]
+[CGtechMGun]
 Power=0
 NeedsEngineer=no
 
-[mgumkh]
+[CGtechSAM]
 Power=0
 NeedsEngineer=no
 
@@ -2849,8 +2849,8 @@ DestroyableBridges=yes
 146=Confederation House,CAMISC01,256,79,36,64,None,1,0,1,0,0,None,None,None,0,0
 147=Americans House,CAMACH,256,65,1,64,None,1,0,1,0,0,None,None,None,0,0
 148=Americans House,CATHOSP,256,103,117,64,None,1,0,1,0,0,None,None,None,0,0
-149=Arabs House,mgpepr,256,102,113,224,None,1,0,1,0,0,None,None,None,0,0
-150=Arabs House,mgpepr,256,89,122,64,None,1,0,1,0,0,None,None,None,0,0
+149=Arabs House,CGtechMGun,256,102,113,224,None,1,0,1,0,0,None,None,None,0,0
+150=Arabs House,CGtechMGun,256,89,122,64,None,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,AI Auto Production South Korea 1,01000000

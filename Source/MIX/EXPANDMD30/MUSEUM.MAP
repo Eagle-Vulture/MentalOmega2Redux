@@ -320,8 +320,6 @@ TechLevel=10
 PercentBuilt=100
 PlayerControl=no
 
-[CellTags]
-
 [China House]
 IQ=5
 Edge=North
@@ -5654,6 +5652,10 @@ DestroyableBridges=yes
 177=Neutral House,CAMISC01,256,162,76,64,None,1,0,1,0,0,None,None,None,0,0
 178=Neutral House,AMMOCRAT,256,176,74,64,None,1,0,1,0,0,None,None,None,0,0
 179=Neutral House,AMMOCRAT,256,157,64,64,None,1,0,1,0,0,None,None,None,0,0
+180=YuriCountry House,GAPOWR,256,48,177,64,None,1,0,1,0,0,None,None,None,0,0
+181=YuriCountry House,GAPOWR,256,48,174,64,None,1,0,1,0,0,None,None,None,0,0
+182=YuriCountry House,GAPOWR,256,48,171,64,None,1,0,1,0,0,None,None,None,0,0
+183=YuriCountry House,GAPOWR,256,48,168,64,None,1,0,1,0,0,None,None,None,0,0
 184=Neutral House,CAMISC01,256,184,79,64,None,1,0,1,0,0,None,None,None,0,0
 185=Neutral House,CAMISC01,256,185,78,64,None,1,0,1,0,0,None,None,None,0,0
 186=Neutral House,CAMISC01,256,186,77,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5666,9 +5668,15 @@ DestroyableBridges=yes
 193=Neutral House,CAMISC01,256,184,80,64,None,1,0,1,0,0,None,None,None,0,0
 194=Neutral House,CAMISC01,256,183,80,64,None,1,0,1,0,0,None,None,None,0,0
 195=Neutral House,CAMISC01,256,185,80,64,None,1,0,1,0,0,None,None,None,0,0
+196=YuriCountry House,GAPOWR,256,45,168,64,None,1,0,1,0,0,None,None,None,0,0
+197=YuriCountry House,GAPOWR,256,45,171,64,None,1,0,1,0,0,None,None,None,0,0
+198=YuriCountry House,GAPOWR,256,45,174,64,None,1,0,1,0,0,None,None,None,0,0
+199=YuriCountry House,GAPOWR,256,45,177,64,None,1,0,1,0,0,None,None,None,0,0
 200=Greece House,GAPOWR,256,198,85,64,None,1,0,1,0,0,None,None,None,0,0
 201=Germany House,GAPOWR,256,202,84,64,None,1,0,1,0,0,None,None,None,0,0
 202=UriArmy House,GAPOWR,256,206,83,64,None,1,0,1,0,0,None,None,None,0,0
+203=YuriCountry House,YAPOWR,256,135,270,64,None,1,0,1,0,0,None,None,None,0,0
+204=YuriCountry House,YAPOWR,256,138,270,64,None,1,0,1,0,0,None,None,None,0,0
 205=YuriCountry House,CACITY05,256,176,190,64,None,1,0,1,0,0,None,None,None,0,0
 206=YuriCountry House,CACITY03,256,172,195,64,None,1,0,1,0,0,None,None,None,0,0
 207=Greece House,GAPOWR,256,198,82,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5725,16 +5733,16 @@ DestroyableBridges=yes
 258=YuriCountry House,YAGRANDCAN,256,128,210,64,None,1,0,1,0,0,None,None,None,0,0
 259=YuriCountry House,YAGRANDCAN,256,135,209,64,None,1,0,1,0,0,None,None,None,0,0
 260=YuriCountry House,YAGRANDCAN,256,140,205,64,None,1,0,1,0,0,None,None,None,0,0
-261=Neutral House,mgumkh,256,73,132,64,None,1,0,1,0,0,None,None,None,0,0
-262=Neutral House,mghyst,256,77,129,64,None,1,0,1,0,0,None,None,None,0,0
-263=Neutral House,mgpepr,256,80,125,64,None,1,0,1,0,0,None,None,None,0,0
-264=Neutral House,mgpepr,256,114,65,64,None,1,0,1,0,0,None,None,None,0,0
-265=Neutral House,mgpepr,256,114,61,64,None,1,0,1,0,0,None,None,None,0,0
-266=Neutral House,mgumkh,256,119,65,64,None,1,0,1,0,0,None,None,None,0,0
-267=Neutral House,mgumkh,256,119,61,64,None,1,0,1,0,0,None,None,None,0,0
-268=Neutral House,mghyst,256,201,161,64,None,1,0,1,0,0,None,None,None,0,0
-269=Neutral House,mghyst,256,205,161,64,None,1,0,1,0,0,None,None,None,0,0
-270=Neutral House,mghyst,256,209,161,64,None,1,0,1,0,0,None,None,None,0,0
+261=Neutral House,CGtechSAM,256,73,132,64,None,1,0,1,0,0,None,None,None,0,0
+262=Neutral House,CGtechRail,256,77,129,64,None,1,0,1,0,0,None,None,None,0,0
+263=Neutral House,CGtechMGun,256,80,125,64,None,1,0,1,0,0,None,None,None,0,0
+264=Neutral House,CGtechMGun,256,114,65,64,None,1,0,1,0,0,None,None,None,0,0
+265=Neutral House,CGtechMGun,256,114,61,64,None,1,0,1,0,0,None,None,None,0,0
+266=Neutral House,CGtechSAM,256,119,65,64,None,1,0,1,0,0,None,None,None,0,0
+267=Neutral House,CGtechSAM,256,119,61,64,None,1,0,1,0,0,None,None,None,0,0
+268=Neutral House,CGtechRail,256,201,161,64,None,1,0,1,0,0,None,None,None,0,0
+269=Neutral House,CGtechRail,256,205,161,64,None,1,0,1,0,0,None,None,None,0,0
+270=Neutral House,CGtechRail,256,209,161,64,None,1,0,1,0,0,None,None,None,0,0
 271=YuriCountry House,NASAM,256,120,47,64,None,1,0,1,0,0,None,None,None,0,0
 272=YuriCountry House,NASAM,256,123,44,64,None,1,0,1,0,0,None,None,None,0,0
 273=YuriCountry House,NASAM,256,126,41,64,None,1,0,1,0,0,None,None,None,0,0
@@ -5752,6 +5760,14 @@ DestroyableBridges=yes
 285=YuriCountry House,TESLA,256,201,63,64,None,1,0,1,0,0,None,None,None,0,0
 286=YuriCountry House,TESLA,256,205,67,64,None,1,0,1,0,0,None,None,None,0,0
 287=YuriCountry House,TESLA,256,203,72,64,None,1,0,1,0,0,None,None,None,0,0
+288=YuriCountry House,YAPOWR,256,141,270,64,None,1,0,1,0,0,None,None,None,0,0
+289=YuriCountry House,YAPOWR,256,144,270,64,None,1,0,1,0,0,None,None,None,0,0
+290=YuriCountry House,YAPOWR,256,144,273,64,None,1,0,1,0,0,None,None,None,0,0
+291=YuriCountry House,YAPOWR,256,141,273,64,None,1,0,1,0,0,None,None,None,0,0
+292=YuriCountry House,YAPOWR,256,138,273,64,None,1,0,1,0,0,None,None,None,0,0
+293=YuriCountry House,YAPOWR,256,135,273,64,None,1,0,1,0,0,None,None,None,0,0
+294=YuriCountry House,NANRCT,256,74,203,64,None,1,0,1,0,0,None,None,None,0,0
+295=YuriCountry House,NANRCT,256,68,203,64,None,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,AI Auto Production America House,01000000
@@ -5770,8 +5786,6 @@ DestroyableBridges=yes
 01000027=0,AI Auto Production Scorpion Force House,01000026
 01000029=0,AI Auto Production Civilian House,01000028
 01000031=0,AI Auto Production JP House,01000030
-
-[TeamTypes]
 
 [Terrain]
 183135=TREE03
