@@ -320,6 +320,8 @@ TechLevel=10
 PercentBuilt=100
 PlayerControl=no
 
+[CellTags]
+
 [China House]
 IQ=5
 Edge=North
@@ -5768,6 +5770,12 @@ DestroyableBridges=yes
 293=YuriCountry House,YAPOWR,256,135,273,64,None,1,0,1,0,0,None,None,None,0,0
 294=YuriCountry House,NANRCT,256,74,203,64,None,1,0,1,0,0,None,None,None,0,0
 295=YuriCountry House,NANRCT,256,68,203,64,None,1,0,1,0,0,None,None,None,0,0
+296=YuriCountry House,CAWEAP,256,130,91,64,None,1,0,1,0,0,None,None,None,0,0
+297=YuriCountry House,CAWEAP,256,130,99,64,None,1,0,1,0,0,None,None,None,0,0
+298=YuriCountry House,SVAP,256,117,98,64,None,1,0,1,0,0,None,None,None,0,0
+299=YuriCountry House,SVAP,256,122,98,64,None,1,0,1,0,0,None,None,None,0,0
+300=YuriCountry House,CAAIRS,256,124,90,64,None,1,0,1,0,0,None,None,None,0,0
+301=YuriCountry House,CAAIRS,256,118,90,64,None,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,AI Auto Production America House,01000000
@@ -5786,6 +5794,8 @@ DestroyableBridges=yes
 01000027=0,AI Auto Production Scorpion Force House,01000026
 01000029=0,AI Auto Production Civilian House,01000028
 01000031=0,AI Auto Production JP House,01000030
+
+[TeamTypes]
 
 [Terrain]
 183135=TREE03
