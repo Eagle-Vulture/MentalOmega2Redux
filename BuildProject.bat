@@ -12,9 +12,11 @@ mkdir Build
 
 echo Компилирование строкой таблицы...
 %CSFTOOL% -t "Source\MIX\EXPANDMD42\stringtable00.txt" -o "Source\MIX\EXPANDMD42\stringtable00.csf" -a
+echo.
 
 echo Копирование файлов клиента...
 xcopy /h /y /c /r /s Source\CLIENT\ Build\
+echo.
 
 echo Копирование расширений движка...
 for /f "tokens=*" %%f in ('dir "Source\" /a:a /b') do (
