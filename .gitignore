@@ -5,6 +5,9 @@ Thumbs.db
 _Test
 Build
 
+# Ignore any .csf file in MIX folders
+Source/MIX/*/*.csf
+
 # Ignore log, config etc. user created files.
 Source/CLIENT/spawnmap.ini
 Source/CLIENT/spawn.ini
