@@ -37,4 +37,14 @@ for /f "tokens=*" %%f in ('dir "Source\MIX\" /a:d /b') do (
 	)
 
 echo Все MIX-архивы были собраны.
+
+echo Настройка языковых пакетов клиента...
+mkdir Build\Resources\Translations\en >nul 2> nul
+copy /y "Build\EXPANDMD42.mix" "Build\Resources\Translations\en\EXPANDMD42.mix"
+for /f "tokens=*" %%f in ('dir "Build\Resources\Translations\ru\MIX\" /a:d /b') do (
+	%MIX% --create --lmd --game=ra2 --dir "Build\Resources\Translations\ru\MIX\%%f" --mix "Build\Resources\Translations\ru\%%f.mix"
+	)
+rmdir /s /q "Build\Resources\Translations\ru\MIX\"
+echo.
+
 echo Сборка проекта окончена. Пожалуйста, проверьте папку Build.
