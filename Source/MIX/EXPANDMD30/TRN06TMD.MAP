@@ -600,9 +600,9 @@ AreTeamMembersRecruitable=no
 Name=16-17
 
 [01000087]
-0=2,MTNK
+0=1,MTNK
 1=2,StormLT
-2=1,GHUM
+2=1,ABRM
 Name=2 Grizzly, 2 IFV
 Group=-1
 
@@ -650,7 +650,7 @@ AreTeamMembersRecruitable=no
 Name=18-19
 
 [01000090]
-0=3,GHUM
+0=3,ABRM
 Name=3 Mirages
 Group=-1
 
@@ -4336,7 +4336,7 @@ LocalSize=2,8,102,106
 IQ=5
 Edge=North
 Color=Grey
-Allies=Neutral House,Americans House
+Allies=Neutral House,Americans House,YuriCountry House
 Country=Neutral
 Credits=0
 NodeCount=0
@@ -4785,10 +4785,10 @@ DestroyableBridges=yes
 33=Americans House,MTNK,256,74,98,128,Area Guard,None,0,-1,0,-1,1,0
 34=Americans House,StormLT,256,65,111,64,Area Guard,None,0,-1,0,-1,1,0
 35=Americans House,FV,256,50,112,160,Area Guard,None,0,-1,0,-1,1,0
-36=Americans House,GHUM,256,147,76,64,Guard,None,0,-1,0,-1,1,0
-37=Americans House,GHUM,256,126,160,64,Guard,None,0,-1,0,-1,1,0
+36=Americans House,ABRM,256,147,76,64,Guard,None,0,-1,0,-1,1,0
+37=Americans House,ABRM,256,126,160,64,Guard,None,0,-1,0,-1,1,0
 38=YuriCountry House,SQD,256,181,109,128,Guard,None,0,-1,0,-1,1,0
-39=Americans House,GHUM,256,62,131,64,Guard,None,0,-1,0,-1,1,0
+39=Americans House,ABRM,256,62,131,64,Guard,None,0,-1,0,-1,1,0
 40=Americans House,DEST,256,150,154,128,Area Guard,None,0,-1,0,-1,1,0
 41=Americans House,DEST,256,39,120,128,Area Guard,None,0,-1,0,-1,1,0
 42=Americans House,DEST,256,32,111,160,Area Guard,None,0,-1,0,-1,1,0
