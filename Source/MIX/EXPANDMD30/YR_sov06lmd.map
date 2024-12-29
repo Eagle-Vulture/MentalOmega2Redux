@@ -1,108 +1,101 @@
-[General]
-AISlaveMinerNumber=0,0,0
-SpyMoneyStealPercent=0.05
-AlliedCrew=LUNR
-SovietCrew=LUNR
-ThirdCrew=LUNR
-Engineer=LUNR
-CampaignMoneyDeltaEasy=15000
-CampaignMoneyDeltaHard=-15000
-SoloCrateMoney=10000
+; Map created with FinalAlert 2(tm) Mission Editor
+; Get it at http://www.westwood.com
+; note that all comments were truncated
 
-[SQD]
-Owner=Russians House,Confederation House,Africans House,Arabs House
-Prerequisite=NAYARD,NATECH
-
-[HTNK]
-BuildTimeMultiplier=1.0
-
-[MTNK]
-BuildTimeMultiplier=1.0
-
-[LTNK]
-BuildTimeMultiplier=1.0
-
-[DRON]
-BuildTimeMultiplier=1.0
-
-[HTK]
-BuildTimeMultiplier=1.0
+[Header]
+Width=35
+Height=110
+StartX=238
+StartY=25
+Waypoint1=242,132
+Waypoint2=237,139
+Waypoint3=244,140
+Waypoint4=236,134
+Waypoint5=242,126
+Waypoint6=246,134
+Waypoint7=244,105
+Waypoint8=255,111
+NumberStartingPoints=8
+NumCoopHumanStartSpots=4
 
 [APOC]
 BuildTimeMultiplier=1.0
 
-[YTNK]
-BuildTimeMultiplier=1.0
-
-[TELE]
-BuildTimeMultiplier=1.0
-
-[MIND]
-BuildTimeMultiplier=1.0
-
-[DISK]
-BuildTimeMultiplier=1.0
-
-[NAINDP]
-Prerequisite=NATECH,NACNST
-
-[NABNKR]
-Name=Soviet Battle Bunker
-TechLevel=11
-
-[CABUNK01]
-Name=Concrete Bunker 01
-TechLevel=11
-
-[VIRUS]
-Name=Yuri Virus
+[BORIS]
+Name=Boris
 TechLevel=11
 
 [BRUTE]
 Name=Yuri Brute
 TechLevel=11
 
-[INIT]
-Name=Yuri Initiate
-TechLevel=11
+[Basic]
+Win=<none>
+Lose=<none>
+Name=YRS6
+Brief=S06_F00e
+Intro=<none>
+Theme=No theme
+Action=<none>
+Player=Russians House
+Percent=0
+Briefing=Brief:Sov06md
+GameMode=standard
+HomeCell=0
+InitTime=10000
+Official=yes
+EndOfGame=no
+FillSilos=no
+FreeRadar=no
+MaxPlayer=8
+MinPlayer=2
+PostScore=<none>
+SkipScore=no
+TrainCrate=no
+TruckCrate=no
+AltHomeCell=0
+OneTimeOnly=no
+CarryOverCap=0
+NewINIFormat=4
+NextScenario=GDI2A.map
+PreMapSelect=<none>
+TimerInherit=no
+SkipMapSelect=no
+CarryOverMoney=0.000000
+AltNextScenario=GDI9C.MAP
+MultiplayerOnly=0
+IceGrowthEnabled=yes
+StartingDropships=0
+VeinGrowthEnabled=yes
+TiberiumGrowthEnabled=yes
+IgnoreGlobalAITriggers=yes
+TiberiumDeathToVisceroid=yes
 
-[YENGINEER]
-TechLevel=11
-
-[YURI]
-Name=Yuri Clone
-TechLevel=11
-
-[YURIPR]
+[CABUNK01]
+Name=Concrete Bunker 01
 TechLevel=11
 
 [CAOS]
 Name=Chaos Drone
 TechLevel=11
 
-[PCV]
-Name=Yuri Construction Vehicle
-TechLevel=11
-
-[YAPPET]
-Name=Yuri Puppet Master
-TechLevel=11
-
-[YAGNTC]
-Name=Yuri Genetic Mutator Device
-TechLevel=11
-
-[NATBNK]
-Name=Yuri Tank Bunker
-TechLevel=11
-
 [DESO]
 Name=Desolater
-Category=Soldier
 Primary=RadBeamWeapon
+Category=Soldier
 Secondary=RadEruptionWeapon
 Prerequisite=BARRACKS,RADAR
 RequiredHouses=Russians House
+
+[DISK]
+BuildTimeMultiplier=1.0
+
+[DOG]
+Name=Attack Dog
+TechLevel=11
+
+[DRON]
+BuildTimeMultiplier=1.0
 
 [E2]
 Name=Conscript
@@ -112,408 +105,2424 @@ TechLevel=11
 Name=Flak Trooper
 TechLevel=11
 
-[SENGINEER]
-Image=ENGINEER
-Name=Soviet Engineer
-TechLevel=11
+[General]
+Engineer=LUNR
+ThirdCrew=LUNR
+AlliedCrew=LUNR
+SovietCrew=LUNR
+SoloCrateMoney=10000
+AISlaveMinerNumber=0,0,0
+SpyMoneyStealPercent=0.05
+CampaignMoneyDeltaEasy=15000
+CampaignMoneyDeltaHard=-15000
 
-[DOG]
-Name=Attack Dog
-TechLevel=11
+[HTK]
+BuildTimeMultiplier=1.0
 
-[SHK]
-Name=Shock Trooper
+[HTNK]
+BuildTimeMultiplier=1.0
+
+[INIT]
+Name=Yuri Initiate
 TechLevel=11
 
 [IVAN]
 Name=Crazy Ivan
 TechLevel=11
 
-[NAMISL]
-Name=Soviet Nuclear Missile Silo
+[LTNK]
+BuildTimeMultiplier=1.0
+
+[LUNR]
+Name=Lunar Infantry
+Strength=200
+TechLevel=1
+Prerequisite=NAPILE
+
+[MIND]
+BuildTimeMultiplier=1.0
+
+[MTNK]
+BuildTimeMultiplier=1.0
+
+[NABNKR]
+Name=Soviet Battle Bunker
 TechLevel=11
+
+[NAINDP]
+Prerequisite=NATECH,NACNST
 
 [NAIRON]
 Name=Soviet Iron Curtain Device
 TechLevel=11
 
-[BORIS]
-Name=Boris
+[NAMISL]
+Name=Soviet Nuclear Missile Silo
 TechLevel=11
 
 [NARADR]
 Name=Soviet Radar Tower
-Prerequisite=NACNST,NAPOWR
 SuperWeapon=none
-
-[V3]
-Name=V3 Launcher
-TechLevel=11
-
-[SCHP]
-Name=Soviet Siege Chopper
-TechLevel=11
-
-[ZEP]
-Name=Kirov Airship
-TechLevel=11
-
-[LUNR]
-Name=Lunar Infantry
-Prerequisite=NAPILE
-TechLevel=1
-Strength=200
+Prerequisite=NACNST,NAPOWR
 
 [NAREFN]
 Name=Soviet Ore Refinery
+TechLevel=11
+
+[NATBNK]
+Name=Yuri Tank Bunker
 TechLevel=11
 
 [NAWEAP]
 Name=Soviet War Factory
 Prerequisite=NAHAND,NACNST
 
-[Header]
-StartX=238
-StartY=25
-Width=35
-Height=110
-NumberStartingPoints=8
-NumCoopHumanStartSpots=4
-Waypoint1=242,132
-Waypoint2=237,139
-Waypoint3=244,140
-Waypoint4=236,134
-Waypoint5=242,126
-Waypoint6=246,134
-Waypoint7=244,105
-Waypoint8=255,111
+[PCV]
+Name=Yuri Construction Vehicle
+TechLevel=11
 
-[SpecialFlags]
-TiberiumGrows=no
-TiberiumSpreads=yes
-TiberiumExplosive=no
-DestroyableBridges=yes
-MCVDeploy=no
-InitialVeteran=no
-FixedAlliance House=no
-HarvesterImmune=no
-FogOfWar=no
-Inert=no
-IonStorms=no
-Meteorites=no
-Visceroids=no
+[SCHP]
+Name=Soviet Siege Chopper
+TechLevel=11
 
-[Ranking]
-ParTimeEasy=00:55:00
-ParTimeMedium=00:45:00
-ParTimeHard=00:35:00
-UnderParTitle=GUI:ParTitleSov07md
-UnderParMessage=GUI:UnderParMsgSov06md
-OverParTitle=GUI:ParTitleSov06md
-OverParMessage=GUI:OverParMsgSov06md
+[SENGINEER]
+Name=Soviet Engineer
+Image=ENGINEER
+TechLevel=11
 
-[Basic]
-Briefing=Brief:Sov06md
-NextScenario=GDI2A.map
-AltNextScenario=GDI9C.MAP
-NewINIFormat=4
-CarryOverCap=0
-EndOfGame=no
-SkipScore=no
-OneTimeOnly=no
-SkipMapSelect=no
-Official=yes
-IgnoreGlobalAITriggers=yes
-TruckCrate=no
-TrainCrate=no
-Percent=0
-Theme=No theme
-Player=Russians House
-Intro=<none>
-Brief=S06_F00e
-Win=<none>
-Lose=<none>
-Action=<none>
-PostScore=<none>
-PreMapSelect=<none>
-CarryOverMoney=0.000000
-TimerInherit=no
-FillSilos=no
-StartingDropships=0
-HomeCell=0
-AltHomeCell=0
-MultiplayerOnly=0
-TiberiumGrowthEnabled=yes
-VeinGrowthEnabled=yes
-IceGrowthEnabled=yes
-TiberiumDeathToVisceroid=yes
-FreeRadar=no
-InitTime=10000
+[SHK]
+Name=Shock Trooper
+TechLevel=11
 
-[VariableNames]
-0=Mastermind Exposed,0
-1=Base 1 Down,0
-2=Base 2 Down,0
-3=Base 3 Down,0
+[SQD]
+Owner=Russians House,Confederation House,Africans House,Arabs House
+Prerequisite=NAYARD,NATECH
 
-[Lighting]
-Ambient=0.700000
-Red=1.000000
-Green=1.000000
-Blue=1.000000
-Ground=0.050000
-Level=0.008000
-IonAmbient=0.870000
-IonRed=0.300000
-IonGreen=0.400000
-IonBlue=0.750000
-IonGround=0.000000
-IonLevel=0.000000
-DominatorAmbient=1.500000
-DominatorRed=0.850000
-DominatorGreen=0.200000
-DominatorBlue=0.300000
-DominatorGround=0.000000
-DominatorLevel=0.000000
-DominatorAmbientChangeRate=0.001000
+[TELE]
+BuildTimeMultiplier=1.0
 
-[Houses]
-0=Americans House
-1=Alliance House
-2=French House
-3=Germans House
-4=British House
-5=Africans House
-6=Arabs House
-7=Confederation House
-8=Russians House
-9=YuriCountry House
-10=GDI
-11=Nod
-12=Neutral
-13=Special
+[V3]
+Name=V3 Launcher
+TechLevel=11
 
-[Americans House]
-Country=Americans House
-TechLevel=10
-Credits=500
-IQ=5
-Edge=West
-PlayerControl=no
-Color=Yuri
-Allies=Americans House,Alliance House,British House,YuriCountry House
-PercentBuilt=0
-NodeCount=0
+[VIRUS]
+Name=Yuri Virus
+TechLevel=11
 
-[Alliance House]
-Country=Alliance House
-TechLevel=10
-Credits=500
-IQ=5
-Edge=East
-PlayerControl=no
-Color=Yuri
-Allies=Americans House,Alliance House,British House,YuriCountry House
-PercentBuilt=0
-NodeCount=0
+[YAGNTC]
+Name=Yuri Genetic Mutator Device
+TechLevel=11
 
-[French House]
-Country=French House
-TechLevel=1
-Credits=0
-IQ=0
-Edge=North
-PlayerControl=no
-Color=Gold
-Allies=French House
-PercentBuilt=0
-NodeCount=0
+[YAPPET]
+Name=Yuri Puppet Master
+TechLevel=11
 
-[Germans House]
-Country=Germans House
-TechLevel=1
-Credits=0
-IQ=0
-Edge=North
-PlayerControl=no
-Color=Gold
-Allies=Germans House
-PercentBuilt=0
-NodeCount=0
+[YENGINEER]
+TechLevel=11
 
-[British House]
-Country=British House
-TechLevel=1
-Credits=0
-IQ=0
-Edge=North
-PlayerControl=no
-Color=Allieds
-Allies=British House
-PercentBuilt=0
-NodeCount=0
+[YTNK]
+BuildTimeMultiplier=1.0
+
+[YURI]
+Name=Yuri Clone
+TechLevel=11
+
+[YURIPR]
+TechLevel=11
+
+[ZEP]
+Name=Kirov Airship
+TechLevel=11
+
+
+[Preview]
+
+[PreviewPack]
+
+[043A463C]
+Max=1
+Full=no
+Name=S6_Moontroops 3
+Group=-1
+House=Russians House
+Script=09337DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=S
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B7DC3AC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[043AF7DC]
+Max=1
+Full=no
+Name=S6_Moontroops 4
+Group=-1
+House=Russians House
+Script=09337DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=T
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B7DC3AC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[043E05DC]
+0=2,YTNK
+Name=2 Gattling Tanks
+Group=-1
+
+[068EDDBC]
+0=0,7
+1=0,5
+2=0,4
+3=0,1
+Name=Laser Jerks
+
+[068FC53C]
+0=3,29
+1=11,5
+Name=Move to AD
+
+[069E045C]
+0=3,16
+1=0,7
+2=0,1
+Name=Tons O Mooners
+
+[069E632C]
+Max=1
+Full=no
+Name=_S06_MM Guard LB AA
+Group=-1
+House=YuriCountry House
+Script=0C9EF14C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C9EDD0C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[069E67DC]
+Max=1
+Full=no
+Name=_S06_MM Guard LB Z
+Group=-1
+House=YuriCountry House
+Script=0C9EF14C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=200
+Waypoint=Z
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C9EDD0C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[069F413C]
+0=1,TELE
+Name=1 Magnetron
+Group=-1
+
+[076D109C]
+Max=2
+Full=no
+Name=_S06_Mastermind & Magentron
+Group=-1
+House=YuriCountry House
+Script=076D325C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=110
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=076D2B9C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[076D2B9C]
+0=2,TELE
+1=1,MIND
+Name=1 Mastermind 2 Magnetrons
+Group=-1
+
+[076D325C]
+0=3,32
+1=5,10
+2=0,5
+3=49,0
+4=0,5
+5=0,1
+6=11,11
+Name=Attacking Vehicles
+
+[0853D90C]
+0=3,29
+1=11,11
+Name=MasterMind Demo
+
+[0853DB7C]
+Max=1
+Full=no
+Name=_S06_Mastermind Intro
+Group=-1
+House=YuriCountry House
+Script=0853D90C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Waypoint=AG
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C9EDD0C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=5
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0890063C]
+Max=2
+Full=no
+Name=MasterMind 1
+Group=-1
+House=Americans House
+Script=08904DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C745DEC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0890076C]
+0=3,7
+1=0,4
+2=0,5
+3=0,1
+Name=ScareTeam1
+
+[08900A4C]
+0=3,16
+1=0,4
+2=0,4
+3=0,4
+4=0,4
+5=0,9
+6=0,6
+7=0,1
+Name=Tons O Mooners 2
+
+[08900CBC]
+Max=1
+Full=no
+Name=_ScareTeam1
+Group=-1
+House=YuriCountry House
+Script=0890076C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=G
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BA6008C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[08900EFC]
+Max=3
+Full=no
+Name=Tons O Mooners 2
+Group=-1
+House=Americans House
+Script=08900A4C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=091AB5BC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0890148C]
+Max=1
+Full=no
+Name=_BaseDef2
+Group=-1
+House=YuriCountry House
+Script=09387CAC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AF
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0D2A10DC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0890193C]
+Max=1
+Full=no
+Name=_BaseDef1
+Group=-1
+House=YuriCountry House
+Script=093826FC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AE
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0D2A20DC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[089020EC]
+Max=2
+Full=no
+Name=S6_Lashers
+Group=-1
+House=YuriCountry House
+Script=08903DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=125
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08903CAC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0890221C]
+0=3,YTNK
+1=2,LTNK
+Name=Gattling Fun!
+Group=-1
+
+[0890259C]
+Max=2
+Full=no
+Name=S6_Gattling Fun!
+Group=-1
+House=YuriCountry House
+Script=093EA0FC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=90
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0890221C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[08902B7C]
+0=3,DISK
+Name=3 Floating Disks
+Group=-1
+
+[08902C8C]
+0=0,4
+1=49,0
+2=46,131081
+3=49,0
+4=46,65
+5=49,0
+6=46,196617
+7=49,0
+8=0,1
+Name=SaucerFun!
+
+[08902EFC]
+Max=1
+Full=no
+Name=S6_SaucerFun!
+Group=-1
+House=YuriCountry House
+Script=08902C8C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=110
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08902B7C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[089030FC]
+Max=2
+Full=no
+Name=_Sneaky Gattling
+Group=-1
+House=YuriCountry House
+Script=0890762C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=115
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0941ECAC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[089037DC]
+Max=5
+Full=no
+Name=Tons O Mooners
+Group=-1
+House=Americans House
+Script=069E045C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BFC43DC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08903CAC]
+0=4,LTNK
+Name=4 Lashers
+Group=-1
+
+[08903DBC]
+0=0,5
+1=49,0
+2=0,7
+3=49,0
+4=0,5
+5=49,0
+6=0,2
+7=49,0
+8=0,5
+Name=Lashers
+
+[0890434C]
+0=3,YTNK
+Name=3 Gattling Tanks
+Group=-1
+
+[0890445C]
+0=0,4
+1=0,4
+2=0,4
+3=0,4
+4=0,4
+5=0,4
+6=0,1
+7=11,11
+Name=Gattling Isn't For The Weak
+
+[089046CC]
+Max=5
+Full=no
+Name=Gattling Isn't For The Weak
+Group=-1
+House=Alliance House
+Script=0890445C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0890434C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[08904DBC]
+0=0,5
+1=0,1
+2=0,5
+3=11,11
+Name=Mastermind 1
+
+[0890762C]
+0=16,22
+1=16,23
+2=0,4
+3=49,0
+4=0,4
+5=0,1
+Name=Sneaky Gattling
+
+[089080DC]
+0=46,67
+1=49,0
+2=46,131139
+3=49,0
+4=46,131139
+5=49,0
+6=46,131139
+7=0,1
+8=11,11
+Name=Attack Flak Cannons
+
+[0890834C]
+Max=2
+Full=no
+Name=_S06_Kill Flak Cannons
+Group=-1
+House=YuriCountry House
+Script=089080DC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=120
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=098374CC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[089088EC]
+0=0,7
+1=46,13
+2=46,25
+3=0,1
+4=11,15
+Name=Defense Kill
+
+[08908B5C]
+Max=3
+Full=no
+Name=_Don't Stop Lasers
+Group=-1
+House=YuriCountry House
+Script=089088EC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BFC43DC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0890A13C]
+Max=1
+Full=no
+Name=_S06_1 Mastermind
+Group=-1
+House=YuriCountry House
+Script=0890BDBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C9EDD0C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=4
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0890BDBC]
+0=0,5
+1=49,0
+2=0,1
+3=11,11
+Name=Hunt Vehicles
+
+[08B5034C]
+0=1,HTNK
+Name=1 Rhino
+Group=-1
+
+[08B506CC]
+Max=1
+Full=no
+Name=S6_start_rhino
+Group=-1
+House=Russians House
+Script=09332D4C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=D
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08B5034C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[08EC7A1C]
+0=1,29
+Name=Attack
+
+[08EC7C8C]
+Max=1
+Full=no
+Name=_S06_Cos Attack
+Group=-1
+House=Russians House
+Script=08EC7A1C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=200
+Waypoint=F
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BFC43DC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08F338DC]
+0=0,7
+1=49,0
+2=0,9
+3=0,1
+4=11,11
+Name=Attack Defense
+
+[08F33B4C]
+0=3,TELE
+Name=3 Magenetrons
+Group=-1
+
+[08F33C5C]
+Max=3
+Full=no
+Name=_S06_3 Magnetrons
+Group=-1
+House=YuriCountry House
+Script=08F338DC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08F33B4C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08F7BB7C]
+0=3,16
+1=46,131081
+2=0,1
+Name=Attack Power
+
+[08F7BDEC]
+Max=1
+Tag=0915BD6C
+Full=no
+Name=_S06_Demo Floating Disk
+Group=-1
+House=YuriCountry House
+Script=08F7BB7C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=120
+Waypoint=M
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=096607FC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[091AB5BC]
+0=5,LUNR
+Name=5 Lunar Troops
+Group=-1
+
+[091BAA1C]
+0=3,8
+1=0,1
+2=0,5
+3=0,4
+4=0,1
+Name=ScareTeam3
+
+[091BAC8C]
+0=5,LUNR
+Name=ScareTeam3
+Group=-1
+
+[091BAD9C]
+Max=1
+Full=no
+Name=_ScareTeam3
+Group=-1
+House=YuriCountry House
+Script=091BAA1C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=J
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=091BAC8C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[091BD38C]
+0=3,LTNK
+Name=ScareTeam2
+Group=-1
+
+[091BD49C]
+Max=1
+Full=no
+Name=_ScareTeam2
+Group=-1
+House=YuriCountry House
+Script=091BDB4C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=091BD38C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[091BDB4C]
+0=3,8
+1=0,1
+2=0,4
+3=0,5
+Name=ScareTeam2
+
+[092B9DEC]
+0=5,LUNR
+Name=Endless Laser Bastards
+Group=-1
+
+[092B9EFC]
+Max=5
+Full=no
+Name=Endless Laser Bastards
+Group=-1
+House=Americans House
+Script=092BAB1C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=150
+Waypoint=Q
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=092B9DEC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[092BA51C]
+0=2,LUNR
+Name=Base Def1
+Group=-1
+
+[092BA62C]
+Max=1
+Full=no
+Name=_BaseDef-Left1
+Group=-1
+House=Americans House
+Script=092BBA1C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=092BA51C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[092BAB1C]
+0=0,6
+1=0,1
+Name=Endless Laser Bastards
+
+[092BB49C]
+0=11,11
+Name=BaseDef2
+
+[092BB70C]
+0=2,LUNR
+Name=BaseDef2
+Group=-1
+
+[092BB81C]
+Max=1
+Full=no
+Name=_BaseDef-Left2
+Group=-1
+House=Americans House
+Script=092BB49C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=092BB70C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[092BBA1C]
+0=11,11
+Name=Base Def1
+
+[0932712C]
+Max=1
+Full=no
+Name=S6_Moontroops 5
+Group=-1
+House=Russians House
+Script=09337DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=U
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B7DC3AC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0932B32C]
+Max=1
+Full=no
+Name=S6_start_moontroops
+Group=-1
+House=Russians House
+Script=09337DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=C
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B7DC3AC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[09332D4C]
+0=3,4
+Name=Rhinos
+
+[09337DBC]
+0=3,5
+Name=Moon Troops
+
+[093826FC]
+0=11,11
+Name=BaseDef1
+
+[09387CAC]
+0=11,11
+Name=BaseDef2
+
+[093DA04C]
+Max=2
+Full=no
+Name=S6_Evil Moon Troopers
+Group=-1
+House=YuriCountry House
+Script=093EF12C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=093DD1DC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[093DD1DC]
+0=5,LUNR
+Name=Evil Moon Troopers
+Group=-1
+
+[093EA0FC]
+0=0,9
+1=49,0
+2=0,4
+3=49,0
+4=0,5
+5=49,0
+6=0,1
+Name=Gattling Fun!
+
+[093EF12C]
+0=46,14
+1=49,0
+2=0,4
+3=49,0
+4=0,5
+5=49,0
+6=0,1
+Name=Evil Moon Troopers
+
+[0941E64C]
+0=16,21
+1=16,0
+2=0,5
+3=49,0
+4=0,1
+Name=Sneaky Lashers 1
+
+[0941E91C]
+0=16,22
+1=16,23
+2=0,5
+3=49,0
+4=0,1
+Name=Sneaky Lashers 2
+
+[0941ECAC]
+0=3,YTNK
+Name=Sneaky Gattling
+Group=-1
+
+[096607FC]
+0=1,DISK
+Name=1 Floating Disk
+Group=-1
+
+[0983563C]
+0=7,LUNR
+Name=7 Lunar Infantry
+Group=-1
+
+[0983725C]
+0=0,5
+1=49,0
+2=0,5
+3=49,0
+4=0,5
+5=0,1
+6=11,11
+Name=Attack Vehicles
+
+[098374CC]
+0=5,LTNK
+Name=5 Lashers
+Group=-1
+
+[099A9B7C]
+Max=2
+Full=no
+Name=Laser Jerks
+Group=-1
+House=Alliance House
+Script=068EDDBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=N
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B99116C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[099AAC8C]
+Max=2
+Full=no
+Name=_Sneaky Lashers 2
+Group=-1
+House=YuriCountry House
+Script=0941E91C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C47E1EC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[099AC53C]
+Max=2
+Full=no
+Name=_Sneaky Lasers
+Group=-1
+House=YuriCountry House
+Script=0C4565CC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=110
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C455F1C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[099ADB7C]
+Max=2
+Full=no
+Name=_Sneaky Lashers 1
+Group=-1
+House=YuriCountry House
+Script=0941E64C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C47E1EC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[099BDB7C]
+Max=1
+Full=no
+Name=_S06_5 Vicious Lashers
+Group=-1
+House=YuriCountry House
+Script=0983725C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=125
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=098374CC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A267DBC]
+0=3,35
+1=11,11
+Name=Move to P
+
+[0A2A809C]
+Max=1
+Full=no
+Name=_S06_Magnetron Start
+Group=-1
+House=YuriCountry House
+Script=0A267DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=100
+Waypoint=AB
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=069F413C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0B7DC3AC]
+0=1,LUNR
+Name=MoonTroops
+Group=-1
+
+[0B98C06C]
+0=5,LUNR
+Name=Tons O Mooners
+Group=-1
+
+[0B99116C]
+0=4,LUNR
+Name=Laser Jerks
+Group=-1
+
+[0BA6008C]
+0=3,LUNR
+Name=ScareTeam1
+Group=-1
+
+[0BB3703C]
+0=1,MIND
+Name=Demo Mastermind
+Group=-1
+
+[0BE0121C]
+0=2,LUNR
+Name=BaseDefR1
+Group=-1
+
+[0BE0132C]
+Max=1
+Full=no
+Name=_BaseDef-Right1
+Group=-1
+House=Alliance House
+Script=0BE0384C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BE0121C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0BE0319C]
+0=11,11
+Name=BaseDefR2
+
+[0BE0340C]
+0=2,LUNR
+Name=BaseDefR2
+Group=-1
+
+[0BE0351C]
+Max=1
+Full=no
+Name=_BaseDef-Right2
+Group=-1
+House=Alliance House
+Script=0BE0319C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BE0340C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0BE0384C]
+0=11,11
+Name=BaseDefR1
+
+[0BE04B7C]
+0=0,7
+1=0,4
+2=0,5
+Name=More Laser People
+
+[0BE04DEC]
+0=3,LUNR
+Name=More Laser People
+Group=-1
+
+[0BE04EFC]
+Max=1
+Full=no
+Name=Um More Laser People
+Group=-1
+House=Alliance House
+Script=0BE04B7C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BE04DEC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0BFC43DC]
+0=5,LUNR
+Name=5 Lunar Troops
+Group=-1
+
+[0C430DEC]
+0=1,LUNR
+Name=S6_Moontroops 2
+Group=-1
+
+[0C430EFC]
+Max=1
+Full=no
+Name=S6_Moontroops 2
+Group=-1
+House=Russians House
+Script=09337DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=R
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C430DEC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0C455F1C]
+0=5,LUNR
+Name=Sneaky Lasers
+Group=-1
+
+[0C4565CC]
+0=16,21
+1=16,0
+2=46,131085
+3=49,0
+4=0,4
+5=0,5
+6=0,1
+Name=Sneaky Lasers
+
+[0C47E1EC]
+0=3,LTNK
+Name=Sneaky Lashers 1
+Group=-1
+
+[0C65851C]
+0=3,0
+Name=MCV
+
+[0C65878C]
+0=1,SMCV
+Name=MCV
+Group=-1
+
+[0C65889C]
+Max=1
+Full=no
+Name=S6_start_MCV
+Group=-1
+House=Russians House
+Script=0C65851C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C65878C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0C717C3C]
+0=0,5
+1=0,4
+Name=Demo Mastermind
+
+[0C745DEC]
+0=1,MIND
+Name=Mastermind 1
+Group=-1
+
+[0C9AF27C]
+0=11,5
+Name=Guard
+
+[0C9AF4EC]
+Max=1
+Full=no
+Name=_S06_Gattling STAY!
+Group=-1
+House=YuriCountry House
+Script=0C9AF27C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=200
+Waypoint=AD
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=043E05DC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+MindControlDecision=0
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0C9EDD0C]
+0=1,MIND
+Name=1 Master Mind
+Group=-1
+
+[0C9EF14C]
+0=11,11
+Name=Area Guard
+
+[0D2A10DC]
+0=3,YTNK
+1=2,LUNR
+Name=3 Gattling Tank 2 Lunar Infantry
+Group=-1
+
+[0D2A20DC]
+0=2,LUNR
+1=2,YTNK
+Name=2 Gattling Tank 2 Lunar Infantry
+Group=-1
+
+[AITriggerTypes]
+0892C14C=_S06_1 Mastermind,0890A13C,YuriCountry House,2,0,HTNK,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,70.000000,0,0,0,0,<none>,1,1,1
+08F3346C=_S06_Magentron,08F33C5C,YuriCountry House,2,0,TESLA,0100000003000000000000000000000000000000000000000000000000000000,70.000000,30.000000,70.000000,0,0,0,0,<none>,1,1,1
+09089EDC=Saucer Fun!,08902EFC,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,70.000000,0,0,0,0,<none>,1,1,1
+093E923C=Lashers!,089020EC,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,10.000000,70.000000,0,0,0,0,<none>,1,1,1
+093F511C=Gattling Fun,0890259C,YuriCountry House,4,0,NATECH,0100000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,1,1,1
+0983770C=_S06_Attack Flak Cannons,0890834C,YuriCountry House,2,0,NAFLAK,0300000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,0,0,1
+09932EDC=_S06_5 Vicious Lashers,099BDB7C,YuriCountry House,2,0,TESLA,0200000003000000000000000000000000000000000000000000000000000000,70.000000,40.000000,70.000000,0,0,0,0,<none>,0,1,1
+099BF0EC=Sneaky Gattling,089030FC,YuriCountry House,4,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,60.000000,10.000000,70.000000,0,0,0,0,<none>,0,1,1
+099BF23C=Sneaky Lasers,099AC53C,YuriCountry House,1,0,NARADR,0100000003000000000000000000000000000000000000000000000000000000,60.000000,20.000000,70.000000,0,0,0,0,<none>,1,1,1
+099BF5AC=Endless Laser Bastards,092B9EFC,Americans House,1,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,70.000000,40.000000,70.000000,0,0,0,0,<none>,1,1,1
+099BF99C=Evil Moon Troopers,093DA04C,YuriCountry House,1,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,60.000000,30.000000,70.000000,0,0,0,0,<none>,1,1,1
+099C0D8C=Sneaky Lashers 2,099AAC8C,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,1,1,1
+099C0EDC=Sneaky Lashers 1,099ADB7C,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,70.000000,20.000000,70.000000,0,0,0,0,<none>,1,1,1
+0BE049EC=More Laser People,0BE04EFC,Alliance House,1,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,70.000000,30.000000,70.000000,0,0,0,0,<none>,1,1,1
+
+[AITriggerTypesEnable]
+0892C14C=yes
+08F3346C=yes
+09089EDC=yes
+093E923C=yes
+093F511C=yes
+0983770C=yes
+09932EDC=yes
+099BF0EC=yes
+099BF23C=yes
+099BF5AC=yes
+099BF99C=yes
+099C0D8C=yes
+099C0EDC=yes
+0BE049EC=yes
+043F40BC-G=yes
+043F521C-G=yes
+043F874C-G=yes
+044082BC-G=yes
+05CB5B6C-G=yes
+05CB830C-G=yes
+05CBAEDC-G=yes
+05CBC04C-G=yes
+05CBC19C-G=yes
+05CBC2EC-G=yes
+05FC088C-G=yes
+05FC0C9C-G=yes
+05FC13EC-G=yes
+05FC1A8C-G=yes
+05FC1C5C-G=yes
+05FC333C-G=yes
+05FC37CC-G=yes
+05FC3C9C-G=yes
+05FC50EC-G=yes
+05FC747C-G=yes
+05FC75CC-G=yes
+05FFA7DC-G=yes
+05FFB18C-G=yes
+06002BFC-G=yes
+0611A1EC-G=yes
+0611A33C-G=yes
+0612B11C-G=yes
+0612CD8C-G=yes
+0612EAEC-G=yes
+0612F46C-G=yes
+0612F9AC-G=yes
+0616004C-G=yes
+06C551AC-G=yes
+078F4B2C-G=yes
+07C04C7C-G=yes
+07C04EDC-G=yes
+07C0B14C-G=yes
+07C30A5C-G=yes
+07C310BC-G=yes
+07C3266C-G=yes
+07C329FC-G=yes
+07C330CC-G=yes
+07C33DDC-G=yes
+07C4853C-G=yes
+08A3EEDC-G=yes
+08B902EC-G=yes
+08B90B1C-G=yes
+08B911BC-G=yes
+08B9154C-G=yes
+08B9213C-G=yes
+08B9305C-G=yes
+08B9356C-G=yes
+08B940EC-G=yes
+08B9423C-G=yes
+08B9483C-G=yes
+08B9586C-G=yes
+08B9641C-G=yes
+08B9708C-G=yes
+08B9767C-G=yes
+08B97C6C-G=yes
+0A31295C-G=yes
+0A44F17C-G=yes
+0A44F2CC-G=yes
+0A452C6C-G=yes
+0A452E5C-G=yes
+0AA845AC-G=yes
+0AA846FC-G=yes
+0ABC484C-G=yes
+0AD2BAEC-G=yes
+0C0C7AEC-G=yes
+0C0D184C-G=yes
+0C0D251C-G=yes
+0C1245AC-G=yes
+0C1246FC-G=yes
+0C32599C-G=yes
+0C32D84C-G=yes
+0C87B45C-G=yes
+0C87B99C-G=yes
+0C87E5AC-G=yes
+0C8B81BC-G=yes
+0C8BC5AC-G=yes
+0C8C2AEC-G=yes
+0C8C2C3C-G=yes
+0C8C430C-G=yes
+0C8C4C3C-G=yes
+0C8C51BC-G=yes
+0C8C56FC-G=yes
+0C8C645C-G=yes
+0C8C6EDC-G=yes
+0C8C71BC-G=yes
+0C8E2C3C-G=yes
+0C8EE1BC-G=yes
+0C8EEAEC-G=yes
+0C8EEEDC-G=yes
+0C91D45C-G=yes
+0C92C1BC-G=yes
+0C92C45C-G=yes
+0C955AEC-G=yes
+0C955C3C-G=yes
+0C9561BC-G=yes
+0C9565AC-G=yes
+0C96F45C-G=yes
+0C96F5AC-G=yes
+0CA1F84C-G=yes
+0CA24D8C-G=yes
+0CA2A04C-G=yes
+0CA2B06C-G=yes
+0CA2FEDC-G=yes
+0CA5945C-G=yes
+0CA6621C-G=yes
+0CA6AEDC-G=yes
+0CAD0B2C-G=yes
+0CAD0C7C-G=yes
+0CAD0DCC-G=yes
+0CAD130C-G=yes
+0CAD145C-G=yes
+0CAD25AC-G=yes
+0CAD2AEC-G=yes
+0CAD2C3C-G=yes
+0CAD5AEC-G=yes
+0CADD99C-G=yes
+0CADDEDC-G=yes
+0CB29EDC-G=yes
+0CB2CEDC-G=yes
+0CDF899C-G=yes
+0CDF8D8C-G=yes
+0CDF8EDC-G=yes
+0CE2395C-G=yes
+0CE23AAC-G=yes
+0CE26B5C-G=yes
+0CE26CAC-G=yes
+0CE2E8DC-G=yes
+0CE2EA2C-G=yes
+0CE44D0C-G=yes
+0D022B1C-G=yes
+0D052AEC-G=yes
+0D0803CC-G=yes
+0D08461C-G=yes
+0D0848BC-G=yes
+0D084A0C-G=yes
+0D084B5C-G=yes
+0D0873DC-G=yes
+0D087D8C-G=yes
+0D0B3B9C-G=yes
+0D2769BC-G=yes
+0D2C41EC-G=yes
+0D2C448C-G=yes
+0D2C45DC-G=yes
+0D53099C-G=yes
+0D53430C-G=yes
+0D535EDC-G=yes
+0D62145C-G=yes
+0D6215AC-G=yes
+0D6216FC-G=yes
+0D62199C-G=yes
+0ECCB2BC-G=yes
+0ECCB40C-G=yes
+0ECCB55C-G=yes
+0ECCB7FC-G=yes
+0ECCBC3C-G=yes
+0ECCF14C-G=yes
+0ECCF29C-G=yes
+0ECCF68C-G=yes
+0ECCFA7C-G=yes
+0ECCFCAC-G=yes
+
+[Actions]
+043FDD9C=3,17,0,36,0,0,0,0,AK,4,1,0A2A809C,0,0,0,0,A,53,2,08DAB8CC,0,0,0,0,A
+043FEB4C=1,7,1,08B506CC,0,0,0,0,A
+05A800AC=1,53,2,079E21FC,0,0,0,0,A
+05E4BF3C=2,3,0,0,0,0,0,0,A,3,0,1,0,0,0,0,A
+05E805AC=5,7,1,0932B32C,0,0,0,0,A,7,1,0C430EFC,0,0,0,0,A,7,1,043A463C,0,0,0,0,A,7,1,043AF7DC,0,0,0,0,A,7,1,0932712C,0,0,0,0,A
+05E81BEC=1,7,1,0C65889C,0,0,0,0,A
+05E9BCAC=1,4,1,08EC7C8C,0,0,0,0,A
+068847BC=1,1,0,8,0,0,0,0,A
+069BBD3C=8,53,2,09847DFC,0,0,0,0,A,53,2,0984778C,0,0,0,0,A,53,2,0B99436C,0,0,0,0,A,53,2,0B9B744C,0,0,0,0,A,53,2,09847C7C,0,0,0,0,A,53,2,0984721C,0,0,0,0,A,53,2,0B9A36DC,0,0,0,0,A,53,2,0C746A2C,0,0,0,0,A
+07706ADC=1,38,0,8,0,0,0,0,A
+077B937C=1,21,6,Mis_xS6_ZofiaNoResources,0,0,0,0,A
+077B9E1C=1,21,6,Mis_xS6_ZofiaGoToTheEast,0,0,0,0,A
+0782720C=3,119,0,9,0,0,0,0,A,53,2,09A0EC1C,0,0,0,0,A,53,2,09A0C36C,0,0,0,0,A
+079E07EC=2,7,1,08F7BDEC,0,0,0,0,A,53,2,0915944C,0,0,0,0,A
+079E21FC=2,104,5,08F7BDEC,0,0,0,0,90,21,6,Unit_Sofia_FloatDisc,0,0,0,0,A
+07B9BA5C=1,9,0,0,0,0,0,0,A
+07B9CE5C=1,9,0,1,0,0,0,0,A
+084F7E0C=1,53,2,077B937C,0,0,0,0,A
+0891670C=1,108,0,0,0,0,0,0,N
+08916D7C=1,108,0,0,0,0,0,0,Q
+08AAD06C=1,32,0,0,0,0,0,0,A
+08B7F03C=1,53,2,092630BC,0,0,0,0,A
+08B8E03C=1,56,0,1,0,0,0,0,A
+08BE205C=1,56,0,2,0,0,0,0,A
+08BEB06C=1,56,0,3,0,0,0,0,A
+08DAAADC=2,4,1,0853DB7C,0,0,0,0,A,53,2,08EFDB7C,0,0,0,0,A
+08DAB62C=0
+08DAB8CC=2,21,6,Mis_xS6_ZofiaMagnetronIntro,0,0,0,0,A,104,5,0A2A809C,0,0,0,0,90
+08DBCDCC=3,21,6,S06_p02,0,0,0,0,A,114,0,2,0,0,0,0,A,115,9,LUNR,0,0,0,0,90
+08EFDB7C=2,104,5,0853DB7C,0,0,0,0,90,21,6,Unit_Sofia_MasterMind,0,0,0,0,A
+09078A2C=5,9,0,9,0,0,0,0,A,53,2,07B9CE5C,0,0,0,0,A,53,2,07B9BA5C,0,0,0,0,A,53,2,0782720C,0,0,0,0,A,53,2,0B1EE03C,0,0,0,0,A
+0907E1DC=3,53,2,09078A2C,0,0,0,0,A,54,2,0C04613C,0,0,0,0,A,54,2,0C04667C,0,0,0,0,A
+090EB69C=1,32,0,0,0,0,0,0,A
+090EBABC=1,53,2,090EBE6C,0,0,0,0,A
+090EBE6C=1,32,0,0,0,0,0,0,A
+090EC3FC=1,32,0,0,0,0,0,0,A
+090ECF3C=1,32,0,0,0,0,0,0,A
+0915944C=1,53,2,079E21FC,0,0,0,0,A
+091BCB2C=2,7,1,091BD49C,0,0,0,0,A,7,1,091BAD9C,0,0,0,0,A
+0923103C=3,46,0,0,0,0,0,0,A,100,0,52,0,0,0,0,A,53,2,09231BFC,0,0,0,0,A
+09231BFC=13,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,4,1,0890193C,0,0,0,0,A,4,1,0890148C,0,0,0,0,A,74,0,9,0,0,0,0,A,4,1,092BA62C,0,0,0,0,A,4,1,092BB81C,0,0,0,0,A,4,1,0BE0132C,0,0,0,0,A,4,1,0BE0351C,0,0,0,0,A,3,0,9,0,0,0,0,A,53,2,0B1E809C,0,0,0,0,A,53,2,069BBD3C,0,0,0,0,A,53,2,077B9E1C,0,0,0,0,A
+092630BC=2,100,0,53,0,0,0,0,A,53,2,0B0BDBBC,0,0,0,0,A
+093BDCBC=2,7,1,08B506CC,0,0,0,0,A,7,1,08B506CC,0,0,0,0,A
+0951F89C=6,54,2,0994531C,0,0,0,0,A,54,2,09944C8C,0,0,0,0,A,53,2,0994495C,0,0,0,0,A,21,6,Mis_xS6_ZofiaWellDone,0,0,0,0,A,11,4,MISSION:DestroyYuri06S,0,0,0,0,A,53,2,090EC3FC,0,0,0,0,A
+095408BC=1,53,2,079E07EC,0,0,0,0,A
+096C769C=5,17,0,78,0,0,0,0,CA,17,0,80,0,0,0,0,CC,17,0,81,0,0,0,0,CD,48,0,3,0,0,0,0,CA,53,2,096E96AC,0,0,0,0,A
+096E96AC=1,48,0,3,0,0,0,0,AH
+0984721C=1,4,1,089037DC,0,0,0,0,A
+0984778C=1,4,1,099A9B7C,0,0,0,0,A
+09847C7C=1,4,1,089037DC,0,0,0,0,A
+09847DFC=1,4,1,099A9B7C,0,0,0,0,A
+0994422C=2,54,2,0994531C,0,0,0,0,A,53,2,09944C8C,0,0,0,0,A
+0994462C=2,54,2,09944C8C,0,0,0,0,A,53,2,0994495C,0,0,0,0,A
+0994495C=1,11,4,MISSION:DestroyYuri06S,0,0,0,0,A
+09944C8C=1,11,4,MISSION:DestroyLunarCommand,0,0,0,0,A
+0994531C=1,11,4,MISSION:BuildBase,0,0,0,0,A
+09A0C36C=1,119,0,1,0,0,0,0,A
+09A0EC1C=1,119,0,0,0,0,0,0,A
+0B0BDBBC=1,53,2,08DBCDCC,0,0,0,0,A
+0B1E809C=1,2,0,8,0,0,0,0,A
+0B1EE03C=2,21,6,Mis_xS4_YuriInevitable,0,0,0,0,A,53,2,068847BC,0,0,0,0,A
+0B99436C=1,4,1,099A9B7C,0,0,0,0,A
+0B99BBFC=1,4,1,089046CC,0,0,0,0,A
+0B9A36DC=1,4,1,089037DC,0,0,0,0,A
+0B9B744C=1,4,1,08900EFC,0,0,0,0,A
+0BA3216C=1,21,6,Mis_xs6_YuriScreamTaunt,0,0,0,0,A
+0BA3903C=1,7,1,08900CBC,0,0,0,0,A
+0BBDE11C=1,38,0,8,0,0,0,0,A
+0BBDE20C=1,38,0,8,0,0,0,0,A
+0BBF018C=1,38,0,8,0,0,0,0,A
+0BCEF55C=1,54,2,091BCB2C,0,0,0,0,A
+0BF1BB4C=1,54,2,0BA3903C,0,0,0,0,A
+0BFC984C=1,53,2,0BFCCF3C,0,0,0,0,A
+0BFCAF3C=1,53,2,090EB69C,0,0,0,0,A
+0BFCCF3C=1,4,1,08908B5C,0,0,0,0,A
+0C04613C=1,21,6,Mis_xA3_YuriTaunt,0,0,0,0,A
+0C04667C=1,21,6,Mis_xS3_YuriLeave,0,0,0,0,A
+0C746A2C=1,4,1,0890063C,0,0,0,0,M
+0C994D4C=2,17,0,0,0,0,0,0,A,17,0,5,0,0,0,0,F
+0C9D724C=2,4,1,069E632C,0,0,0,0,A,4,1,069E67DC,0,0,0,0,A
+0D6BF95C=1,21,6,Mis_xs6_YuriCashTaunt,0,0,0,0,A
 
 [Africans House]
-Country=Africans House
-TechLevel=1
-Credits=0
 IQ=0
 Edge=North
-PlayerControl=no
 Color=Soviet
 Allies=Africans House
-PercentBuilt=0
+Country=Africans House
+Credits=0
 NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[Alliance House]
+IQ=5
+Edge=East
+Color=YuriSov
+Allies=Americans House,Alliance House,British House,YuriCountry House
+Country=Alliance House
+Credits=500
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[Americans House]
+IQ=5
+Edge=West
+Color=YuriAl
+Allies=Americans House,Alliance House,British House,YuriCountry House
+Country=Americans House
+Credits=500
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
 
 [Arabs House]
-Country=Arabs House
-TechLevel=1
-Credits=0
 IQ=0
 Edge=North
-PlayerControl=no
 Color=Soviet
 Allies=Arabs House
-PercentBuilt=0
-NodeCount=0
-
-[Confederation House]
-Country=Confederation House
-TechLevel=1
+Country=Arabs House
 Credits=0
-IQ=0
-Edge=North
-PlayerControl=no
-Color=Soviet
-Allies=Confederation House
-PercentBuilt=0
 NodeCount=0
-
-[Russians House]
-Country=Russians House
-TechLevel=10
-Credits=700
-IQ=0
-Edge=South
-PlayerControl=yes
-Color=Soviet
-Allies=Russians House
-PercentBuilt=0
-NodeCount=0
-
-[YuriCountry House]
-Country=YuriCountry House
-TechLevel=10
-Credits=2000
-IQ=5
-Edge=North
-PlayerControl=no
-Color=Yuri
-Allies=Americans House,Alliance House,YuriCountry House
-PercentBuilt=100
-NodeCount=7
-000=YAPOWR,12,44
-001=YAPOWR,18,34
-002=YAPOWR,26,39
-003=YAPOWR,30,35
-004=YAPOWR,34,28
-005=YAPOWR,40,16
-006=YAPOWR,48,21
-
-[GDI]
-Country=GDI
 TechLevel=1
-Credits=0
+PercentBuilt=0
+PlayerControl=no
+
+[British House]
 IQ=0
 Edge=North
-PlayerControl=no
-Color=Gold
-Allies=GDI
-PercentBuilt=0
+Color=Allieds
+Allies=British House
+Country=British House
+Credits=0
 NodeCount=0
-
-[Nod]
-Country=Nod
 TechLevel=1
-Credits=0
-IQ=0
-Edge=North
-PlayerControl=no
-Color=Gold
-Allies=Nod
 PercentBuilt=0
-NodeCount=0
-
-[Neutral]
-Country=Neutral
-TechLevel=1
-Credits=0
-IQ=0
-Edge=North
 PlayerControl=no
-Color=Grey
-Allies=Neutral
-PercentBuilt=0
-NodeCount=0
-
-[Special]
-Country=Special
-TechLevel=1
-Credits=0
-IQ=0
-Edge=North
-PlayerControl=no
-Color=Grey
-Allies=Special
-PercentBuilt=0
-NodeCount=0
-
-[Map]
-Theater=LUNAR
-Size=0,0,40,120
-LocalSize=2,4,36,110
-
-[Waypoints]
-0=145118
-1=157120
-2=152128
-3=153114
-4=140112
-5=143124
-6=116093
-7=111110
-8=67064
-9=65042
-10=49061
-11=106070
-12=103064
-13=54086
-15=136123
-16=101075
-17=153127
-18=154126
-19=155125
-20=156124
-21=70036
-22=68101
-23=116147
-25=20044
-26=20051
-27=120107
-28=127132
-29=127115
-30=36041
-31=51025
-32=119115
-33=136116
-34=133117
-35=132113
-36=129114
-78=12045
-80=18043
-81=18051
-699=80081
-700=80081
 
 [CellTags]
 63040=0BCF4DCC
@@ -628,6 +2637,202 @@ LocalSize=2,4,36,110
 121096=0BF1B55C
 121097=0BF1B55C
 121098=0BF1B55C
+
+[Confederation House]
+IQ=0
+Edge=North
+Color=Soviet
+Allies=Confederation House
+Country=Confederation House
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[Events]
+043FDD9C=1,13,0,44
+043FEB4C=1,13,0,5
+05A800AC=1,6,0,0
+05E4BF3C=1,13,0,100
+05E805AC=1,13,0,20
+05E81BEC=1,13,0,30
+05E9BCAC=1,13,0,90
+068847BC=1,13,0,8
+069BBD3C=1,13,0,0
+07706ADC=1,13,0,0
+077B937C=1,13,0,5
+077B9E1C=1,13,0,8
+0782720C=1,13,0,6
+079E07EC=1,13,0,0
+079E21FC=1,13,0,1
+07B9BA5C=1,13,0,0
+07B9CE5C=1,13,0,0
+084F7E0C=1,32,0,14
+0891670C=1,11,0,1
+08916D7C=1,11,0,0
+08AAD06C=1,10,0,0
+08B7F03C=1,32,0,11
+08B8E03C=4,57,0,302,57,0,300,57,0,303,57,0,301
+08BE205C=3,57,0,302,57,0,303,57,0,301
+08BEB06C=5,57,0,302,57,0,354,57,0,300,57,0,303,57,0,301
+08DAAADC=1,13,0,58
+08DAB62C=1,13,0,60
+08DAB8CC=1,13,0,2
+08DBCDCC=1,13,0,0
+08EFDB7C=1,13,0,8
+09078A2C=1,13,0,60
+0907E1DC=3,36,0,1,36,0,2,36,0,3
+090EB69C=1,13,0,0
+090EBABC=1,48,0,0
+090EBE6C=1,13,0,0
+090EC3FC=1,13,0,0
+090ECF3C=1,10,0,1
+0915944C=1,13,0,70
+091BCB2C=1,59,0,8
+0923103C=1,13,0,0
+09231BFC=1,13,0,119
+092630BC=1,13,0,2
+093BDCBC=1,13,0,100
+0951F89C=1,48,0,0
+095408BC=1,32,0,14
+096C769C=1,13,0,20
+096E96AC=1,13,0,22
+0984721C=1,51,0,300
+0984778C=1,51,0,300
+09847C7C=1,51,0,350
+09847DFC=1,51,0,500
+0994422C=1,60,2,1,NACNST
+0994462C=1,48,0,0
+0994495C=1,13,0,200
+09944C8C=1,13,0,200
+0994531C=1,13,0,200
+09A0C36C=1,13,0,0
+09A0EC1C=1,13,0,0
+0B0BDBBC=1,13,0,32
+0B1E809C=1,11,0,8
+0B1EE03C=1,13,0,0
+0B99436C=1,51,0,200
+0B99BBFC=1,51,0,500
+0B9A36DC=1,51,0,175
+0B9B744C=1,51,0,325
+0BA3216C=1,4,0,8
+0BA3903C=1,59,0,8
+0BBDE11C=1,13,0,0
+0BBDE20C=1,13,0,0
+0BBF018C=1,13,0,0
+0BCEF55C=1,59,0,8
+0BF1BB4C=1,59,0,8
+0BFC984C=1,10,0,0
+0BFCAF3C=1,48,0,0
+0BFCCF3C=1,51,0,500
+0C04613C=1,10,0,0
+0C04667C=1,10,0,1
+0C746A2C=1,51,0,400
+0C994D4C=1,13,0,0
+0C9D724C=1,13,0,45
+0D6BF95C=1,52,0,10000
+
+[French House]
+IQ=0
+Edge=North
+Color=Gold
+Allies=French House
+Country=French House
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[GDI]
+IQ=0
+Edge=North
+Color=Gold
+Allies=GDI
+Country=GDI
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[Germans House]
+IQ=0
+Edge=North
+Color=Gold
+Allies=Germans House
+Country=Germans House
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[Germansns House]
+IQ=
+Edge=
+Color=
+Allies=
+Country=
+Credits=
+NodeCount=
+TechLevel=
+PercentBuilt=
+PlayerControl=
+
+[Houses]
+0=Americans House
+1=Alliance House
+2=French House
+3=Germans House
+4=British House
+5=Africans House
+6=Arabs House
+7=Confederation House
+8=Russians House
+9=YuriCountry House
+10=GDI
+11=Nod
+12=Neutral
+13=Special
+
+[Infantry]
+0=YuriCountry House,LUNR,256,74,103,4,Area Guard,0,None,0,-1,0,1,1
+1=Americans House,LUNR,256,70,97,4,Area Guard,0,None,0,-1,0,1,1
+2=YuriCountry House,LUNR,256,79,97,3,Area Guard,0,None,0,-1,0,1,1
+3=YuriCountry House,LUNR,256,82,106,4,Area Guard,0,None,0,-1,0,1,1
+4=YuriCountry House,LUNR,256,79,94,4,Area Guard,0,None,0,-1,0,1,1
+5=YuriCountry House,LUNR,256,81,98,4,Area Guard,0,None,0,-1,0,1,1
+6=YuriCountry House,LUNR,256,81,58,3,Area Guard,0,None,0,-1,0,1,1
+7=YuriCountry House,LUNR,256,77,48,2,Area Guard,0,None,0,-1,0,1,1
+8=YuriCountry House,LUNR,256,79,53,3,Area Guard,0,None,0,-1,0,1,1
+9=YuriCountry House,LUNR,256,79,48,4,Area Guard,0,None,0,-1,0,1,1
+10=YuriCountry House,LUNR,256,86,63,4,Area Guard,0,None,0,-1,0,1,1
+11=YuriCountry House,LUNR,256,91,60,4,Area Guard,0,None,0,-1,0,1,1
+12=YuriCountry House,LUNR,256,92,56,3,Area Guard,0,None,0,-1,0,1,1
+13=YuriCountry House,LUNR,256,56,24,2,Area Guard,0,None,0,-1,0,1,1
+14=YuriCountry House,LUNR,256,53,25,3,Area Guard,0,None,0,-1,0,1,1
+15=YuriCountry House,LUNR,256,48,36,2,Area Guard,0,None,0,-1,0,1,1
+16=YuriCountry House,LUNR,256,51,33,2,Area Guard,0,None,0,-1,0,1,1
+17=YuriCountry House,LUNR,256,44,39,2,Area Guard,0,None,0,-1,0,1,1
+18=YuriCountry House,LUNR,256,38,43,4,Area Guard,0,None,0,-1,0,1,1
+19=YuriCountry House,LUNR,256,33,48,2,Area Guard,0,None,0,-1,0,1,1
+20=YuriCountry House,LUNR,256,21,39,4,Area Guard,0,None,0,-1,0,1,1
+21=YuriCountry House,LUNR,256,26,37,4,Area Guard,0,None,0,-1,0,1,1
+22=YuriCountry House,LUNR,256,26,33,4,Area Guard,0,None,0,-1,0,1,1
+23=YuriCountry House,LUNR,256,17,45,4,Area Guard,0,None,0,-1,0,1,1
+24=YuriCountry House,LUNR,256,28,58,3,Area Guard,0,None,0,-1,0,1,1
+25=YuriCountry House,LUNR,256,31,32,4,Area Guard,0,None,0,-1,0,1,1
+26=YuriCountry House,LUNR,256,37,29,2,Area Guard,0,None,0,-1,0,1,1
+27=YuriCountry House,LUNR,256,39,35,2,Area Guard,0,None,0,-1,0,1,1
+28=YuriCountry House,LUNR,256,36,22,2,Area Guard,0,None,0,-1,0,1,1
+29=YuriCountry House,LUNR,256,39,20,2,Area Guard,0,None,0,-1,0,1,1
+30=YuriCountry House,LUNR,256,41,23,3,Area Guard,0,None,0,-1,0,1,1
+31=YuriCountry House,LUNR,256,52,24,4,Area Guard,0,None,0,-1,0,1,1
+32=YuriCountry House,LUNR,256,46,29,3,Area Guard,0,None,0,-1,0,1,1
+33=YuriCountry House,LUNR,256,45,26,4,Area Guard,0,None,0,-1,0,1,1
+34=YuriCountry House,LUNR,256,42,30,2,Area Guard,0,None,0,-1,0,1,1
 
 [IsoMapPack5]
 1=zw0AIAEoAAEAgAACAgAnAAKEAVkAKEwAjwECACkoKwAmAAOQAkUCJygpACgoKQApKCkAKi
@@ -1519,7 +3724,7 @@ LocalSize=2,4,36,110
 887=WWyJ0xQCAHpUAnxBSd17yAFJ3XxIAXQRWRF9KCkAfigpAH8oKQCAKCkAgUgBJWlVgkgBJZ
 888=U/g0gBJbVvhEgBJU1XhUgByQyGKCkAhygpAIhIASK4M00QicgBUVaKSAHZBosoKQCMKCkA
 889=jSgpAI4oKQCPKCkAkCgpAGIkrSIASQxjKCkAZCgpAGVIAdXIZkgBmCd8gyJsWlQQcUCJTP
-890=1IAXFAieQ/BWoAiQB5AAAAEQAAGQtcFwYABABrAIkAhQBAAAQDAGwAiQAnRAEBAAIAbUkB
+890=1IAXFAieQ/BWoAiQB5AAAAEQAAHAtYFwYABABrAIkAhQBAAAQDAGwAiQAnRAEBAAIAbUkB
 891=iKkBbkkBI6kBb0gBZAFBBHBJAb1MAQEUAgBxyAEBFQIAcsgBARYCAHPIAQEXAgB0yAEBGA
 892=IAdUoB//9fBgIAdigpAHcoKQB4SAFZAwBJDHkoKQB6KCkAeygpAHwoKQB9KCkAfigpAH8o
 893=KQCAKCkAgUkBem8MAgCCSQF0qQGDSAFkAUEPhCgpAIUoKQCGKCkAhygpAIhJAbdeBgICQg
@@ -1573,69 +3778,186 @@ LocalSize=2,4,36,110
 941=KCsAcwCajAlFE3QoKQB1KCkAdigpAHcoKQB4KCkAeSgpAHooKQB7KCkAfCgpAH0oKQB+KC
 942=sAdACb7RB1KCkAdigpAHcoKQB4KCkAeSgpAHooKQB7KCkAfCgpAH0oKwB1AJz1DXYoKQB3
 943=KCkAeCgpAHkoKQB6KCkAeygpAHwoKwB2AJ39CncoKQB4KCkAeSgpAHooKQB7KCsAdwCe5Q
-944=h4KCkAeSgpAHooKwB4AJ/tBXkoKAABAAAAABEAAA==
+944=h4KCkAeSgpAHooKwB4AJ/sBQh5AJ8AAAAAAAACABEAAA==
 
-[Units]
-0=YuriCountry House,MIND,256,44,20,128,Area Guard,None,0,-1,0,-1,1,1
-1=YuriCountry House,MIND,256,27,50,0,Area Guard,None,0,-1,0,-1,1,1
-2=YuriCountry House,MIND,256,51,20,128,Area Guard,None,0,-1,0,-1,1,1
-3=YuriCountry House,DISK,256,23,39,0,Area Guard,None,0,-1,0,-1,1,1
-4=YuriCountry House,DISK,256,29,43,0,Area Guard,None,0,-1,0,-1,1,1
-5=YuriCountry House,DISK,256,48,29,0,Area Guard,None,0,-1,0,-1,1,1
-6=YuriCountry House,DISK,256,17,51,0,Area Guard,None,0,-1,0,-1,1,1
-7=YuriCountry House,DISK,256,39,30,0,Area Guard,None,0,-1,0,-1,1,1
-8=YuriCountry House,YTNK,256,44,25,0,Area Guard,None,0,-1,0,-1,1,1
-9=YuriCountry House,YTNK,256,34,31,0,Area Guard,None,0,-1,0,-1,1,1
-10=YuriCountry House,YTNK,256,26,35,0,Area Guard,None,0,-1,0,-1,1,1
-11=YuriCountry House,LTNK,256,41,41,0,Area Guard,None,0,-1,0,-1,1,1
-12=YuriCountry House,LTNK,256,35,45,0,Area Guard,None,0,-1,0,-1,1,1
-13=YuriCountry House,LTNK,256,27,57,0,Area Guard,None,0,-1,0,-1,1,1
-14=YuriCountry House,LTNK,256,18,44,0,Area Guard,None,0,-1,0,-1,1,1
-15=YuriCountry House,LTNK,256,22,32,0,Area Guard,None,0,-1,0,-1,1,1
-16=YuriCountry House,LTNK,256,35,23,0,Area Guard,None,0,-1,0,-1,1,1
-17=YuriCountry House,LTNK,256,42,19,0,Area Guard,None,0,-1,0,-1,1,1
-18=YuriCountry House,TELE,256,107,120,128,Guard,None,0,-1,0,-1,1,1
-19=YuriCountry House,YTNK,256,16,48,0,Area Guard,None,0,-1,0,-1,1,1
-20=YuriCountry House,YTNK,256,34,39,0,Area Guard,None,0,-1,0,-1,1,1
-21=YuriCountry House,YTNK,256,55,22,0,Area Guard,None,0,-1,0,-1,1,1
-22=YuriCountry House,MIND,192,115,119,128,Area Guard,None,0,-1,0,-1,1,1
+[Lighting]
+Red=1.000000
+Blue=1.000000
+Green=1.000000
+Level=0.008000
+Ground=0.050000
+IonRed=0.300000
+Ambient=0.700000
+IonBlue=0.750000
+IonGreen=0.400000
+IonLevel=0.000000
+IonGround=0.000000
+IonAmbient=0.870000
+DominatorRed=0.850000
+DominatorBlue=0.300000
+DominatorGreen=0.200000
+DominatorLevel=0.000000
+DominatorGround=0.000000
+DominatorAmbient=1.500000
+DominatorAmbientChangeRate=0.001000
 
-[Infantry]
-0=YuriCountry House,LUNR,256,74,103,4,Area Guard,0,None,0,-1,0,1,1
-1=Americans House,LUNR,256,70,97,4,Area Guard,0,None,0,-1,0,1,1
-2=YuriCountry House,LUNR,256,79,97,3,Area Guard,0,None,0,-1,0,1,1
-3=YuriCountry House,LUNR,256,82,106,4,Area Guard,0,None,0,-1,0,1,1
-4=YuriCountry House,LUNR,256,79,94,4,Area Guard,0,None,0,-1,0,1,1
-5=YuriCountry House,LUNR,256,81,98,4,Area Guard,0,None,0,-1,0,1,1
-6=YuriCountry House,LUNR,256,81,58,3,Area Guard,0,None,0,-1,0,1,1
-7=YuriCountry House,LUNR,256,77,48,2,Area Guard,0,None,0,-1,0,1,1
-8=YuriCountry House,LUNR,256,79,53,3,Area Guard,0,None,0,-1,0,1,1
-9=YuriCountry House,LUNR,256,79,48,4,Area Guard,0,None,0,-1,0,1,1
-10=YuriCountry House,LUNR,256,86,63,4,Area Guard,0,None,0,-1,0,1,1
-11=YuriCountry House,LUNR,256,91,60,4,Area Guard,0,None,0,-1,0,1,1
-12=YuriCountry House,LUNR,256,92,56,3,Area Guard,0,None,0,-1,0,1,1
-13=YuriCountry House,LUNR,256,56,24,2,Area Guard,0,None,0,-1,0,1,1
-14=YuriCountry House,LUNR,256,53,25,3,Area Guard,0,None,0,-1,0,1,1
-15=YuriCountry House,LUNR,256,48,36,2,Area Guard,0,None,0,-1,0,1,1
-16=YuriCountry House,LUNR,256,51,33,2,Area Guard,0,None,0,-1,0,1,1
-17=YuriCountry House,LUNR,256,44,39,2,Area Guard,0,None,0,-1,0,1,1
-18=YuriCountry House,LUNR,256,38,43,4,Area Guard,0,None,0,-1,0,1,1
-19=YuriCountry House,LUNR,256,33,48,2,Area Guard,0,None,0,-1,0,1,1
-20=YuriCountry House,LUNR,256,21,39,4,Area Guard,0,None,0,-1,0,1,1
-21=YuriCountry House,LUNR,256,26,37,4,Area Guard,0,None,0,-1,0,1,1
-22=YuriCountry House,LUNR,256,26,33,4,Area Guard,0,None,0,-1,0,1,1
-23=YuriCountry House,LUNR,256,17,45,4,Area Guard,0,None,0,-1,0,1,1
-24=YuriCountry House,LUNR,256,28,58,3,Area Guard,0,None,0,-1,0,1,1
-25=YuriCountry House,LUNR,256,31,32,4,Area Guard,0,None,0,-1,0,1,1
-26=YuriCountry House,LUNR,256,37,29,2,Area Guard,0,None,0,-1,0,1,1
-27=YuriCountry House,LUNR,256,39,35,2,Area Guard,0,None,0,-1,0,1,1
-28=YuriCountry House,LUNR,256,36,22,2,Area Guard,0,None,0,-1,0,1,1
-29=YuriCountry House,LUNR,256,39,20,2,Area Guard,0,None,0,-1,0,1,1
-30=YuriCountry House,LUNR,256,41,23,3,Area Guard,0,None,0,-1,0,1,1
-31=YuriCountry House,LUNR,256,52,24,4,Area Guard,0,None,0,-1,0,1,1
-32=YuriCountry House,LUNR,256,46,29,3,Area Guard,0,None,0,-1,0,1,1
-33=YuriCountry House,LUNR,256,45,26,4,Area Guard,0,None,0,-1,0,1,1
-34=YuriCountry House,LUNR,256,42,30,2,Area Guard,0,None,0,-1,0,1,1
+[Map]
+Size=0,0,40,120
+Theater=LUNAR
+LocalSize=2,4,36,110
+
+[Neutral]
+IQ=0
+Edge=North
+Color=Grey
+Allies=Neutral
+Country=Neutral
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[Nod]
+IQ=0
+Edge=North
+Color=Gold
+Allies=Nod
+Country=Nod
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[OverlayDataPack]
+1=GgAAIP4sGgCBBv4EAAqBDP76AQCBBWAF/8oDNhqAXwAAIP4sAACBBWAF/vUBAIICCf4EAA
+2=CCAwj+CwwAgQT+/wEA/90BMQCBBv4DAArcMgL/3QE+EOA+Ev/6AT4SFB2CCgrCLAL/9QFD
+3=FP/jATEAgQH//wEcGP/6ASEU/+sBFRyAXgAAIP42AACDBgoJ/v0BAIEB/v8HAIEE/v8BAI
+4=EF//oHNwqBBv4EAAr/9QE4AIIGCP4DAACBAt02FCAm//kBYRD/3AE2AOArGN4wFv/cAW8Y
+5=ggYK/9kBUhbiJhz/tQE2EoCtAAAg/ioAAIIGCf4fAACBBf7aAQCBBv4DAArdKwD/3AFKAO
+6=BLAoEG3ykC/90BbAL/2wFLAt8pAP/fAUYG4UkI/9gBSQjiJgL+AwAAgwMKCP7VAQCBAf4q
+7=AACBBP7/AQDQSQr/7QFMDtBMEP/cAUkI/+YBOxLoXxDPXxThJQj/nwGFCuhfFoQDCgoM9h
+8=MO/7kBkAjYERr/wQFfEPseGv/AAV4W8FscgQPJTxj/pAFfFIAuAAAg/hkAAIEC/gMACoEJ
+9=/jIAAIEB/gkAAIEG8RwA/ssBAHIK/vEBABQ8gQj+phsAgDUAACD+RRYAgQb+CgAKgQz/9A
+10=FSFIEJ/goAAIEF//4BUhaEAAMKCP/wAVcUyUQa/vIBAP+/AVAYgEQAACD+PAAAgQL+BAAK
+11=gQn+EAIAgQT+/wEAhAMKCgz+/wEAgQX//gdWBIEG//8BQQD//gdVBoEG//4BQAD//wFUDv
+12=+wA1QOgBEAACD+TAAAgQL+AwAKgQn+rx8AgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAA
+13=gAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+AC
+14=AAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+
+15=ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAAC
+16=D+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgA==
+
+[OverlayPack]
+1=FQAAIP4sGv/+BgDz//sBMhhgBf/KAzYagFkAACD+KwD/gq7z/gQA/yAF/vUB/4Lz83AG/u
+2=oJ/4Gx/hwC//8AAjIC/90BPg7+BQDz/hYA/4H3/+UBNxD/AAIcEN7/Ef/eATEC2xsW//8B
+3=XA7/3QM+Dv/rARUcgHEAACD+NgD//gMA8/79Af9x/oH4/vUH///XATgAga3xDgqBrv/9AU
+4=MIgfT/zANBCP8kAg0Q/gYA8/4GAP+B9//vAUQSUAXeDxb/4wFhENM9FP/SATYAfhTgURj/
+5=0gFRFshCDN8xFv/VAVIWga/mIxz+tAH/gKAAACD+KgD/gvPz3QsA/toB//4FAPPeBgL/2w
+6=FMAOIEAv/cAUwCga7/+wErAt8pACIAgbD/4QFNAoH4/goA/4GuzUsI/9gBSQbVJgKBrf/n
+7=AToE6EsM/9wBSQb0KA7/7QFMDv/QA0wQL/T6IQ7/wAFKDOEnAtkUGP/AAV8S7l4Yyx4a/8
+8=EBXxIxwcgtCuovGv/BAUoMAcGB9/P3B4Gx/6gBWRqARAAAIP4ZAP/+BQDz/jIA/3Az8hsA
+9=/ssB///7AVwA9BkA/tMB/4H4/scJ/4Gw/30A6Q/+pAP/gff+EQD/ga3+4gP//8IHXwaAVg
+10=AAIP5EAv+Brv4JAP+Bsf4WAv9yF4H4/ucD/4H3/uEB///oA28E/iQI//4MAPP/9QFSFMg6
+11=GP4LAP+BsP/mATUKyk8W//EBThb/9gFOFtNGGOwfAv6EAf+AXgAAIP48AP/+BgDz/iQA/4
+12=Ox//n+6QH/4kEA/9wBdwBEFIH3//sBWAL/AAJTAv8SAlYG/+0BWgT//wFVCONAAP/fBXsE
+13=ga//+ANaEOQ/AP/XA3wM8VEa/8wBaAr/sAFSGoAuAAAg/kwA//4FAPP+BAL/ga7+MgL//z
+14=MCVQL+twn/ga/+HgD/gff+4gH/gbD+iw3/gBYAACD+YAD/ga7+Fhj//woEYACB+P5+A/+A
+15=BQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP
+16=+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4A
+17=IP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP
+18=4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+A
+
+[Ranking]
+ParTimeEasy=00:55:00
+ParTimeHard=00:35:00
+OverParTitle=GUI:ParTitleSov06md
+ParTimeMedium=00:45:00
+UnderParTitle=GUI:ParTitleSov07md
+OverParMessage=GUI:OverParMsgSov06md
+UnderParMessage=GUI:UnderParMsgSov06md
+
+[Russians House]
+IQ=0
+Edge=South
+Color=Soviet
+Allies=Russians House
+Country=Russians House
+Credits=700
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=yes
+
+[ScriptTypes]
+0=09337DBC
+1=09332D4C
+2=0C65851C
+3=0890076C
+4=091BDB4C
+5=091BAA1C
+6=093826FC
+7=09387CAC
+8=08902C8C
+9=093EF12C
+10=093EA0FC
+11=08903DBC
+12=069E045C
+13=08900A4C
+14=08904DBC
+15=068EDDBC
+16=0890445C
+17=092BAB1C
+18=092BBA1C
+19=092BB49C
+20=0BE0384C
+21=0BE0319C
+22=0BE04B7C
+23=0C4565CC
+24=0890762C
+25=0941E64C
+26=0941E91C
+27=089088EC
+28=0C9EF14C
+29=089080DC
+30=0983725C
+31=0A267DBC
+32=0C9AF27C
+33=08F7BB7C
+34=0853D90C
+35=08EC7A1C
+36=0890BDBC
+37=08F338DC
+38=076D325C
+39=068FC53C
+40=0C717C3C
+
+[Special]
+IQ=0
+Edge=North
+Color=Grey
+Allies=Special
+Country=Special
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[SpecialFlags]
+Inert=no
+FogOfWar=no
+IonStorms=no
+MCVDeploy=no
+Meteorites=no
+Visceroids=no
+TiberiumGrows=no
+InitialVeteran=no
+HarvesterImmune=no
+TiberiumSpreads=yes
+TiberiumExplosive=no
+DestroyableBridges=yes
+FixedAlliance House=no
 
 [Structures]
 1021957=Americans House,YAPSYT,256,81,108,0,0BA3B1CC,0,0,1,0,0,None,None,None,1,0
@@ -1709,7 +4031,7 @@ LocalSize=2,4,36,110
 1022211=Neutral,TEMNITLAMP,256,141,135,0,None,0,0,1,0,0,None,None,None,0,0
 1022212=YuriCountry House,NACLON,256,24,31,0,None,1,0,1,0,0,None,None,None,0,0
 1022215=YuriCountry House,NACLON,256,36,19,0,None,1,0,1,0,0,None,None,None,0,0
-1022218=YuriCountry House,NAPSIS,256,31,41,0,None,1,0,1,0,0,None,None,None,0,0
+1022218=YuriCountry House,YAPSIS,256,31,41,0,None,1,0,1,0,0,None,None,None,0,0
 1022221=YuriCountry House,YAGGUN,256,27,30,128,None,1,0,1,0,0,None,None,None,0,0
 1022222=YuriCountry House,YAGGUN,256,32,25,64,None,1,0,1,0,0,None,None,None,0,0
 1022223=YuriCountry House,YAGRND,256,16,38,0,None,1,0,1,0,0,None,None,None,0,0
@@ -1719,374 +4041,87 @@ LocalSize=2,4,36,110
 1022233=British House,CALUNR01,256,132,121,0,None,0,0,1,0,0,None,None,None,0,0
 1022234=British House,CALUNR02,256,133,119,0,None,0,0,1,0,0,None,None,None,0,0
 
-[OverlayPack]
-1=FgAAIIH//isa/4HzIAH++gH/Ifv/zwMxGoBaAAAggf/nAACCrvMQBiAF/vUB/4HzMgD/+g
-2=ExAP71B/+Bsf4cAv//AAIyAv/dAT4OgfMQAdMFEoH3/+UBNxD/AAIcEN7/Ef/eATEC2xsW
-3=/uIB//8AAhsY/+UDIQ6AeQAAIIH/8gAAg/Pz8/79Af9x/oH4/vUH///XATgAga3xDgqBrv
-4=7zAf9yAIH0/vUB///+ATgA//0BNBDANgDGNgCB9/7tAf8h9t43AP/aATcAy1IW0z0U/9IB
-5=NgB+FOBRGP/SAVEWyEIM3zEW/9UBUhaBr+YjHP6zAf+B/4CjAAAggf/mAACC8/PdCwD+2g
-6=H/gfMQAd4GAv7aAf/gSwLgKAL+ugH/g/P/rv/7ASsC3ykAIgCBsP7ZAf9R/4H4cBOBrs1L
-7=CP/YAUkG1SYCga3/5wE6BOhLDP/cAUkG9CgO/+0BTA7/0ANMEC/0+iEO/8ABSgzhJwLZFB
-8=j/wAFfEu5eGMseGv/BAV8SMcHILQrqLxr/wQFKDAHBgffz9weBsf+oAVkagEQAACCB/9UA
-9=AIHzEAHWAADXAADJEAD+/QH///sBXAD0GQD+0wH/gfj+xwn/gbD/fQDpD/6kA/+B9844FI
-10=Gt/uID///CB18GgFcAACCB//5DAv+BrmAKgbH+FgL/cheB+P7nA/+B9/7hAf//6ANvBP4k
-11=CP+B88hFFv7zAf/JTxbJUBaBsP/mATUKyk8W//EBThb/9gFOFtNGGOwfAv6DAf+B/4BqAA
-12=Aggf/4AACB8yAB4RgAg7H/+f7pAf/iQQD+2wH/VBSB9/76Af//AQJSAv7/Af/QVQj/7QFa
-13=BP//AVUI40AA/toB//8FBFUGga/++gH///4BVBLkPwD+2AH///8BVA7xURr/zAFoCv+wAV
-14=IagDEAACCB//5LAP+B8xAB/gQC/4Gu/jIC//8zAlUC/rcJ/4Gv21QQgff+4gH/gbD+ig3/
-15=gf+AGgAAIIH//l8A/4Gu/hYY//8KBGAAgfj+fQP/gf+ACQAAIIH//v4f/4H/gAkAACCB//
-16=7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+
-17=/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v
-18=4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+
-19=H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h
-20=//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f
-21=/4H/gAkAACCB//7+H/+B/4A=
-
-[OverlayDataPack]
-1=HwAAIIEA/isaAIIGCgABgQz++gEAgQVgBf72AQD/1AEsHIBfAAAggQDoAACBBWAF/vUBAI
-2=ICCRAGggMI/gsMAIEE/v8BAP/dATEAhAYKCgrcMgL/3QE+EOA+Ev/6AT4SFB2CCgrCLAL+
-3=2AEA2hsW/+MBMQCBAf//ARwY//oBIRT/6wEVHIBkAAAggQDyAACDBgoJ/v0BAIEB/v8HAI
-4=EE/v8BAIEF/v8BAP/7BTYMggYKAAH/9QE4AIIGCAAFgQLdNhQgJv7VAQDhNhL/3AE2AOAr
-5=GN4wFv68AQDdKxqCBgr/2QFSFuImHP+1ATYSgK4AACCBAOYAAIIGCdwLAIEF/toBAIQGCg
-6=oK3SsA/9wBSgDgSwKBBt8pAv66AQDgJgT/2wFLAt8pAP/fAUYG4UkI/9gBSQjiJgIAAYMD
-7=Cgj+1QEAgQHn9w2BBP7/AQDQSQr/7QFMDtBMEP/cAUkI/+YBOxLoXxDPXxThJQj+nAEAC/
-8=3oXxaEAwoKDPYTDv6VAQDuXxTLHhr/wQFfEPseGv/AAV4W8FscgQPJTxj/pAFfFIAvAAAg
-9=gQDVAACFAgoKCgnWAADWNgCBAWAKgQbxHAD+ywEAcgr+8QEAFDyBCP6lGwCBAIA4AAAggQ
-10=D+RBYAggYKYAGBDP7zAQCCBglwDIEF/vIBAMlEGIQAAwoI/u4BAIIGCslEGv7yAQD/vwFQ
-11=GIBIAAAggQD4AACCAgoAAYEJ/hACAIEE/v8BAIQDCgoM/v8BAIEF/v8BAP//BVUGgQb//w
-12=FBAP/+B1UGgQb//gFAAP//AVQO/7ADVA6AEwAAIIEA/ksAAIUCCgoKCf6uHwCBAIAJAAAg
-13=gQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAII
-14=EA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCB
-15=AP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQ
-16=D+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA
-17=/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP
-18=7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIA=
-
-[ScriptTypes]
-0=09337DBC
-1=09332D4C
-2=0C65851C
-3=0890076C
-4=091BDB4C
-5=091BAA1C
-6=093826FC
-7=09387CAC
-8=08902C8C
-9=093EF12C
-10=093EA0FC
-11=08903DBC
-12=069E045C
-13=08900A4C
-14=08904DBC
-15=068EDDBC
-16=0890445C
-17=092BAB1C
-18=092BBA1C
-19=092BB49C
-20=0BE0384C
-21=0BE0319C
-22=0BE04B7C
-23=0C4565CC
-24=0890762C
-25=0941E64C
-26=0941E91C
-27=089088EC
-28=0C9EF14C
-29=089080DC
-30=0983725C
-31=0A267DBC
-32=0C9AF27C
-33=08F7BB7C
-34=0853D90C
-35=08EC7A1C
-36=0890BDBC
-37=08F338DC
-38=076D325C
-39=068FC53C
-40=0C717C3C
-
-[09337DBC]
-Name=Moon Troops
-0=3,5
-
-[09332D4C]
-Name=Rhinos
-0=3,4
-
-[0C65851C]
-Name=MCV
-0=3,0
-
-[0890076C]
-Name=ScareTeam1
-0=3,7
-1=0,4
-2=0,5
-3=0,1
-
-[091BDB4C]
-Name=ScareTeam2
-0=3,8
-1=0,1
-2=0,4
-3=0,5
-
-[091BAA1C]
-Name=ScareTeam3
-0=3,8
-1=0,1
-2=0,5
-3=0,4
-4=0,1
-
-[093826FC]
-Name=BaseDef1
-0=11,11
-
-[09387CAC]
-Name=BaseDef2
-0=11,11
-
-[08902C8C]
-Name=SaucerFun!
-0=0,4
-1=49,0
-2=46,131081
-3=49,0
-4=46,65
-5=49,0
-6=46,196617
-7=49,0
-8=0,1
-
-[093EF12C]
-Name=Evil Moon Troopers
-0=46,14
-1=49,0
-2=0,4
-3=49,0
-4=0,5
-5=49,0
-6=0,1
-
-[093EA0FC]
-Name=Gattling Fun!
-0=0,9
-1=49,0
-2=0,4
-3=49,0
-4=0,5
-5=49,0
-6=0,1
-
-[08903DBC]
-Name=Lashers
-0=0,5
-1=49,0
-2=0,7
-3=49,0
-4=0,5
-5=49,0
-6=0,2
-7=49,0
-8=0,5
-
-[069E045C]
-Name=Tons O Mooners
-0=3,16
-1=0,7
-2=0,1
-
-[08900A4C]
-Name=Tons O Mooners 2
-0=3,16
-1=0,4
-2=0,4
-3=0,4
-4=0,4
-5=0,9
-6=0,6
-7=0,1
-
-[08904DBC]
-Name=Mastermind 1
-0=0,5
-1=0,1
-2=0,5
-3=11,11
-
-[068EDDBC]
-Name=Laser Jerks
-0=0,7
-1=0,5
-2=0,4
-3=0,1
-
-[0890445C]
-Name=Gattling Isn't For The Weak
-0=0,4
-1=0,4
-2=0,4
-3=0,4
-4=0,4
-5=0,4
-6=0,1
-7=11,11
-
-[092BAB1C]
-Name=Endless Laser Bastards
-0=0,6
-1=0,1
-
-[092BBA1C]
-Name=Base Def1
-0=11,11
-
-[092BB49C]
-Name=BaseDef2
-0=11,11
-
-[0BE0384C]
-Name=BaseDefR1
-0=11,11
-
-[0BE0319C]
-Name=BaseDefR2
-0=11,11
-
-[0BE04B7C]
-Name=More Laser People
-0=0,7
-1=0,4
-2=0,5
-
-[0C4565CC]
-Name=Sneaky Lasers
-0=16,21
-1=16,0
-2=46,131085
-3=49,0
-4=0,4
-5=0,5
-6=0,1
-
-[0890762C]
-Name=Sneaky Gattling
-0=16,22
-1=16,23
-2=0,4
-3=49,0
-4=0,4
-5=0,1
-
-[0941E64C]
-Name=Sneaky Lashers 1
-0=16,21
-1=16,0
-2=0,5
-3=49,0
-4=0,1
-
-[0941E91C]
-Name=Sneaky Lashers 2
-0=16,22
-1=16,23
-2=0,5
-3=49,0
-4=0,1
-
-[089088EC]
-Name=Defense Kill
-0=0,7
-1=46,13
-2=46,25
-3=0,1
-4=11,15
-
-[0C9EF14C]
-Name=Area Guard
-0=11,11
-
-[089080DC]
-Name=Attack Flak Cannons
-0=46,67
-1=49,0
-2=46,131139
-3=49,0
-4=46,131139
-5=49,0
-6=46,131139
-7=0,1
-8=11,11
-
-[0983725C]
-Name=Attack Vehicles
-0=0,5
-1=49,0
-2=0,5
-3=49,0
-4=0,5
-5=0,1
-6=11,11
-
-[0A267DBC]
-Name=Move to P
-0=3,35
-1=11,11
-
-[0C9AF27C]
-Name=Guard
-0=11,5
-
-[08F7BB7C]
-Name=Attack Power
-0=3,16
-1=46,131081
-2=0,1
-
-[0853D90C]
-Name=MasterMind Demo
-0=3,29
-1=11,11
-
-[08EC7A1C]
-Name=Attack
-0=1,29
-
-[0890BDBC]
-Name=Hunt Vehicles
-0=0,5
-1=49,0
-2=0,1
-3=11,11
-
-[08F338DC]
-Name=Attack Defense
-0=0,7
-1=49,0
-2=0,9
-3=0,1
-4=11,11
-
-[076D325C]
-Name=Attacking Vehicles
-0=3,32
-1=5,10
-2=0,5
-3=49,0
-4=0,5
-5=0,1
-6=11,11
-
-[068FC53C]
-Name=Move to AD
-0=3,29
-1=11,5
-
-[0C717C3C]
-Name=Demo Mastermind
-0=0,5
-1=0,4
+[Tags]
+043FAB6C=0,_welcome! rhinos,043FEB4C
+043FDBEC=0,_welcome! Magentron,043FDD9C
+05E4BA5C=0,Production,05E4BF3C
+05E8134C=0,_welcome! MCV,05E81BEC
+05E81CDC=0,_welcome! Cosmonaunts,05E805AC
+05E9B72C=0,_welcome! Cos Attack,05E9BCAC
+06885E4C=0,It's Over! 2,068847BC
+069BB59C=0,_welcome teams,069BBD3C
+0770661C=0,Yuri Hates Russia,07706ADC
+077B953C=0,Place to Build,077B9E1C
+077BBE7C=0,No Resources,077B937C
+07826B8C=0,Fire Sale Countdown 2,0782720C
+079E22EC=0,Demo Floating Disk 1,079E07EC
+079E38CC=0,Demo Floating Disk 2,079E21FC
+07B9CCAC=0,Fire Sale - 2 Alliance House,07B9CE5C
+07B9CF4C=0,Fire Sale - 1 America,07B9BA5C
+084F1DAC=0,No Resources 0,084F7E0C
+089164CC=0,Bonus Money 2,0891670C
+089167FC=0,Bonus Money 1,08916D7C
+08B86F4C=0,Limited Troops 1,08B7F03C
+08B9604C=0,Fire Sale A,08B8E03C
+08BEE06C=0,Fire Sale B,08BE205C
+08BF607C=0,Fire Sale C,08BEB06C
+08DAB4BC=0,_welcome!zzz,08DAB62C
+08DAB71C=0,_welcome! Mag Speech,08DAB8CC
+08DAB9BC=0,_welcome! Mastermind,08DAAADC
+08DBC7FC=0,Limited Troops 2a,08DBCDCC
+08EEA05C=0,Kill Blue Light 1,08AAD06C
+08EFD47C=0,_welcome! MM Speech,08EFDB7C
+090787EC=0,Fire Sale Countdown,09078A2C
+09078B1C=0,Fire Sale,0907E1DC
+090EB45C=0,Kill Blue Light 5,090EB69C
+090EB87C=0,Yuri MCV Gone,090EBABC
+090EBC2C=0,Kill Blue Light 4,090EBE6C
+090EC1BC=0,Kill BLue Light 3,090EC3FC
+090EC9EC=0,Kill BLue Light 2,090ECF3C
+0915BD6C=0,Floating Disk Seen,05A800AC
+091BC62C=0,Start Suprise 2,091BCB2C
+09231D4C=0,_welcome!,0923103C
+09232F4C=0,_welcome! UNLOCK,09231BFC
+092601CC=0,Limited Troops 1a,092630BC
+093BD66C=0,More Rhinos,093BDCBC
+0951F21C=0,Lunar Destroyed,0951F89C
+09544C9C=0,Demo Floating Disk 0,095408BC
+096C732C=0,Show the base!,096C769C
+096E92CC=0,Show the base! 2,096E96AC
+0983FE6C=2,Tons O Mooners Medium,0984721C
+098476AC=2,Laser Jerks Medium,0984778C
+09847AEC=2,Laser Jerks Easy,09847DFC
+09943E7C=0,Soviet MCV Exists,0994422C
+0994431C=0,Lunar Command Gone,0994462C
+0994471C=2,Objective 3,0994495C
+09944A4C=2,Objective 2,09944C8C
+09944D7C=2,Objective 1,0994531C
+09A0A4AC=0,Fire Sale Countdown 2b,09A0EC1C
+09A0ED0C=0,Fire Sale Countdown 2a,09A0C36C
+0B0BD53C=0,Limited Troops 2,0B0BDBBC
+0B1EF03C=0,It's Over!,0B1EE03C
+0B1F4C7C=0,It's Over : (,0B1E809C
+0B992C7C=2,Laser Jerks Hard,0B99436C
+0B99B67C=2,Gattling Isn't For The,0B99BBFC
+0B9B604C=2,Tons O Mooners Hard,0B9A36DC
+0B9B710C=2,Tons O Mooners 2,0B9B744C
+0BA3B1CC=0,Yuri Taunt Hideaway,0BA3216C
+0BA3C08C=0,Start Suprise 1,0BA3903C
+0BBEE10C=0,Enemy Russia,0BBDE20C
+0BBF221C=0,Enemy Russia 3,0BBDE11C
+0BBF414C=0,Enemy Russia 2,0BBF018C
+0BCF4DCC=0,Kill Suprise 2,0BCEF55C
+0BF1B55C=0,Kill Suprise 1,0BF1BB4C
+0BFC912C=2,_Don't Stop Lasers,0BFCCF3C
+0BFCA0DC=0,_Start Don't Stop Laser,0BFC984C
+0BFCAB9C=0,Barracks Gone,0BFCAF3C
+0C04049C=0,_Extra Taunt,0C04613C
+0C04514C=0,_Extra Taunt 2,0C04667C
+0C7464AC=2,Mastermind 1,0C746A2C
+0C993F4C=0,Revealing Shroud,0C994D4C
+0CA0E59C=0,Protect Lunar Base,0C9D724C
+0CA1409C=2,Tons O Mooners Easy,09847C7C
+0D6BF7EC=0,Yuri Cash Taunt,0D6BF95C
 
 [TaskForces]
 0=0B7DC3AC
@@ -2126,195 +4161,6 @@ Name=Demo Mastermind
 34=0983563C
 35=0B98C06C
 36=0BB3703C
-
-[0B7DC3AC]
-Name=MoonTroops
-0=1,LUNR
-Group=-1
-
-[08B5034C]
-Name=1 Rhino
-0=1,HTNK
-Group=-1
-
-[0C65878C]
-Name=MCV
-0=1,SMCV
-Group=-1
-
-[0BA6008C]
-Name=ScareTeam1
-0=3,LUNR
-Group=-1
-
-[091BD38C]
-Name=ScareTeam2
-0=3,LTNK
-Group=-1
-
-[091BAC8C]
-Name=ScareTeam3
-0=5,LUNR
-Group=-1
-
-[0D2A20DC]
-Name=2 Gattling Tank 2 Lunar Infantry
-0=2,LUNR
-1=2,YTNK
-Group=-1
-
-[0D2A10DC]
-Name=3 Gattling Tank 2 Lunar Infantry
-0=3,YTNK
-1=2,LUNR
-Group=-1
-
-[08902B7C]
-Name=3 Floating Disks
-0=3,DISK
-Group=-1
-
-[093DD1DC]
-Name=Evil Moon Troopers
-0=5,LUNR
-Group=-1
-
-[0890221C]
-Name=Gattling Fun!
-0=3,YTNK
-1=2,LTNK
-Group=-1
-
-[08903CAC]
-Name=4 Lashers
-0=4,LTNK
-Group=-1
-
-[0BFC43DC]
-Name=5 Lunar Troops
-0=5,LUNR
-Group=-1
-
-[091AB5BC]
-Name=5 Lunar Troops
-0=5,LUNR
-Group=-1
-
-[0C745DEC]
-Name=Mastermind 1
-0=1,MIND
-Group=-1
-
-[0B99116C]
-Name=Laser Jerks
-0=4,LUNR
-Group=-1
-
-[0890434C]
-Name=3 Gattling Tanks
-0=3,YTNK
-Group=-1
-
-[092B9DEC]
-Name=Endless Laser Bastards
-0=5,LUNR
-Group=-1
-
-[092BA51C]
-Name=Base Def1
-0=2,LUNR
-Group=-1
-
-[092BB70C]
-Name=BaseDef2
-0=2,LUNR
-Group=-1
-
-[0BE0121C]
-Name=BaseDefR1
-0=2,LUNR
-Group=-1
-
-[0BE0340C]
-Name=BaseDefR2
-0=2,LUNR
-Group=-1
-
-[0BE04DEC]
-Name=More Laser People
-0=3,LUNR
-Group=-1
-
-[0C430DEC]
-Name=S6_Moontroops 2
-0=1,LUNR
-Group=-1
-
-[0C455F1C]
-Name=Sneaky Lasers
-0=5,LUNR
-Group=-1
-
-[0941ECAC]
-Name=Sneaky Gattling
-0=3,YTNK
-Group=-1
-
-[0C47E1EC]
-Name=Sneaky Lashers 1
-0=3,LTNK
-Group=-1
-
-[0C9EDD0C]
-Name=1 Master Mind
-0=1,MIND
-Group=-1
-
-[098374CC]
-Name=5 Lashers
-0=5,LTNK
-Group=-1
-
-[069F413C]
-Name=1 Magnetron
-0=1,TELE
-Group=-1
-
-[043E05DC]
-Name=2 Gattling Tanks
-0=2,YTNK
-Group=-1
-
-[096607FC]
-Name=1 Floating Disk
-0=1,DISK
-Group=-1
-
-[08F33B4C]
-Name=3 Magenetrons
-0=3,TELE
-Group=-1
-
-[076D2B9C]
-Name=1 Mastermind 2 Magnetrons
-0=2,TELE
-1=1,MIND
-Group=-1
-
-[0983563C]
-Name=7 Lunar Infantry
-0=7,LUNR
-Group=-1
-
-[0B98C06C]
-Name=Tons O Mooners
-0=5,LUNR
-Group=-1
-
-[0BB3703C]
-Name=Demo Mastermind
-0=1,MIND
-Group=-1
 
 [TeamTypes]
 0=0932B32C
@@ -2362,2006 +4208,183 @@ Group=-1
 42=08F33C5C
 43=076D109C
 
-[0932B32C]
-Name=S6_start_moontroops
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=C
-Script=09337DBC
-TaskForce=0B7DC3AC
-
-[08B506CC]
-Name=S6_start_rhino
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=D
-Script=09332D4C
-TaskForce=08B5034C
-
-[0C65889C]
-Name=S6_start_MCV
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=B
-Script=0C65851C
-TaskForce=0C65878C
-
-[08900CBC]
-Name=_ScareTeam1
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=G
-Script=0890076C
-TaskForce=0BA6008C
-
-[091BD49C]
-Name=_ScareTeam2
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=091BDB4C
-TaskForce=091BD38C
-
-[091BAD9C]
-Name=_ScareTeam3
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=J
-Script=091BAA1C
-TaskForce=091BAC8C
-
-[0890193C]
-Name=_BaseDef1
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Waypoint=AE
-Script=093826FC
-TaskForce=0D2A20DC
-
-[0890148C]
-Name=_BaseDef2
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Waypoint=AF
-Script=09387CAC
-TaskForce=0D2A10DC
-
-[08902EFC]
-Name=S6_SaucerFun!
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=110
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08902C8C
-TaskForce=08902B7C
-
-[093DA04C]
-Name=S6_Evil Moon Troopers
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=100
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=093EF12C
-TaskForce=093DD1DC
-
-[0890259C]
-Name=S6_Gattling Fun!
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=90
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=093EA0FC
-TaskForce=0890221C
-
-[089020EC]
-Name=S6_Lashers
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=125
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08903DBC
-TaskForce=08903CAC
-
-[089037DC]
-Name=Tons O Mooners
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Americans House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=5
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=069E045C
-TaskForce=0BFC43DC
-
-[08900EFC]
-Name=Tons O Mooners 2
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Americans House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08900A4C
-TaskForce=091AB5BC
-
-[0890063C]
-Name=MasterMind 1
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Americans House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08904DBC
-TaskForce=0C745DEC
-
-[099A9B7C]
-Name=Laser Jerks
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Alliance House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=N
-Script=068EDDBC
-TaskForce=0B99116C
-
-[089046CC]
-Name=Gattling Isn't For The Weak
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Alliance House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=5
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0890445C
-TaskForce=0890434C
-
-[092B9EFC]
-Name=Endless Laser Bastards
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Americans House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=150
-Max=5
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=Q
-Script=092BAB1C
-TaskForce=092B9DEC
-
-[092BA62C]
-Name=_BaseDef-Left1
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Americans House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=092BBA1C
-TaskForce=092BA51C
-
-[092BB81C]
-Name=_BaseDef-Left2
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Americans House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=092BB49C
-TaskForce=092BB70C
-
-[0BE0132C]
-Name=_BaseDef-Right1
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Alliance House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=0BE0384C
-TaskForce=0BE0121C
-
-[0BE0351C]
-Name=_BaseDef-Right2
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Alliance House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=0BE0319C
-TaskForce=0BE0340C
-
-[0BE04EFC]
-Name=Um More Laser People
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Alliance House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0BE04B7C
-TaskForce=0BE04DEC
-
-[0C430EFC]
-Name=S6_Moontroops 2
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=R
-Script=09337DBC
-TaskForce=0C430DEC
-
-[043A463C]
-Name=S6_Moontroops 3
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=S
-Script=09337DBC
-TaskForce=0B7DC3AC
-
-[043AF7DC]
-Name=S6_Moontroops 4
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=T
-Script=09337DBC
-TaskForce=0B7DC3AC
-
-[0932712C]
-Name=S6_Moontroops 5
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=U
-Script=09337DBC
-TaskForce=0B7DC3AC
-
-[099AC53C]
-Name=_Sneaky Lasers
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=110
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0C4565CC
-TaskForce=0C455F1C
-
-[089030FC]
-Name=_Sneaky Gattling
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=115
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0890762C
-TaskForce=0941ECAC
-
-[099ADB7C]
-Name=_Sneaky Lashers 1
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=100
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0941E64C
-TaskForce=0C47E1EC
-
-[099AAC8C]
-Name=_Sneaky Lashers 2
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=100
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0941E91C
-TaskForce=0C47E1EC
-
-[08908B5C]
-Name=_Don't Stop Lasers
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=089088EC
-TaskForce=0BFC43DC
-
-[069E67DC]
-Name=_S06_MM Guard LB Z
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=200
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=Z
-Script=0C9EF14C
-TaskForce=0C9EDD0C
-
-[069E632C]
-Name=_S06_MM Guard LB AA
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=100
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0C9EF14C
-TaskForce=0C9EDD0C
-
-[0890834C]
-Name=_S06_Kill Flak Cannons
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=120
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=089080DC
-TaskForce=098374CC
-
-[099BDB7C]
-Name=_S06_5 Vicious Lashers
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=125
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0983725C
-TaskForce=098374CC
-
-[0A2A809C]
-Name=_S06_Magnetron Start
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=100
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AB
-Script=0A267DBC
-TaskForce=069F413C
-
-[0C9AF4EC]
-Name=_S06_Gattling STAY!
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=200
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AD
-Script=0C9AF27C
-TaskForce=043E05DC
-
-[08F7BDEC]
-Name=_S06_Demo Floating Disk
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=120
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Tag=0915BD6C
-Waypoint=M
-Script=08F7BB7C
-TaskForce=096607FC
-
-[0853DB7C]
-Name=_S06_Mastermind Intro
-VeteranLevel=1
-MindControlDecision=5
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=100
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AG
-Script=0853D90C
-TaskForce=0C9EDD0C
-
-[08EC7C8C]
-Name=_S06_Cos Attack
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Russians House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=200
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=F
-Script=08EC7A1C
-TaskForce=0BFC43DC
-
-[0890A13C]
-Name=_S06_1 Mastermind
-VeteranLevel=1
-MindControlDecision=4
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=100
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0890BDBC
-TaskForce=0C9EDD0C
-
-[08F33C5C]
-Name=_S06_3 Magnetrons
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=100
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08F338DC
-TaskForce=08F33B4C
-
-[076D109C]
-Name=_S06_Mastermind & Magentron
-VeteranLevel=1
-MindControlDecision=0
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=YuriCountry House
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=110
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=076D325C
-TaskForce=076D2B9C
-
-[AITriggerTypes]
-09089EDC=Saucer Fun!,08902EFC,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,70.000000,0,0,0,0,<none>,1,1,1
-099BF99C=Evil Moon Troopers,093DA04C,YuriCountry House,1,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,60.000000,30.000000,70.000000,0,0,0,0,<none>,1,1,1
-093F511C=Gattling Fun,0890259C,YuriCountry House,4,0,NATECH,0100000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,1,1,1
-093E923C=Lashers!,089020EC,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,10.000000,70.000000,0,0,0,0,<none>,1,1,1
-099BF5AC=Endless Laser Bastards,092B9EFC,Americans House,1,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,70.000000,40.000000,70.000000,0,0,0,0,<none>,1,1,1
-0BE049EC=More Laser People,0BE04EFC,Alliance House,1,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,70.000000,30.000000,70.000000,0,0,0,0,<none>,1,1,1
-099BF23C=Sneaky Lasers,099AC53C,YuriCountry House,1,0,NARADR,0100000003000000000000000000000000000000000000000000000000000000,60.000000,20.000000,70.000000,0,0,0,0,<none>,1,1,1
-099BF0EC=Sneaky Gattling,089030FC,YuriCountry House,4,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,60.000000,10.000000,70.000000,0,0,0,0,<none>,0,1,1
-099C0EDC=Sneaky Lashers 1,099ADB7C,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,70.000000,20.000000,70.000000,0,0,0,0,<none>,1,1,1
-099C0D8C=Sneaky Lashers 2,099AAC8C,YuriCountry House,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,1,1,1
-0983770C=_S06_Attack Flak Cannons,0890834C,YuriCountry House,2,0,NAFLAK,0300000003000000000000000000000000000000000000000000000000000000,70.000000,10.000000,70.000000,0,0,0,0,<none>,0,0,1
-09932EDC=_S06_5 Vicious Lashers,099BDB7C,YuriCountry House,2,0,TESLA,0200000003000000000000000000000000000000000000000000000000000000,70.000000,40.000000,70.000000,0,0,0,0,<none>,0,1,1
-0892C14C=_S06_1 Mastermind,0890A13C,YuriCountry House,2,0,HTNK,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,70.000000,0,0,0,0,<none>,1,1,1
-08F3346C=_S06_Magentron,08F33C5C,YuriCountry House,2,0,TESLA,0100000003000000000000000000000000000000000000000000000000000000,70.000000,30.000000,70.000000,0,0,0,0,<none>,1,1,1
-
-[AITriggerTypesEnable]
-0CAD0DCC-G=yes
-0CAD0C7C-G=yes
-0CAD0B2C-G=yes
-0CA6621C-G=yes
-0CDF8EDC-G=yes
-0CDF8D8C-G=yes
-0C0C7AEC-G=yes
-0D62199C-G=yes
-0CDF899C-G=yes
-0D6216FC-G=yes
-0D6215AC-G=yes
-0D62145C-G=yes
-0D0803CC-G=yes
-0C32599C-G=yes
-0CE23AAC-G=yes
-0CA1F84C-G=yes
-0CE26CAC-G=yes
-0CE26B5C-G=yes
-0CAD145C-G=yes
-0CAD130C-G=yes
-0CE2395C-G=yes
-0D084B5C-G=yes
-0D084A0C-G=yes
-0D0848BC-G=yes
-0CAD2AEC-G=yes
-0D08461C-G=yes
-0D0873DC-G=yes
-0C8E2C3C-G=yes
-0CAD25AC-G=yes
-0D087D8C-G=yes
-0C8B81BC-G=yes
-0CADDEDC-G=yes
-0C92C45C-G=yes
-0C9565AC-G=yes
-0C92C1BC-G=yes
-0CADD99C-G=yes
-0C9561BC-G=yes
-0CE2EA2C-G=yes
-0CE2E8DC-G=yes
-0C955C3C-G=yes
-0C955AEC-G=yes
-0C8C71BC-G=yes
-0C8C6EDC-G=yes
-0D052AEC-G=yes
-0CE44D0C-G=yes
-0CA5945C-G=yes
-0CAD2C3C-G=yes
-0D535EDC-G=yes
-0AA846FC-G=yes
-0AA845AC-G=yes
-0C8C645C-G=yes
-0AD2BAEC-G=yes
-0C96F5AC-G=yes
-0C96F45C-G=yes
-0CB2CEDC-G=yes
-0C91D45C-G=yes
-0CAD5AEC-G=yes
-0D2C45DC-G=yes
-0D2C448C-G=yes
-0C8C56FC-G=yes
-0D2C41EC-G=yes
-0CA6AEDC-G=yes
-0C0D251C-G=yes
-0C8C51BC-G=yes
-0CA24D8C-G=yes
-0C8BC5AC-G=yes
-0C8C4C3C-G=yes
-0D53430C-G=yes
-0ECCFCAC-G=yes
-0ECCFA7C-G=yes
-0C8EEEDC-G=yes
-0C0D184C-G=yes
-0ECCF68C-G=yes
-0C8C430C-G=yes
-0C87B99C-G=yes
-0ECCF29C-G=yes
-0ECCF14C-G=yes
-0C8EEAEC-G=yes
-0C87B45C-G=yes
-0ECCBC3C-G=yes
-0C8EE1BC-G=yes
-0ECCB7FC-G=yes
-0C32D84C-G=yes
-0ECCB55C-G=yes
-0ECCB40C-G=yes
-0ECCB2BC-G=yes
-0CB29EDC-G=yes
-0C8C2C3C-G=yes
-0C8C2AEC-G=yes
-0A31295C-G=yes
-0C87E5AC-G=yes
-08A3EEDC-G=yes
-0D022B1C-G=yes
-0C1246FC-G=yes
-0C1245AC-G=yes
-0D0B3B9C-G=yes
-0CA2A04C-G=yes
-0CA2B06C-G=yes
-0CA2FEDC-G=yes
-0D2769BC-G=yes
-0A452E5C-G=yes
-0A452C6C-G=yes
-0A44F2CC-G=yes
-0A44F17C-G=yes
-0D53099C-G=yes
-0612B11C-G=yes
-06C551AC-G=yes
-0612CD8C-G=yes
-0ABC484C-G=yes
-05FFB18C-G=yes
-05FFA7DC-G=yes
-06002BFC-G=yes
-05CB5B6C-G=yes
-07C04EDC-G=yes
-07C04C7C-G=yes
-07C0B14C-G=yes
-05FC1A8C-G=yes
-05FC50EC-G=yes
-05FC3C9C-G=yes
-05FC37CC-G=yes
-05FC333C-G=yes
-05FC0C9C-G=yes
-05FC088C-G=yes
-05FC75CC-G=yes
-05FC747C-G=yes
-08B9154C-G=yes
-08B911BC-G=yes
-08B9213C-G=yes
-08B9356C-G=yes
-08B9305C-G=yes
-08B9483C-G=yes
-08B9423C-G=yes
-08B940EC-G=yes
-08B9586C-G=yes
-0611A33C-G=yes
-0611A1EC-G=yes
-08B9641C-G=yes
-08B97C6C-G=yes
-08B9767C-G=yes
-08B9708C-G=yes
-05FC1C5C-G=yes
-0612EAEC-G=yes
-0612F9AC-G=yes
-05FC13EC-G=yes
-08B90B1C-G=yes
-08B902EC-G=yes
-0612F46C-G=yes
-044082BC-G=yes
-07C310BC-G=yes
-07C329FC-G=yes
-07C3266C-G=yes
-07C33DDC-G=yes
-0616004C-G=yes
-07C330CC-G=yes
-07C30A5C-G=yes
-07C4853C-G=yes
-043F521C-G=yes
-043F874C-G=yes
-043F40BC-G=yes
-05CBC2EC-G=yes
-05CBC19C-G=yes
-05CBC04C-G=yes
-078F4B2C-G=yes
-05CB830C-G=yes
-05CBAEDC-G=yes
-09089EDC=yes
-099BF99C=yes
-093F511C=yes
-093E923C=yes
-099BF5AC=yes
-0BE049EC=yes
-099BF23C=yes
-099BF0EC=yes
-099C0EDC=yes
-099C0D8C=yes
-0983770C=yes
-09932EDC=yes
-0892C14C=yes
-08F3346C=yes
-
 [Triggers]
-0923103C=Russians House,<none>,_welcome!,0,1,1,1,0
-09231BFC=Russians House,<none>,_welcome! unlock,0,1,1,1,0
-0B1E809C=Russians House,<none>,It's Over : (,1,1,1,1,0
-069BBD3C=Americans House,<none>,_welcome teams,1,1,1,1,0
-077B9E1C=Russians House,<none>,Place to Build,1,1,1,1,0
-09847DFC=Alliance House,<none>,Laser Jerks Easy,1,1,0,0,0
-0984778C=Alliance House,<none>,Laser Jerks Medium,1,0,1,0,0
-0B99436C=YuriCountry House,<none>,Laser Jerks Hard,1,0,0,1,0
-0B9B744C=YuriCountry House,<none>,Tons O Mooners 2,1,0,1,1,0
-09847C7C=Alliance House,<none>,Tons O Mooners Easy,1,1,0,0,0
-0984721C=Americans House,<none>,Tons O Mooners Medium,1,0,1,0,0
-0B9A36DC=Americans House,<none>,Tons O Mooners Hard,1,0,0,1,0
-0C746A2C=Americans House,<none>,Mastermind 1,1,0,1,1,0
-0D6BF95C=Russians House,<none>,Yuri Cash Taunt,0,1,1,1,0
-0BA3216C=Russians House,<none>,Yuri Taunt Hideaway,0,1,1,1,0
-0BBDE20C=YuriCountry House,<none>,Enemy Russia,0,1,1,1,0
-0BBF018C=Americans House,<none>,Enemy Russia 2,0,1,1,1,0
-0BBDE11C=Alliance House,<none>,Enemy Russia 3,0,1,1,1,0
-092630BC=Russians House,<none>,Limited Troops 1a,1,1,1,1,0
-0B0BDBBC=Russians House,<none>,Limited Troops 2,1,1,1,1,0
-08DBCDCC=Russians House,<none>,Limited Troops 2a,1,1,1,1,0
-077B937C=Russians House,<none>,No Resources,1,1,1,1,0
-0BA3903C=Russians House,<none>,Start Suprise 1,0,1,1,1,0
-091BCB2C=Russians House,<none>,Start Suprise 2,0,1,1,1,0
-0BCEF55C=Russians House,<none>,Kill Suprise 2,0,1,1,1,0
-0B99BBFC=Alliance House,<none>,Gattling Isn't For The Weak,0,1,1,1,0
-0B1EE03C=Russians House,<none>,It's Over!,1,1,1,1,0
-068847BC=Russians House,<none>,It's Over! 2,1,1,1,1,0
-0BF1BB4C=Russians House,<none>,Kill Suprise 1,0,1,1,1,0
-0BFCCF3C=YuriCountry House,<none>,_Don't Stop Lasers,1,1,1,1,0
-0BFC984C=Americans House,<none>,_Start Don't Stop Lasers,0,1,1,1,0
-0BFCAF3C=YuriCountry House,<none>,Barracks Gone,0,1,1,1,0
-090EB69C=YuriCountry House,<none>,Kill Blue Light 5,1,1,1,1,0
-0C04613C=Russians House,<none>,_Extra Taunt,0,1,1,1,0
-0C04667C=Russians House,<none>,_Extra Taunt 2,0,1,1,1,0
-0C9D724C=YuriCountry House,<none>,Protect Lunar Base,0,1,1,1,0
-0C994D4C=Russians House,<none>,Revealing Shroud,0,1,1,1,0
-0994531C=Russians House,<none>,Objective 1,0,1,1,1,0
-09944C8C=Russians House,<none>,Objective 2,1,1,1,1,0
-0994495C=Russians House,<none>,Objective 3,1,1,1,1,0
-0994462C=YuriCountry House,<none>,Lunar Command Gone,0,1,1,1,0
-0994422C=Russians House,<none>,Soviet MCV Exists,0,1,1,1,0
-0951F89C=YuriCountry House,<none>,Lunar Destroyed,0,1,1,1,0
-090EC3FC=YuriCountry House,<none>,Kill Blue Light 3,1,1,1,1,0
-079E07EC=YuriCountry House,<none>,Demo Floating Disk 1,1,1,1,1,0
-0915944C=YuriCountry House,<none>,Floating Disk Timer,1,1,1,1,0
-079E21FC=YuriCountry House,<none>,Demo Floating Disk 2,1,1,1,1,0
-08DAAADC=Russians House,<none>,_welcome! Mastermind,0,1,1,1,0
-08EFDB7C=Russians House,<none>,_welcome! MM Speech,1,1,1,1,0
-08DAB8CC=Russians House,<none>,_welcome! Mag Speech,1,1,1,1,0
-08DAB62C=Russians House,<none>,_welcome!zzz,0,1,1,1,0
-043FEB4C=Russians House,<none>,_welcome! rhinos,0,1,1,1,0
 043FDD9C=Russians House,<none>,_welcome! Magentron,0,1,1,1,0
+043FEB4C=Russians House,<none>,_welcome! rhinos,0,1,1,1,0
+05A800AC=YuriCountry House,0915944C,Shot On,0,1,1,1,0
+05E4BF3C=Russians House,<none>,Production,0,1,1,1,0
 05E805AC=Russians House,<none>,_welcome! Cosmonaunts,0,1,1,1,0
 05E81BEC=Russians House,<none>,_welcome! MCV,0,1,1,1,0
 05E9BCAC=Russians House,<none>,_welcome! Cos Attack,0,1,1,1,0
-08AAD06C=Americans House,<none>,Kill Blue Light 1,0,1,1,1,0
-090ECF3C=Alliance House,<none>,Kill Blue Light 2,0,1,1,1,0
-090EBE6C=YuriCountry House,<none>,Kill Blue Light 4,1,1,1,1,0
-090EBABC=YuriCountry House,<none>,Yuri MCV Gone,0,1,1,1,0
-096C769C=Russians House,<none>,Show the base!,0,1,1,1,0
-096E96AC=Russians House,<none>,Show the base! 2,1,1,1,1,0
-0907E1DC=YuriCountry House,<none>,Fire Sale,0,1,1,1,0
-09078A2C=YuriCountry House,<none>,Fire Sale Countdown,1,1,1,1,0
-07B9CE5C=Alliance House,<none>,Fire Sale - 2 Alliance House,1,1,1,1,0
-07B9BA5C=Americans House,<none>,Fire Sale - 1 America,1,1,1,1,0
+068847BC=Russians House,<none>,It's Over! 2,1,1,1,1,0
+069BBD3C=Americans House,<none>,_welcome teams,1,1,1,1,0
+07706ADC=YuriCountry House,<none>,Yuri Hates Russia,0,1,1,1,0
+077B937C=Russians House,<none>,No Resources,1,1,1,1,0
+077B9E1C=Russians House,<none>,Place to Build,1,1,1,1,0
 0782720C=YuriCountry House,<none>,Fire Sale Countdown 2,1,1,1,1,0
-09A0EC1C=Americans House,<none>,Fire Sale Countdown 2b,1,1,1,1,0
-09A0C36C=Alliance House,<none>,Fire Sale Countdown 2a,1,1,1,1,0
-093BDCBC=Russians House,<none>,More Rhinos,0,1,1,1,0
-05E4BF3C=Russians House,<none>,Production,0,1,1,1,0
-08916D7C=Russians House,<none>,Bonus Money 1,0,1,1,1,0
-0891670C=Russians House,<none>,Bonus Money 2,0,1,1,1,0
-08B7F03C=Russians House,<none>,Limited Troops 1,0,1,1,1,0
+079E07EC=YuriCountry House,<none>,Demo Floating Disk 1,1,1,1,1,0
+079E21FC=YuriCountry House,<none>,Demo Floating Disk 2,1,1,1,1,0
+07B9BA5C=Americans House,<none>,Fire Sale - 1 America,1,1,1,1,0
+07B9CE5C=Alliance House,<none>,Fire Sale - 2 Alliance House,1,1,1,1,0
 084F7E0C=Russians House,<none>,No Resources 0,0,1,1,1,0
+0891670C=Russians House,<none>,Bonus Money 2,0,1,1,1,0
+08916D7C=Russians House,<none>,Bonus Money 1,0,1,1,1,0
+08AAD06C=Americans House,<none>,Kill Blue Light 1,0,1,1,1,0
+08B7F03C=Russians House,<none>,Limited Troops 1,0,1,1,1,0
 08B8E03C=Americans House,<none>,Fire Sale A,0,1,1,1,0
 08BE205C=Alliance House,<none>,Fire Sale B,0,1,1,1,0
 08BEB06C=YuriCountry House,<none>,Fire Sale C,0,1,1,1,0
+08DAAADC=Russians House,<none>,_welcome! Mastermind,0,1,1,1,0
+08DAB62C=Russians House,<none>,_welcome!zzz,0,1,1,1,0
+08DAB8CC=Russians House,<none>,_welcome! Mag Speech,1,1,1,1,0
+08DBCDCC=Russians House,<none>,Limited Troops 2a,1,1,1,1,0
+08EFDB7C=Russians House,<none>,_welcome! MM Speech,1,1,1,1,0
+09078A2C=YuriCountry House,<none>,Fire Sale Countdown,1,1,1,1,0
+0907E1DC=YuriCountry House,<none>,Fire Sale,0,1,1,1,0
+090EB69C=YuriCountry House,<none>,Kill Blue Light 5,1,1,1,1,0
+090EBABC=YuriCountry House,<none>,Yuri MCV Gone,0,1,1,1,0
+090EBE6C=YuriCountry House,<none>,Kill Blue Light 4,1,1,1,1,0
+090EC3FC=YuriCountry House,<none>,Kill Blue Light 3,1,1,1,1,0
+090ECF3C=Alliance House,<none>,Kill Blue Light 2,0,1,1,1,0
+0915944C=YuriCountry House,<none>,Floating Disk Timer,1,1,1,1,0
+091BCB2C=Russians House,<none>,Start Suprise 2,0,1,1,1,0
+0923103C=Russians House,<none>,_welcome!,0,1,1,1,0
+09231BFC=Russians House,<none>,_welcome! unlock,0,1,1,1,0
+092630BC=Russians House,<none>,Limited Troops 1a,1,1,1,1,0
+093BDCBC=Russians House,<none>,More Rhinos,0,1,1,1,0
+0951F89C=YuriCountry House,<none>,Lunar Destroyed,0,1,1,1,0
 095408BC=Russians House,<none>,Demo Floating Disk 0,0,1,1,1,0
-05A800AC=YuriCountry House,0915944C,Shot On,0,1,1,1,0
-07706ADC=YuriCountry House,<none>,Yuri Hates Russia,0,1,1,1,0
+096C769C=Russians House,<none>,Show the base!,0,1,1,1,0
+096E96AC=Russians House,<none>,Show the base! 2,1,1,1,1,0
+0984721C=Americans House,<none>,Tons O Mooners Medium,1,0,1,0,0
+0984778C=Alliance House,<none>,Laser Jerks Medium,1,0,1,0,0
+09847C7C=Alliance House,<none>,Tons O Mooners Easy,1,1,0,0,0
+09847DFC=Alliance House,<none>,Laser Jerks Easy,1,1,0,0,0
+0994422C=Russians House,<none>,Soviet MCV Exists,0,1,1,1,0
+0994462C=YuriCountry House,<none>,Lunar Command Gone,0,1,1,1,0
+0994495C=Russians House,<none>,Objective 3,1,1,1,1,0
+09944C8C=Russians House,<none>,Objective 2,1,1,1,1,0
+0994531C=Russians House,<none>,Objective 1,0,1,1,1,0
+09A0C36C=Alliance House,<none>,Fire Sale Countdown 2a,1,1,1,1,0
+09A0EC1C=Americans House,<none>,Fire Sale Countdown 2b,1,1,1,1,0
+0B0BDBBC=Russians House,<none>,Limited Troops 2,1,1,1,1,0
+0B1E809C=Russians House,<none>,It's Over : (,1,1,1,1,0
+0B1EE03C=Russians House,<none>,It's Over!,1,1,1,1,0
+0B99436C=YuriCountry House,<none>,Laser Jerks Hard,1,0,0,1,0
+0B99BBFC=Alliance House,<none>,Gattling Isn't For The Weak,0,1,1,1,0
+0B9A36DC=Americans House,<none>,Tons O Mooners Hard,1,0,0,1,0
+0B9B744C=YuriCountry House,<none>,Tons O Mooners 2,1,0,1,1,0
+0BA3216C=Russians House,<none>,Yuri Taunt Hideaway,0,1,1,1,0
+0BA3903C=Russians House,<none>,Start Suprise 1,0,1,1,1,0
+0BBDE11C=Alliance House,<none>,Enemy Russia 3,0,1,1,1,0
+0BBDE20C=YuriCountry House,<none>,Enemy Russia,0,1,1,1,0
+0BBF018C=Americans House,<none>,Enemy Russia 2,0,1,1,1,0
+0BCEF55C=Russians House,<none>,Kill Suprise 2,0,1,1,1,0
+0BF1BB4C=Russians House,<none>,Kill Suprise 1,0,1,1,1,0
+0BFC984C=Americans House,<none>,_Start Don't Stop Lasers,0,1,1,1,0
+0BFCAF3C=YuriCountry House,<none>,Barracks Gone,0,1,1,1,0
+0BFCCF3C=YuriCountry House,<none>,_Don't Stop Lasers,1,1,1,1,0
+0C04613C=Russians House,<none>,_Extra Taunt,0,1,1,1,0
+0C04667C=Russians House,<none>,_Extra Taunt 2,0,1,1,1,0
+0C746A2C=Americans House,<none>,Mastermind 1,1,0,1,1,0
+0C994D4C=Russians House,<none>,Revealing Shroud,0,1,1,1,0
+0C9D724C=YuriCountry House,<none>,Protect Lunar Base,0,1,1,1,0
+0D6BF95C=Russians House,<none>,Yuri Cash Taunt,0,1,1,1,0
 
-[Events]
-0923103C=1,13,0,0
-09231BFC=1,13,0,119
-0B1E809C=1,11,0,8
-069BBD3C=1,13,0,0
-077B9E1C=1,13,0,8
-09847DFC=1,51,0,500
-0984778C=1,51,0,300
-0B99436C=1,51,0,200
-0B9B744C=1,51,0,325
-09847C7C=1,51,0,350
-0984721C=1,51,0,300
-0B9A36DC=1,51,0,175
-0C746A2C=1,51,0,400
-0D6BF95C=1,52,0,10000
-0BA3216C=1,4,0,8
-0BBDE20C=1,13,0,0
-0BBF018C=1,13,0,0
-0BBDE11C=1,13,0,0
-092630BC=1,13,0,2
-0B0BDBBC=1,13,0,32
-08DBCDCC=1,13,0,0
-077B937C=1,13,0,5
-0BA3903C=1,59,0,8
-091BCB2C=1,59,0,8
-0BCEF55C=1,59,0,8
-0B99BBFC=1,51,0,500
-0B1EE03C=1,13,0,0
-068847BC=1,13,0,8
-0BF1BB4C=1,59,0,8
-0BFCCF3C=1,51,0,500
-0BFC984C=1,10,0,0
-0BFCAF3C=1,48,0,0
-090EB69C=1,13,0,0
-0C04613C=1,10,0,0
-0C04667C=1,10,0,1
-0C9D724C=1,13,0,45
-0C994D4C=1,13,0,0
-0994531C=1,13,0,200
-09944C8C=1,13,0,200
-0994495C=1,13,0,200
-0994462C=1,48,0,0
-0994422C=1,60,2,1,NACNST
-0951F89C=1,48,0,0
-090EC3FC=1,13,0,0
-079E07EC=1,13,0,0
-0915944C=1,13,0,70
-079E21FC=1,13,0,1
-08DAAADC=1,13,0,58
-08EFDB7C=1,13,0,8
-08DAB8CC=1,13,0,2
-08DAB62C=1,13,0,60
-043FEB4C=1,13,0,5
-043FDD9C=1,13,0,44
-05E805AC=1,13,0,20
-05E81BEC=1,13,0,30
-05E9BCAC=1,13,0,90
-08AAD06C=1,10,0,0
-090ECF3C=1,10,0,1
-090EBE6C=1,13,0,0
-090EBABC=1,48,0,0
-096C769C=1,13,0,20
-096E96AC=1,13,0,22
-0907E1DC=3,36,0,1,36,0,2,36,0,3
-09078A2C=1,13,0,60
-07B9CE5C=1,13,0,0
-07B9BA5C=1,13,0,0
-0782720C=1,13,0,6
-09A0EC1C=1,13,0,0
-09A0C36C=1,13,0,0
-093BDCBC=1,13,0,100
-05E4BF3C=1,13,0,100
-08916D7C=1,11,0,0
-0891670C=1,11,0,1
-08B7F03C=1,32,0,11
-084F7E0C=1,32,0,14
-08B8E03C=4,57,0,302,57,0,300,57,0,303,57,0,301
-08BE205C=3,57,0,302,57,0,303,57,0,301
-08BEB06C=5,57,0,302,57,0,354,57,0,300,57,0,303,57,0,301
-095408BC=1,32,0,14
-05A800AC=1,6,0,0
-07706ADC=1,13,0,0
+[Units]
+0=YuriCountry House,MIND,256,44,20,128,Area Guard,None,0,-1,0,-1,1,1
+1=YuriCountry House,MIND,256,27,50,96,Area Guard,None,0,-1,0,-1,1,1
+2=YuriCountry House,MIND,256,51,20,128,Area Guard,None,0,-1,0,-1,1,1
+3=YuriCountry House,DISK,256,23,39,0,Area Guard,None,0,-1,0,-1,1,1
+4=YuriCountry House,DISK,256,29,43,0,Area Guard,None,0,-1,0,-1,1,1
+5=YuriCountry House,DISK,256,48,29,0,Area Guard,None,0,-1,0,-1,1,1
+6=YuriCountry House,DISK,256,17,51,0,Area Guard,None,0,-1,0,-1,1,1
+7=YuriCountry House,DISK,256,39,30,0,Area Guard,None,0,-1,0,-1,1,1
+8=YuriCountry House,YTNK,256,44,25,96,Area Guard,None,0,-1,0,-1,1,1
+9=YuriCountry House,YTNK,256,34,31,96,Area Guard,None,0,-1,0,-1,1,1
+10=YuriCountry House,YTNK,256,26,35,0,Area Guard,None,0,-1,0,-1,1,1
+11=YuriCountry House,LTNK,256,41,41,64,Area Guard,None,0,-1,0,-1,1,1
+12=YuriCountry House,LTNK,256,35,45,64,Area Guard,None,0,-1,0,-1,1,1
+13=YuriCountry House,LTNK,256,27,57,64,Area Guard,None,0,-1,0,-1,1,1
+14=YuriCountry House,LTNK,256,18,44,128,Area Guard,None,0,-1,0,-1,1,1
+15=YuriCountry House,LTNK,256,22,32,160,Area Guard,None,0,-1,0,-1,1,1
+16=YuriCountry House,LTNK,256,35,23,64,Area Guard,None,0,-1,0,-1,1,1
+17=YuriCountry House,LTNK,256,42,19,128,Area Guard,None,0,-1,0,-1,1,1
+18=YuriCountry House,TELE,256,107,120,128,Guard,None,0,-1,0,-1,1,1
+19=YuriCountry House,YTNK,256,16,48,0,Area Guard,None,0,-1,0,-1,1,1
+20=YuriCountry House,YTNK,256,34,39,96,Area Guard,None,0,-1,0,-1,1,1
+21=YuriCountry House,YTNK,256,55,22,0,Area Guard,None,0,-1,0,-1,1,1
+22=YuriCountry House,MIND,192,115,119,128,Area Guard,None,0,-1,0,-1,1,1
 
-[Actions]
-0923103C=3,46,0,0,0,0,0,0,A,100,0,52,0,0,0,0,A,53,2,09231BFC,0,0,0,0,A
-09231BFC=13,47,0,0,0,0,0,0,A,21,6,EVA_BattlefieldControlOnline,0,0,0,0,A,4,1,0890193C,0,0,0,0,A,4,1,0890148C,0,0,0,0,A,74,0,9,0,0,0,0,A,4,1,092BA62C,0,0,0,0,A,4,1,092BB81C,0,0,0,0,A,4,1,0BE0132C,0,0,0,0,A,4,1,0BE0351C,0,0,0,0,A,3,0,9,0,0,0,0,A,53,2,0B1E809C,0,0,0,0,A,53,2,069BBD3C,0,0,0,0,A,53,2,077B9E1C,0,0,0,0,A
-0B1E809C=1,2,0,8,0,0,0,0,A
-069BBD3C=8,53,2,09847DFC,0,0,0,0,A,53,2,0984778C,0,0,0,0,A,53,2,0B99436C,0,0,0,0,A,53,2,0B9B744C,0,0,0,0,A,53,2,09847C7C,0,0,0,0,A,53,2,0984721C,0,0,0,0,A,53,2,0B9A36DC,0,0,0,0,A,53,2,0C746A2C,0,0,0,0,A
-077B9E1C=1,21,6,Mis_xS6_ZofiaGoToTheEast,0,0,0,0,A
-09847DFC=1,4,1,099A9B7C,0,0,0,0,A
-0984778C=1,4,1,099A9B7C,0,0,0,0,A
-0B99436C=1,4,1,099A9B7C,0,0,0,0,A
-0B9B744C=1,4,1,08900EFC,0,0,0,0,A
-09847C7C=1,4,1,089037DC,0,0,0,0,A
-0984721C=1,4,1,089037DC,0,0,0,0,A
-0B9A36DC=1,4,1,089037DC,0,0,0,0,A
-0C746A2C=1,4,1,0890063C,0,0,0,0,M
-0D6BF95C=1,21,6,Mis_xs6_YuriCashTaunt,0,0,0,0,A
-0BA3216C=1,21,6,Mis_xs6_YuriScreamTaunt,0,0,0,0,A
-0BBDE20C=1,38,0,8,0,0,0,0,A
-0BBF018C=1,38,0,8,0,0,0,0,A
-0BBDE11C=1,38,0,8,0,0,0,0,A
-092630BC=2,100,0,53,0,0,0,0,A,53,2,0B0BDBBC,0,0,0,0,A
-0B0BDBBC=1,53,2,08DBCDCC,0,0,0,0,A
-08DBCDCC=3,21,6,S06_p02,0,0,0,0,A,114,0,2,0,0,0,0,A,115,9,LUNR,0,0,0,0,90
-077B937C=1,21,6,Mis_xS6_ZofiaNoResources,0,0,0,0,A
-0BA3903C=1,7,1,08900CBC,0,0,0,0,A
-091BCB2C=2,7,1,091BD49C,0,0,0,0,A,7,1,091BAD9C,0,0,0,0,A
-0BCEF55C=1,54,2,091BCB2C,0,0,0,0,A
-0B99BBFC=1,4,1,089046CC,0,0,0,0,A
-0B1EE03C=2,21,6,Mis_xS4_YuriInevitable,0,0,0,0,A,53,2,068847BC,0,0,0,0,A
-068847BC=1,1,0,8,0,0,0,0,A
-0BF1BB4C=1,54,2,0BA3903C,0,0,0,0,A
-0BFCCF3C=1,4,1,08908B5C,0,0,0,0,A
-0BFC984C=1,53,2,0BFCCF3C,0,0,0,0,A
-0BFCAF3C=1,53,2,090EB69C,0,0,0,0,A
-090EB69C=1,32,0,0,0,0,0,0,A
-0C04613C=1,21,6,Mis_xA3_YuriTaunt,0,0,0,0,A
-0C04667C=1,21,6,Mis_xS3_YuriLeave,0,0,0,0,A
-0C9D724C=2,4,1,069E632C,0,0,0,0,A,4,1,069E67DC,0,0,0,0,A
-0C994D4C=2,17,0,0,0,0,0,0,A,17,0,5,0,0,0,0,F
-0994531C=1,11,4,MISSION:BuildBase,0,0,0,0,A
-09944C8C=1,11,4,MISSION:DestroyLunarCommand,0,0,0,0,A
-0994495C=1,11,4,MISSION:DestroyYuri06S,0,0,0,0,A
-0994462C=2,54,2,09944C8C,0,0,0,0,A,53,2,0994495C,0,0,0,0,A
-0994422C=2,54,2,0994531C,0,0,0,0,A,53,2,09944C8C,0,0,0,0,A
-0951F89C=6,54,2,0994531C,0,0,0,0,A,54,2,09944C8C,0,0,0,0,A,53,2,0994495C,0,0,0,0,A,21,6,Mis_xS6_ZofiaWellDone,0,0,0,0,A,11,4,MISSION:DestroyYuri06S,0,0,0,0,A,53,2,090EC3FC,0,0,0,0,A
-090EC3FC=1,32,0,0,0,0,0,0,A
-079E07EC=2,7,1,08F7BDEC,0,0,0,0,A,53,2,0915944C,0,0,0,0,A
-0915944C=1,53,2,079E21FC,0,0,0,0,A
-079E21FC=2,104,5,08F7BDEC,0,0,0,0,90,21,6,Unit_Sofia_FloatDisc,0,0,0,0,A
-08DAAADC=2,4,1,0853DB7C,0,0,0,0,A,53,2,08EFDB7C,0,0,0,0,A
-08EFDB7C=2,104,5,0853DB7C,0,0,0,0,90,21,6,Unit_Sofia_MasterMind,0,0,0,0,A
-08DAB8CC=2,21,6,Mis_xS6_ZofiaMagnetronIntro,0,0,0,0,A,104,5,0A2A809C,0,0,0,0,90
-08DAB62C=0
-043FEB4C=1,7,1,08B506CC,0,0,0,0,A
-043FDD9C=3,17,0,36,0,0,0,0,AK,4,1,0A2A809C,0,0,0,0,A,53,2,08DAB8CC,0,0,0,0,A
-05E805AC=5,7,1,0932B32C,0,0,0,0,A,7,1,0C430EFC,0,0,0,0,A,7,1,043A463C,0,0,0,0,A,7,1,043AF7DC,0,0,0,0,A,7,1,0932712C,0,0,0,0,A
-05E81BEC=1,7,1,0C65889C,0,0,0,0,A
-05E9BCAC=1,4,1,08EC7C8C,0,0,0,0,A
-08AAD06C=1,32,0,0,0,0,0,0,A
-090ECF3C=1,32,0,0,0,0,0,0,A
-090EBE6C=1,32,0,0,0,0,0,0,A
-090EBABC=1,53,2,090EBE6C,0,0,0,0,A
-096C769C=5,17,0,78,0,0,0,0,CA,17,0,80,0,0,0,0,CC,17,0,81,0,0,0,0,CD,48,0,3,0,0,0,0,CA,53,2,096E96AC,0,0,0,0,A
-096E96AC=1,48,0,3,0,0,0,0,AH
-0907E1DC=3,53,2,09078A2C,0,0,0,0,A,54,2,0C04613C,0,0,0,0,A,54,2,0C04667C,0,0,0,0,A
-09078A2C=5,9,0,9,0,0,0,0,A,53,2,07B9CE5C,0,0,0,0,A,53,2,07B9BA5C,0,0,0,0,A,53,2,0782720C,0,0,0,0,A,53,2,0B1EE03C,0,0,0,0,A
-07B9CE5C=1,9,0,1,0,0,0,0,A
-07B9BA5C=1,9,0,0,0,0,0,0,A
-0782720C=3,119,0,9,0,0,0,0,A,53,2,09A0EC1C,0,0,0,0,A,53,2,09A0C36C,0,0,0,0,A
-09A0EC1C=1,119,0,0,0,0,0,0,A
-09A0C36C=1,119,0,1,0,0,0,0,A
-093BDCBC=2,7,1,08B506CC,0,0,0,0,A,7,1,08B506CC,0,0,0,0,A
-05E4BF3C=2,3,0,0,0,0,0,0,A,3,0,1,0,0,0,0,A
-08916D7C=1,108,0,0,0,0,0,0,Q
-0891670C=1,108,0,0,0,0,0,0,N
-08B7F03C=1,53,2,092630BC,0,0,0,0,A
-084F7E0C=1,53,2,077B937C,0,0,0,0,A
-08B8E03C=1,56,0,1,0,0,0,0,A
-08BE205C=1,56,0,2,0,0,0,0,A
-08BEB06C=1,56,0,3,0,0,0,0,A
-095408BC=1,53,2,079E07EC,0,0,0,0,A
-05A800AC=1,53,2,079E21FC,0,0,0,0,A
-07706ADC=1,38,0,8,0,0,0,0,A
+[VariableNames]
+0=Mastermind Exposed,0
+1=Base 1 Down,0
+2=Base 2 Down,0
+3=Base 3 Down,0
 
-[Tags]
-0915BD6C=0,Floating Disk Seen,05A800AC
-09231D4C=0,_welcome!,0923103C
-09232F4C=0,_welcome! UNLOCK,09231BFC
-0D6BF7EC=0,Yuri Cash Taunt,0D6BF95C
-0BA3B1CC=0,Yuri Taunt Hideaway,0BA3216C
-0BBEE10C=0,Enemy Russia,0BBDE20C
-0BBF414C=0,Enemy Russia 2,0BBF018C
-0BBF221C=0,Enemy Russia 3,0BBDE11C
-092601CC=0,Limited Troops 1a,092630BC
-0BA3C08C=0,Start Suprise 1,0BA3903C
-091BC62C=0,Start Suprise 2,091BCB2C
-0BCF4DCC=0,Kill Suprise 2,0BCEF55C
-0B9B604C=2,Tons O Mooners Hard,0B9A36DC
-0B9B710C=2,Tons O Mooners 2,0B9B744C
-0C7464AC=2,Mastermind 1,0C746A2C
-0B992C7C=2,Laser Jerks Hard,0B99436C
-0B99B67C=2,Gattling Isn't For The,0B99BBFC
-0B1EF03C=0,It's Over!,0B1EE03C
-0B1F4C7C=0,It's Over : (,0B1E809C
-0BF1B55C=0,Kill Suprise 1,0BF1BB4C
-0BFC912C=2,_Don't Stop Lasers,0BFCCF3C
-0BFCA0DC=0,_Start Don't Stop Laser,0BFC984C
-0BFCAB9C=0,Barracks Gone,0BFCAF3C
-0C04049C=0,_Extra Taunt,0C04613C
-0C04514C=0,_Extra Taunt 2,0C04667C
-0CA0E59C=0,Protect Lunar Base,0C9D724C
-09847AEC=2,Laser Jerks Easy,09847DFC
-098476AC=2,Laser Jerks Medium,0984778C
-0983FE6C=2,Tons O Mooners Medium,0984721C
-0CA1409C=2,Tons O Mooners Easy,09847C7C
-069BB59C=0,_welcome teams,069BBD3C
-0C993F4C=0,Revealing Shroud,0C994D4C
-06885E4C=0,It's Over! 2,068847BC
-09944D7C=2,Objective 1,0994531C
-09944A4C=2,Objective 2,09944C8C
-0994471C=2,Objective 3,0994495C
-0994431C=0,Lunar Command Gone,0994462C
-09943E7C=0,Soviet MCV Exists,0994422C
-0951F21C=0,Lunar Destroyed,0951F89C
-079E22EC=0,Demo Floating Disk 1,079E07EC
-079E38CC=0,Demo Floating Disk 2,079E21FC
-08DAB9BC=0,_welcome! Mastermind,08DAAADC
-08DAB71C=0,_welcome! Mag Speech,08DAB8CC
-08DAB4BC=0,_welcome!zzz,08DAB62C
-043FAB6C=0,_welcome! rhinos,043FEB4C
-043FDBEC=0,_welcome! Magentron,043FDD9C
-05E81CDC=0,_welcome! Cosmonaunts,05E805AC
-05E8134C=0,_welcome! MCV,05E81BEC
-05E9B72C=0,_welcome! Cos Attack,05E9BCAC
-08EEA05C=0,Kill Blue Light 1,08AAD06C
-090EC9EC=0,Kill BLue Light 2,090ECF3C
-090EC1BC=0,Kill BLue Light 3,090EC3FC
-090EBC2C=0,Kill Blue Light 4,090EBE6C
-090EB87C=0,Yuri MCV Gone,090EBABC
-090EB45C=0,Kill Blue Light 5,090EB69C
-096C732C=0,Show the base!,096C769C
-096E92CC=0,Show the base! 2,096E96AC
-08EFD47C=0,_welcome! MM Speech,08EFDB7C
-09078B1C=0,Fire Sale,0907E1DC
-090787EC=0,Fire Sale Countdown,09078A2C
-093BD66C=0,More Rhinos,093BDCBC
-0B0BD53C=0,Limited Troops 2,0B0BDBBC
-05E4BA5C=0,Production,05E4BF3C
-089167FC=0,Bonus Money 1,08916D7C
-089164CC=0,Bonus Money 2,0891670C
-08B86F4C=0,Limited Troops 1,08B7F03C
-07826B8C=0,Fire Sale Countdown 2,0782720C
-077B953C=0,Place to Build,077B9E1C
-077BBE7C=0,No Resources,077B937C
-08DBC7FC=0,Limited Troops 2a,08DBCDCC
-084F1DAC=0,No Resources 0,084F7E0C
-08B9604C=0,Fire Sale A,08B8E03C
-08BEE06C=0,Fire Sale B,08BE205C
-08BF607C=0,Fire Sale C,08BEB06C
-09544C9C=0,Demo Floating Disk 0,095408BC
-0770661C=0,Yuri Hates Russia,07706ADC
-07B9CF4C=0,Fire Sale - 1 America,07B9BA5C
-07B9CCAC=0,Fire Sale - 2 Alliance House,07B9CE5C
-09A0ED0C=0,Fire Sale Countdown 2a,09A0C36C
-09A0A4AC=0,Fire Sale Countdown 2b,09A0EC1C
+[Waypoints]
+0=145118
+1=157120
+2=152128
+3=153114
+4=140112
+5=143124
+6=116093
+7=111110
+8=67064
+9=65042
+10=49061
+11=106070
+12=103064
+13=54086
+15=136123
+16=101075
+17=153127
+18=154126
+19=155125
+20=156124
+21=70036
+22=68101
+23=116147
+25=20044
+26=20051
+27=120107
+28=127132
+29=127115
+30=36041
+31=51025
+32=119115
+33=136116
+34=133117
+35=132113
+36=129114
+78=12045
+80=18043
+81=18051
+699=80081
+700=80081
+
+[YuriCountry House]
+IQ=5
+000=YAPOWR,12,44
+001=YAPOWR,18,34
+002=YAPOWR,26,39
+003=YAPOWR,30,35
+004=YAPOWR,34,28
+005=YAPOWR,40,16
+006=YAPOWR,48,21
+Edge=North
+Color=Yuri
+Allies=Americans House,Alliance House,YuriCountry House
+Country=YuriCountry House
+Credits=2000
+NodeCount=7
+TechLevel=10
+PercentBuilt=100
+PlayerControl=no
+
+
 
 [Digest]
 1=bywD4L9YO/X3yaJu9YlbEdaII40=
+

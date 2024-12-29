@@ -1,17 +1,169 @@
-[Ranking]
-ParTimeEasy=00:40:00
-ParTimeMedium=00:30:00
-ParTimeHard=00:25:00
-UnderParTitle=GUI:ParTitleSov05
-UnderParMessage=GUI:UnderParMsgSov04
-OverParTitle=GUI:ParTitleSov04
-OverParMessage=GUI:OverParMsgSov04
+; Map created with FinalAlert 2(tm) Mission Editor
+; Get it at http://www.westwood.com
+; note that all comments were truncated
+
+[155mm]
+Range=10
+
+[ADOG]
+Name=Allied Attack Dog
+TechLevel=12
+
+[AI]
+AttackDelay=0.10
+AttackInterval=0.01
+
+[ATESLA]
+Name=Prism Cannon
+TechLevel=12
+
+[Aboreus]
+Value=50
+
+[AircraftTypes]
+
+[Basic]
+Win=<none>
+Lose=<none>
+Name=RA2S4
+Brief=S04_f00e
+Intro=<none>
+Theme=Burn
+Action=<none>
+Player=Player House
+Percent=0
+Briefing=Brief:Sov04
+GameMode=standard
+HomeCell=98
+InitTime=10000
+Official=yes
+EndOfGame=no
+FillSilos=no
+FreeRadar=no
+MaxPlayer=8
+MinPlayer=2
+PostScore=<none>
+SkipScore=no
+TrainCrate=no
+TruckCrate=no
+AltHomeCell=98
+OneTimeOnly=no
+CarryOverCap=0
+NewINIFormat=4
+NextScenario=GDI2A.map
+PreMapSelect=<none>
+TimerInherit=no
+SkipMapSelect=no
+CarryOverMoney=0.000000
+AltNextScenario=GDI9C.MAP
+MultiplayerOnly=0
+IceGrowthEnabled=yes
+StartingDropships=0
+VeinGrowthEnabled=no
+TiberiumGrowthEnabled=no
+IgnoreGlobalAITriggers=no
+TiberiumDeathToVisceroid=no
+
+[CAFARM06]
+Name=RA2 Lighthouse
+Insignificant=no
+
+[CARRIER]
+Name=Aircraft Carrier
+TechLevel=12
+
+[CMIN]
+Storage=10
+
+[Cruentus]
+Value=100
+
+[DEST]
+Name=Destroyer
+TechLevel=5
+
+[DLPH]
+Name=Dolphin
+TechLevel=12
+
+[DRED]
+Name=Dreadnought
+TechLevel=12
+
+[ENGINEER]
+Name=Engineer
+TechLevel=12
+
+[GADEPT]
+Name=Service Depot
+TechLevel=6
+
+[GAGAP]
+Name=Gap Generator
+TechLevel=12
+
+[GATECH]
+Name=Allied Battle Lab
+TechLevel=12
 
 [HARV]
 Storage=20
 
-[CMIN]
-Storage=10
+[INPURPLAMP]
+Name=Invisible Purple Light Post
+Allieds2Tint=0.4000
+LightRedTint=0.4000
+LightGreenTint=0.0000
+LightIntensity=0.01
+LightVisibility=4000
+
+[INYELWLAMP]
+Name=Invisible Yellow Light Post
+Allieds2Tint=-0.1
+LightRedTint=0.2
+LightGreenTint=0.2
+LightIntensity=0.01
+LightVisibility=4000
+
+[IVAN]
+Name=Crazy Ivan
+TechLevel=12
+
+[NASAM]
+Name=Patriot Missile
+TechLevel=12
+
+[NATECH]
+Name=Soviet Battle Lab
+TechLevel=12
+
+[NEGLAMP]
+Name=Negative Light Post
+Image=GALITE
+Allieds2Tint=0.04
+LightRedTint=0.03
+LightGreenTint=0.04
+LightIntensity=-0.15
+LightVisibility=4000
+
+[Riparius]
+Value=50
+
+[SHK]
+Name=Shock Trooper
+TechLevel=5
+
+[SMCV]
+Name=Soviet Construction Vehicle
+TechLevel=6
+
+[SPY]
+Name=Spy
+TechLevel=12
+
+[TESLA]
+Name=Tesla Coil
+TechLevel=12
 
 [Tiberiums]
 0=Riparius
@@ -19,345 +171,2486 @@ Storage=10
 2=Vinifera
 3=Aboreus
 
-[Riparius]
-Value=50
-
-[Cruentus]
-Value=100
-
 [Vinifera]
 Value=50
-
-[Aboreus]
-Value=50
-
-[AI]
-AttackInterval=0.01
-AttackDelay=0.10
-
-[155mm]
-Range=10
-
-[DEST]
-Name=Destroyer
-TechLevel=5
-
-[GADEPT]
-Name=Service Depot
-TechLevel=6
-
-[TESLA]
-Name=Tesla Coil
-TechLevel=12
-
-[ATESLA]
-Name=Prism Cannon
-TechLevel=12
-
-[CARRIER]
-Name=Aircraft Carrier
-TechLevel=12
-
-[ENGINEER]
-Name=Engineer
-TechLevel=12
-
-[ADOG]
-Name=Allied Attack Dog
-TechLevel=12
-
-[SPY]
-Name=Spy
-TechLevel=12
-
-[DLPH]
-Name=Dolphin
-TechLevel=12
-
-[GATECH]
-Name=Allied Battle Lab
-TechLevel=12
-
-[NATECH]
-Name=Soviet Battle Lab
-TechLevel=12
-
-[IVAN]
-Name=Crazy Ivan
-TechLevel=12
-
-[SHK]
-Name=Shock Trooper
-TechLevel=5
-
-[DRED]
-Name=Dreadnought
-TechLevel=12
 
 [YURI]
 Name=Yuri
 TechLevel=12
 
-[GAGAP]
-Name=Gap Generator
-TechLevel=12
 
-[NASAM]
-Name=Patriot Missile
-TechLevel=12
+[Preview]
 
-[CAFARM06]
-Name=RA2 Lighthouse
-Insignificant=no
+[PreviewPack]
 
-[SMCV]
-Name=Soviet Construction Vehicle
-TechLevel=6
+[03D83810]
+0=3,DEST
+Name=Def_Navy TF
+Group=-1
 
-[NEGLAMP]
-Name=Negative Light Post
-Image=GALITE
-LightVisibility=4000
-LightIntensity=-0.15
-LightRedTint=0.03
-LightGreenTint=0.04
-Allieds2Tint=0.04
+[03D85C70]
+0=3,DEST
+Name=Attk_Destroyer x3 TF
+Group=-1
 
-[INPURPLAMP]
-Name=Invisible Purple Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=0.4000
-LightGreenTint=0.0000
-Allieds2Tint=0.4000
+[03D85D70]
+Max=2
+Full=no
+Name=Attk_Destroyer x3
+Group=-1
+House=BadGuy1
+Script=08DE37DC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=03D85C70
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[INYELWLAMP]
-Name=Invisible Yellow Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=0.2
-LightGreenTint=0.2
-Allieds2Tint=-0.1
+[0434C1FC]
+Max=1
+Full=yes
+Name=Allied Landing Fleet LZ@A a
+Group=-1
+House=BadGuy1
+Script=08C17820
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEB66CC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[SpecialFlags]
-TiberiumGrows=no
-TiberiumSpreads=yes
-TiberiumExplosive=no
-DestroyableBridges=yes
-MCVDeploy=no
-InitialVeteran=no
-FixedAlliance House=no
-HarvesterImmune=no
-FogOfWar=no
-Inert=no
-IonStorms=no
-Meteorites=no
-Visceroids=no
+[0434D32C]
+Max=1
+Full=yes
+Name=Allied Landing MCV@K
+Group=-1
+House=BadGuy1
+Script=0B3FBC10
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C1C26CC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[Countries]
-0=Other1
-1=Player
-2=BadGuy1
-3=BadGuy2
-4=BadGuy3
-5=Germany1
-6=Germany2
-7=Germany3
-8=Temp
+[0434D6CC]
+Max=1
+Full=yes
+Name=Allied Landing Fleet LZ@M a
+Group=-1
+House=BadGuy1
+Script=0B3F8890
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B441D00
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[Other1]
-ParentCountry=Americans House
-Name=Other1
-Suffix=Allied
-Prefix=G
-Color=NeonBlue
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
+[0434DB7C]
+Max=1
+Full=yes
+Name=Allied Landing Fleet LZ@K a
+Group=-1
+House=BadGuy1
+Script=0B3FC7D0
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B441D00
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
 
-[Player]
-ParentCountry=Russians House
-Name=Player
-Suffix=Soviet
-Prefix=B
-Color=Soviet
-Side=Nod
-SmartAI=yes
-CostUnitsMult=1
+[0434F90C]
+Max=1
+Full=yes
+Name=Allied Landing Fleet LZ@A b
+Group=-1
+House=BadGuy1
+Script=08DDAB7C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEB66CC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0473256C]
+Max=2
+Full=yes
+Name=Allied Landing Feint Attack_AI
+Group=-1
+House=BadGuy1
+Script=0B7FD90C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=AJ
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEBB56C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[04732A1C]
+Max=2
+Full=yes
+Name=Allied Landing Feint Attack_AH
+Group=-1
+House=BadGuy1
+Script=0B7FDDBC
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=AJ
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEBB56C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[04732B4C]
+0=3,32
+1=8,1
+2=39,8
+3=3,35
+4=37,0
+Name=Landing@AG
+
+[04732DBC]
+0=3,31
+1=8,1
+2=39,7
+3=3,35
+4=37,0
+Name=Landing@AF
+
+[0473542C]
+0=1,MTNK
+Name=Tank Feint Attack TF
+Group=-2
+
+[047373AC]
+Max=1
+Full=yes
+Name=Allied Landing Feint Attack_AG
+Group=-1
+House=BadGuy1
+Script=04732B4C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AJ
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEB66CC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[047374DC]
+Max=1
+Full=yes
+Name=Allied Landing Feint Attack_AF
+Group=-1
+House=BadGuy1
+Script=04732DBC
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AJ
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEB66CC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[08B3B88C]
+0=8,E1
+Name=Attk_GI Bldg Occupy x8 TF
+Group=-1
+
+[08B3B99C]
+Max=4
+Full=no
+Name=Attk_GI Bldg Occupy x8
+Group=-1
+House=BadGuy1
+Script=08DE2A1C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=18
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=08B3B88C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08C17820]
+0=3,6
+1=39,6
+2=3,0
+3=8,1
+4=39,1
+5=3,1
+6=37,0
+Name=Allied Landing Fleet GI@A SCR
+
+[08D355C0]
+0=16,6
+1=16,7
+2=16,8
+3=16,9
+4=6,1
+Name=Allied Assault Fleet b SCR
+
+[08D35A40]
+0=16,5
+1=46,131133
+2=46,131097
+3=46,131139
+4=0,1
+5=11,15
+Name=Allied Assault Fleet a SCR
+
+[08DD8A1C]
+0=11,11
+1=49,0
+Name=Def_Combo 1 SCR
+
+[08DD8DBC]
+0=11,11
+1=49,0
+Name=Def_Terror SCR
+
+[08DD990C]
+0=11,11
+1=49,0
+Name=_Base Defense SCR
+
+[08DD9DBC]
+0=0,5
+1=49,0
+2=0,7
+3=0,1
+Name=Attk_IFV/Rocketeer x4 SCR
+
+[08DDA43C]
+0=0,5
+1=49,0
+2=0,4
+3=0,1
+Name=Attk_Grizzly x3 SCR
+
+[08DDAB7C]
+0=3,6
+1=3,0
+2=8,1
+3=39,5
+4=3,1
+5=37,0
+Name=Allied Landing Fleet LZ@A b SCR
+
+[08DE2A1C]
+0=46,131178
+1=49,0
+2=0,1
+Name=Attk_GI Bldg Occupy x8 SCR
+
+[08DE37DC]
+0=46,131133
+1=49,0
+2=11,15
+Name=Attk_Destroyer x3 SCR
+
+[08DE3C8C]
+0=46,131092
+1=49,0
+2=0,7
+3=0,9
+4=0,1
+Name=Attk_Hard Grp b SCR
+
+[08DE430C]
+0=46,131097
+1=49,0
+2=0,2
+3=0,1
+Name=Attk_Hard Grp a SCR
+
+[08DE47DC]
+0=46,196619
+1=49,0
+2=46,131097
+3=0,2
+Name=Attk_Engineer x2b SCR
+
+[08DE4C8C]
+0=46,131087
+1=49,0
+2=46,131086
+3=0,2
+Name=Attk_Engineer x2a SCR
+
+[08DE5C8C]
+0=46,131097
+1=49,0
+2=46,131133
+3=0,1
+Name=Attk_Intruder x4b SCR
+
+[08DE632C]
+0=46,131081
+1=49,0
+2=46,131087
+3=0,1
+Name=Attk_Intruder x4a SCR
+
+[08DE67DC]
+0=0,5
+1=49,0
+2=0,9
+3=0,1
+Name=Attk_Rocketeer x4 SCR
+
+[08DE6C8C]
+0=0,4
+1=49,0
+2=0,1
+Name=Attk_GI x5 SCR
+
+[08FD832C]
+Max=2
+Full=no
+Name=Attk_Engineer x2b
+Group=-1
+House=BadGuy1
+Script=08DE47DC
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=102A4870
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08FD87DC]
+Max=2
+Full=no
+Name=Attk_Engineer x2a
+Group=-1
+House=BadGuy1
+Script=08DE4C8C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=102A4870
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09072A40]
+0=0,4
+1=49,0
+2=0,1
+Name=Attk_Combined b SCR
+
+[09072DC0]
+0=16,24
+1=16,25
+2=16,26
+3=46,131086
+4=49,0
+5=0,6
+6=0,1
+Name=Attk_Combined a SCR
+
+[097527DC]
+0=3,21
+1=46,131139
+2=0,5
+3=0,4
+4=0,1
+Name=Invasion Para 3 SCR
+
+[0975332C]
+0=3,21
+1=46,131139
+2=46,131092
+3=0,7
+4=0,1
+Name=Invasion Para 2 SCR
+
+[097537DC]
+0=3,21
+1=46,131087
+2=0,1
+Name=Invasion Para 1 SCR
+
+[0975E6CC]
+0=3,21
+1=46,131086
+2=0,3
+3=0,5
+4=0,6
+5=0,1
+Name=Invasion Para 4 SCR
+
+[09946EFC]
+Max=2
+Full=no
+Name=Attk_Intruder x3b
+Group=-1
+House=BadGuy1
+Script=08DE632C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=yes
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C45A82C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0994759C]
+Max=2
+Full=no
+Name=Attk_Intruder x3a
+Group=-1
+House=BadGuy1
+Script=08DE632C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=yes
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0C45AA6C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09987040]
+Max=1
+Full=no
+Name=Grizz Landed @K
+Group=-1
+House=BadGuy1
+Script=0999FC00
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=099950E0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[099950E0]
+0=1,MTNK
+Name=Grizzly Landed TF
+Group=-1
+
+[0999FC00]
+0=16,15
+1=11,11
+Name=Grizzly Landed @K SCR
+
+[099B13B0]
+0=16,14
+1=11,11
+Name=Grizzly Landed @M SCR
+
+[099B1610]
+Max=1
+Full=no
+Name=Grizz Landed @M
+Group=-1
+House=BadGuy1
+Script=099B13B0
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=M
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=099950E0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[099B3350]
+Max=1
+Full=no
+Name=MCV Landed
+Group=-1
+House=BadGuy1
+Script=099D6DC0
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=K
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=099B7040
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[099B7040]
+0=1,AMCV
+Name=MCV Landed TF
+Group=-1
+
+[099D6DC0]
+0=3,2
+1=9,0
+Name=MCV Landed SCR
+
+[09A280B0]
+Max=1
+Full=no
+Name=Stupid Harvester 1
+Group=-1
+House=BadGuy1
+Script=0ADFB3A0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=T
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09A28F20
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[09A28F20]
+0=1,CMIN
+Name=Stupid Harvester TF
+Group=-1
+
+[09A2D4C0]
+0=5,E1
+Name=GIs Landed TF
+Group=-1
+
+[09AAD030]
+0=3,MTNK
+Name=Attk_Grizzly x3 TF
+Group=-1
+
+[09E6CAEC]
+0=1,ORCA
+Name=1 Intruder
+Group=-1
+
+[09E6CBFC]
+Max=1
+Full=no
+Name=1 Intruder (Attacks Navy)
+Group=-1
+House=BadGuy1
+Script=09E6DD0C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AJ
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09E6CAEC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[09E6DD0C]
+0=46,131133
+Name=Intruder vs Naval Yard
+
+[0A22CC1C]
+0=1,CIVSF
+Name=Lighthouse Lady
+Group=-1
+
+[0A3CB920]
+Max=1
+Full=no
+Name=GI2 Landed
+Group=-1
+House=BadGuy1
+Script=0AC52120
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09A2D4C0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A49B16C]
+Max=2
+Full=no
+Name=Def_Terror
+Group=-1
+House=BadGuy1
+Script=08DD8DBC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=14
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0C26E360
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A49B39C]
+Max=2
+Full=no
+Name=Def_Armor
+Group=-1
+House=BadGuy1
+Script=08DD990C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0C26E580
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A49BB8C]
+0=4,FV
+1=4,JUMPJET
+Name=Attk_IFV/Rocketeer x4 TF
+Group=-1
+
+[0A49BF0C]
+Max=3
+Full=no
+Name=Attk_IFV/Rocketeer x4
+Group=-1
+House=BadGuy1
+Script=08DD9DBC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0A49BB8C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A49C80C]
+0=4,FV
+1=4,JUMPJET
+Name=Def_Combo 1 TF
+Group=-1
+
+[0A49CB8C]
+Max=2
+Full=no
+Name=Def_Combo 1
+Group=-1
+House=BadGuy1
+Script=08DD8A1C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=14
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0A49C80C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A49F91C]
+0=3,MTNK
+1=2,FV
+Name=Attk_Combined a TF
+Group=-1
+
+[0A4A07FC]
+0=5,FV
+1=5,JUMPJET
+Name=Attk_Hard Grp a TF
+Group=-1
+
+[0A4A0B7C]
+Max=2
+Full=no
+Name=Attk_Hard Grp a
+Group=-1
+House=BadGuy1
+Script=08DE430C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=16
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0A4A07FC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A62524C]
+Max=3
+Full=no
+Name=Attk_Combined b
+Group=-1
+House=BadGuy1
+Script=09072A40
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0C22AA50
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A6256FC]
+Max=3
+Full=no
+Name=Attk_Combined a
+Group=-1
+House=BadGuy1
+Script=09072A40
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0A49F91C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A711820]
+Max=2
+Full=no
+Name=Def_Combo 2
+Group=-1
+House=BadGuy1
+Script=08DD990C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0C26C7E0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A713600]
+Max=2
+Full=no
+Name=Def_V3
+Group=-1
+House=BadGuy1
+Script=08DD990C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0C26E7A0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A713A80]
+Max=2
+Full=no
+Name=Def_Infantry
+Group=-1
+House=BadGuy1
+Script=08DD990C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=yes
+TaskForce=0C26D4C0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A719940]
+Max=2
+Full=no
+Name=Def_Navy
+Group=-1
+House=BadGuy1
+Script=08DD990C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=03D83810
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0A71D800]
+Max=3
+Full=no
+Name=Def_Engineer x2c
+Group=-1
+House=BadGuy1
+Script=08DD990C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=10
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=102A4870
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=yes
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AA7D920]
+Max=3
+Full=no
+Name=Attk_Grizzly x3
+Group=-1
+House=BadGuy1
+Script=08DDA43C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=09AAD030
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AA80720]
+Max=3
+Full=no
+Name=Attk_GI x5
+Group=-1
+House=BadGuy1
+Script=08DE6C8C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0C22C7F0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0AC52120]
+0=16,13
+1=9,0
+2=11,11
+Name=GI2 Landed SCR
+
+[0AC536E0]
+0=16,16
+1=9,0
+2=11,11
+Name=GIs Landed SCR
+
+[0ADFB3A0]
+0=3,23
+Name=Stupid Harvester SCR
+
+[0AE584BC]
+0=2,E1
+Name=Feint_GI x2 TF
+Group=-1
+
+[0B01A54C]
+0=0,7
+1=0,4
+2=0,1
+Name=GI Feint Attack
+
+[0B135360]
+Max=2
+Full=no
+Name=GIs Landed
+Group=-1
+House=BadGuy1
+Script=0AC536E0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=A
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=09A2D4C0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0B3F8890]
+0=3,6
+1=3,12
+2=8,1
+3=39,4
+4=3,1
+5=37,0
+Name=Allied Landing Fleet Grizz@M SCR
+
+[0B3FBC10]
+0=3,11
+1=3,10
+2=8,1
+3=39,3
+4=3,1
+5=37,0
+Name=Allied Landing MCV@A SCR
+
+[0B3FC7D0]
+0=3,11
+1=3,10
+2=8,1
+3=39,2
+4=3,1
+5=37,0
+Name=Allied Landing Fleet Grizz@K SCR
+
+[0B441D00]
+0=1,LCRF
+1=1,MTNK
+Name=Allied Landing Fleet Grizzly TF
+Group=-1
+
+[0B7FD90C]
+0=3,34
+1=8,1
+2=39,13
+3=3,35
+4=37,0
+Name=Landing@AI
+
+[0B7FDDBC]
+0=3,33
+1=8,1
+2=39,12
+3=3,35
+4=37,0
+Name=Landing@AH
+
+[0B9E108C]
+0=1,CIVSFM
+1=1,CIVSF
+2=1,CIVSTM
+Name=Fishing Village People
+Group=-1
+
+[0BA0EDAC]
+0=1,ENGINEER
+1=1,FV
+Name=Engineer in IFV
+Group=-1
+
+[0BA0EEBC]
+Max=2
+Full=no
+Name=Engineer_IFV Rush
+Group=-1
+House=BadGuy1
+Script=0BA0F48C
+Whiner=yes
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BA0EDAC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0BA0F48C]
+0=14,0
+1=3,38
+2=3,39
+3=8,2
+4=46,131072
+Name=Engineer_IFV Attack
+
+[0BEB66CC]
+0=1,LCRF
+1=2,E1
+Name=Allied Landing Fleet GI TF
+Group=-1
+
+[0BEBB56C]
+0=1,MTNK
+1=1,LCRF
+Name=Allied Feint Attack Grizzly TF
+Group=-1
+
+[0BEFC6AC]
+Max=1
+Full=no
+Name=Allied Assault Fleet b
+Group=-1
+House=BadGuy1
+Script=08D355C0
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=E
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEFC7DC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0BEFC7DC]
+0=2,DEST
+Name=Allied Assault Fleet TF
+Group=-1
+
+[0BEFCB5C]
+Max=1
+Full=no
+Name=Allied Assault Fleet a
+Group=-1
+House=BadGuy1
+Script=08D35A40
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=D
+Annoyance=yes
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BEFC7DC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0BFA204C]
+0=3,36
+1=0,9
+2=0,1
+Name=Tank Feint Attack
+
+[0BFA2EFC]
+Max=2
+Full=no
+Name=Tank Feint Attack 2
+Group=-2
+House=BadGuy1
+Script=0BFA54FC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=AI
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0473542C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0BFA54FC]
+0=3,36
+1=0,1
+Name=Tank Feint Attack 2
+
+[0BFA7EFC]
+Max=2
+Full=no
+Name=Tank Feint Attack 1
+Group=-2
+House=BadGuy1
+Script=0BFA204C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=AH
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0473542C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0BFFA21C]
+0=2,MTNK
+Name=Invasion Para 4 TF
+Group=-1
+
+[0BFFA59C]
+Max=2
+Full=no
+Name=Invasion Para 4
+Group=-1
+House=BadGuy1
+Script=0975E6CC
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=W
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BFFA21C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0BFFB6AC]
+Max=1
+Full=no
+Name=GI Feint Atttack 2
+Group=-2
+House=BadGuy1
+Script=0B01A54C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AG
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0AE584BC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0BFFBA4C]
+Max=1
+Full=no
+Name=GI Feint Attack 1
+Group=-2
+House=BadGuy1
+Script=0B01A54C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AF
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0AE584BC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0BFFDF1C]
+0=2,E1
+1=1,MTNK
+Name=Invasion Para 3 TF
+Group=-1
+
+[0BFFE48C]
+Max=2
+Full=no
+Name=Invasion Para 3
+Group=-1
+House=BadGuy1
+Script=097527DC
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=U
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BFFDF1C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0BFFEA6C]
+0=1,MTNK
+Name=Invasion Para 2 TF
+Group=-1
+
+[0BFFEDEC]
+Max=2
+Full=no
+Name=Invasion Para 2
+Group=-1
+House=BadGuy1
+Script=0975332C
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=S
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BFFEA6C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0BFFEF1C]
+0=4,E1
+Name=Invasion Para 1 TF
+Group=-1
+
+[0BFFF48C]
+Max=2
+Full=no
+Name=Invasion Para 1
+Group=-1
+House=BadGuy1
+Script=097537DC
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=R
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0BFFEF1C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0C16511C]
+0=19,0
+1=6,1
+Name=Civilian Panic
+
+[0C1C26CC]
+0=1,LCRF
+1=1,AMCV
+Name=Allied Landing MCV TF
+Group=-1
+
+[0C2291E0]
+0=4,JUMPJET
+Name=Attk_Rocketeer x4 TF
+Group=-1
+
+[0C2292E0]
+Max=3
+Full=no
+Name=Attk_Rocketeer x4
+Group=-1
+House=BadGuy1
+Script=08DE67DC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=12
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=0C2291E0
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0C22AA50]
+0=8,E1
+Name=Attk_Combined b TF
+Group=-1
+
+[0C22C7F0]
+0=5,E1
+Name=Attk_GI x5 TF
+Group=-1
+
+[0C26C7E0]
+0=2,FV
+1=2,MTNK
+2=4,E1
+Name=Def_Combo 2 TF
+Group=-1
+
+[0C26D4C0]
+0=8,E1
+Name=Def_Infantry TF
+Group=-1
+
+[0C26E360]
+0=4,FV
+1=4,E1
+Name=Def_Terror TF
+Group=-1
+
+[0C26E580]
+0=5,MTNK
+Name=Def_Armor TF
+Group=-1
+
+[0C26E7A0]
+0=5,JUMPJET
+Name=Def_V3 TF
+Group=-1
+
+[0C452F1C]
+0=2,ORCA
+Name=Intruder Harrassment TF
+Group=-1
+
+[0C45A82C]
+0=2,ORCA
+Name=Attk_Intruder x3b TF
+Group=-1
+
+[0C45AA6C]
+0=2,ORCA
+Name=Attk_Intruder x3a TF
+Group=-1
+
+[0D9E5B7C]
+0=46,131087
+1=46,131097
+2=46,131081
+3=3,4
+4=37,0
+Name=Intruder Harrassment 2 SCR
+
+[0D9E5DEC]
+Max=2
+Full=no
+Name=Intruder Harrassment 2
+Group=-1
+House=BadGuy2
+Script=0D9E5B7C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=E
+Annoyance=yes
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C452F1C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0D9E61FC]
+0=46,131081
+1=46,11
+2=46,15
+3=3,3
+4=37,0
+Name=Intruder Harrassment 1 SCR
+
+[0D9E646C]
+Max=2
+Full=no
+Name=Intruder Harrassment 1
+Group=-1
+House=BadGuy2
+Script=0D9E61FC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=D
+Annoyance=yes
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0C452F1C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=yes
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[0DB3732C]
+Max=-1
+Full=no
+Name=Fishing Village People
+Group=-1
+House=Neutral
+Script=0C16511C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AK
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B9E108C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0DB377DC]
+Max=1
+Full=no
+Name=Lighthouse Lady
+Group=-1
+House=Neutral
+Script=0C16511C
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AL
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0A22CC1C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[102A4870]
+0=2,ENGINEER
+Name=Attk_Engineer x2 TF
+Group=-1
+
+[102AEA20]
+0=5,MTNK
+1=8,E1
+2=5,JUMPJET
+Name=Attk_Hard Grp b TF
+Group=-1
+
+[102AEB20]
+Max=2
+Full=no
+Name=Attk_Hard Grp b
+Group=-1
+House=BadGuy1
+Script=08DE3C8C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=16
+Annoyance=no
+IonImmune=no
+Recruiter=yes
+Reinforce=no
+TaskForce=102AEA20
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=yes
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=yes
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[AITriggerTypes]
+08DF462C=Attk_GI Bldg Occupy x8 AITrig,08B3B99C,<all>,1,1,GAPILE,0100000003000000000000000000000000000000000000000000000000000000,40.000000,20.000000,60.000000,0,0,1,0,<none>,1,1,1
+09443120=Attk_Intruder x4a AITrig,0994759C,<all>,3,0,NAPOWR,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
+09443260=Attk_Rocketeer x4 AITrig,0C2292E0,<all>,3,0,V3,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
+094439E0=Def_Engineer x2c AITrig,0A71D800,<all>,12,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
+09443B20=Attk_Hard Grp Combo AITrig,102AEB20,<all>,3,0,HTNK,0400000003000000000000000000000000000000000000000000000000000000,60.000000,50.000000,70.000000,0,0,1,0,0A4A0B7C,0,1,1
+09444120=Def_V3 AITrig,0A713600,<all>,3,0,V3,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
+09444260=Def_Infantry AITrig,0A713A80,<all>,1,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
+094443A0=Attk_Grizzly x3 AITrig,0AA7D920,<all>,2,0,HTNK,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
+09445C60=Attk_Destroyer x3 AITrig,03D85D70,<all>,5,0,SUB,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
+09445DA0=Def_Navy AITrig,0A719940,<all>,5,0,NAYARD,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
+09445EE0=Attk_Intruder x4b AITrig,09946EFC,<all>,3,0,NAYARD,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
+0A4274E0=Attk_IFV/Rocketeer x4 AITrig,0A49BF0C,<all>,3,0,V3,0100000003000000000000000000000000000000000000000000000000000000,60.000000,50.000000,70.000000,0,0,1,0,<none>,1,1,1
+0A4AE8AC=Attk_GI x5 AITrig,0AA80720,<all>,1,0,E2,0300000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
+0A4AEC6C=Attk_Engineer x2a AITrig,08FD87DC,<all>,12,0,NAPOWR,0100000003000000000000000000000000000000000000000000000000000000,40.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
+0A4AEDAC=Attk_Engineer x2b AITrig,08FD832C,<all>,12,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,40.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
+0B00E9E0=Def_Armor AITrig,0A49B39C,<all>,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
+0B00FDA0=Def_Combos AITrig,0A49CB8C,<all>,3,0,HTK,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,0A711820,1,1,1
+0B00FEE0=Def_Terror AITrig,0A49B16C,<all>,3,0,DRON,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
+0B9E3EEC=Engineer_IFV Attack,0BA0EEBC,BadGuy1,12,0,GAPOWR,0100000001000000000000000000000000000000000000000000000000000000,60.000000,30.000000,70.000000,0,0,0,0,0BA0EEBC,0,1,1
+0F549B20=Attk_Combined AITrig,0A6256FC,<all>,3,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,70.000000,0,0,1,0,0A62524C,1,1,1
+0F54D160=Attk_Hard Grp a AITrig,0A4A0B7C,<all>,3,0,NACNST,0100000004000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,1,0,<none>,0,1,1
+
+[AITriggerTypesEnable]
+08DF462C=no
+09443120=yes
+09443260=yes
+094439E0=yes
+09443B20=yes
+09444120=yes
+09444260=yes
+094443A0=yes
+09445C60=yes
+09445DA0=yes
+09445EE0=yes
+0A4274E0=yes
+0A4AE8AC=yes
+0A4AEC6C=yes
+0A4AEDAC=yes
+0B00E9E0=yes
+0B00FDA0=yes
+0B00FEE0=yes
+0B9E3EEC=no
+0F549B20=yes
+0F54D160=yes
+0A31295C-G=yes
+0A44F17C-G=yes
+0A44F2CC-G=yes
+0A452C6C-G=yes
+0A452E5C-G=yes
+0ACC2DFC-G=yes
+0ACC696C-G=yes
+0AD2BAEC-G=yes
+0C0C7AEC-G=yes
+0C0D184C-G=yes
+0C0D251C-G=yes
+0C1245AC-G=yes
+0C1246FC-G=yes
+0C32599C-G=yes
+0C32D84C-G=yes
+0C87A99C-G=yes
+0C87AEDC-G=yes
+0C87B45C-G=yes
+0C87B99C-G=yes
+0C87BAEC-G=yes
+0C87E5AC-G=yes
+0C8E2C3C-G=yes
+0C8EE1BC-G=yes
+0C8EEAEC-G=yes
+0C8EEEDC-G=yes
+0C91D45C-G=yes
+0C92945C-G=yes
+0C92C1BC-G=yes
+0C92C45C-G=yes
+0C92C5AC-G=yes
+0C954D8C-G=yes
+0C954EDC-G=yes
+0C955AEC-G=yes
+0C955C3C-G=yes
+0C9561BC-G=yes
+0C9565AC-G=yes
+0CA126FC-G=yes
+0CA1284C-G=yes
+0CA1F84C-G=yes
+0CA24D8C-G=yes
+0CA2884C-G=yes
+0CA2A04C-G=yes
+0CA2B06C-G=yes
+0CA2D99C-G=yes
+0CA2FEDC-G=yes
+0CA5945C-G=yes
+0CA6621C-G=yes
+0CA6AEDC-G=yes
+0CAD0B2C-G=yes
+0CAD0C7C-G=yes
+0CAD0DCC-G=yes
+0CAD130C-G=yes
+0CAD145C-G=yes
+0CAD21BC-G=yes
+0CAD25AC-G=yes
+0CAD2AEC-G=yes
+0CAD2C3C-G=yes
+0CAD5AEC-G=yes
+0CAD8AEC-G=yes
+0CB29EDC-G=yes
+0CB2CEDC-G=yes
+0CDF899C-G=yes
+0CDF8D8C-G=yes
+0CDF8EDC-G=yes
+0CE2395C-G=yes
+0CE23AAC-G=yes
+0CE26B5C-G=yes
+0CE26CAC-G=yes
+0CE2E2BC-G=yes
+0CE2E40C-G=yes
+0CE2E8DC-G=yes
+0CE2EA2C-G=yes
+0CE44D0C-G=yes
+0D022B1C-G=yes
+0D022C6C-G=yes
+0D052AEC-G=yes
+0D0803CC-G=yes
+0D08461C-G=yes
+0D0848BC-G=yes
+0D084A0C-G=yes
+0D084B5C-G=yes
+0D0873DC-G=yes
+0D087D8C-G=yes
+0D0B3B9C-G=yes
+0D2769BC-G=yes
+0D2C41EC-G=yes
+0D2C448C-G=yes
+0D2C45DC-G=yes
+0D53099C-G=yes
+0D53130C-G=yes
+0D53430C-G=yes
+0D535AEC-G=yes
+0D535EDC-G=yes
+0D62145C-G=yes
+0D6215AC-G=yes
+0D6216FC-G=yes
+0D62199C-G=yes
+0ECCB2BC-G=yes
+0ECCB40C-G=yes
+0ECCB55C-G=yes
+0ECCB7FC-G=yes
+0ECCBC3C-G=yes
+0ECCF14C-G=yes
+0ECCF29C-G=yes
+0ECCF68C-G=yes
+0ECCFA7C-G=yes
+0ECCFCAC-G=yes
+
+[Actions]
+079036A0=2,7,1,0BFFE48C,0,0,0,0,A,7,1,0BFFA59C,0,0,0,0,A
+08BA2DC0=2,6,0,15,0,0,0,0,A,16,0,0,0,0,0,0,A
+09506090=2,53,2,0A6E825C,0,0,0,0,A,53,2,0A6E956C,0,0,0,0,A
+095078B0=1,2,0,14,0,0,0,0,A
+09A1B850=1,56,0,0,0,0,0,0,A
+09A1F8C0=4,21,6,Mis_S4_SofiaBuildFlak,0,0,0,0,A,11,4,MISSION:sov04b,0,0,0,0,A,114,0,1,0,0,0,0,A,115,9,67,0,0,0,0,120
+09A1FF40=1,7,1,0D9E5DEC,0,0,0,0,A
+09A2A7F0=1,7,1,09A280B0,0,0,0,0,A
+09AC1880=4,7,1,0BFFF48C,0,0,0,0,A,7,1,0BFFEDEC,0,0,0,0,A,7,1,0BFFE48C,0,0,0,0,A,7,1,0BFFA59C,0,0,0,0,A
+09AF4700=1,7,1,0D9E646C,0,0,0,0,A
+09B5D0E0=2,4,1,099B3350,0,0,0,0,A,53,2,09E1086C,0,0,0,0,A
+09B5D370=1,4,1,099B1610,0,0,0,0,A
+09B5D650=1,4,1,09987040,0,0,0,0,A
+09B5DBE0=2,4,1,0B135360,0,0,0,0,A,11,4,MISSION:sov04c,0,0,0,0,A
+09E1086C=1,100,0,90,0,0,0,0,A
+09E1B42C=3,21,6,Unit_Sofia_Intruder,0,0,0,0,A,53,2,09EB22AC,0,0,0,0,A,4,1,09E6CBFC,0,0,0,0,A
+09E5E25C=7,21,6,Mis_S4_SofiaFleetHere,0,0,0,0,A,11,4,MISSION:Sov04e,0,0,0,0,A,53,2,0B3FB820,0,0,0,0,A,7,1,047374DC,0,0,0,0,A,7,1,047373AC,0,0,0,0,A,7,1,04732A1C,0,0,0,0,A,7,1,0473256C,0,0,0,0,A
+09EB22AC=3,100,0,101,0,0,0,0,A,114,0,3,0,0,0,0,A,115,9,316,0,0,0,0,120
+0A07364C=3,4,1,0BFA7EFC,0,0,0,0,A,17,0,33,0,0,0,0,AH,55,0,5,0,0,0,0,AH
+0A07393C=3,4,1,0BFFB6AC,0,0,0,0,A,17,0,32,0,0,0,0,AG,55,0,5,0,0,0,0,AG
+0A073F3C=4,4,1,0BFFBA4C,0,0,0,0,A,17,0,31,0,0,0,0,AF,55,0,5,0,0,0,0,AF,53,2,0B9E195C,0,0,0,0,A
+0A076F3C=3,4,1,0BFA2EFC,0,0,0,0,A,17,0,34,0,0,0,0,AI,55,0,5,0,0,0,0,AI
+0A4300D0=9,74,0,15,0,0,0,0,A,3,0,15,0,0,0,0,A,38,0,14,0,0,0,0,A,5,1,0A3CB920,0,0,0,0,A,5,1,0B135360,0,0,0,0,A,5,1,09987040,0,0,0,0,A,5,1,099B1610,0,0,0,0,A,53,2,0B9F1E9C,0,0,0,0,A,53,2,08BA2DC0,0,0,0,0,A
+0A66103C=3,21,6,Unit_Sofia_SeaScorpion,0,0,0,0,A,114,0,3,0,0,0,0,A,115,9,336,0,0,0,0,120
+0A6E825C=1,1,0,14,0,0,0,0,A
+0A6E956C=1,113,0,14,0,0,0,0,A
+0AB06870=3,54,2,09AF4700,0,0,0,0,A,54,2,09A1FF40,0,0,0,0,A,54,2,0ABF11B0,0,0,0,0,A
+0ABBF69C=9,99,7,_Amb_WindCold,0,0,0,0,AE,99,7,_Amb_WindCold,0,0,0,0,AN,99,7,_Amb_WindCold,0,0,0,0,AM,99,7,_Amb_WindCold,0,0,0,0,R,99,7,_Amb_WindCold,0,0,0,0,AA,99,7,_Amb_WindCold,0,0,0,0,CV,99,7,_Amb_WindCold,0,0,0,0,AK,99,7,_Amb_WindCold,0,0,0,0,AO,99,7,_Amb_WindCold,0,0,0,0,AP
+0ABC517C=8,99,7,_Amb_WindCold,0,0,0,0,AQ,99,7,_Amb_WindCold,0,0,0,0,AR,99,7,_Amb_WindCold,0,0,0,0,AS,99,7,_Amb_WindCold,0,0,0,0,V,99,7,_Amb_WindCold,0,0,0,0,W,99,7,_Amb_WindCold,0,0,0,0,U,99,7,_Amb_WindCold,0,0,0,0,T,99,7,_Amb_WindCold,0,0,0,0,Y
+0ABC678C=10,99,7,_Amb_OceanHeavy,0,0,0,0,AT,99,7,_Amb_OceanHeavy,0,0,0,0,AU,99,7,_Amb_OceanHeavy,0,0,0,0,AV,99,7,_Amb_OceanHeavy,0,0,0,0,F,99,7,_Amb_OceanHeavy,0,0,0,0,AW,99,7,_Amb_OceanHeavy,0,0,0,0,AX,99,7,_Amb_OceanHeavy,0,0,0,0,AY,99,7,_Amb_OceanHeavy,0,0,0,0,H,99,7,_Amb_OceanHeavy,0,0,0,0,I,99,7,_Amb_OceanHeavy,0,0,0,0,AZ
+0ABF11B0=1,7,1,0D9E5DEC,0,0,0,0,A
+0B14BBB0=1,4,1,0A3CB920,0,0,0,0,A
+0B3F9C90=3,7,1,0434D32C,0,0,0,0,A,7,1,0434C1FC,0,0,0,0,A,32,0,0,0,0,0,0,A
+0B3FB820=7,7,1,0BEFCB5C,0,0,0,0,A,7,1,0BEFC6AC,0,0,0,0,A,7,1,0434C1FC,0,0,0,0,A,7,1,0434DB7C,0,0,0,0,A,7,1,0434D6CC,0,0,0,0,A,53,2,0B3F9C90,0,0,0,0,A,53,2,09506090,0,0,0,0,A
+0B454A10=5,27,0,600,0,0,0,0,A,23,0,0,0,0,0,0,A,21,6,Mis_S4_SofiaTimerStarted,0,0,0,0,A,103,4,MISSION:sov04a,0,0,0,0,A,11,4,MISSION:Sov04d,0,0,0,0,A
+0B9E195C=6,17,0,36,0,0,0,0,AK,55,0,0,0,0,0,0,AK,19,7,CivSovFear,0,0,0,0,A,19,7,CivSovFemFear,0,0,0,0,A,4,1,0DB3732C,0,0,0,0,A,19,7,AirRaidSiren,0,0,0,0,A
+0B9F1E9C=5,17,0,37,0,0,0,0,AL,55,0,5,0,0,0,0,AL,19,7,CivSovFemFear,0,0,0,0,A,4,1,0DB377DC,0,0,0,0,A,19,7,AirRaidSiren,0,0,0,0,A
+0CB1903C=4,17,0,27,0,0,0,0,AB,17,0,28,0,0,0,0,AC,17,0,29,0,0,0,0,AD,17,0,30,0,0,0,0,AE
 
 [BadGuy1]
-ParentCountry=Alliance House
 Name=BadGuy1
-Suffix=Allied
-Prefix=G
-Color=AlliedsUnit
 Side=GDI
+Color=AlliedsUnit
+Prefix=G
+Suffix=Allied
 SmartAI=yes
 CostUnitsMult=1
-
-[BadGuy2]
 ParentCountry=Alliance House
-Name=BadGuy2
-Suffix=Allied
-Prefix=G
-Color=AlliedsUnit
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
-
-[BadGuy3]
-ParentCountry=Alliance House
-Name=BadGuy3
-Suffix=Allied
-Prefix=G
-Color=AlliedsUnit
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
-
-[Germany1]
-ParentCountry=Germans House
-Name=Germany1
-Suffix=Allied
-Prefix=G
-Color=AlliedsUnit
-Side=GDI
-SmartAI=yes
-
-[Germany2]
-ParentCountry=Germans House
-Name=Germany2
-Suffix=Allied
-Prefix=G
-Color=AlliedsUnit
-Side=GDI
-SmartAI=yes
-
-[Germany3]
-ParentCountry=Germans House
-Name=Germany3
-Suffix=Allied
-Prefix=G
-Color=AlliedsUnit
-Side=GDI
-SmartAI=yes
-
-[Temp]
-ParentCountry=Americans House
-Name=Temp
-Suffix=Allied
-Prefix=G
-Color=AlliedsUnit
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
-
-[Briefing]
-1=Briefing? We don't need no STUPID briefing!
-
-[Basic]
-Briefing=Brief:Sov04
-NextScenario=GDI2A.map
-AltNextScenario=GDI9C.MAP
-NewINIFormat=4
-CarryOverCap=0
-EndOfGame=no
-SkipScore=no
-OneTimeOnly=no
-SkipMapSelect=no
-Official=yes
-IgnoreGlobalAITriggers=no
-TruckCrate=no
-TrainCrate=no
-Percent=0
-Theme=Burn
-Player=Player House
-Intro=<none>
-Brief=S04_f00e
-Win=<none>
-Lose=<none>
-Action=<none>
-PostScore=<none>
-PreMapSelect=<none>
-CarryOverMoney=0.000000
-TimerInherit=no
-FillSilos=no
-StartingDropships=0
-HomeCell=98
-AltHomeCell=98
-MultiplayerOnly=0
-TiberiumGrowthEnabled=no
-VeinGrowthEnabled=no
-IceGrowthEnabled=yes
-TiberiumDeathToVisceroid=no
-FreeRadar=no
-InitTime=10000
-
-[VariableNames]
-0=Flak Cannons Up,0
-1=GIs ashore,0
-2=Grizzly ashore,0
-3=MCV ashore,0
-4=Grizzly2 ashore,0
-5=GI2 ashore,0
-6=Allied Fleet Here,0
-7=Feint GI Landing 1,0
-8=Feint GI Landing 2,0
-9=Feint Tank Landing ,0
-10=Feint Tank Landing ,0
-11=Feint Tank Landing ,0
-12=Feint Tank 1,0
-13=Feint Tank 2,0
-
-[Lighting]
-Ambient=1.000000
-Red=0.850000
-Green=0.850000
-Blue=1.000000
-Ground=0.050000
-Level=0.008000
-IonAmbient=0.870000
-IonRed=0.300000
-IonGreen=0.400000
-IonBlue=0.750000
-IonGround=0.000000
-IonLevel=0.000000
-
-[Houses]
-0=Player House
-1=BadGuy1 House
-2=BadGuy2 House
-3=German1 House
-4=Civilian House
-5=Other1 House
-6=BadGuy3 House
-7=German2 House
-8=German3 House
-9=Temp House
-
-[Player House]
-Country=Player
-TechLevel=6
-Credits=100
-IQ=0
-Edge=South
-PlayerControl=yes
-Color=Soviet
-Allies=Player House,German1 House,Civilian House
-PercentBuilt=0
-NodeCount=0
 
 [BadGuy1 House]
-Country=BadGuy1
-TechLevel=5
-Credits=400
 IQ=5
-Edge=South
-PlayerControl=no
-Color=Allieds
-Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
-PercentBuilt=0
-NodeCount=19
 000=GAPOWR,115,41
 001=GAPILE,104,34
 002=GAPILL,109,46
@@ -377,165 +2670,233 @@ NodeCount=19
 016=GAPILL,103,49
 017=GAPILL,100,30
 018=GAPILL,120,41
+Edge=South
+Color=Allieds
+Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
+Country=BadGuy1
+Credits=400
+NodeCount=19
+TechLevel=5
+PercentBuilt=0
+PlayerControl=no
+
+[BadGuy2]
+Name=BadGuy2
+Side=GDI
+Color=AlliedsUnit
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Alliance House
 
 [BadGuy2 House]
-Country=BadGuy2
-TechLevel=5
-Credits=400
 IQ=5
 Edge=South
-PlayerControl=no
 Color=Allieds
 Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
-PercentBuilt=0
+Country=BadGuy2
+Credits=400
 NodeCount=0
-
-[German1 House]
-Country=Germany1
-TechLevel=1
-Credits=0
-IQ=0
-Edge=South
-PlayerControl=no
-Color=Grey
-Allies=Player House,German1 House
-PercentBuilt=0
-NodeCount=0
-
-[Civilian House]
-Country=Neutral
 TechLevel=5
-Credits=0
-IQ=1
-Edge=West
+PercentBuilt=0
 PlayerControl=no
-Color=LightGrey
-Allies=Civilian House
-PercentBuilt=0
-NodeCount=0
 
-[Other1 House]
-Country=Other1
-TechLevel=5
-Credits=0
-IQ=5
-Edge=South
-PlayerControl=yes
-Color=NeonBlue
-Allies=Other1 House
-PercentBuilt=0
-NodeCount=0
+[BadGuy3]
+Name=BadGuy3
+Side=GDI
+Color=AlliedsUnit
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Alliance House
 
 [BadGuy3 House]
-Country=BadGuy3
-TechLevel=5
-Credits=100
 IQ=5
 Edge=South
-PlayerControl=no
 Color=Allieds
 Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
-PercentBuilt=0
+Country=BadGuy3
+Credits=100
 NodeCount=0
+TechLevel=5
+PercentBuilt=0
+PlayerControl=no
+
+[Briefing]
+1=Briefing? We don't need no STUPID briefing!
+
+[Civilian House]
+IQ=1
+Edge=West
+Color=LightGrey
+Allies=Civilian House
+Country=Neutral
+Credits=0
+NodeCount=0
+TechLevel=5
+PercentBuilt=0
+PlayerControl=no
+
+[Countries]
+0=Other1
+1=Player
+2=BadGuy1
+3=BadGuy2
+4=BadGuy3
+5=Germany1
+6=Germany2
+7=Germany3
+8=Temp
+
+[Events]
+079036A0=1,47,0,600
+08BA2DC0=1,10,0,15
+09506090=1,11,0,15
+095078B0=1,11,0,14
+09A1B850=1,19,0,67
+09A1F8C0=2,47,0,160,37,0,0
+09A1FF40=1,13,0,200
+09A2A7F0=1,19,0,1
+09AC1880=1,47,0,600
+09AF4700=1,13,0,250
+09B5D0E0=1,36,0,3
+09B5D370=1,36,0,4
+09B5D650=1,36,0,2
+09B5DBE0=1,36,0,1
+09E1086C=1,13,0,2
+09E1B42C=1,13,0,60
+09E5E25C=1,14,0,0
+09EB22AC=1,32,0,14
+0A07364C=1,36,0,12
+0A07393C=1,36,0,8
+0A073F3C=1,36,0,7
+0A076F3C=1,36,0,13
+0A4300D0=1,32,0,2
+0A66103C=1,20,0,36
+0A6E825C=1,13,0,5
+0A6E956C=1,13,0,3
+0AB06870=1,22,0,1
+0ABBF69C=1,47,0,0
+0ABC517C=1,47,0,0
+0ABC678C=1,47,0,0
+0ABF11B0=1,13,0,400
+0B14BBB0=1,36,0,5
+0B3F9C90=1,13,0,30
+0B3FB820=1,13,0,200
+0B454A10=1,47,0,20
+0B9E195C=1,13,0,3
+0B9F1E9C=1,13,0,5
+0CB1903C=1,47,0,0
+
+[German1 House]
+IQ=0
+Edge=South
+Color=Grey
+Allies=Player House,German1 House
+Country=Germany1
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
 
 [German2 House]
-Country=Germany2
-TechLevel=5
-Credits=0
 IQ=3
 Edge=South
-PlayerControl=no
 Color=Grey
 Allies=German2 House
-PercentBuilt=0
+Country=Germany2
+Credits=0
 NodeCount=0
+TechLevel=5
+PercentBuilt=0
+PlayerControl=no
 
 [German3 House]
-Country=Germany3
-TechLevel=5
-Credits=0
 IQ=3
 Edge=South
-PlayerControl=no
 Color=Grey
 Allies=German3 House
-PercentBuilt=0
-NodeCount=0
-
-[Temp House]
-Country=Temp
-TechLevel=5
+Country=Germany3
 Credits=0
-IQ=3
-Edge=South
-PlayerControl=no
-Color=DarkSky
-Allies=Temp House
-PercentBuilt=0
 NodeCount=0
+TechLevel=5
+PercentBuilt=0
+PlayerControl=no
 
-[Map]
-Theater=SNOW
-Size=0,0,105,80
-LocalSize=5,5,95,65
+[Germany1]
+Name=Germany1
+Side=GDI
+Color=AlliedsUnit
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans House
 
-[Waypoints]
-0=46121
-1=50148
-2=40110
-3=116144
-4=60161
-5=116099
-6=57140
-7=52125
-8=40129
-9=68131
-10=40121
-11=48137
-12=56123
-13=50101
-14=53100
-15=47098
-16=50099
-17=111060
-18=106053
-19=27105
-20=50112
-21=49094
-22=41087
-23=20102
-24=77092
-25=107082
-26=119071
-27=146057
-28=137063
-29=147066
-30=137055
-31=135091
-32=132093
-33=128091
-34=118084
-35=131129
-36=127081
-37=46115
-38=110029
-39=127044
-40=87054
-41=93068
-42=92084
-43=73073
-44=62082
-45=149072
-46=142086
-47=134100
-48=97097
-49=76101
-50=68115
-51=26116
-52=129082
-53=124079
-98=144064
-99=105081
+[Germany2]
+Name=Germany2
+Side=GDI
+Color=AlliedsUnit
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans House
+
+[Germany3]
+Name=Germany3
+Side=GDI
+Color=AlliedsUnit
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans House
+
+[Houses]
+0=Player House
+1=BadGuy1 House
+2=BadGuy2 House
+3=German1 House
+4=Civilian House
+5=Other1 House
+6=BadGuy3 House
+7=German2 House
+8=German3 House
+9=Temp House
+
+[Infantry]
+0=Civilian House,COW,256,39,87,2,Guard,64,None,0,-1,0,1,1
+1=Civilian House,COW,256,45,88,2,Guard,97,None,0,-1,0,1,1
+2=Civilian House,COW,256,40,86,2,Guard,64,None,0,-1,0,1,1
+3=Civilian House,COW,256,40,83,3,Guard,192,None,0,-1,0,1,1
+4=Civilian House,COW,256,42,90,2,Guard,97,None,0,-1,0,1,1
+5=Civilian House,COW,256,37,86,3,Guard,153,None,0,-1,0,1,1
+6=Civilian House,COW,256,46,87,4,Guard,160,None,0,-1,0,1,1
+7=Civilian House,COW,256,42,88,3,Guard,153,None,0,-1,0,1,1
+8=Civilian House,COW,256,41,83,2,Guard,192,None,0,-1,0,1,1
+9=Civilian House,CIV1,256,45,103,4,Guard,64,None,0,-1,0,1,1
+10=Civilian House,CIVSFM,256,79,128,2,Guard,0,0B9E12CC,0,-1,0,1,1
+11=Civilian House,CIVSF,256,80,123,4,Guard,96,0B9E12CC,0,-1,0,1,1
+12=Civilian House,CIVSTM,256,83,127,3,Guard,0,0B9E12CC,0,-1,0,1,1
+13=Civilian House,CIVSF,256,117,48,4,Guard,0,0B9F196C,0,-1,0,1,1
+14=Civilian House,POLARB,256,71,58,3,Guard,0,None,0,-1,0,1,1
+15=Civilian House,POLARB,256,90,36,3,Guard,0,None,0,-1,0,1,1
+16=Civilian House,POLARB,256,73,139,4,Guard,0,None,0,-1,0,1,1
+17=Civilian House,CIVSF,256,47,124,4,Guard,0,None,0,-1,0,1,1
+18=Civilian House,CIVSF,256,39,104,2,Guard,0,None,0,-1,0,1,1
+19=Civilian House,CIVSF,256,27,109,2,Guard,0,None,0,-1,0,1,1
+20=Civilian House,CIVSF,256,48,94,3,Guard,0,None,0,-1,0,1,1
+21=Civilian House,CIVSFM,256,46,98,2,Guard,0,None,0,-1,0,1,1
+22=Civilian House,CIVSFM,256,46,106,3,Guard,0,None,0,-1,0,1,1
+23=Civilian House,CIVSFM,256,36,112,2,Guard,0,None,0,-1,0,1,1
+24=Civilian House,CIVSFM,256,25,114,2,Guard,0,None,0,-1,0,1,1
+25=Civilian House,CIVSFM,256,43,122,3,Guard,0,None,0,-1,0,1,1
+26=Civilian House,CIVSTM,256,48,118,2,Guard,0,None,0,-1,0,1,1
+27=Civilian House,CIVSTM,256,37,108,3,Guard,0,None,0,-1,0,1,1
+28=Civilian House,CIVSTM,256,24,105,2,Guard,0,None,0,-1,0,1,1
+29=Civilian House,CIVSTM,256,35,96,3,Guard,0,None,0,-1,0,1,1
+30=Civilian House,CIVSTM,256,46,102,2,Guard,0,None,0,-1,0,1,1
 
 [IsoMapPack5]
 1=KxAAIAlpAAEAYQAAAAACAGhPANMCAGkBaUkBYWcBAgBqyAEDAwIAZwADTAJIAG8FAwDS7w
@@ -2245,7 +4606,7 @@ LocalSize=5,5,95,65
 1705=VQJMSAHNBU3IAVUCTkgBzQVPyAFVAlBIAc0FUcgBVQJSSAHNBVPIAVUCVEgBdCNVGFXIAV
 1706=UCVkgBdCNVAlfIAVUCWEgBzQVZyAFVAlpIAWg4TQVbyAFVAlxIAc0QXcgBVQJeSAHNEF/I
 1707=AVUCYEgBxQhhyAFVAmJIAc0FY8gBVwI/AKeENFE1QEgBaAxRQEHIAVUCQkgBeAZVAkPIAV
-1708=QCCEQApwA9AQAAAgIAEQAAYgd0DglFAKcAPQEAAAMCAEZIAQU+AQAAAgIAR8gBVQJISQE9
+1708=QCCEQApwA9AQAAAgIAEQAAYwdwDglFAKcAPQEAAAMCAEZIAQU+AQAAAgIAR8gBVQJISQE9
 1709=tQJJyAFVAkpIAc0FS8gBVQJMSAHNBU3IAVUCTkgBzQVPyAFVAlBIAc0FUcgBVQJSSAHNBV
 1710=PIAVUCVEkBOq0QVcgBVQJWSQE7tQJXyAFVAlhIAc0FWcgBVQJaSQE/rQVbyAFVAlxIAc0Q
 1711=XcgBVQJeSAHNEF/IAVUCYEgBxQhhyAFVAmJIAcwFAUAAqAB4EQEAAgBByAEBAQIAQkkBPE
@@ -2281,328 +4642,141 @@ LocalSize=5,5,95,65
 1741=AUUTTkgBZClVAk/IAVUCUMgBVQJRyAFVAlJIAXAUVQJTyAFVAlRIAXAUVQJVyAFXAk0AtZ
 1742=QNTRBOSAFoDEUTT8gBVQJQyAFVAlHIAVUCUkgBaAxVAlPIAVUCVEgBaAxUAgFOALYA2VNP
 1743=SAFsBUEPUMgBQQ9RSAF0DVUCUsgBVQJTSAHTH08At5RaUQlQyAFJDFFIAXgGVQJSyAFXAl
-1744=AAuJTTUQlRyAEEAQIAAAAAABEAAA==
+1744=AAuJTTUAkIUQC4AD4BAAABAgARAAA=
 
-[Terrain]
-25098=TIBTRE03
-61095=TIBTRE03
-72063=TIBTRE01
-123048=TREE05
-122044=TREE08
-117048=TREE11
-115047=TREE12
-116046=TREE08
-115040=TREE08
-118036=TREE05
-121039=TREE05
-120041=TREE08
-118042=TREE11
-119042=TREE12
-116036=TREE15
-110036=TREE16
-110035=TREE16
-103038=TREE18
-111039=TREE15
-111036=TREE12
-108033=TREE12
-102035=TREE12
-99039=TREE12
-106043=TREE12
-102043=TREE12
-96046=TREE12
-95043=TREE11
-95053=TREE11
-100038=TREE11
-103036=TREE11
-107033=TREE11
-111033=TREE11
-107035=TREE11
-103040=TREE11
-102040=TREE08
-103034=TREE08
-110034=TREE08
-117043=TREE08
-123045=TREE08
-123049=TREE08
-106044=TREE08
-103048=TREE08
-100044=TREE08
-96044=TREE08
-98048=TREE08
-112034=TREE05
-107034=TREE05
-104032=TREE05
-103037=TREE05
-122045=TREE05
-101044=TREE05
-101048=TREE05
-96048=TREE05
-123041=TREE17
-126045=TREE18
-116039=TREE18
-116038=TREE18
-116037=TREE18
-111038=TREE16
-112045=TREE16
-103046=TREE15
-100048=TREE15
-99048=TREE16
-102048=TREE17
-96045=TREE17
-89090=TREE05
-85087=TREE08
-78088=TREE11
-67057=TREE08
-71052=TREE08
-70052=TREE11
-69053=TREE11
-68056=TREE11
-70054=TREE12
-67058=TREE12
-65057=TREE15
-35088=TREE11
-33089=TREE11
-30089=TREE11
-30091=TREE11
-31090=TREE12
-32087=TREE12
-36087=TREE12
-33088=TREE15
-30090=TREE15
-28090=TREE15
-28092=TREE15
-30092=TREE16
-33086=TREE08
-35085=TREE08
-147052=TREE11
-138043=TREE12
-143048=TREE15
-145057=TREE12
-147055=TREE12
-141047=TREE11
-139044=TREE05
-134072=TREE08
-131071=TREE05
-134068=TREE05
-135068=TREE02
-132069=TREE11
-138069=TREE11
-17099=TREE12
-17097=TREE12
-15098=TREE12
-19098=TREE11
-15099=TREE11
-13100=TREE08
-17100=TREE05
-13102=TREE05
-72050=TREE08
-74050=TREE10
-65060=TREE10
-63062=TREE11
-61062=TREE12
-60064=TREE15
-57066=TREE15
-57068=TREE17
-59067=TREE17
-59061=TREE15
-61059=TREE15
-62060=TREE12
-63058=TREE12
-58063=TREE12
-54069=TREE12
-53067=TREE08
-55068=TREE05
-51068=TREE05
-57069=TREE05
-59069=TREE02
-59065=TREE02
-57064=TREE02
-60071=TIBTRE02
-67089=TREE02
-67092=TREE04
-66090=TREE05
-52081=TREE08
-55080=TREE10
-55079=TREE11
-53078=TREE12
-50081=TREE15
-51083=TREE11
-51082=TREE10
-53084=TREE06
-109063=TREE04
-107056=TREE05
-106063=TREE06
-104062=TREE07
-106061=TREE08
-108058=TREE08
-109062=TREE11
-138049=TIBTRE01
-124065=TREE05
-128066=TREE06
-123062=TREE07
-121056=TREE09
-121059=TREE10
-126059=TREE11
-120054=TREE12
-119054=TREE15
-128062=TREE16
-117054=TREE16
-117052=TREE17
-120062=TREE18
+[Lighting]
+Red=0.850000
+Blue=1.000000
+Green=0.850000
+Level=0.008000
+Ground=0.050000
+IonRed=0.300000
+Ambient=1.000000
+IonBlue=0.750000
+IonGreen=0.400000
+IonLevel=0.000000
+IonGround=0.000000
+IonAmbient=0.870000
 
-[Units]
-0=Player House,SMCV,256,60,142,0,Guard,None,0,-1,0,-1,1,1
-1=Player House,SUB,256,71,148,0,Guard,None,0,-1,0,-1,1,1
-2=Civilian House,PTRUCK,256,43,112,0,Sleep,None,0,-1,0,-1,1,1
-3=Civilian House,PICK,256,31,100,64,Sleep,None,0,-1,0,-1,1,1
-4=Civilian House,TRUCKA,256,25,108,128,Sleep,None,0,-1,0,-1,1,1
+[Map]
+Size=0,0,105,80
+Theater=SNOW
+LocalSize=5,5,95,65
 
-[Infantry]
-0=Civilian House,COW,256,39,87,2,Guard,64,None,0,-1,0,1,1
-1=Civilian House,COW,256,45,88,2,Guard,97,None,0,-1,0,1,1
-2=Civilian House,COW,256,40,86,2,Guard,64,None,0,-1,0,1,1
-3=Civilian House,COW,256,40,83,3,Guard,192,None,0,-1,0,1,1
-4=Civilian House,COW,256,42,90,2,Guard,97,None,0,-1,0,1,1
-5=Civilian House,COW,256,37,86,3,Guard,153,None,0,-1,0,1,1
-6=Civilian House,COW,256,46,87,4,Guard,160,None,0,-1,0,1,1
-7=Civilian House,COW,256,42,88,3,Guard,153,None,0,-1,0,1,1
-8=Civilian House,COW,256,41,83,2,Guard,192,None,0,-1,0,1,1
-9=Civilian House,CIV1,256,45,103,4,Guard,64,None,0,-1,0,1,1
-10=Civilian House,CIVSFM,256,79,128,2,Guard,0,0B9E12CC,0,-1,0,1,1
-11=Civilian House,CIVSF,256,80,123,4,Guard,96,0B9E12CC,0,-1,0,1,1
-12=Civilian House,CIVSTM,256,83,127,3,Guard,0,0B9E12CC,0,-1,0,1,1
-13=Civilian House,CIVSF,256,117,48,4,Guard,0,0B9F196C,0,-1,0,1,1
-14=Civilian House,POLARB,256,71,58,3,Guard,0,None,0,-1,0,1,1
-15=Civilian House,POLARB,256,90,36,3,Guard,0,None,0,-1,0,1,1
-16=Civilian House,POLARB,256,73,139,4,Guard,0,None,0,-1,0,1,1
-17=Civilian House,CIVSF,256,47,124,4,Guard,0,None,0,-1,0,1,1
-18=Civilian House,CIVSF,256,39,104,2,Guard,0,None,0,-1,0,1,1
-19=Civilian House,CIVSF,256,27,109,2,Guard,0,None,0,-1,0,1,1
-20=Civilian House,CIVSF,256,48,94,3,Guard,0,None,0,-1,0,1,1
-21=Civilian House,CIVSFM,256,46,98,2,Guard,0,None,0,-1,0,1,1
-22=Civilian House,CIVSFM,256,46,106,3,Guard,0,None,0,-1,0,1,1
-23=Civilian House,CIVSFM,256,36,112,2,Guard,0,None,0,-1,0,1,1
-24=Civilian House,CIVSFM,256,25,114,2,Guard,0,None,0,-1,0,1,1
-25=Civilian House,CIVSFM,256,43,122,3,Guard,0,None,0,-1,0,1,1
-26=Civilian House,CIVSTM,256,48,118,2,Guard,0,None,0,-1,0,1,1
-27=Civilian House,CIVSTM,256,37,108,3,Guard,0,None,0,-1,0,1,1
-28=Civilian House,CIVSTM,256,24,105,2,Guard,0,None,0,-1,0,1,1
-29=Civilian House,CIVSTM,256,35,96,3,Guard,0,None,0,-1,0,1,1
-30=Civilian House,CIVSTM,256,46,102,2,Guard,0,None,0,-1,0,1,1
+[Other1]
+Name=Other1
+Side=GDI
+Color=NeonBlue
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans House
 
-[Structures]
-1029308=Civilian House,INYELWLAMP,256,97,23,0,None,0,0,1,0,0,None,None,None,0,0
-1029309=Civilian House,INYELWLAMP,256,97,62,0,None,0,0,1,0,0,None,None,None,0,0
-1029310=Civilian House,INPURPLAMP,256,90,32,0,None,0,0,1,0,0,None,None,None,0,0
-1029311=Civilian House,INYELWLAMP,256,61,72,0,None,0,0,1,0,0,None,None,None,0,0
-1029312=Civilian House,INPURPLAMP,256,75,103,0,None,0,0,1,0,0,None,None,None,0,0
-1029313=Civilian House,CAFARM01,256,33,97,0,None,0,0,1,0,0,None,None,None,0,0
-1029314=Civilian House,CAFARM01,256,31,97,0,None,0,0,1,0,0,None,None,None,0,0
-1029315=Civilian House,CAFARM02,256,30,99,0,None,0,0,1,0,0,None,None,None,0,0
-1029316=Civilian House,CAFARM02,256,33,95,0,None,0,0,1,0,0,None,None,None,0,0
-1029317=Civilian House,CAFARM02,256,30,95,0,None,0,0,1,0,0,None,None,None,0,0
-1029318=Civilian House,CAFARM02,256,24,104,0,None,0,0,1,0,0,None,None,None,0,0
-1029319=Civilian House,CAFARM02,256,36,95,0,None,0,0,1,0,0,None,None,None,0,0
-1029320=Civilian House,CAFARM02,256,26,104,0,None,0,0,1,0,0,None,None,None,0,0
-1029321=Civilian House,CAFRMA,256,45,94,0,None,0,0,1,0,0,None,None,None,0,0
-1029322=Civilian House,CAFRMB,256,38,106,0,None,0,0,1,0,0,None,None,None,0,0
-1029323=Civilian House,CAFRMB,256,24,116,0,None,0,0,1,0,0,None,None,None,0,0
-1029324=Civilian House,CAFARM01,256,26,113,0,None,0,0,1,0,0,None,None,None,0,0
-1029325=Civilian House,CAFARM02,256,26,116,0,None,0,0,1,0,0,None,None,None,0,0
-1029326=Civilian House,CAFARM02,256,29,116,0,None,0,0,1,0,0,None,None,None,0,0
-1029327=Player House,INYELWLAMP,256,68,62,0,None,0,0,1,0,0,None,None,None,0,0
-1029328=Civilian House,CATS01,256,23,106,0,None,0,0,1,0,0,None,None,None,0,0
-1029329=Civilian House,CATS01,256,23,108,0,None,0,0,1,0,0,None,None,None,0,0
-1029330=Civilian House,CAFARM02,256,24,113,0,None,0,0,1,0,0,None,None,None,0,0
-1029331=Civilian House,CABARN02,256,28,104,0,None,0,0,1,0,0,None,None,None,0,0
-1029332=Civilian House,CAHSE01,256,43,124,0,None,0,0,1,0,0,None,None,None,0,0
-1029333=Civilian House,CAHSE01,256,43,118,0,None,0,0,1,0,0,None,None,None,0,0
-1029334=Civilian House,CAHSE01,256,34,104,0,None,0,0,1,0,0,None,None,None,0,0
-1029335=Civilian House,CAHSE01,256,33,113,0,None,0,0,1,0,0,None,None,None,0,0
-1029336=Civilian House,CAHSE01,256,46,104,0,None,0,0,1,0,0,None,None,None,0,0
-1029337=Civilian House,CAHSE01,256,43,97,0,None,0,0,1,0,0,None,None,None,0,0
-1029338=Civilian House,CAEUR04,256,41,109,0,None,0,0,1,0,0,None,None,None,0,0
-1029339=Civilian House,CAEUR1,256,48,120,0,None,0,0,1,0,0,None,None,None,0,0
-1029340=Civilian House,CAEUR2,256,46,111,0,None,0,0,1,0,0,None,None,None,0,0
-1029341=Civilian House,CAEUR2,256,40,121,0,None,0,0,1,0,0,None,None,None,0,0
-1029342=Civilian House,CAEUR1,256,37,114,0,None,0,0,1,0,0,None,None,None,0,0
-1029343=Civilian House,CAEUR1,256,37,101,0,None,0,0,1,0,0,None,None,None,0,0
-1029344=Civilian House,CAEUR2,256,34,108,0,None,0,0,1,0,0,None,None,None,0,0
-1029345=Civilian House,CAEUR2,256,43,103,0,None,0,0,1,0,0,None,None,None,0,0
-1029346=Civilian House,CAEUR1,256,45,100,0,None,0,0,1,0,0,None,None,None,0,0
-1029347=Civilian House,CABARN02,256,26,107,0,None,0,0,1,0,0,None,None,None,0,0
-1029348=Player House,NAYARD,256,69,151,0,None,1,0,1,0,0,None,None,None,0,0
-1029355=Civilian House,CABARN02,256,57,122,0,None,0,0,1,0,0,None,None,None,0,0
-1029356=Civilian House,CAHSE01,256,62,125,0,None,0,0,1,0,0,None,None,None,0,0
-1029357=Civilian House,CAFARM06,256,62,136,0,None,0,0,1,0,0,None,None,None,0,0
-1029358=Civilian House,CAEUR1,256,79,124,0,0B9E12CC,0,0,1,0,0,None,None,None,0,0
-1029359=Civilian House,CAHSE01,256,82,129,0,0B9E12CC,0,0,1,0,0,None,None,None,0,0
-1029360=Civilian House,CAFARM06,256,116,46,0,0B9F196C,0,0,1,0,0,None,None,None,0,0
-1029361=Player House,NAPOWR,256,58,137,0,None,1,0,1,0,0,None,None,None,0,0
-
-[OverlayPack]
-1=CQAAIIH//v4f/4H/gHwAACCB//5kAv+BG/7+Af+Bf/7+Af+Cf3///QFlAoR/G38b//sBZQ
-2=YD/oF///wBZASBfwIB//0BYwoCAf/9AWIKIgD/9QFlCIGvcgH+9wH/gbFCAP77Af+BGyIA
-3=//4BZQr//wFmFv/5AWYYO/aBZgP///UBZBoh/wH8/5wBZRyAZQAAIIH//loA/4MbGxsgCI
-4=N/Zmb+9AH/Af8yAIL////0AWUAEf9SAP71Af///gFaBAH8//0BWgYB+hIC/vsB/xQCbAT+
-5=9AH/JgMUCf75Af8yAv75Af8R+//9AV0E/wAEXhL+ogf/gf+ArgAAIIH//kYK/4F//v8B/4
-6=N/GxvPRwqBG/7qAf+BfwABgWbNTQz/6wFcDCID//kBTgw4AchKEIGwIf8EExQY/+UBRwoS
-7=AFAMga8z/4F/EgGBZgADzUsO/tIB/yPlyGMSgakQDhgTEf+Cf///3gFkFAH8IALLYxImES
-8=IC/+EBYRQ35cxjFoF/BgEAFhgC/uYB/81gEjQBgWYCCf/dAWIaBdwj+M9JDkQZ0kcM/ogB
-9=/4H/gBgBACCB//kAAI9/G3//f2b/Zv//ZmZ/GxvRKgCCZn8AAf7YAf+Df38bAAQgCwIEgv
-10=//z0sAgn9/AhqB///YAWQAEfwB4QH9Ef+BG9FKAIMbf2bRSwD+xQH/gRsj/wIAE/+BZgIA
-11=1CoE/tgB/xHxAf8F4QAF0UsCEgD+2gH/Jf4wASQC/9kBYwTTJwph/wQB/9wBYAbWIgwV/k
-12=H6//ABRwyCGxsB/xIAFgX/8QFGDBP8wD4ARf/DXADMJRKBsP7cAf9B7WH+wl4A/ukB/8JI
-13=AgAHgRvDYAAr/NBIFIKvrP7XAf/BQgQYAEH1BgxCBv7pAf/ARgiBZgH1GfoYC9FFDIGt/t
-14=wB/yYCR/rAPAD+8wH/BgQR+iX5/74BQhyAhQAAIIH/4wAAg83NzWAMgWYAARAIhn9/Gxv/
-15=/xAE/uEB/wH+yCgAMgKBfwH8AAL+5AH/IfzKKQICAxH//uYB/0H6ySgAIgP+5wH/YfjLKw
-16=b+6QH/cfZyAf/tATcIcffIKwT+7AH/UgHJKgT+7QH/ziUG/u8B/84lBP7zAf///wMrEv7W
-17=B/+B/4CVAAAggf/+RwL/g60bG/78Af+Dq/8bAAFgD4Gu/u8B/4KsGyIAYgGBr/7wAf8B/I
-18=N/f3/ISwSBsf7wAf8CAQACAAf++AH/EgFWA4Gt/vUB/zH9gX/+/AH/CAX+/AH/yUwI/vIB
-19=/4EbA//+8gH/gazKRBD/8wFPEshYCIIbfwQF/vkB/x/+//0BURAUAP7sAf/NVgz/swFQFo
-20=AOAAAggf/0AACBrv7GH/+B/4B7AAAggf/kAACBG/79Af+BGwAB/v4B/xIC//wBKAIR/oNm
-21=Zmb++QH/Mf//+QEtBoEbAAIiAP/3AS8IRf8QAf/1AS0EEfVEAv/6AS0ERAH/+QEuBlIA//
-22=0BMxAQBf/5ASwEWgT/+QE0Ev8JAi4W//kBMg5CAf8AAjIO/8gBOByAJAAAIIH/7gAAgWYQ
-23=AoFm/vwB/4IbG//+ATYA/gUE/4Gs/sUX/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf
-24=+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/
-25=gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4
-26=AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+A
-27=CQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gA
-28=kAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4A=
+[Other1 House]
+IQ=5
+Edge=South
+Color=NeonBlue
+Allies=Other1 House
+Country=Other1
+Credits=0
+NodeCount=0
+TechLevel=5
+PercentBuilt=0
+PlayerControl=yes
 
 [OverlayDataPack]
-1=CQAAIIEA/v4fAIEAgI4AACCBAP5jBACBA/7+AQCCBgT//QFkBIQEAQYD//sBZQaFBgcDBA
-2=T++wEAhgYICAMDBv/7AWUKhQgKCAYE//sBZAaHBgoLCAMEAf76AQCDCAsI//wBZQqEAAcL
-3=CP79AQCEBwoHAP/7AWgQgwAICP/9AWMEgwMGBv74AQBd9oEE//YBZhaCBwc0AYEE/5sBZR
-4=iAgAAAIIEA/loAAIMHCgcgCIMDAwP+9AEAgwcKCzIAAgL+8wEAgwQIC2IA/vUBAIQICgsI
-5=/voBAIIDBAYBgggG/vkBAAfzgwYAB//8AV0EggQGAgKCBgb/9QFlAFIBBAH/+gFeCAYCgQ
-6=QQA/75AQCBARQF/v4BAP/6AWEMZAL+nQkAgQCA0AAAIIEA/kYKAIEB/v8BAIQEAQEDzjYM
-7=z0oM/tkBAIQDBAYGzjcM/+sBXAwAAc1JDv/uAVwOCAGCBgTMThCFBAQBAwQABf7kAQAB/M
-8=pMEgIRiAQABwYGBAYE/+MBWw6CAwfRSBSJCAgDBgMHBgMAzkoO/s0BAIEDA+kB44EEy0sW
-9=A/WDCAoHChcCAf/fAWMUBeTPYhYB84MGCgoCFoIHB/7mAQCDBgYDymMSAA0EAYMBAAf/3g
-10=FkGIIDA8NGCoEE0GUWgwQIBwABgQMGIf6YAQCBAIBOAQAggQD5AACIAwEBAAMDAAEACoED
-11=EAzPTACGBwEHBwYG/tgBAIYGBwEABAQgCyAGgQPPLACEBgQDBBIh/tUBABPagQYiARH6gg
-12=QHMgvLUgSBBM9NAv7IAQAF9AP/gggHEgoD5IEGEAnOUQTRTQT+xwEABdqCAAcF4oEEAAoE
-13=CtJhBv/aAWIEJdqEBwgIBgABAA6BAf/ZAWQC0yYKC9gF94gKCwoHAQEGBv/bAWAI0yEOgw
-14=cKBwH0hAYKCghr/v7rAQAH8IEHD/mHAAcACgcAAf/wAUcMhAMEAQQR/hf+LfSBA//uAUMQ
-15=Qe2EAwcKCyX+Dgn/2wFhBNQkFAvwggcHA/4QD4EB/9kBZADTKQiCBAET8jn1ggYGC///7g
-16=FKCoMGBgQN9AwAwEEIggcGCgz/7wFGDiYCEfSBBgwB/+sBRxTKMQrAPwCBAcFDCP+/AUUO
-17=gJwAACCBAOMAAIMGCgxgDIQBBAcIEAiBBAABhAAAAwP+4wEAhAYJAANyAYcABwcHBAABAg
-18=IQBf7jAQAB/wPpyCoCgwYABgP7/+YBPwJB/8ooBAX0/+QBQgDKHgbNKQb+6QEAgQVx9mIB
-19=/+gBPAQh9nv8cgv+7QEAU/hmCv7wAQAz+P/5AS0ONAH/+gEsEP//AScQ/wQCJRSBAv7WBw
-20=CBAICPAAAggQD+SAIAggQG/v4BAIMHCgj/+wFKAoYDAAcIBwf/+gFMBIgDBwcDBAQHBP76
-21=AQCJBgYGBAMHAAQD/vgBAIQEBgMHAgT++wEAgQQh/YEB/vwBAIIDA//5AVEKJAKBAf/9AV
-22=IOCgX+/gEAggYG//4BUBCCAwTARgb++wEAgQT/+gFQCjYA//4BUBL/swFQFoAJAAAggQD+
-23=/h8AgQCAvQAAIIEA5AAAgQT+/QEAhAEGBwf+/gEAhggKCAYEAf76AQCHBwsKBwYHBv75AQ
-24=CFBwgHBgoCBP73AQCDBAAIBAOBC//5AS0IhwQHBAQECAoCAYEG//UBLQSBAxwFgQACAIIL
-25=CP/6AS0ECAEEAYEI//kBLgYSAIEKAAH/+gEzEIMICgoGBYIIAf/4ATIOggEHAgL//AEwEI
-26=IDBxgEDAb++AEAQgGBB//5ATIOggEIIgAeEf72AQCCBgoIBP/JATcagBwAACCBAO4AAIYD
-27=AAQACAf+/AEAhAEBBAT+xx0AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQ
-28=D+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA
-29=/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP
-30=7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+
-31=/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v
-32=4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgA==
+1=BQAAIP4AIACAjgAAIP5kBACBA/7+AQCCBgT//QFkBIUEAQYDA//7AWkEhAcDBAT//AFoBI
+2=UICAMDBv/7AWUKhggKCAYEBP/6AWYIhwYKCwgDBAH/+wFoDIILCP/8AWUKhAAHCwj+/QEA
+3=hAcKBwD/+wFoEIMACAj//QFjBIMDBgb/+QFqBkP4gQT/9gFmFoIHBzQBgQT/mwFlGICAAA
+4=Ag/lsAAIMHCgf+BQAA/gMAA/70AQCDBwoLMgACAv7zAQCEBAgLC1IA/vUBAIQICgsI/voB
+5=AIIDBAYBgggG//oBXwaGAAAGAAcH/vsBAIIEBgICggYG//UBZQBSAQQB//oBXggGAoEEEA
+6=P++QEAgQEUBf7+AQD/+gFhDGQC/p4JAIDTAAAg/kcKAIEB/v8BAIQEAQED/hEAAM9KDP7Z
+7=AQCEAwQGBs43DP/rAVwM/gMAAM1JDv/uAVwOCAGCBgTMThCEBAQBA/4DAAT/5QFHCgH8yk
+8=wSAhGJBAAHBgYEBgQE/+IBWhCCAwfRSBSJCAgDBgMHBgMAzkoO/88BegyCAAcB44IEBM1N
+9=EIMICgcKFwIB/98BYxQF5M9iFgHzgwYKCgIWggcH/+gBZA6BA8pjEgANBAGDAQAH/94BZB
+10=iCAwPDRgqBBNBlFoIECP4EAAeCAwPLSxj+jQEAgFYBACD+PQAAiAMBAQADAwABAAqCAwMA
+11=DP4SAACGBwEHBwYG/tgBAIYGBwEABAT+BQAAIAaBA88sAIQGBAMEEiH/1gFoAAPagQYiAR
+12=H6ggQHMgv+DgAAgQTPTQL+yAEABfQD/4IIBxIKA+SBBhAJzlEE0U0E/8gBdQQB3IEHBeKB
+13=BAAKBArSYQb/2gFiBCXagwcICP4EAAb+AwAAgQH/2QFkAtMmCgvYBfeICgsKBwEBBgb/2w
+14=FgCP4WAACDBwoHAfSEBgoKCGv+/usBAAfwgQcP+YcABwAKBwAB//ABRwyEAwQBBBH+F/4t
+15=9IED/+4BQxBB7YQDBwoLJf4OCf/bAWEE1CQUC/D+AwAHDfsQDP/ZAWQA0ykIggQBE/I59Y
+16=IGBgv//+4BSgqDBgYEDfQMAMBBCIIHBgoM/+8BRg4mAhH0gQYMAf/rAUcUyjEKwD8AgQHB
+17=Qwj/vwFFDoCeAAAg/icAAIMGCgz+CQAAhAEEBwj+BAAA/gQABIQAAAMD/uMBAIQGCQADcg
+18=GBAP4DAAeDBAABAgIQBf/mAUMAA+nIKgKDBgAGA/v/5gE/AkH/yigEBfT/5AFCAMoeBs0p
+19=Bv7pAQCBBXH2YgH/6AE8BCH2e/xyC/7tAQBT+GYK/vABADP4//kBLQ40Af/6ASwQ//8BJx
+20=D/BAIlFIEC/tcHAICMAAAg/kkCAIIEBv7+AQCDBwoI//sBSgKGAwAHCAcH//oBTASIAwcH
+21=AwQEBwT++gEA/gMABoYEAwcABAP/+gFRAIIDBwIE//wBTgAh/YEB/vwBAP4DAAP//QFNAI
+22=IBAf79AQCCBgb+/gEAggYG//4BUBCCAwTARgb//QFRDP/9AVEYggAG//4BUBL/swFQFoAF
+23=AAAg/gAgAIC8AAAg/igAAIEE/v0BAIQBBgcH/v4BAIYICggGBAH++gEAhwcLCgcGBwb/+g
+24=EvBIQIBwYKAgT+9wEAgwQACAQDggsL//gBLgiCBAf+AwAEgggKAgGBBv/1AS0EgQMcBYEA
+25=AgCCCwj/+gEtBAgBBAGBCP/5AS4GEgD+BAAK//oBMxCDCAoKBgWDCAEB//gBLwCBBwIC//
+26=wBMBCCAwcYBAwG//8BNxaBB//5ATIOggEIIgAeEf/4ATYQCAT/yQE3GoAZAAAg/jIAAIYD
+27=AAQACAf+/AEAhAEBBAT+yB0AgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+AC
+28=AAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+
+29=ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAAC
+30=D+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUA
+31=ACD+ACAAgA==
+
+[OverlayPack]
+1=BQAAIP4AIP+AeQAAIP5lAv+BG/7+Af+Bf///AWYCgX///QFlAoV/G38bG//9AWkEgn9///
+2=0BaAQD///8AWQK/gQAf//8AWUMIgD/9QFlCIGvcgH+9wH/gbFCAP/9AWoAEgD//gFlCv//
+3=AWYW//kBZhg79oFmA///9QFkGiH/Afz/nAFlHIBiAAAg/lsA//4DABv+BQD/g39mZv70Af
+4=/+BAAb/gcA///0AWUA/gUAG/78Af///gFaBAH8//0BWgYB+hIC//0BXwQiAv/7AV4IJAH/
+5=AAJeCv/8AV0GQAT//AFiDv/9A2ES/qMH/4CrAAAg/kcK/4F//wACSAiCGxvPRwqBG//rAV
+6=0K/gMAf4FmzU0M/+sBXAwiA//5AU4MOAHIShCBsCH/BBP+BQB//+gBZBD+CAD/ga8z/4F/
+7=EgGBZgADzUsO/9UBdQzKRQqBqRAOGBMR/4J////eAWQUAfwgAstjEiYRIgL/4QFhFDflzG
+8=MWgX8GAQAWGAL/6gFhDM9NGIFmAgn/3QFiGgXcI/jPSQ5EGdJHDP6JAf+AJAEAIP49AP+P
+9=fxt//39m/2b//2Zmfxsb0SoAgWb+BAB//tgB/4N/fxsABP4FAP8CBIL//89LAIJ/fwIagf
+10=//2AFkABH8AeEB/RH//gMAG/4SAP+DG39m0UsA/sUB/4EbI/8CABP/gWYCANQqBP/ZAWQE
+11=AfEB/wXh/gMAZtFLAhIA/toB/yX+/gYAfyQC/9kBYwTTJwph/wQB/9wBYAbWIgwV/kH6//
+12=ABRwyCGxsB/xIAFgX/8QFGDBP8wD4ARf/DXAD+DwD/gbD/3QFYEHgDIf7CXgD+6QH/wkgC
+13=AAeBG8NgACv80EgUgq+s/9gBWxTARwYYAEH1BgxCBv/qAUkU/gMAZgH1GfoYC9FFDIGt/+
+14=EBVhRH+sA8AP7zAf8GBBH6Jfn/vgFCHICFAAAg/icA//4DAM3+CQD//gQAZv4EAP+Gf38b
+15=G///EAT+4QH/Af7IKAAyAoF/AfwAAv7kAf8h/MopAgIDEf/+5gH/QfrJKAAiA//uAT0EzS
+16=kG/ukB/3H2cgH/7QE3CHH3yCsE/uwB/1IBySoE/+4BOAz//gEoDs8kBP/7ATIM//cDMxL+
+17=1wf/gJwAACD+SAL/g60bG/78Af+Cq//+BAAb/gkA/4Gu/u8B/4KsGyIAYgGBr/7wAf/+Aw
+18=Ab/gMAf8hLBIGx//IBVwaBfwACAAf++AH/EgFWA4Gt//cBVQr+BAD/gX/+/AH//gMAf//9
+19=AVMO//0BSQKBGwP//vIB/4GsykQQ//MBTxLIWAiCG38EBf/7AVMSDgT+/QH//+8BTxrNVg
+20=z/swFQFoALAAAg/jgA/4Gu/scf/4B9AAAg/igA/4Eb/v0B//4EABv+/gH//gYAG//+AS4C
+21=/gMAZv/8AS8E/gUAZv/4ATEGAAL+BgBm//0BMgT+BABm//UBLQQR9UQC//oBLQT+CABm/w
+22=ACNA7//QEzEBAF//kBLARaBP/5ATQS/wkCLhb/+QEyDkIB/wACMg7/yAE4HIAhAAAg/jIA
+23=/4FmEAKBZv78Af+CGxv//gE2AP4FBP+BrP7GF/+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP
+24=4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAA
+25=IP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQ
+26=AAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+ABQAAIP4AIP+A
+27=BQAAIP4AIP+ABQAAIP4AIP+A
+
+[Player]
+Name=Player
+Side=Nod
+Color=Soviet
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Russians House
+
+[Player House]
+IQ=0
+Edge=South
+Color=Soviet
+Allies=Player House,German1 House,Civilian House
+Country=Player
+Credits=100
+NodeCount=0
+TechLevel=6
+PercentBuilt=0
+PlayerControl=yes
+
+[Ranking]
+ParTimeEasy=00:40:00
+ParTimeHard=00:25:00
+OverParTitle=GUI:ParTitleSov04
+ParTimeMedium=00:30:00
+UnderParTitle=GUI:ParTitleSov05
+OverParMessage=GUI:OverParMsgSov04
+UnderParMessage=GUI:UnderParMsgSov04
 
 [ScriptTypes]
 0=0D9E61FC
@@ -2652,325 +4826,109 @@ LocalSize=5,5,95,65
 44=09072DC0
 45=08DE5C8C
 
-[0D9E61FC]
-Name=Intruder Harrassment 1 SCR
-0=46,131081
-1=46,11
-2=46,15
-3=3,3
-4=37,0
+[SpecialFlags]
+Inert=no
+FogOfWar=no
+IonStorms=no
+MCVDeploy=no
+Meteorites=no
+Visceroids=no
+TiberiumGrows=no
+InitialVeteran=no
+HarvesterImmune=no
+TiberiumSpreads=yes
+TiberiumExplosive=no
+DestroyableBridges=yes
+FixedAlliance House=no
 
-[0D9E5B7C]
-Name=Intruder Harrassment 2 SCR
-0=46,131087
-1=46,131097
-2=46,131081
-3=3,4
-4=37,0
+[Structures]
+0=Player House,NAREFN,256,50,129,64,None,1,0,1,0,0,None,None,None,0,0
+1029308=Civilian House,INYELWLAMP,256,97,23,0,None,0,0,1,0,0,None,None,None,0,0
+1029309=Civilian House,INYELWLAMP,256,97,62,0,None,0,0,1,0,0,None,None,None,0,0
+1029310=Civilian House,INPURPLAMP,256,90,32,0,None,0,0,1,0,0,None,None,None,0,0
+1029311=Civilian House,INYELWLAMP,256,61,72,0,None,0,0,1,0,0,None,None,None,0,0
+1029312=Civilian House,INPURPLAMP,256,75,103,0,None,0,0,1,0,0,None,None,None,0,0
+1029313=Civilian House,CAFARM01,256,33,97,0,None,0,0,1,0,0,None,None,None,0,0
+1029314=Civilian House,CAFARM01,256,31,97,0,None,0,0,1,0,0,None,None,None,0,0
+1029315=Civilian House,CAFARM02,256,30,99,0,None,0,0,1,0,0,None,None,None,0,0
+1029316=Civilian House,CAFARM02,256,33,95,0,None,0,0,1,0,0,None,None,None,0,0
+1029317=Civilian House,CAFARM02,256,30,95,0,None,0,0,1,0,0,None,None,None,0,0
+1029318=Civilian House,CAFARM02,256,24,104,0,None,0,0,1,0,0,None,None,None,0,0
+1029319=Civilian House,CAFARM02,256,36,95,0,None,0,0,1,0,0,None,None,None,0,0
+1029320=Civilian House,CAFARM02,256,26,104,0,None,0,0,1,0,0,None,None,None,0,0
+1029321=Civilian House,CAFRMA,256,45,94,0,None,0,0,1,0,0,None,None,None,0,0
+1029322=Civilian House,CAFRMB,256,38,106,0,None,0,0,1,0,0,None,None,None,0,0
+1029323=Civilian House,CAFRMB,256,24,116,0,None,0,0,1,0,0,None,None,None,0,0
+1029324=Civilian House,CAFARM01,256,26,113,0,None,0,0,1,0,0,None,None,None,0,0
+1029325=Civilian House,CAFARM02,256,26,116,0,None,0,0,1,0,0,None,None,None,0,0
+1029326=Civilian House,CAFARM02,256,29,116,0,None,0,0,1,0,0,None,None,None,0,0
+1029327=Player House,INYELWLAMP,256,68,62,0,None,0,0,1,0,0,None,None,None,0,0
+1029328=Civilian House,CATS01,256,23,106,0,None,0,0,1,0,0,None,None,None,0,0
+1029329=Civilian House,CATS01,256,23,108,0,None,0,0,1,0,0,None,None,None,0,0
+1029330=Civilian House,CAFARM02,256,24,113,0,None,0,0,1,0,0,None,None,None,0,0
+1029331=Civilian House,CABARN02,256,28,104,0,None,0,0,1,0,0,None,None,None,0,0
+1029332=Civilian House,CAHSE01,256,43,124,0,None,0,0,1,0,0,None,None,None,0,0
+1029333=Civilian House,CAHSE01,256,43,118,0,None,0,0,1,0,0,None,None,None,0,0
+1029334=Civilian House,CAHSE01,256,34,104,0,None,0,0,1,0,0,None,None,None,0,0
+1029335=Civilian House,CAHSE01,256,33,113,0,None,0,0,1,0,0,None,None,None,0,0
+1029336=Civilian House,CAHSE01,256,46,104,0,None,0,0,1,0,0,None,None,None,0,0
+1029337=Civilian House,CAHSE01,256,43,97,0,None,0,0,1,0,0,None,None,None,0,0
+1029338=Civilian House,CAEUR04,256,41,109,0,None,0,0,1,0,0,None,None,None,0,0
+1029339=Civilian House,CAEUR1,256,48,120,0,None,0,0,1,0,0,None,None,None,0,0
+1029340=Civilian House,CAEUR2,256,46,111,0,None,0,0,1,0,0,None,None,None,0,0
+1029341=Civilian House,CAEUR2,256,40,121,0,None,0,0,1,0,0,None,None,None,0,0
+1029342=Civilian House,CAEUR1,256,37,114,0,None,0,0,1,0,0,None,None,None,0,0
+1029343=Civilian House,CAEUR1,256,37,101,0,None,0,0,1,0,0,None,None,None,0,0
+1029344=Civilian House,CAEUR2,256,34,108,0,None,0,0,1,0,0,None,None,None,0,0
+1029345=Civilian House,CAEUR2,256,43,103,0,None,0,0,1,0,0,None,None,None,0,0
+1029346=Civilian House,CAEUR1,256,45,100,0,None,0,0,1,0,0,None,None,None,0,0
+1029347=Civilian House,CABARN02,256,26,107,0,None,0,0,1,0,0,None,None,None,0,0
+1029348=Player House,NAYARD,256,69,151,0,None,1,0,1,0,0,None,None,None,0,0
+1029355=Civilian House,CABARN02,256,57,122,0,None,0,0,1,0,0,None,None,None,0,0
+1029356=Civilian House,CAHSE01,256,62,125,0,None,0,0,1,0,0,None,None,None,0,0
+1029357=Civilian House,CAFARM06,256,62,136,0,None,0,0,1,0,0,None,None,None,0,0
+1029358=Civilian House,CAEUR1,256,79,124,0,0B9E12CC,0,0,1,0,0,None,None,None,0,0
+1029359=Civilian House,CAHSE01,256,82,129,0,0B9E12CC,0,0,1,0,0,None,None,None,0,0
+1029360=Civilian House,CAFARM06,256,116,46,0,0B9F196C,0,0,1,0,0,None,None,None,0,0
+1029361=Player House,NAPOWR,256,58,137,0,None,1,0,1,0,0,None,None,None,0,0
 
-[08D35A40]
-Name=Allied Assault Fleet a SCR
-0=16,5
-1=46,131133
-2=46,131097
-3=46,131139
-4=0,1
-5=11,15
-
-[08D355C0]
-Name=Allied Assault Fleet b SCR
-0=16,6
-1=16,7
-2=16,8
-3=16,9
-4=6,1
-
-[08C17820]
-Name=Allied Landing Fleet GI@A SCR
-0=3,6
-1=39,6
-2=3,0
-3=8,1
-4=39,1
-5=3,1
-6=37,0
-
-[0B3FC7D0]
-Name=Allied Landing Fleet Grizz@K SCR
-0=3,11
-1=3,10
-2=8,1
-3=39,2
-4=3,1
-5=37,0
-
-[0B3F8890]
-Name=Allied Landing Fleet Grizz@M SCR
-0=3,6
-1=3,12
-2=8,1
-3=39,4
-4=3,1
-5=37,0
-
-[0B3FBC10]
-Name=Allied Landing MCV@A SCR
-0=3,11
-1=3,10
-2=8,1
-3=39,3
-4=3,1
-5=37,0
-
-[0AC536E0]
-Name=GIs Landed SCR
-0=16,16
-1=9,0
-2=11,11
-
-[0999FC00]
-Name=Grizzly Landed @K SCR
-0=16,15
-1=11,11
-
-[099B13B0]
-Name=Grizzly Landed @M SCR
-0=16,14
-1=11,11
-
-[099D6DC0]
-Name=MCV Landed SCR
-0=3,2
-1=9,0
-
-[08DDAB7C]
-Name=Allied Landing Fleet LZ@A b SCR
-0=3,6
-1=3,0
-2=8,1
-3=39,5
-4=3,1
-5=37,0
-
-[0AC52120]
-Name=GI2 Landed SCR
-0=16,13
-1=9,0
-2=11,11
-
-[08DDA43C]
-Name=Attk_Grizzly x3 SCR
-0=0,5
-1=49,0
-2=0,4
-3=0,1
-
-[08DD9DBC]
-Name=Attk_IFV/Rocketeer x4 SCR
-0=0,5
-1=49,0
-2=0,7
-3=0,1
-
-[08DD990C]
-Name=_Base Defense SCR
-0=11,11
-1=49,0
-
-[08DD8DBC]
-Name=Def_Terror SCR
-0=11,11
-1=49,0
-
-[08DD8A1C]
-Name=Def_Combo 1 SCR
-0=11,11
-1=49,0
-
-[097537DC]
-Name=Invasion Para 1 SCR
-0=3,21
-1=46,131087
-2=0,1
-
-[0975332C]
-Name=Invasion Para 2 SCR
-0=3,21
-1=46,131139
-2=46,131092
-3=0,7
-4=0,1
-
-[0ADFB3A0]
-Name=Stupid Harvester SCR
-0=3,23
-
-[097527DC]
-Name=Invasion Para 3 SCR
-0=3,21
-1=46,131139
-2=0,5
-3=0,4
-4=0,1
-
-[08DE6C8C]
-Name=Attk_GI x5 SCR
-0=0,4
-1=49,0
-2=0,1
-
-[08DE67DC]
-Name=Attk_Rocketeer x4 SCR
-0=0,5
-1=49,0
-2=0,9
-3=0,1
-
-[08DE632C]
-Name=Attk_Intruder x4a SCR
-0=46,131081
-1=49,0
-2=46,131087
-3=0,1
-
-[09072A40]
-Name=Attk_Combined b SCR
-0=0,4
-1=49,0
-2=0,1
-
-[08DE4C8C]
-Name=Attk_Engineer x2a SCR
-0=46,131087
-1=49,0
-2=46,131086
-3=0,2
-
-[08DE47DC]
-Name=Attk_Engineer x2b SCR
-0=46,196619
-1=49,0
-2=46,131097
-3=0,2
-
-[08DE430C]
-Name=Attk_Hard Grp a SCR
-0=46,131097
-1=49,0
-2=0,2
-3=0,1
-
-[08DE3C8C]
-Name=Attk_Hard Grp b SCR
-0=46,131092
-1=49,0
-2=0,7
-3=0,9
-4=0,1
-
-[08DE37DC]
-Name=Attk_Destroyer x3 SCR
-0=46,131133
-1=49,0
-2=11,15
-
-[0975E6CC]
-Name=Invasion Para 4 SCR
-0=3,21
-1=46,131086
-2=0,3
-3=0,5
-4=0,6
-5=0,1
-
-[08DE2A1C]
-Name=Attk_GI Bldg Occupy x8 SCR
-0=46,131178
-1=49,0
-2=0,1
-
-[04732DBC]
-Name=Landing@AF
-0=3,31
-1=8,1
-2=39,7
-3=3,35
-4=37,0
-
-[04732B4C]
-Name=Landing@AG
-0=3,32
-1=8,1
-2=39,8
-3=3,35
-4=37,0
-
-[0B7FDDBC]
-Name=Landing@AH
-0=3,33
-1=8,1
-2=39,12
-3=3,35
-4=37,0
-
-[0B7FD90C]
-Name=Landing@AI
-0=3,34
-1=8,1
-2=39,13
-3=3,35
-4=37,0
-
-[0B01A54C]
-Name=GI Feint Attack
-0=0,7
-1=0,4
-2=0,1
-
-[0BFA204C]
-Name=Tank Feint Attack
-0=3,36
-1=0,9
-2=0,1
-
-[0BFA54FC]
-Name=Tank Feint Attack 2
-0=3,36
-1=0,1
-
-[0C16511C]
-Name=Civilian Panic
-0=19,0
-1=6,1
-
-[0BA0F48C]
-Name=Engineer_IFV Attack
-0=14,0
-1=3,38
-2=3,39
-3=8,2
-4=46,131072
-
-[09E6DD0C]
-Name=Intruder vs Naval Yard
-0=46,131133
-
-[09072DC0]
-Name=Attk_Combined a SCR
-0=16,24
-1=16,25
-2=16,26
-3=46,131086
-4=49,0
-5=0,6
-6=0,1
-
-[08DE5C8C]
-Name=Attk_Intruder x4b SCR
-0=46,131097
-1=49,0
-2=46,131133
-3=0,1
+[Tags]
+08BA2A10=0,BG1 All to Hunt,08BA2DC0
+09507510=0,_Loss,095078B0
+09507990=0,_Win Timer,09506090
+09508B00=0,End Intruder Harrassing,0AB06870
+09A1B6E0=0,Flak Cannons Built?,09A1B850
+09A1BA00=0,Zofia Suggest Flak,09A1F8C0
+09A1F9A0=2,Intruder Harrass Attk 2,0ABF11B0
+09A2A560=0,Stupid Harvester Spawn,09A2A7F0
+09AC1330=0,Invasion ParaTeams,079036A0
+09AF4320=2,Intruder Harrass Attk 1,09AF4700
+09B5D1C0=0,Grizz@M Landed,09B5D370
+09B5D450=0,Grizz@K Landed,09B5D650
+09B5D730=0,GIs Landed,09B5DBE0
+09B76CF0=0,MCV Landed,09B5D0E0
+09E1062C=0,Korean Taunt,09E1086C
+09E18A3C=0,Zofia RE Intruders,09E1B42C
+09E5CD1C=0,_Allied Feint Attack,09E5E25C
+09EB5D6C=0,Zofia RE Terror Drones,09EB22AC
+0A07344C=0,Feint Tank 1,0A07364C
+0A07373C=0,Feint GI Landing 2,0A07393C
+0A073A2C=0,Feint GI Landing 1,0A073F3C
+0A076E5C=0,Feint Tank 2,0A076F3C
+0A436030=0,BG1 Production Begin,0A4300D0
+0A6660BC=0,Zofia RE Scorpion,0A66103C
+0A6E817C=0,_Win,0A6E825C
+0A6E948C=2,Cheer,0A6E956C
+0ABBF21C=0,_Ambient Wind 1,0ABBF69C
+0ABC687C=0,_Ambient Wind 2,0ABC517C
+0ABC7DEC=0,_Ambient Ocean,0ABC678C
+0B14B680=0,GI2 Landed,0B14BBB0
+0B3F99F0=0,_Allied MCV Arrival,0B3F9C90
+0B3FB390=0,_Allied Fleet Arrival,0B3FB820
+0B454AF0=0,Begin Allied Timer,0B454A10
+0B9E12CC=0,Attacking Huts,0B9E195C
+0B9F196C=0,Attacking Lighthouse,0B9F1E9C
+0CB2004C=0,_Reveal Start Point,0CB1903C
 
 [TaskForces]
 0=0C452F1C
@@ -3013,223 +4971,6 @@ Name=Attk_Intruder x4b SCR
 37=0B9E108C
 38=0BA0EDAC
 39=09E6CAEC
-
-[0C452F1C]
-Name=Intruder Harrassment TF
-0=2,ORCA
-Group=-1
-
-[0BEFC7DC]
-Name=Allied Assault Fleet TF
-0=2,DEST
-Group=-1
-
-[0BEB66CC]
-Name=Allied Landing Fleet GI TF
-0=1,LCRF
-1=2,E1
-Group=-1
-
-[0B441D00]
-Name=Allied Landing Fleet Grizzly TF
-0=1,LCRF
-1=1,MTNK
-Group=-1
-
-[0C1C26CC]
-Name=Allied Landing MCV TF
-0=1,LCRF
-1=1,AMCV
-Group=-1
-
-[09A2D4C0]
-Name=GIs Landed TF
-0=5,E1
-Group=-1
-
-[099950E0]
-Name=Grizzly Landed TF
-0=1,MTNK
-Group=-1
-
-[099B7040]
-Name=MCV Landed TF
-0=1,AMCV
-Group=-1
-
-[09AAD030]
-Name=Attk_Grizzly x3 TF
-0=3,MTNK
-Group=-1
-
-[0A49BB8C]
-Name=Attk_IFV/Rocketeer x4 TF
-0=4,FV
-1=4,JUMPJET
-Group=-1
-
-[0C26D4C0]
-Name=Def_Infantry TF
-0=8,E1
-Group=-1
-
-[0C26E7A0]
-Name=Def_V3 TF
-0=5,JUMPJET
-Group=-1
-
-[0C26E580]
-Name=Def_Armor TF
-0=5,MTNK
-Group=-1
-
-[0C26E360]
-Name=Def_Terror TF
-0=4,FV
-1=4,E1
-Group=-1
-
-[0A49C80C]
-Name=Def_Combo 1 TF
-0=4,FV
-1=4,JUMPJET
-Group=-1
-
-[0C26C7E0]
-Name=Def_Combo 2 TF
-0=2,FV
-1=2,MTNK
-2=4,E1
-Group=-1
-
-[0BFFEF1C]
-Name=Invasion Para 1 TF
-0=4,E1
-Group=-1
-
-[0BFFEA6C]
-Name=Invasion Para 2 TF
-0=1,MTNK
-Group=-1
-
-[09A28F20]
-Name=Stupid Harvester TF
-0=1,CMIN
-Group=-1
-
-[0BFFDF1C]
-Name=Invasion Para 3 TF
-0=2,E1
-1=1,MTNK
-Group=-1
-
-[0C22C7F0]
-Name=Attk_GI x5 TF
-0=5,E1
-Group=-1
-
-[0C2291E0]
-Name=Attk_Rocketeer x4 TF
-0=4,JUMPJET
-Group=-1
-
-[0C45AA6C]
-Name=Attk_Intruder x3a TF
-0=2,ORCA
-Group=-1
-
-[0C45A82C]
-Name=Attk_Intruder x3b TF
-0=2,ORCA
-Group=-1
-
-[0A49F91C]
-Name=Attk_Combined a TF
-0=3,MTNK
-1=2,FV
-Group=-1
-
-[0C22AA50]
-Name=Attk_Combined b TF
-0=8,E1
-Group=-1
-
-[102A4870]
-Name=Attk_Engineer x2 TF
-0=2,ENGINEER
-Group=-1
-
-[0A4A07FC]
-Name=Attk_Hard Grp a TF
-0=5,FV
-1=5,JUMPJET
-Group=-1
-
-[102AEA20]
-Name=Attk_Hard Grp b TF
-0=5,MTNK
-1=8,E1
-2=5,JUMPJET
-Group=-1
-
-[03D85C70]
-Name=Attk_Destroyer x3 TF
-0=3,DEST
-Group=-1
-
-[03D83810]
-Name=Def_Navy TF
-0=3,DEST
-Group=-1
-
-[0BFFA21C]
-Name=Invasion Para 4 TF
-0=2,MTNK
-Group=-1
-
-[08B3B88C]
-Name=Attk_GI Bldg Occupy x8 TF
-0=8,E1
-Group=-1
-
-[0BEBB56C]
-Name=Allied Feint Attack Grizzly TF
-0=1,MTNK
-1=1,LCRF
-Group=-1
-
-[0AE584BC]
-Name=Feint_GI x2 TF
-0=2,E1
-Group=-1
-
-[0473542C]
-Name=Tank Feint Attack TF
-0=1,MTNK
-Group=-2
-
-[0A22CC1C]
-Name=Lighthouse Lady
-0=1,CIVSF
-Group=-1
-
-[0B9E108C]
-Name=Fishing Village People
-0=1,CIVSFM
-1=1,CIVSF
-2=1,CIVSTM
-Group=-1
-
-[0BA0EDAC]
-Name=Engineer in IFV
-0=1,ENGINEER
-1=1,FV
-Group=-1
-
-[09E6CAEC]
-Name=1 Intruder
-0=1,ORCA
-Group=-1
 
 [TeamTypes]
 0=0D9E646C
@@ -3286,2042 +5027,320 @@ Group=-1
 51=0BA0EEBC
 52=09E6CBFC
 
-[0D9E646C]
-Name=Intruder Harrassment 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=yes
-GuardSlower=no
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=D
-Script=0D9E61FC
-TaskForce=0C452F1C
+[Temp]
+Name=Temp
+Side=GDI
+Color=AlliedsUnit
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans House
 
-[0D9E5DEC]
-Name=Intruder Harrassment 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=yes
-GuardSlower=no
-House=BadGuy2
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=E
-Script=0D9E5B7C
-TaskForce=0C452F1C
+[Temp House]
+IQ=3
+Edge=South
+Color=DarkSky
+Allies=Temp House
+Country=Temp
+Credits=0
+NodeCount=0
+TechLevel=5
+PercentBuilt=0
+PlayerControl=no
 
-[0BEFCB5C]
-Name=Allied Assault Fleet a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=yes
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=D
-Script=08D35A40
-TaskForce=0BEFC7DC
-
-[0BEFC6AC]
-Name=Allied Assault Fleet b
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=E
-Script=08D355C0
-TaskForce=0BEFC7DC
-
-[0434C1FC]
-Name=Allied Landing Fleet LZ@A a
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=B
-Script=08C17820
-TaskForce=0BEB66CC
-
-[0434DB7C]
-Name=Allied Landing Fleet LZ@K a
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=B
-Script=0B3FC7D0
-TaskForce=0B441D00
-
-[0434D6CC]
-Name=Allied Landing Fleet LZ@M a
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=B
-Script=0B3F8890
-TaskForce=0B441D00
-
-[0434D32C]
-Name=Allied Landing MCV@K
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=B
-Script=0B3FBC10
-TaskForce=0C1C26CC
-
-[0B135360]
-Name=GIs Landed
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=A
-Script=0AC536E0
-TaskForce=09A2D4C0
-
-[09987040]
-Name=Grizz Landed @K
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=0999FC00
-TaskForce=099950E0
-
-[099B1610]
-Name=Grizz Landed @M
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=M
-Script=099B13B0
-TaskForce=099950E0
-
-[099B3350]
-Name=MCV Landed
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=K
-Script=099D6DC0
-TaskForce=099B7040
-
-[0434F90C]
-Name=Allied Landing Fleet LZ@A b
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=B
-Script=08DDAB7C
-TaskForce=0BEB66CC
-
-[0A3CB920]
-Name=GI2 Landed
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=A
-Script=0AC52120
-TaskForce=09A2D4C0
-
-[0AA7D920]
-Name=Attk_Grizzly x3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DDA43C
-TaskForce=09AAD030
-
-[0A49BF0C]
-Name=Attk_IFV/Rocketeer x4
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DD9DBC
-TaskForce=0A49BB8C
-
-[0A713A80]
-Name=Def_Infantry
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=no
-Suicide=no
-Priority=10
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD990C
-TaskForce=0C26D4C0
-
-[0A713600]
-Name=Def_V3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=no
-Suicide=no
-Priority=10
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD990C
-TaskForce=0C26E7A0
-
-[0A49B39C]
-Name=Def_Armor
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=no
-Suicide=no
-Priority=10
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD990C
-TaskForce=0C26E580
-
-[0A49B16C]
-Name=Def_Terror
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=no
-Suicide=no
-Priority=14
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD8DBC
-TaskForce=0C26E360
-
-[0A49CB8C]
-Name=Def_Combo 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=no
-Suicide=no
-Priority=14
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD8A1C
-TaskForce=0A49C80C
-
-[0A711820]
-Name=Def_Combo 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=yes
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=no
-Suicide=no
-Priority=10
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD990C
-TaskForce=0C26C7E0
-
-[0BFFF48C]
-Name=Invasion Para 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=yes
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=R
-Script=097537DC
-TaskForce=0BFFEF1C
-
-[0BFFEDEC]
-Name=Invasion Para 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=yes
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=S
-Script=0975332C
-TaskForce=0BFFEA6C
-
-[09A280B0]
-Name=Stupid Harvester 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=T
-Script=0ADFB3A0
-TaskForce=09A28F20
-
-[0BFFE48C]
-Name=Invasion Para 3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=yes
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=U
-Script=097527DC
-TaskForce=0BFFDF1C
-
-[0AA80720]
-Name=Attk_GI x5
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE6C8C
-TaskForce=0C22C7F0
-
-[0C2292E0]
-Name=Attk_Rocketeer x4
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE67DC
-TaskForce=0C2291E0
-
-[0994759C]
-Name=Attk_Intruder x3a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=yes
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE632C
-TaskForce=0C45AA6C
-
-[09946EFC]
-Name=Attk_Intruder x3b
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=yes
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=12
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE632C
-TaskForce=0C45A82C
-
-[0A6256FC]
-Name=Attk_Combined a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09072A40
-TaskForce=0A49F91C
-
-[0A62524C]
-Name=Attk_Combined b
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=12
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=09072A40
-TaskForce=0C22AA50
-
-[08FD87DC]
-Name=Attk_Engineer x2a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=12
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE4C8C
-TaskForce=102A4870
-
-[08FD832C]
-Name=Attk_Engineer x2b
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=12
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE47DC
-TaskForce=102A4870
-
-[0A71D800]
-Name=Def_Engineer x2c
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=10
-Max=3
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD990C
-TaskForce=102A4870
-
-[0A4A0B7C]
-Name=Attk_Hard Grp a
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=16
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE430C
-TaskForce=0A4A07FC
-
-[102AEB20]
-Name=Attk_Hard Grp b
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=yes
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=yes
-Aggressive=yes
-Suicide=no
-Priority=16
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE3C8C
-TaskForce=102AEA20
-
-[03D85D70]
-Name=Attk_Destroyer x3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=12
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE37DC
-TaskForce=03D85C70
-
-[0A719940]
-Name=Def_Navy
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=10
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=yes
-OnlyTargetHouseEnemy=no
-Script=08DD990C
-TaskForce=03D83810
-
-[0BFFA59C]
-Name=Invasion Para 4
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=yes
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=W
-Script=0975E6CC
-TaskForce=0BFFA21C
-
-[08B3B99C]
-Name=Attk_GI Bldg Occupy x8
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=18
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=08DE2A1C
-TaskForce=08B3B88C
-
-[047374DC]
-Name=Allied Landing Feint Attack_AF
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AJ
-Script=04732DBC
-TaskForce=0BEB66CC
-
-[047373AC]
-Name=Allied Landing Feint Attack_AG
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AJ
-Script=04732B4C
-TaskForce=0BEB66CC
-
-[04732A1C]
-Name=Allied Landing Feint Attack_AH
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=20
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AJ
-Script=0B7FDDBC
-TaskForce=0BEBB56C
-
-[0473256C]
-Name=Allied Landing Feint Attack_AI
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=20
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AJ
-Script=0B7FD90C
-TaskForce=0BEBB56C
-
-[0BFFBA4C]
-Name=GI Feint Attack 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-2
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AF
-Script=0B01A54C
-TaskForce=0AE584BC
-
-[0BFFB6AC]
-Name=GI Feint Atttack 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-2
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AG
-Script=0B01A54C
-TaskForce=0AE584BC
-
-[0BFA7EFC]
-Name=Tank Feint Attack 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=20
-Max=2
-TechLevel=0
-Group=-2
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AH
-Script=0BFA204C
-TaskForce=0473542C
-
-[0BFA2EFC]
-Name=Tank Feint Attack 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=yes
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=20
-Max=2
-TechLevel=0
-Group=-2
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AI
-Script=0BFA54FC
-TaskForce=0473542C
-
-[0DB377DC]
-Name=Lighthouse Lady
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Neutral
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AL
-Script=0C16511C
-TaskForce=0A22CC1C
-
-[0DB3732C]
-Name=Fishing Village People
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Neutral
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=-1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AK
-Script=0C16511C
-TaskForce=0B9E108C
-
-[0BA0EEBC]
-Name=Engineer_IFV Rush
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=yes
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0BA0F48C
-TaskForce=0BA0EDAC
-
-[09E6CBFC]
-Name=1 Intruder (Attacks Navy)
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AJ
-Script=09E6DD0C
-TaskForce=09E6CAEC
-
-[AITriggerTypes]
-0A4274E0=Attk_IFV/Rocketeer x4 AITrig,0A49BF0C,<all>,3,0,V3,0100000003000000000000000000000000000000000000000000000000000000,60.000000,50.000000,70.000000,0,0,1,0,<none>,1,1,1
-094443A0=Attk_Grizzly x3 AITrig,0AA7D920,<all>,2,0,HTNK,0200000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
-09444260=Def_Infantry AITrig,0A713A80,<all>,1,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
-09444120=Def_V3 AITrig,0A713600,<all>,3,0,V3,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
-0B00E9E0=Def_Armor AITrig,0A49B39C,<all>,2,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
-0B00FEE0=Def_Terror AITrig,0A49B16C,<all>,3,0,DRON,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
-0B00FDA0=Def_Combos AITrig,0A49CB8C,<all>,3,0,HTK,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,0A711820,1,1,1
-09443B20=Attk_Hard Grp Combo AITrig,102AEB20,<all>,3,0,HTNK,0400000003000000000000000000000000000000000000000000000000000000,60.000000,50.000000,70.000000,0,0,1,0,0A4A0B7C,0,1,1
-094439E0=Def_Engineer x2c AITrig,0A71D800,<all>,12,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
-0A4AEDAC=Attk_Engineer x2b AITrig,08FD832C,<all>,12,0,NAHAND,0100000003000000000000000000000000000000000000000000000000000000,40.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
-0A4AEC6C=Attk_Engineer x2a AITrig,08FD87DC,<all>,12,0,NAPOWR,0100000003000000000000000000000000000000000000000000000000000000,40.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
-0F549B20=Attk_Combined AITrig,0A6256FC,<all>,3,0,NAWEAP,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,70.000000,0,0,1,0,0A62524C,1,1,1
-0F54D160=Attk_Hard Grp a AITrig,0A4A0B7C,<all>,3,0,NACNST,0100000004000000000000000000000000000000000000000000000000000000,60.000000,60.000000,70.000000,0,0,1,0,<none>,0,1,1
-0A4AE8AC=Attk_GI x5 AITrig,0AA80720,<all>,1,0,E2,0300000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
-09443260=Attk_Rocketeer x4 AITrig,0C2292E0,<all>,3,0,V3,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
-09443120=Attk_Intruder x4a AITrig,0994759C,<all>,3,0,NAPOWR,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
-09445EE0=Attk_Intruder x4b AITrig,09946EFC,<all>,3,0,NAYARD,0100000003000000000000000000000000000000000000000000000000000000,50.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
-09445DA0=Def_Navy AITrig,0A719940,<all>,5,0,NAYARD,0100000003000000000000000000000000000000000000000000000000000000,50.000000,50.000000,60.000000,0,0,1,0,<none>,1,1,1
-09445C60=Attk_Destroyer x3 AITrig,03D85D70,<all>,5,0,SUB,0100000003000000000000000000000000000000000000000000000000000000,60.000000,40.000000,60.000000,0,0,1,0,<none>,1,1,1
-08DF462C=Attk_GI Bldg Occupy x8 AITrig,08B3B99C,<all>,1,1,GAPILE,0100000003000000000000000000000000000000000000000000000000000000,40.000000,20.000000,60.000000,0,0,1,0,<none>,1,1,1
-0B9E3EEC=Engineer_IFV Attack,0BA0EEBC,BadGuy1,12,0,GAPOWR,0100000001000000000000000000000000000000000000000000000000000000,60.000000,30.000000,70.000000,0,0,0,0,0BA0EEBC,0,1,1
-
-[AITriggerTypesEnable]
-0CAD0DCC-G=yes
-0CAD0C7C-G=yes
-0CAD0B2C-G=yes
-0CA6621C-G=yes
-0CDF8EDC-G=yes
-0CDF8D8C-G=yes
-0C0C7AEC-G=yes
-0D62199C-G=yes
-0CDF899C-G=yes
-0D6216FC-G=yes
-0D6215AC-G=yes
-0D62145C-G=yes
-0D0803CC-G=yes
-0C32599C-G=yes
-0CE23AAC-G=yes
-0CA1F84C-G=yes
-0CE26CAC-G=yes
-0CE26B5C-G=yes
-0CAD145C-G=yes
-0CAD130C-G=yes
-0CE2395C-G=yes
-0D084B5C-G=yes
-0D084A0C-G=yes
-0D0848BC-G=yes
-0CAD2AEC-G=yes
-0D08461C-G=yes
-0D0873DC-G=yes
-0C8E2C3C-G=yes
-0CAD25AC-G=yes
-0D087D8C-G=yes
-0CAD21BC-G=yes
-0C92C5AC-G=yes
-0C92C45C-G=yes
-0C9565AC-G=yes
-0C92C1BC-G=yes
-0CA2884C-G=yes
-0C9561BC-G=yes
-0CE2EA2C-G=yes
-0CE2E8DC-G=yes
-0C955C3C-G=yes
-0C955AEC-G=yes
-0CE2E40C-G=yes
-0CE2E2BC-G=yes
-0D052AEC-G=yes
-0CE44D0C-G=yes
-0CA5945C-G=yes
-0CAD2C3C-G=yes
-0D535EDC-G=yes
-0C954EDC-G=yes
-0C954D8C-G=yes
-0D535AEC-G=yes
-0AD2BAEC-G=yes
-0CA1284C-G=yes
-0CA126FC-G=yes
-0CB2CEDC-G=yes
-0C91D45C-G=yes
-0CAD5AEC-G=yes
-0D2C45DC-G=yes
-0D2C448C-G=yes
-0C87AEDC-G=yes
-0D2C41EC-G=yes
-0CA6AEDC-G=yes
-0C0D251C-G=yes
-0C87A99C-G=yes
-0CA24D8C-G=yes
-0C92945C-G=yes
-0ACC2DFC-G=yes
-0D53430C-G=yes
-0ECCFCAC-G=yes
-0ECCFA7C-G=yes
-0C8EEEDC-G=yes
-0C0D184C-G=yes
-0ECCF68C-G=yes
-0C87BAEC-G=yes
-0C87B99C-G=yes
-0ECCF29C-G=yes
-0ECCF14C-G=yes
-0C8EEAEC-G=yes
-0C87B45C-G=yes
-0ECCBC3C-G=yes
-0C8EE1BC-G=yes
-0ECCB7FC-G=yes
-0C32D84C-G=yes
-0ECCB55C-G=yes
-0ECCB40C-G=yes
-0ECCB2BC-G=yes
-0CA2D99C-G=yes
-0CB29EDC-G=yes
-0ACC696C-G=yes
-0CAD8AEC-G=yes
-0A31295C-G=yes
-0C87E5AC-G=yes
-0D022C6C-G=yes
-0D022B1C-G=yes
-0C1246FC-G=yes
-0C1245AC-G=yes
-0D0B3B9C-G=yes
-0CA2A04C-G=yes
-0CA2B06C-G=yes
-0CA2FEDC-G=yes
-0D53130C-G=yes
-0D2769BC-G=yes
-0A452E5C-G=yes
-0A452C6C-G=yes
-0A44F2CC-G=yes
-0A44F17C-G=yes
-0D53099C-G=yes
-0A4274E0=yes
-094443A0=yes
-09444260=yes
-09444120=yes
-0B00E9E0=yes
-0B00FEE0=yes
-0B00FDA0=yes
-09443B20=yes
-094439E0=yes
-0A4AEDAC=yes
-0A4AEC6C=yes
-0F549B20=yes
-0F54D160=yes
-0A4AE8AC=yes
-09443260=yes
-09443120=yes
-09445EE0=yes
-09445DA0=yes
-09445C60=yes
-08DF462C=no
-0B9E3EEC=no
+[Terrain]
+13100=TREE08
+13102=TREE05
+15098=TREE12
+15099=TREE11
+17097=TREE12
+17099=TREE12
+17100=TREE05
+19098=TREE11
+25098=TIBTRE03
+28090=TREE15
+28092=TREE15
+30089=TREE11
+30090=TREE15
+30091=TREE11
+30092=TREE16
+31090=TREE12
+32087=TREE12
+33086=TREE08
+33088=TREE15
+33089=TREE11
+35085=TREE08
+35088=TREE11
+36087=TREE12
+50081=TREE15
+51068=TREE05
+51082=TREE10
+51083=TREE11
+52081=TREE08
+53067=TREE08
+53078=TREE12
+53084=TREE06
+54069=TREE12
+55068=TREE05
+55079=TREE11
+55080=TREE10
+57064=TREE02
+57066=TREE15
+57068=TREE17
+57069=TREE05
+58063=TREE12
+59061=TREE15
+59065=TREE02
+59067=TREE17
+59069=TREE02
+60064=TREE15
+60071=TIBTRE02
+61059=TREE15
+61062=TREE12
+61095=TIBTRE03
+62060=TREE12
+63058=TREE12
+63062=TREE11
+65057=TREE15
+65060=TREE10
+66090=TREE05
+67057=TREE08
+67058=TREE12
+67089=TREE02
+67092=TREE04
+68056=TREE11
+69053=TREE11
+70052=TREE11
+70054=TREE12
+71052=TREE08
+72050=TREE08
+72063=TIBTRE01
+74050=TREE10
+78088=TREE11
+85087=TREE08
+89090=TREE05
+95043=TREE11
+95053=TREE11
+96044=TREE08
+96045=TREE17
+96046=TREE12
+96048=TREE05
+98048=TREE08
+99039=TREE12
+99048=TREE16
+100038=TREE11
+100044=TREE08
+100048=TREE15
+101044=TREE05
+101048=TREE05
+102035=TREE12
+102040=TREE08
+102043=TREE12
+102048=TREE17
+103034=TREE08
+103036=TREE11
+103037=TREE05
+103038=TREE18
+103040=TREE11
+103046=TREE15
+103048=TREE08
+104032=TREE05
+104062=TREE07
+106043=TREE12
+106044=TREE08
+106061=TREE08
+106063=TREE06
+107033=TREE11
+107034=TREE05
+107035=TREE11
+107056=TREE05
+108033=TREE12
+108058=TREE08
+109062=TREE11
+109063=TREE04
+110034=TREE08
+110035=TREE16
+110036=TREE16
+111033=TREE11
+111036=TREE12
+111038=TREE16
+111039=TREE15
+112034=TREE05
+112045=TREE16
+115040=TREE08
+115047=TREE12
+116036=TREE15
+116037=TREE18
+116038=TREE18
+116039=TREE18
+116046=TREE08
+117043=TREE08
+117048=TREE11
+117052=TREE17
+117054=TREE16
+118036=TREE05
+118042=TREE11
+119042=TREE12
+119054=TREE15
+120041=TREE08
+120054=TREE12
+120062=TREE18
+121039=TREE05
+121056=TREE09
+121059=TREE10
+122044=TREE08
+122045=TREE05
+123041=TREE17
+123045=TREE08
+123048=TREE05
+123049=TREE08
+123062=TREE07
+124065=TREE05
+126045=TREE18
+126059=TREE11
+128062=TREE16
+128066=TREE06
+131071=TREE05
+132069=TREE11
+134068=TREE05
+134072=TREE08
+135068=TREE02
+138043=TREE12
+138049=TIBTRE01
+138069=TREE11
+139044=TREE05
+141047=TREE11
+143048=TREE15
+145057=TREE12
+147052=TREE11
+147055=TREE12
 
 [Triggers]
-0B454A10=Player,<none>,Begin Allied Timer,0,1,1,1,0
-09AF4700=BadGuy1,<none>,Intruder Harrass Attk 1,0,1,1,1,0
-09E1B42C=Americans House,<none>,Zofia RE Intruders,1,1,1,1,0
-09EB22AC=Player,<none>,Zofia RE Terror Drones,0,1,1,1,0
-09A1FF40=BadGuy1,<none>,Intruder Harrass Attk 2a,0,0,0,1,0
-09A1F8C0=Player,<none>,Zofia Suggest Flak Cannons,0,1,1,1,0
-09A1B850=Player,<none>,Flak Cannons Built?,0,1,1,1,0
-0B3FB820=BadGuy1,<none>,Allied Fleet Arrival,1,1,1,1,0
-0B3F9C90=BadGuy1,<none>,_Allied MCV Arrival,1,1,1,1,0
+079036A0=BadGuy1,09AC1880,Invasion ParaTeams b,0,1,1,0,0
+08BA2DC0=BadGuy1,<none>,BG1 All to Hunt,1,1,1,1,0
 09506090=Player,<none>,Win Timer,1,1,1,1,0
+095078B0=Player,<none>,Loss,0,1,1,1,0
+09A1B850=Player,<none>,Flak Cannons Built?,0,1,1,1,0
+09A1F8C0=Player,<none>,Zofia Suggest Flak Cannons,0,1,1,1,0
+09A1FF40=BadGuy1,<none>,Intruder Harrass Attk 2a,0,0,0,1,0
+09A2A7F0=BadGuy1,<none>,Stupid Harvester Spawn,0,1,1,1,0
+09AC1880=BadGuy1,<none>,Invasion ParaTeams a,0,0,0,1,0
+09AF4700=BadGuy1,<none>,Intruder Harrass Attk 1,0,1,1,1,0
+09B5D0E0=BadGuy1,<none>,MCV Landed,0,1,1,1,0
+09B5D370=BadGuy1,<none>,Grizz Landed @M,0,1,1,1,0
+09B5D650=BadGuy1,<none>,Grizz@K Landed,0,1,1,1,0
+09B5DBE0=Americans House,<none>,GIs Landed,0,1,1,1,0
+09E1086C=BadGuy1,<none>,Korean Taunt,1,1,1,1,0
+09E1B42C=Americans House,<none>,Zofia RE Intruders,1,1,1,1,0
+09E5E25C=Americans House,<none>,_Allied Feint Attack,0,1,1,1,0
+09EB22AC=Player,<none>,Zofia RE Terror Drones,0,1,1,1,0
+0A07364C=Americans House,<none>,Feint Tank 1,0,1,1,1,0
+0A07393C=Americans House,<none>,Feint GI Landing 2,0,1,1,1,0
+0A073F3C=Americans House,<none>,Feint GI Landing 1,0,1,1,1,0
+0A076F3C=Americans House,<none>,Feint Tank 2,0,1,1,1,0
+0A4300D0=BadGuy1,<none>,BG1 Production Begin,0,1,1,1,0
+0A66103C=Player,<none>,Zofia RE Scorpion,0,1,1,1,0
 0A6E825C=Player,<none>,Win,1,1,1,1,0
 0A6E956C=Player,<none>,Cheer,1,1,1,1,0
-09B5DBE0=Americans House,<none>,GIs Landed,0,1,1,1,0
-09B5D650=BadGuy1,<none>,Grizz@K Landed,0,1,1,1,0
-09B5D370=BadGuy1,<none>,Grizz Landed @M,0,1,1,1,0
-09B5D0E0=BadGuy1,<none>,MCV Landed,0,1,1,1,0
-09E1086C=BadGuy1,<none>,Korean Taunt,1,1,1,1,0
-0A4300D0=BadGuy1,<none>,BG1 Production Begin,0,1,1,1,0
-0B9F1E9C=Americans House,<none>,Attacking Lighthouse,1,1,1,1,0
-08BA2DC0=BadGuy1,<none>,BG1 All to Hunt,1,1,1,1,0
-09AC1880=BadGuy1,<none>,Invasion ParaTeams a,0,0,0,1,0
-09A2A7F0=BadGuy1,<none>,Stupid Harvester Spawn,0,1,1,1,0
-0B14BBB0=BadGuy1,<none>,GI2 Ashore,0,1,1,1,0
-095078B0=Player,<none>,Loss,0,1,1,1,0
 0AB06870=BadGuy1,<none>,End Intruder Harrassing,0,1,1,1,0
-0ABF11B0=BadGuy1,09A1FF40,Intruder Harrass Attk 2b,0,0,1,0,0
-079036A0=BadGuy1,09AC1880,Invasion ParaTeams b,0,1,1,0,0
-0A66103C=Player,<none>,Zofia RE Scorpion,0,1,1,1,0
-0CB1903C=Americans House,<none>,_Reveal Start Point,0,1,1,1,0
-09E5E25C=Americans House,<none>,_Allied Feint Attack,0,1,1,1,0
-0A073F3C=Americans House,<none>,Feint GI Landing 1,0,1,1,1,0
-0B9E195C=Americans House,<none>,Attacking Huts,1,1,1,1,0
-0A07393C=Americans House,<none>,Feint GI Landing 2,0,1,1,1,0
-0A07364C=Americans House,<none>,Feint Tank 1,0,1,1,1,0
-0A076F3C=Americans House,<none>,Feint Tank 2,0,1,1,1,0
 0ABBF69C=Americans House,<none>,_Ambient Wind 1,0,1,1,1,0
 0ABC517C=Americans House,<none>,_Ambient Wind 2,0,1,1,1,0
 0ABC678C=Americans House,<none>,_Ambient Ocean,0,1,1,1,0
+0ABF11B0=BadGuy1,09A1FF40,Intruder Harrass Attk 2b,0,0,1,0,0
+0B14BBB0=BadGuy1,<none>,GI2 Ashore,0,1,1,1,0
+0B3F9C90=BadGuy1,<none>,_Allied MCV Arrival,1,1,1,1,0
+0B3FB820=BadGuy1,<none>,Allied Fleet Arrival,1,1,1,1,0
+0B454A10=Player,<none>,Begin Allied Timer,0,1,1,1,0
+0B9E195C=Americans House,<none>,Attacking Huts,1,1,1,1,0
+0B9F1E9C=Americans House,<none>,Attacking Lighthouse,1,1,1,1,0
+0CB1903C=Americans House,<none>,_Reveal Start Point,0,1,1,1,0
 
-[Events]
-0B454A10=1,47,0,20
-09AF4700=1,13,0,250
-09E1B42C=1,13,0,60
-09EB22AC=1,32,0,14
-09A1FF40=1,13,0,200
-09A1F8C0=2,47,0,160,37,0,0
-09A1B850=1,19,0,67
-0B3FB820=1,13,0,200
-0B3F9C90=1,13,0,30
-09506090=1,11,0,15
-0A6E825C=1,13,0,5
-0A6E956C=1,13,0,3
-09B5DBE0=1,36,0,1
-09B5D650=1,36,0,2
-09B5D370=1,36,0,4
-09B5D0E0=1,36,0,3
-09E1086C=1,13,0,2
-0A4300D0=1,32,0,2
-0B9F1E9C=1,13,0,5
-08BA2DC0=1,10,0,15
-09AC1880=1,47,0,600
-09A2A7F0=1,19,0,1
-0B14BBB0=1,36,0,5
-095078B0=1,11,0,14
-0AB06870=1,22,0,1
-0ABF11B0=1,13,0,400
-079036A0=1,47,0,600
-0A66103C=1,20,0,36
-0CB1903C=1,47,0,0
-09E5E25C=1,14,0,0
-0A073F3C=1,36,0,7
-0B9E195C=1,13,0,3
-0A07393C=1,36,0,8
-0A07364C=1,36,0,12
-0A076F3C=1,36,0,13
-0ABBF69C=1,47,0,0
-0ABC517C=1,47,0,0
-0ABC678C=1,47,0,0
+[Units]
+0=Player House,SMCV,256,60,142,0,Guard,None,0,-1,0,-1,1,1
+1=Player House,SUB,256,71,148,0,Guard,None,0,-1,0,-1,1,1
+2=Civilian House,PTRUCK,256,43,112,0,Sleep,None,0,-1,0,-1,1,1
+3=Civilian House,PICK,256,31,100,64,Sleep,None,0,-1,0,-1,1,1
+4=Civilian House,TRUCKA,256,25,108,128,Sleep,None,0,-1,0,-1,1,1
+5=Player House,HARV,256,54,129,64,Harvest,None,0,-1,0,-1,1,0
+6=Player House,HARV,256,54,131,64,Harvest,None,0,-1,0,-1,1,0
 
-[Actions]
-0B454A10=5,27,0,600,0,0,0,0,A,23,0,0,0,0,0,0,A,21,6,Mis_S4_SofiaTimerStarted,0,0,0,0,A,103,4,MISSION:sov04a,0,0,0,0,A,11,4,MISSION:Sov04d,0,0,0,0,A
-09AF4700=1,7,1,0D9E646C,0,0,0,0,A
-09E1B42C=3,21,6,Unit_Sofia_Intruder,0,0,0,0,A,53,2,09EB22AC,0,0,0,0,A,4,1,09E6CBFC,0,0,0,0,A
-09EB22AC=3,100,0,101,0,0,0,0,A,114,0,3,0,0,0,0,A,115,9,316,0,0,0,0,120
-09A1FF40=1,7,1,0D9E5DEC,0,0,0,0,A
-09A1F8C0=4,21,6,Mis_S4_SofiaBuildFlak,0,0,0,0,A,11,4,MISSION:sov04b,0,0,0,0,A,114,0,1,0,0,0,0,A,115,9,67,0,0,0,0,120
-09A1B850=1,56,0,0,0,0,0,0,A
-0B3FB820=7,7,1,0BEFCB5C,0,0,0,0,A,7,1,0BEFC6AC,0,0,0,0,A,7,1,0434C1FC,0,0,0,0,A,7,1,0434DB7C,0,0,0,0,A,7,1,0434D6CC,0,0,0,0,A,53,2,0B3F9C90,0,0,0,0,A,53,2,09506090,0,0,0,0,A
-0B3F9C90=3,7,1,0434D32C,0,0,0,0,A,7,1,0434C1FC,0,0,0,0,A,32,0,0,0,0,0,0,A
-09506090=2,53,2,0A6E825C,0,0,0,0,A,53,2,0A6E956C,0,0,0,0,A
-0A6E825C=1,1,0,14,0,0,0,0,A
-0A6E956C=1,113,0,14,0,0,0,0,A
-09B5DBE0=2,4,1,0B135360,0,0,0,0,A,11,4,MISSION:sov04c,0,0,0,0,A
-09B5D650=1,4,1,09987040,0,0,0,0,A
-09B5D370=1,4,1,099B1610,0,0,0,0,A
-09B5D0E0=2,4,1,099B3350,0,0,0,0,A,53,2,09E1086C,0,0,0,0,A
-09E1086C=1,100,0,90,0,0,0,0,A
-0A4300D0=9,74,0,15,0,0,0,0,A,3,0,15,0,0,0,0,A,38,0,14,0,0,0,0,A,5,1,0A3CB920,0,0,0,0,A,5,1,0B135360,0,0,0,0,A,5,1,09987040,0,0,0,0,A,5,1,099B1610,0,0,0,0,A,53,2,0B9F1E9C,0,0,0,0,A,53,2,08BA2DC0,0,0,0,0,A
-0B9F1E9C=5,17,0,37,0,0,0,0,AL,55,0,5,0,0,0,0,AL,19,7,CivSovFemFear,0,0,0,0,A,4,1,0DB377DC,0,0,0,0,A,19,7,AirRaidSiren,0,0,0,0,A
-08BA2DC0=2,6,0,15,0,0,0,0,A,16,0,0,0,0,0,0,A
-09AC1880=4,7,1,0BFFF48C,0,0,0,0,A,7,1,0BFFEDEC,0,0,0,0,A,7,1,0BFFE48C,0,0,0,0,A,7,1,0BFFA59C,0,0,0,0,A
-09A2A7F0=1,7,1,09A280B0,0,0,0,0,A
-0B14BBB0=1,4,1,0A3CB920,0,0,0,0,A
-095078B0=1,2,0,14,0,0,0,0,A
-0AB06870=3,54,2,09AF4700,0,0,0,0,A,54,2,09A1FF40,0,0,0,0,A,54,2,0ABF11B0,0,0,0,0,A
-0ABF11B0=1,7,1,0D9E5DEC,0,0,0,0,A
-079036A0=2,7,1,0BFFE48C,0,0,0,0,A,7,1,0BFFA59C,0,0,0,0,A
-0A66103C=3,21,6,Unit_Sofia_SeaScorpion,0,0,0,0,A,114,0,3,0,0,0,0,A,115,9,336,0,0,0,0,120
-0CB1903C=4,17,0,27,0,0,0,0,AB,17,0,28,0,0,0,0,AC,17,0,29,0,0,0,0,AD,17,0,30,0,0,0,0,AE
-09E5E25C=7,21,6,Mis_S4_SofiaFleetHere,0,0,0,0,A,11,4,MISSION:Sov04e,0,0,0,0,A,53,2,0B3FB820,0,0,0,0,A,7,1,047374DC,0,0,0,0,A,7,1,047373AC,0,0,0,0,A,7,1,04732A1C,0,0,0,0,A,7,1,0473256C,0,0,0,0,A
-0A073F3C=4,4,1,0BFFBA4C,0,0,0,0,A,17,0,31,0,0,0,0,AF,55,0,5,0,0,0,0,AF,53,2,0B9E195C,0,0,0,0,A
-0B9E195C=6,17,0,36,0,0,0,0,AK,55,0,0,0,0,0,0,AK,19,7,CivSovFear,0,0,0,0,A,19,7,CivSovFemFear,0,0,0,0,A,4,1,0DB3732C,0,0,0,0,A,19,7,AirRaidSiren,0,0,0,0,A
-0A07393C=3,4,1,0BFFB6AC,0,0,0,0,A,17,0,32,0,0,0,0,AG,55,0,5,0,0,0,0,AG
-0A07364C=3,4,1,0BFA7EFC,0,0,0,0,A,17,0,33,0,0,0,0,AH,55,0,5,0,0,0,0,AH
-0A076F3C=3,4,1,0BFA2EFC,0,0,0,0,A,17,0,34,0,0,0,0,AI,55,0,5,0,0,0,0,AI
-0ABBF69C=9,99,7,_Amb_WindCold,0,0,0,0,AE,99,7,_Amb_WindCold,0,0,0,0,AN,99,7,_Amb_WindCold,0,0,0,0,AM,99,7,_Amb_WindCold,0,0,0,0,R,99,7,_Amb_WindCold,0,0,0,0,AA,99,7,_Amb_WindCold,0,0,0,0,CV,99,7,_Amb_WindCold,0,0,0,0,AK,99,7,_Amb_WindCold,0,0,0,0,AO,99,7,_Amb_WindCold,0,0,0,0,AP
-0ABC517C=8,99,7,_Amb_WindCold,0,0,0,0,AQ,99,7,_Amb_WindCold,0,0,0,0,AR,99,7,_Amb_WindCold,0,0,0,0,AS,99,7,_Amb_WindCold,0,0,0,0,V,99,7,_Amb_WindCold,0,0,0,0,W,99,7,_Amb_WindCold,0,0,0,0,U,99,7,_Amb_WindCold,0,0,0,0,T,99,7,_Amb_WindCold,0,0,0,0,Y
-0ABC678C=10,99,7,_Amb_OceanHeavy,0,0,0,0,AT,99,7,_Amb_OceanHeavy,0,0,0,0,AU,99,7,_Amb_OceanHeavy,0,0,0,0,AV,99,7,_Amb_OceanHeavy,0,0,0,0,F,99,7,_Amb_OceanHeavy,0,0,0,0,AW,99,7,_Amb_OceanHeavy,0,0,0,0,AX,99,7,_Amb_OceanHeavy,0,0,0,0,AY,99,7,_Amb_OceanHeavy,0,0,0,0,H,99,7,_Amb_OceanHeavy,0,0,0,0,I,99,7,_Amb_OceanHeavy,0,0,0,0,AZ
+[VariableNames]
+0=Flak Cannons Up,0
+1=GIs ashore,0
+2=Grizzly ashore,0
+3=MCV ashore,0
+4=Grizzly2 ashore,0
+5=GI2 ashore,0
+6=Allied Fleet Here,0
+7=Feint GI Landing 1,0
+8=Feint GI Landing 2,0
+9=Feint Tank Landing ,0
+10=Feint Tank Landing ,0
+11=Feint Tank Landing ,0
+12=Feint Tank 1,0
+13=Feint Tank 2,0
 
-[Tags]
-0B454AF0=0,Begin Allied Timer,0B454A10
-09AF4320=2,Intruder Harrass Attk 1,09AF4700
-09A1F9A0=2,Intruder Harrass Attk 2,0ABF11B0
-09A1BA00=0,Zofia Suggest Flak,09A1F8C0
-09A1B6E0=0,Flak Cannons Built?,09A1B850
-0B3FB390=0,_Allied Fleet Arrival,0B3FB820
-0B3F99F0=0,_Allied MCV Arrival,0B3F9C90
-09B5D730=0,GIs Landed,09B5DBE0
-09B5D450=0,Grizz@K Landed,09B5D650
-09B5D1C0=0,Grizz@M Landed,09B5D370
-09B76CF0=0,MCV Landed,09B5D0E0
-0A436030=0,BG1 Production Begin,0A4300D0
-09AC1330=0,Invasion ParaTeams,079036A0
-09A2A560=0,Stupid Harvester Spawn,09A2A7F0
-0B14B680=0,GI2 Landed,0B14BBB0
-09507990=0,_Win Timer,09506090
-09507510=0,_Loss,095078B0
-09508B00=0,End Intruder Harrassing,0AB06870
-08BA2A10=0,BG1 All to Hunt,08BA2DC0
-09E18A3C=0,Zofia RE Intruders,09E1B42C
-09E1062C=0,Korean Taunt,09E1086C
-09EB5D6C=0,Zofia RE Terror Drones,09EB22AC
-0A6660BC=0,Zofia RE Scorpion,0A66103C
-0CB2004C=0,_Reveal Start Point,0CB1903C
-09E5CD1C=0,_Allied Feint Attack,09E5E25C
-0A073A2C=0,Feint GI Landing 1,0A073F3C
-0A07373C=0,Feint GI Landing 2,0A07393C
-0A07344C=0,Feint Tank 1,0A07364C
-0A076E5C=0,Feint Tank 2,0A076F3C
-0B9F196C=0,Attacking Lighthouse,0B9F1E9C
-0B9E12CC=0,Attacking Huts,0B9E195C
-0ABBF21C=0,_Ambient Wind 1,0ABBF69C
-0ABC687C=0,_Ambient Wind 2,0ABC517C
-0ABC7DEC=0,_Ambient Ocean,0ABC678C
-0A6E817C=0,_Win,0A6E825C
-0A6E948C=2,Cheer,0A6E956C
+[Waypoints]
+0=46121
+1=50148
+2=40110
+3=116144
+4=60161
+5=116099
+6=57140
+7=52125
+8=40129
+9=68131
+10=40121
+11=48137
+12=56123
+13=50101
+14=53100
+15=47098
+16=50099
+17=111060
+18=106053
+19=27105
+20=50112
+21=49094
+22=41087
+23=20102
+24=77092
+25=107082
+26=119071
+27=146057
+28=137063
+29=147066
+30=137055
+31=135091
+32=132093
+33=128091
+34=118084
+35=131129
+36=127081
+37=46115
+38=110029
+39=127044
+40=87054
+41=93068
+42=92084
+43=73073
+44=62082
+45=149072
+46=142086
+47=134100
+48=97097
+49=76101
+50=68115
+51=26116
+52=129082
+53=124079
+98=144064
+99=105081
+
+
 
 [Digest]
 1=da4PKgiSPmatPzuPd6pTeO6ei10=
+

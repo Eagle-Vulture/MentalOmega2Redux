@@ -3547,8 +3547,8 @@ IQ=5
 024=TESLA,158,79
 025=TESLA,165,75
 Edge=North
-Color=Red
-Allies=BadGuy1 House,BadGuy2 House,Civilian House,BadGuy3 House
+Color=SovietUnit
+Allies=BadGuy1 House,BadGuy2 House,Neutral House,BadGuy3 House
 Country=BadGuy3
 Credits=400
 NodeCount=26
@@ -6617,7 +6617,7 @@ DestroyableBridges=yes
 FixedAlliance House=no
 
 [Structures]
-0=Player House,GAAIRC,256,101,162,0,None,1,0,1,0,0,None,None,None,0,0
+0=Player House,GAAIRC,256,103,162,0,None,1,0,1,0,0,None,None,None,0,0
 1035691=Einstein House,GAPOWR,256,96,176,0,0B5BD58C,1,0,1,0,0,None,None,None,0,0
 1035694=Einstein House,GAPOWR,256,103,176,0,0B5BD58C,1,0,1,0,0,None,None,None,0,0
 1035697=Einstein House,CAMISC02,256,99,170,0,None,0,0,1,0,0,None,None,None,0,0

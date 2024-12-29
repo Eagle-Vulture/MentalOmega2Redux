@@ -13,7 +13,7 @@ Value=50
 [Basic]
 Win=<none>
 Lose=<none>
-Name=
+Name=RA2S8
 Brief=S08_f00e
 Intro=<none>
 Theme=No theme
@@ -4470,6 +4470,8 @@ DestroyableBridges=yes
 FixedAlliance House=no
 
 [Structures]
+0=Vlad1 House,CAMACH,256,106,121,64,None,1,0,1,0,0,None,None,None,0,0
+1=Vlad1 House,CAFHOSP,256,110,121,64,None,1,0,1,0,0,None,None,None,0,0
 1029645=Civilian1 House,CAWASH07,256,88,20,0,None,0,0,1,0,0,None,None,None,0,0
 1029646=Civilian1 House,CAWASH11,128,74,35,0,None,0,0,1,0,0,None,None,None,0,0
 1029647=Civilian1 House,CAWASH11,256,74,41,0,None,0,0,1,0,0,None,None,None,0,0
@@ -5307,7 +5309,7 @@ PercentBuilt=100
 PlayerControl=no
 
 [Waypoints]
-0=121111
+0=128110
 1=94101
 2=21080
 3=73111

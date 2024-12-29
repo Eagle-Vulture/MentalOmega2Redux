@@ -14,7 +14,7 @@ Value=50
 [Basic]
 Win=<none>
 Lose=<none>
-Name=
+Name=RA2S12
 Brief=S12_f00e
 Intro=<none>
 Theme=Fortification
@@ -4475,6 +4475,8 @@ DestroyableBridges=yes
 FixedAlliance House=no
 
 [Structures]
+0=Player House,CAMACH,256,176,125,64,None,1,0,1,0,0,None,None,None,0,0
+1=Player House,CAFHOSP,256,180,123,64,None,1,0,1,0,0,None,None,None,0,0
 1032111=BadGuy1 House,GAPOWR,256,113,143,0,None,1,0,1,0,0,None,None,None,0,0
 1032114=BadGuy1 House,GAPOWR,256,110,140,0,None,1,0,1,0,0,None,None,None,0,0
 1032117=BadGuy1 House,GAPOWR,256,113,140,0,None,1,0,1,0,0,None,None,None,0,0

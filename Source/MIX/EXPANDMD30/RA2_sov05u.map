@@ -1,95 +1,63 @@
-[Ranking]
-ParTimeEasy=00:30:00
-ParTimeMedium=00:20:00
-ParTimeHard=00:12:00
-UnderParTitle=GUI:ParTitleSov06
-UnderParMessage=GUI:UnderParMsgSov05
-OverParTitle=GUI:ParTitleSov05
-OverParMessage=GUI:OverParMsgSov05
-
-[HARV]
-Storage=20
-
-[CMIN]
-Storage=10
-
-[Tiberiums]
-0=Riparius
-1=Cruentus
-2=Vinifera
-3=Aboreus
-
-[Riparius]
-Value=50
-
-[Cruentus]
-Value=100
-
-[Vinifera]
-Value=50
-
-[Aboreus]
-Value=50
-
-[INGALITE]
-Name=Invisible Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=0.5
-LightGreenTint=0.5
-Allieds2Tint=0.5
-
-[INYELWLAMP]
-Name=Invisible Yellow Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=0.5
-LightGreenTint=0.5
-Allieds2Tint=0.0
-
-[INPURPLAMP]
-Name=Invisible Purple Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=1.5
-LightGreenTint=0.01
-Allieds2Tint=0.01
-
-[INGRNLMP]
-Name=Invisible Green Light Post
-LightVisibility=4000
-LightIntensity=0.01
-LightRedTint=1.5
-LightGreenTint=0.01
-Allieds2Tint=0.01
-
-[INREDLMP]
-Name=Invisible Red Light Post
-LightVisibility=2000
-LightIntensity=0.01
-LightRedTint=0.4
-LightGreenTint=0.2
-Allieds2Tint=0.01
-
-[INBLULMP]
-Name=Invisible Blue Light Post
-LightVisibility=3000
-LightIntensity=0.01
-LightRedTint=0.01
-LightGreenTint=0,01
-Allieds2Tint=0.7
-
-[IVAN]
-Name=Crazy Ivan
-Prerequisite=NAHAND
-
-[ENGINEER]
-Name=Engineer
-TechLevel=-1
+; Map created with FinalAlert 2(tm) Mission Editor
+; Get it at http://www.westwood.com
+; note that all comments were truncated
 
 [ADOG]
 Name=Allied Attack Dog
 TechLevel=-1
+
+[Aboreus]
+Value=50
+
+[AircraftTypes]
+
+[BarrelExplosion]
+Anim=RING1
+Damage=50
+Warhead=OilExplosionWH
+Projectile=Invisible
+
+[Basic]
+Win=<none>
+Lose=<none>
+Name=RA2S5
+Brief=S05_f00e
+Intro=<none>
+Theme=Motorized
+Action=<none>
+Player=Player House
+Percent=0
+Briefing=Brief:Sov03
+GameMode=standard
+HomeCell=98
+InitTime=10000
+Official=yes
+EndOfGame=no
+FillSilos=no
+FreeRadar=yes
+MaxPlayer=8
+MinPlayer=2
+PostScore=<none>
+SkipScore=no
+TrainCrate=no
+TruckCrate=no
+AltHomeCell=98
+OneTimeOnly=no
+CarryOverCap=0
+NewINIFormat=4
+NextScenario=GDI2A.map
+PreMapSelect=<none>
+TimerInherit=no
+SkipMapSelect=no
+CarryOverMoney=0.000000
+AltNextScenario=GDI9C.MAP
+MultiplayerOnly=0
+IceGrowthEnabled=no
+StartingDropships=0
+VeinGrowthEnabled=no
+TiberiumGrowthEnabled=no
+IgnoreGlobalAITriggers=yes
+TiberiumDeathToVisceroid=no
 
 [CAMISC01]
 Name=RA2 Barrels
@@ -99,381 +67,1071 @@ Strength=2
 Name=RA2 Barrel
 Strength=1
 
-[BarrelExplosion]
-Projectile=Invisible
-Damage=50
-Warhead=OilExplosionWH
-Anim=RING1
+[CAPARS01]
+Name=RA2 Paris Tower
+Armor=concrete
+Power=-100
+Points=5
+UIName=Name:CAPARS01
+Nominal=yes
+Powered=Yes
+Primary=EiffelBolt
+Bombable=no
+Strength=30000
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+MaxDebris=0
+TechLevel=-1
+BaseNormal=no
+Insignificant=yes
+Overpowerable=true
+RadarInvisible=no
 
-[PICK]
-Name=Pickup Truck
-Category=Support
-Passengers=0
-Crusher=no
+[CMIN]
+Storage=10
+
+[Cruentus]
+Value=100
+
+[ENGINEER]
+Name=Engineer
+TechLevel=-1
+
+[HARV]
+Storage=20
+
+[INBLULMP]
+Name=Invisible Blue Light Post
+Allieds2Tint=0.7
+LightRedTint=0.01
+LightGreenTint=0,01
+LightIntensity=0.01
+LightVisibility=3000
+
+[INGALITE]
+Name=Invisible Light Post
+Allieds2Tint=0.5
+LightRedTint=0.5
+LightGreenTint=0.5
+LightIntensity=0.01
+LightVisibility=4000
+
+[INGRNLMP]
+Name=Invisible Green Light Post
+Allieds2Tint=0.01
+LightRedTint=1.5
+LightGreenTint=0.01
+LightIntensity=0.01
+LightVisibility=4000
+
+[INPURPLAMP]
+Name=Invisible Purple Light Post
+Allieds2Tint=0.01
+LightRedTint=1.5
+LightGreenTint=0.01
+LightIntensity=0.01
+LightVisibility=4000
+
+[INREDLMP]
+Name=Invisible Red Light Post
+Allieds2Tint=0.01
+LightRedTint=0.4
+LightGreenTint=0.2
+LightIntensity=0.01
+LightVisibility=2000
+
+[INYELWLAMP]
+Name=Invisible Yellow Light Post
+Allieds2Tint=0.0
+LightRedTint=0.5
+LightGreenTint=0.5
+LightIntensity=0.01
+LightVisibility=4000
+
+[IVAN]
+Name=Crazy Ivan
+Prerequisite=NAHAND
 
 [NAHAND]
 Name=Soviet Barracks
 Power=0
 
+[PICK]
+Name=Pickup Truck
+Crusher=no
+Category=Support
+Passengers=0
+
+[Riparius]
+Value=50
+
 [TESLA]
 Name=Tesla Coil
 Power=0
 
-[CAPARS01]
-UIName=Name:CAPARS01
-Name=RA2 Paris Tower
-TechLevel=-1
-Strength=30000
-Insignificant=yes
-Nominal=yes
-RadarInvisible=no
-Points=5
-Armor=concrete
-Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
-MaxDebris=0
-BaseNormal=no
-Primary=EiffelBolt
-Power=-100
-Powered=Yes
-Overpowerable=true
-Bombable=no
+[Tiberiums]
+0=Riparius
+1=Cruentus
+2=Vinifera
+3=Aboreus
 
-[SpecialFlags]
-TiberiumGrows=no
-TiberiumSpreads=yes
-TiberiumExplosive=no
-DestroyableBridges=no
-MCVDeploy=no
-InitialVeteran=no
-FixedAlliance House=no
-HarvesterImmune=no
-FogOfWar=no
-Inert=no
-IonStorms=no
-Meteorites=no
-Visceroids=no
+[Vinifera]
+Value=50
 
-[Countries]
-0=Player
-1=BadGuy1
-2=BadGuy2
-3=BadGuy3
-4=Civilian1
-5=Other1
-6=Other2
-7=Other3
 
-[Player]
-ParentCountry=Russians House
-Name=Player
-Suffix=Allied
-Prefix=G
-Color=Soviet
-Side=Nod
-SmartAI=yes
-CostUnitsMult=1
+[Preview]
+
+[PreviewPack]
+
+[076E35A0]
+0=3,78
+1=3,79
+2=3,80
+3=3,81
+4=3,82
+5=3,83
+6=6,1
+Name=CivCar3Path
+
+[076E41E0]
+Max=1
+Full=no
+Name=CivCar3Team
+Group=3
+House=Other1
+Script=076E35A0
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=CA
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=092AC620
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[076E4560]
+Max=1
+Full=no
+Name=CivCar2Team
+Group=2
+House=Other1
+Script=0844E980
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=BF
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=092AC620
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[07701760]
+Max=1
+Tag=089BA130
+Full=no
+Name=Suicide GI
+Group=0
+House=BadGuy1
+Script=089DADC0
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=B
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=089DD810
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[077DC4A0]
+0=1,SAPC
+1=6,SHK
+Name=RE_Full Transport
+Group=-1
+
+[083C465C]
+0=1,SHK
+Name=1 Tesla Trooper
+Group=-1
+
+[083D089C]
+Max=1
+Full=no
+Name=1 Tesla Trooper Team
+Group=-1
+House=Player
+Script=084C3DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=BI
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=083C465C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[083FB0AC]
+0=1,HTK
+Name=1 Flak Trak
+Group=-1
+
+[0843F29C]
+0=6,E1
+1=2,MTNK
+Name=Re_6GIs_2 Tanks
+Group=-1
+
+[084404FC]
+0=3,FV
+Name=Re_3 IFVs
+Group=-1
+
+[084413FC]
+Max=4
+Full=no
+Name=Re_6 GIs_2 Tanks Team
+Group=-1
+House=BadGuy1
+Script=08444DBC
+Whiner=no
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=G
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0843F29C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08444A1C]
+Max=4
+Full=no
+Name=Re_3 IFV Team
+Group=-1
+House=BadGuy1
+Script=08444DBC
+Whiner=yes
+Droppod=yes
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=BG
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=084404FC
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=yes
+
+[08444DBC]
+0=11,11
+Name=Guard Area
+
+[0844E980]
+0=3,52
+1=3,53
+2=3,54
+3=3,55
+4=3,56
+5=3,57
+6=6,1
+Name=CivCar2Path
+
+[084C3DBC]
+0=20,20
+Name=Change to Other3
+
+[088B124C]
+Max=1
+Full=yes
+Name=Full Trak Team
+Group=-1
+House=Other3
+Script=0A99854C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0AF56B7C
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[089311C0]
+0=3,26
+1=3,27
+2=3,28
+3=3,29
+4=3,30
+5=3,31
+6=3,32
+7=3,33
+8=3,34
+9=3,35
+10=6,1
+Name=CivCar1Path
+
+[089DADC0]
+0=3,3
+1=0,1
+Name=Suicide Run
+
+[089DD810]
+0=1,E1
+Name=Suicide GI TF
+Group=-1
+
+[08A70A40]
+0=2,E2
+Name=2 Conscripts
+Group=-1
+
+[08A70B40]
+0=4,E2
+Name=4 Conscripts
+Group=-1
+
+[08A70C40]
+0=6,E2
+Name=6 Conscripts
+Group=-1
+
+[08A70D40]
+0=8,E2
+Name=8 Conscripts
+Group=-1
+
+[08A72790]
+0=10,E2
+Name=10 Conscripts
+Group=-1
+
+[08AB64E0]
+Max=1
+Full=no
+Name=CivCar1Team
+Group=1
+House=Other1
+Script=089311C0
+Whiner=no
+Droppod=no
+Suicide=yes
+Loadable=no
+Prebuild=no
+Priority=20
+Waypoint=AA
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=092AC620
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[092AC620]
+0=1,PICK
+Name=CivCar1
+Group=-1
+
+[09ED733C]
+0=3,SHK
+Name=3 Tesla Troopers
+Group=-1
+
+[09ED76CC]
+0=6,SHK
+Name=6 Tesla Troopers
+Group=-1
+
+[09FF1DBC]
+0=16,51
+1=16,50
+2=6,1
+Name=AZ AY Patrol
+
+[09FF31AC]
+Max=2
+Full=no
+Name=GI Patrol 5
+Group=-1
+House=BadGuy1
+Script=09FF1DBC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AV
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B45562C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0A090DBC]
+0=16,59
+1=16,58
+2=6,1
+Name=BH BG Patrol
+
+[0A0912DC]
+Max=2
+Full=no
+Name=GI Patrol 6
+Group=-1
+House=BadGuy1
+Script=0A090DBC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=BG
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B45562C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0A0EC38C]
+Max=1
+Full=no
+Name=1 Flak Trak Team
+Group=-1
+House=Other3
+Script=0A1C903C
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=R
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=083FB0AC
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0A0EC4BC]
+0=1,SAPC
+Name=1 Transport
+Group=-1
+
+[0A1C903C]
+0=20,13
+Name=Change to Player
+
+[0A99854C]
+0=11,13
+Name=Just Sit There Really
+
+[0AF56B7C]
+0=2,E2
+1=3,SHK
+2=1,HTK
+Name=Full Trak
+Group=-1
+
+[0B45562C]
+0=2,E1
+Name=2 GIs
+Group=-1
+
+[0B4582FC]
+0=16,83
+1=16,41
+2=16,79
+3=16,78
+4=6,1
+Name=CF AP CB CA Patrol
+
+[0B45856C]
+Max=2
+Full=no
+Name=GI Patrol 2
+Group=-1
+House=BadGuy1
+Script=0B4582FC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=CA
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B45562C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0B4586BC]
+Max=2
+Full=no
+Name=GI Patrol 3
+Group=-1
+House=BadGuy1
+Script=0B459C1C
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AU
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B45562C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0B458BAC]
+0=16,38
+1=16,39
+2=16,40
+3=16,37
+4=6,1
+Name=AM AN AO AL Patrol
+
+[0B458E1C]
+Max=2
+Full=no
+Name=GI Patrol 1
+Group=-1
+House=BadGuy1
+Script=0B458BAC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AL
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B45562C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0B4596AC]
+0=16,43
+1=16,42
+2=16,45
+3=16,44
+4=6,1
+Name=AR AQ AT AS Patrol
+
+[0B45991C]
+Max=2
+Full=no
+Name=GI Patrol 4
+Group=-1
+House=BadGuy1
+Script=0B4596AC
+Whiner=yes
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=7
+Waypoint=AS
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=0B45562C
+TechLevel=0
+Aggressive=yes
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[0B459C1C]
+0=16,49
+1=16,48
+2=16,47
+3=16,46
+4=6,1
+Name=AX AW AV AU Patrol
+
+[0EBF5DBC]
+0=3,61
+1=8,1
+2=20,13
+Name=Just Sit There
+
+[0EBF61CC]
+Max=1
+Full=yes
+Name=Full Transport Team
+Group=-1
+House=Other3
+Script=0EBF5DBC
+Whiner=no
+Droppod=no
+Suicide=no
+Loadable=no
+Prebuild=no
+Priority=20
+Annoyance=no
+IonImmune=no
+Recruiter=no
+Reinforce=no
+TaskForce=077DC4A0
+TechLevel=0
+Aggressive=no
+Autocreate=no
+GuardSlower=no
+OnTransOnly=no
+AvoidThreats=no
+LooseRecruit=no
+VeteranLevel=1
+IsBaseDefense=no
+UseTransportOrigin=no
+OnlyTargetHouseEnemy=no
+TransportsReturnOnUnload=no
+AreTeamMembersRecruitable=no
+
+[AITriggerTypesEnable]
+0A31295C-G=yes
+0A44F17C-G=yes
+0A44F2CC-G=yes
+0A452C6C-G=yes
+0A452E5C-G=yes
+0AA845AC-G=yes
+0AA846FC-G=yes
+0AD2BAEC-G=yes
+0C0C7AEC-G=yes
+0C0D184C-G=yes
+0C0D251C-G=yes
+0C1245AC-G=yes
+0C1246FC-G=yes
+0C32599C-G=yes
+0C32D84C-G=yes
+0C87B45C-G=yes
+0C87B99C-G=yes
+0C87E5AC-G=yes
+0C8B81BC-G=yes
+0C8BC5AC-G=yes
+0C8C2AEC-G=yes
+0C8C2C3C-G=yes
+0C8C430C-G=yes
+0C8C4C3C-G=yes
+0C8C51BC-G=yes
+0C8C56FC-G=yes
+0C8C645C-G=yes
+0C8C6EDC-G=yes
+0C8C71BC-G=yes
+0C8E2C3C-G=yes
+0C8EE1BC-G=yes
+0C8EEAEC-G=yes
+0C8EEEDC-G=yes
+0C91D45C-G=yes
+0C92C1BC-G=yes
+0C92C45C-G=yes
+0C955AEC-G=yes
+0C955C3C-G=yes
+0C9561BC-G=yes
+0C9565AC-G=yes
+0C96F45C-G=yes
+0C96F5AC-G=yes
+0CA1F84C-G=yes
+0CA24D8C-G=yes
+0CA2A04C-G=yes
+0CA2B06C-G=yes
+0CA2D99C-G=yes
+0CA2FEDC-G=yes
+0CA5945C-G=yes
+0CA6621C-G=yes
+0CA6AEDC-G=yes
+0CAD0B2C-G=yes
+0CAD0C7C-G=yes
+0CAD0DCC-G=yes
+0CAD130C-G=yes
+0CAD145C-G=yes
+0CAD25AC-G=yes
+0CAD2AEC-G=yes
+0CAD2C3C-G=yes
+0CAD5AEC-G=yes
+0CADD99C-G=yes
+0CADDEDC-G=yes
+0CB29EDC-G=yes
+0CB2CEDC-G=yes
+0CDF899C-G=yes
+0CDF8D8C-G=yes
+0CDF8EDC-G=yes
+0CE2395C-G=yes
+0CE23AAC-G=yes
+0CE26B5C-G=yes
+0CE26CAC-G=yes
+0CE2E8DC-G=yes
+0CE2EA2C-G=yes
+0CE44D0C-G=yes
+0D022B1C-G=yes
+0D022C6C-G=yes
+0D052AEC-G=yes
+0D0803CC-G=yes
+0D08461C-G=yes
+0D0848BC-G=yes
+0D084A0C-G=yes
+0D084B5C-G=yes
+0D0873DC-G=yes
+0D087D8C-G=yes
+0D0B3B9C-G=yes
+0D2769BC-G=yes
+0D2C41EC-G=yes
+0D2C448C-G=yes
+0D2C45DC-G=yes
+0D53099C-G=yes
+0D53130C-G=yes
+0D53430C-G=yes
+0D535EDC-G=yes
+0D62145C-G=yes
+0D6215AC-G=yes
+0D6216FC-G=yes
+0D62199C-G=yes
+0ECCB2BC-G=yes
+0ECCB40C-G=yes
+0ECCB55C-G=yes
+0ECCB7FC-G=yes
+0ECCBC3C-G=yes
+0ECCF14C-G=yes
+0ECCF29C-G=yes
+0ECCF68C-G=yes
+0ECCFA7C-G=yes
+0ECCFCAC-G=yes
+
+[Actions]
+078D8320=1,17,0,14,0,0,0,0,O
+078D86A0=1,17,0,13,0,0,0,0,N
+078D9C90=1,17,0,16,0,0,0,0,Q
+078D9F40=1,17,0,15,0,0,0,0,P
+078DF210=1,17,0,12,0,0,0,0,M
+083B646C=1,114,0,2,0,0,0,0,A
+0843CCA0=6,80,1,088B124C,0,0,0,0,R,17,0,17,0,0,0,0,R,55,0,2,0,0,0,0,R,19,7,FlakTroopAttackCommand,0,0,0,0,A,53,2,09EEBF3C,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
+08445BEC=3,54,2,08445BEC,0,0,0,0,A,53,2,08445DBC,0,0,0,0,A,21,6,EVA_EnemyAirArmadaDetected,0,0,0,0,A
+08445DBC=5,7,1,08444A1C,0,0,0,0,A,7,1,084413FC,0,0,0,0,A,54,2,08445DBC,0,0,0,0,A,53,2,08445BEC,0,0,0,0,A,11,4,MISSION:Sov05a,0,0,0,0,A
+0844F520=1,4,1,076E4560,0,0,0,0,A
+084AFE9C=2,54,2,084AFE9C,0,0,0,0,A,53,2,0A0ACC3C,0,0,0,0,A
+0857BEFC=2,11,4,MISSION:Sov05c,0,0,0,0,A,6,0,14,0,0,0,0,A
+087D3A80=1,53,2,0915F590,0,0,0,0,A
+088601B0=1,17,0,0,0,0,0,0,A
+088D00E0=1,17,0,5,0,0,0,0,F
+088D0A90=1,17,0,4,0,0,0,0,E
+08930180=1,4,1,08AB64E0,0,0,0,0,A
+08978F40=3,6,0,14,0,0,0,0,A,11,4,MISSION:Sov05c,0,0,0,0,A,53,2,0857BEFC,0,0,0,0,A
+0897D490=8,53,2,08978F40,0,0,0,0,A,11,4,MISSION:Objective1,0,0,0,0,A,53,2,08B82CBC,0,0,0,0,A,53,2,08AB8750,0,0,0,0,A,54,2,08445DBC,0,0,0,0,A,54,2,08445BEC,0,0,0,0,A,53,2,0AD6A15C,0,0,0,0,A,54,2,087D3A80,0,0,0,0,A
+089BA6A0=1,17,0,1,0,0,0,0,B
+089C1F40=1,4,1,076E41E0,0,0,0,0,A
+089D6140=1,17,0,2,0,0,0,0,C
+089DE250=1,4,1,07701760,0,0,0,0,A
+089F31A0=5,80,1,0EBF61CC,0,0,0,0,L,17,0,11,0,0,0,0,L,55,0,2,0,0,0,0,L,19,7,GenSovWaterSelect,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
+08A11920=1,17,0,18,0,0,0,0,S
+08A67270=5,17,0,10,0,0,0,0,K,14,0,13,0,0,0,0,A,55,0,2,0,0,0,0,Z,19,7,FlakTroopAttackCommand,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
+08A82380=1,17,0,20,0,0,0,0,U
+08A829A0=1,17,0,19,0,0,0,0,T
+08AB8750=4,53,2,0CB2164C,0,0,0,0,A,11,4,MISSION:Objective2,0,0,0,0,A,54,2,0857BEFC,0,0,0,0,A,11,4,MISSION:Objective3,0,0,0,0,A
+08AB8D40=1,2,0,13,0,0,0,0,A
+08B37710=1,17,0,24,0,0,0,0,Y
+08B4B0F0=2,17,0,22,0,0,0,0,W,17,0,23,0,0,0,0,X
+08B4BB20=1,17,0,21,0,0,0,0,V
+08B82CBC=1,11,4,MISSION:Sov05b,0,0,0,0,A
+08B8375C=1,11,4,MISSION:Sov05a,0,0,0,0,A
+08DFF090=3,100,0,116,0,0,0,0,A,114,0,2,0,0,0,0,A,115,9,371,0,0,0,0,120
+0915F590=1,21,6,Mis_S5_TeslaGuy,0,0,0,0,A
+092CB280=5,17,0,8,0,0,0,0,I,14,0,13,0,0,0,0,A,55,0,2,0,0,0,0,AK,19,7,FlakTroopAttackCommand,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
+092CF430=3,17,0,7,0,0,0,0,H,17,0,6,0,0,0,0,G,17,0,53,0,0,0,0,BB
+092CFE40=1,17,0,6,0,0,0,0,G
+09EEBF3C=1,4,1,0A0EC38C,0,0,0,0,A
+0A0ACC3C=3,54,2,0A0ACC3C,0,0,0,0,A,4,1,083D089C,0,0,0,0,A,53,2,084AFE9C,0,0,0,0,A
+0A1201BC=6,99,7,_Amb_OceanLight,0,0,0,0,BA,99,7,_Amb_BirdsHarbor,0,0,0,0,BA,99,7,_Amb_OceanLight,0,0,0,0,BF,99,7,_Amb_BirdsHarbor,0,0,0,0,BF,99,7,_Amb_OceanLight,0,0,0,0,N,99,7,_Amb_BirdsHarbor,0,0,0,0,N
+0A12A7AC=6,99,7,_Amb_UrbanMurmur1,0,0,0,0,CC,99,7,_Amb_UrbanMurmur2,0,0,0,0,CF,99,7,_Amb_UrbanMurmur1,0,0,0,0,AC,99,7,_Amb_UrbanMurmur2,0,0,0,0,C,99,7,_Amb_UrbanMurmur1,0,0,0,0,AA,99,7,_Amb_UrbanMurmur2,0,0,0,0,R
+0A67A58C=1,113,0,13,0,0,0,0,A
+0A67AC6C=1,1,0,13,0,0,0,0,A
+0A70764C=1,2,0,13,0,0,0,0,A
+0AD6A15C=3,14,0,20,0,0,0,0,A,53,2,0A70764C,0,0,0,0,A,54,2,0AD6A15C,0,0,0,0,A
+0AD6F19C=2,2,0,13,0,0,0,0,A,54,2,0AD6F19C,0,0,0,0,A
+0B00823C=1,100,0,91,0,0,0,0,A
+0B009B0C=1,100,0,92,0,0,0,0,A
+0B49294C=6,7,1,0B458E1C,0,0,0,0,A,7,1,0B45856C,0,0,0,0,A,7,1,0B4586BC,0,0,0,0,A,7,1,0B45991C,0,0,0,0,A,7,1,09FF31AC,0,0,0,0,A,7,1,0A0912DC,0,0,0,0,A
+0CB2164C=2,53,2,0A67AC6C,0,0,0,0,A,53,2,0A67A58C,0,0,0,0,A
 
 [BadGuy1]
-ParentCountry=Americans House
 Name=BadGuy1
-Suffix=Soviet
-Prefix=B
-Color=Soviet
 Side=GDI
+Color=Soviet
+Prefix=B
+Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
-
-[BadGuy2]
 ParentCountry=Americans House
-Name=BadGuy2
-Suffix=Soviet
-Prefix=B
-Color=Soviet
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
-
-[BadGuy3]
-ParentCountry=Americans House
-Name=BadGuy3
-Suffix=Soviet
-Prefix=B
-Color=Soviet
-Side=GDI
-SmartAI=yes
-CostUnitsMult=1
-
-[Civilian1]
-ParentCountry=Civie1 House
-Name=Civilian1
-Suffix=CIV
-Prefix=C
-Color=Soviet2
-MultiplayPassive=true
-SmartAI=yes
-Side=Civilian
-
-[Other1]
-ParentCountry=Germans House
-Name=Other1
-Suffix=Allied
-Prefix=G
-Color=Grey
-Side=GDI
-MultiplayPassive=true
-SmartAI=yes
-
-[Other2]
-ParentCountry=Germans House
-Name=Other2
-Suffix=Allied
-Prefix=G
-Color=Grey
-Side=GDI
-SmartAI=yes
-
-[Other3]
-ParentCountry=Germans House
-Name=Other3
-Suffix=Allied
-Prefix=G
-Color=Grey
-Side=GDI
-SmartAI=yes
-
-[Basic]
-Briefing=Brief:Sov03
-NextScenario=GDI2A.map
-AltNextScenario=GDI9C.MAP
-NewINIFormat=4
-CarryOverCap=0
-EndOfGame=no
-SkipScore=no
-OneTimeOnly=no
-SkipMapSelect=no
-Official=yes
-IgnoreGlobalAITriggers=yes
-TruckCrate=no
-TrainCrate=no
-Percent=0
-Theme=Motorized
-Player=Player House
-Intro=<none>
-Brief=S05_f00e
-Win=<none>
-Lose=<none>
-Action=<none>
-PostScore=<none>
-PreMapSelect=<none>
-CarryOverMoney=0.000000
-TimerInherit=no
-FillSilos=no
-StartingDropships=0
-HomeCell=98
-AltHomeCell=98
-MultiplayerOnly=0
-TiberiumGrowthEnabled=no
-VeinGrowthEnabled=no
-IceGrowthEnabled=no
-TiberiumDeathToVisceroid=no
-FreeRadar=yes
-InitTime=10000
-
-[Lighting]
-Ambient=1.000000
-Red=0.750000
-Green=0.750000
-Blue=1.000000
-Ground=0.000000
-Level=0.000000
-IonAmbient=0.870000
-IonRed=0.300000
-IonGreen=0.400000
-IonBlue=0.750000
-IonGround=0.000000
-IonLevel=0.000000
-
-[Houses]
-0=Player House
-1=BadGuy1 House
-2=BadGuy2 House
-3=BadGuy3 House
-4=Civie1 House
-5=Other1 House
-6=Other2 House
-7=Other3 House
-
-[Player House]
-Country=Player
-TechLevel=10
-Credits=25
-IQ=0
-Edge=South
-PlayerControl=yes
-Color=Soviet
-Allies=Player House,BadGuy3 House,Other2 House,Other3 House
-PercentBuilt=0
-NodeCount=0
 
 [BadGuy1 House]
-Country=BadGuy1
-TechLevel=10
-Credits=100
 IQ=2
 Edge=North
-PlayerControl=no
 Color=Allieds
 Allies=BadGuy1 House,BadGuy2 House,BadGuy3 House,Civie1 House,Other1 House,Other2 House
-PercentBuilt=0
+Country=BadGuy1
+Credits=100
 NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[BadGuy2]
+Name=BadGuy2
+Side=GDI
+Color=Soviet
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans House
 
 [BadGuy2 House]
-Country=BadGuy2
-TechLevel=10
-Credits=100
 IQ=1
 Edge=North
-PlayerControl=no
 Color=Allieds
 Allies=BadGuy1 House,BadGuy2 House,Civie1 House,Other1 House,Other2 House
-PercentBuilt=0
+Country=BadGuy2
+Credits=100
 NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[BadGuy3]
+Name=BadGuy3
+Side=GDI
+Color=Soviet
+Prefix=B
+Suffix=Soviet
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Americans House
 
 [BadGuy3 House]
-Country=BadGuy3
-TechLevel=5
-Credits=0
 IQ=0
 Edge=North
-PlayerControl=yes
 Color=Soviet
 Allies=Player House,BadGuy3 House
-PercentBuilt=0
-NodeCount=0
-
-[Civie1 House]
-Country=Civilian1
-TechLevel=1
+Country=BadGuy3
 Credits=0
-IQ=0
-Edge=South
-PlayerControl=no
-Color=Grey
-Allies=Civie1 House
-PercentBuilt=0
 NodeCount=0
-
-[Other1 House]
-Country=Other1
-TechLevel=0
-Credits=20
-IQ=0
-Edge=South
-PlayerControl=no
-Color=Grey
-Allies=Other1 House
+TechLevel=5
 PercentBuilt=0
-NodeCount=0
-
-[Other2 House]
-Country=Other2
-TechLevel=10
-Credits=100
-IQ=2
-Edge=South
-PlayerControl=no
-Color=Grey
-Allies=Player House,BadGuy1 House,Civie1 House,Other1 House,Other2 House,Other3 House
-PercentBuilt=0
-NodeCount=0
-
-[Other3 House]
-Country=Other3
-TechLevel=10
-Credits=0
-IQ=0
-Edge=South
 PlayerControl=yes
-Color=Soviet
-Allies=Player House,Other3 House
-PercentBuilt=0
-NodeCount=0
-
-[Map]
-Theater=URBAN
-Size=0,0,34,66
-LocalSize=2,4,30,56
-
-[Waypoints]
-0=67071
-1=81079
-2=66085
-3=76074
-4=93067
-5=76062
-6=33057
-7=33050
-8=65094
-9=66057
-10=83050
-11=50026
-12=42034
-13=35031
-14=21027
-15=42020
-16=28023
-17=15043
-18=50078
-19=54067
-20=54055
-21=59052
-22=67045
-23=71043
-24=54052
-25=79051
-26=50050
-27=50064
-28=57064
-29=57083
-30=68083
-31=68075
-32=69073
-33=65069
-34=67067
-35=67050
-36=65092
-37=84061
-38=76061
-39=76070
-40=84070
-41=75060
-42=57051
-43=57063
-44=51063
-45=51051
-46=57040
-47=51040
-48=51050
-49=57050
-50=58082
-51=58064
-52=29038
-53=29040
-54=50040
-55=50051
-56=58051
-57=58038
-58=33039
-59=33027
-60=72080
-61=53032
-78=67051
-79=75051
-80=75071
-81=85071
-82=85060
-83=67060
-98=74078
 
 [CellTags]
 24036=0B009A2C
@@ -545,6 +1203,159 @@ LocalSize=2,4,30,56
 44037=0B009A2C
 44038=0B009A2C
 44039=0B009A2C
+
+[Civie1 House]
+IQ=0
+Edge=South
+Color=Grey
+Allies=Civie1 House
+Country=Civilian1
+Credits=0
+NodeCount=0
+TechLevel=1
+PercentBuilt=0
+PlayerControl=no
+
+[Civilian1]
+Name=Civilian1
+Side=Civilian
+Color=Soviet2
+Prefix=C
+Suffix=CIV
+SmartAI=yes
+ParentCountry=Civie1 House
+MultiplayPassive=true
+
+[Countries]
+0=Player
+1=BadGuy1
+2=BadGuy2
+3=BadGuy3
+4=Civilian1
+5=Other1
+6=Other2
+7=Other3
+
+[Events]
+078D8320=1,4,0,0
+078D86A0=1,4,0,0
+078D9C90=1,4,0,0
+078D9F40=1,4,0,0
+078DF210=1,4,0,0
+083B646C=1,47,0,1
+0843CCA0=1,4,0,0
+08445BEC=1,13,0,2
+08445DBC=1,9,0,14
+0844F520=1,47,0,2
+084AFE9C=1,21,0,2
+0857BEFC=1,13,0,100
+087D3A80=1,33,0,0
+088601B0=1,4,0,0
+088D00E0=1,4,0,0
+088D0A90=1,4,0,0
+08930180=1,47,0,3
+08978F40=1,13,0,10
+0897D490=1,1,0,20
+089BA6A0=1,48,0,0
+089C1F40=1,47,0,2
+089D6140=1,4,0,0
+089DE250=1,47,0,20
+089F31A0=1,4,0,0
+08A11920=1,4,0,0
+08A67270=1,4,0,0
+08A82380=1,4,0,0
+08A829A0=1,4,0,0
+08AB8750=1,9,0,14
+08AB8D40=2,11,0,20,57,0,11
+08B37710=1,4,0,0
+08B4B0F0=1,4,0,0
+08B4BB20=1,4,0,0
+08B82CBC=1,13,0,2
+08B8375C=1,47,0,3
+08DFF090=1,33,0,0
+0915F590=1,13,0,2
+092CB280=1,4,0,0
+092CF430=1,4,0,0
+092CFE40=1,4,0,0
+09EEBF3C=1,13,0,2
+0A0ACC3C=1,13,0,2
+0A1201BC=1,13,0,0
+0A12A7AC=1,47,0,0
+0A67A58C=1,13,0,3
+0A67AC6C=1,13,0,10
+0A70764C=1,57,0,104
+0AD6A15C=1,13,0,1
+0AD6F19C=1,48,0,0
+0B00823C=1,47,0,0
+0B009B0C=1,1,0,20
+0B49294C=1,47,0,0
+0CB2164C=1,13,0,15
+
+[Houses]
+0=Player House
+1=BadGuy1 House
+2=BadGuy2 House
+3=BadGuy3 House
+4=Civie1 House
+5=Other1 House
+6=Other2 House
+7=Other3 House
+
+[Infantry]
+0=Player House,IVAN,256,83,76,2,Guard,96,08E000A0,0,-1,0,1,1
+1=Player House,IVAN,256,83,76,3,Guard,160,08E000A0,0,-1,0,1,1
+2=Other3 House,SHK,256,81,79,3,Guard,0,087D3730,0,-1,0,1,1
+3=Other3 House,SHK,256,81,78,4,Guard,224,087D3730,0,-1,0,1,1
+4=Other3 House,SHK,256,79,78,4,Guard,64,087D3730,0,-1,0,1,1
+5=BadGuy1 House,E1,256,69,79,4,Guard,32,None,0,-1,0,1,1
+6=BadGuy1 House,E1,256,69,77,3,Guard,64,None,0,-1,0,1,1
+7=BadGuy1 House,E1,256,69,78,3,Guard,32,None,0,-1,0,1,1
+8=BadGuy1 House,E1,256,67,75,4,Guard,64,None,0,0,0,1,1
+9=BadGuy1 House,E1,256,66,63,4,Guard,128,None,0,-1,0,1,1
+10=BadGuy1 House,E1,256,67,65,4,Guard,96,None,0,-1,0,1,1
+11=BadGuy1 House,E1,256,67,61,3,Guard,128,None,0,-1,0,1,1
+12=BadGuy1 House,E1,256,68,63,4,Guard,128,None,0,-1,0,1,1
+13=BadGuy1 House,E1,256,85,57,4,Guard,160,None,0,-1,0,1,1
+14=BadGuy1 House,E1,256,81,60,2,Guard,128,None,0,-1,0,1,1
+15=BadGuy1 House,E1,256,54,36,3,Guard,64,092CF9A0,0,-1,0,1,1
+16=BadGuy1 House,E1,256,53,30,2,Guard,64,092CF9A0,0,-1,0,1,1
+17=BadGuy1 House,E1,256,69,86,3,Guard,0,None,0,-1,0,1,1
+18=BadGuy1 House,E1,256,68,86,3,Guard,0,None,0,-1,0,1,1
+19=BadGuy1 House,E1,256,68,88,4,Guard,0,None,0,-1,0,1,1
+20=BadGuy1 House,E1,256,69,87,4,Guard,64,None,0,-1,0,1,1
+21=BadGuy1 House,E1,256,59,79,3,Guard,0,None,0,-1,0,1,1
+22=BadGuy1 House,E1,256,63,81,3,Guard,0,None,0,-1,0,1,1
+23=BadGuy1 House,E1,256,43,64,4,Guard,64,None,0,-1,0,1,1
+24=BadGuy1 House,E1,256,46,64,3,Guard,64,None,0,-1,0,1,1
+25=BadGuy1 House,E1,256,45,66,3,Guard,32,None,0,-1,0,1,1
+26=BadGuy1 House,E1,256,46,66,3,Guard,96,None,0,-1,0,1,1
+27=BadGuy1 House,E1,256,44,42,3,Guard,0,None,0,-1,0,1,1
+28=BadGuy1 House,E1,256,43,40,2,Guard,96,None,0,-1,0,1,1
+29=BadGuy1 House,E1,256,27,32,4,Guard,64,None,0,-1,0,1,1
+30=BadGuy2 House,E1,256,42,34,2,Area Guard,192,None,0,-1,0,1,1
+31=BadGuy2 House,E1,256,43,35,2,Area Guard,160,None,0,-1,0,1,1
+32=BadGuy2 House,E1,256,43,33,3,Area Guard,192,None,0,-1,0,1,1
+33=BadGuy2 House,E1,256,42,32,3,Area Guard,224,None,0,-1,0,1,1
+34=BadGuy2 House,E1,256,43,32,3,Area Guard,192,None,0,-1,0,1,1
+35=Player House,E2,256,81,74,2,Guard,128,None,0,-1,0,1,1
+36=Player House,E2,256,79,74,4,Guard,32,None,0,-1,0,1,1
+37=Player House,E2,256,80,74,2,Guard,128,None,0,-1,0,1,1
+38=Player House,E2,256,79,73,2,Guard,128,None,0,-1,0,1,1
+39=Player House,E2,256,79,73,4,Guard,128,None,0,-1,0,1,1
+40=Player House,E2,256,80,73,4,Guard,128,None,0,-1,0,1,1
+41=Player House,E2,256,78,73,2,Guard,128,None,0,-1,0,1,1
+42=Player House,E2,256,81,73,4,Guard,128,None,0,-1,0,1,1
+43=Player House,E2,256,81,74,4,Guard,128,None,0,-1,0,1,1
+44=Player House,E2,256,80,73,2,Guard,128,None,0,-1,0,1,1
+45=Player House,E2,256,81,73,2,Guard,128,None,0,-1,0,1,1
+46=Player House,E2,256,81,75,3,Guard,32,None,0,-1,0,1,1
+47=Other3 House,SHK,256,79,77,2,Guard,128,087D3730,0,-1,0,1,1
+48=Player House,SENGINEER,256,78,76,2,Guard,64,None,0,-1,0,1,1
+49=Player House,SENGINEER,256,76,74,4,Guard,96,None,0,-1,0,1,1
+50=Other3 House,SHK,256,81,78,0,Guard,128,087D3730,0,-1,0,1,1
+51=Other3 House,SHK,256,84,67,0,Guard,128,087D3730,0,-1,0,1,1
+52=Other3 House,SHK,256,83,67,0,Guard,128,087D3730,0,-1,0,1,1
+53=Other3 House,SHK,256,85,67,0,Guard,128,087D3730,0,-1,0,1,1
 
 [IsoMapPack5]
 1=LRAAIAkiAAEAQwEAAAACACFPAEMBAGkBIigpACMoKAACIAADAD+hBCHIAQEBAgAiSQE7tQ
@@ -929,7 +1740,7 @@ LocalSize=2,4,30,56
 380=3IAVUNPkgBxSk/KCkAQEgByQxBKCkAQkgB1Q1DSAHVDUQoKQBFKCkARkgBwQ9HSAHRCUgo
 381=KQBJKCkASkgBySJLSAHJLUxIAXxMSXpNyAFJek5JAc5UCUWBT0gBRAFt4VBIAdHlUUgBwU
 382=ZSSAHFHlPIAUUeVEgB1RhVSAHRFFZIAd0gVygpAFhIAc0FWUgBxR5aKCkAWygpAFwoKQBd
-383=SAHHSikASibRbSpIAdG5K0gB2BwELABKAAAAABEAAAIOBh4GAAAGAC0ASgAAYAAFBgAuAE
+383=SAHHSikASibRbSpIAdG5K0gB2BwELABKAAAAABEAAP8NAh4GAAAGAC0ASgAAYAAFBgAuAE
 384=oA//9PAQYAL0oBWAOJATBKAfsBiQExSQH0qQEySQEFSAEBBgYAM8gBAQcGADRJAfpUAl0K
 385=NUkB8qkBNkgB2QY3SAFICWEPOEgBzQU5SAHNBTooKQA7SAHZBjxIAdUNPcgBVQ0+SAHFEz
 386=9JAfO1DUBJAfWpAUFIAdUNQkgB1Q1DSAHVDUQoKQBFKCkARigpAEdIAdEJSEgB0QlJSAHB
@@ -997,291 +1808,183 @@ LocalSize=2,4,30,56
 448=QTQTA+SAHJbz9IASc5Al7xgkEoVQBCKCkAQygpAEQoKQBFSAEnOwJeAASxo0dUAmgBUR9I
 449=SAHXhj4AX/1tP0gB0RRASAHNEEEoKQBCKCkAQygpAEQoKQBFSAEn4QFfgA+cTKgBWxw/AG
 450=D9ukBIASeJAWD5HEIoVQBDKCkARCgpAEVIASeJAWCIDENnQABh/QpBSAHdCkIoKQBDKCkA
-451=RCgpAEVIAc8xQQBi5QhCSAHFCEMoKQBESAHPBUIAY+0FQ0gBCPQBAAAABgAAAAAAEQAA
+451=RCgpAEVIAc8xQQBi5QhCSAHFCEMoKQBESAHPBUIAY+wFCEMAYwD0AQAAAAYAEQAA
 
-[Terrain]
-38064=TREE01
-38060=TREE01
-38056=TREE01
-38052=TREE01
-29052=TREE01
-38065=TREE17
-40067=TREE17
-42069=TREE17
-44071=TREE17
-27048=TREE17
-29044=TREE17
-41046=TREE10
-41048=TREE07
-29046=TREE07
-25049=TREE07
-39047=TREE03
-28045=TREE03
-54053=TREE01
-39044=TREE01
-25044=TREE01
-42045=TREE05
-26046=TREE04
-48074=TREE10
-29049=TREE10
-39049=TREE17
-22045=TREE17
-18048=TREE18
-74075=TREE01
-77085=TREE17
-81081=TREE17
-78076=TREE17
-83076=TREE17
-82074=TREE17
-77074=TREE17
-79068=TREE03
-56062=TREE03
-59041=TREE03
-48045=TREE03
-66095=TREE03
-70053=TREE03
-83055=TREE10
-78049=TREE17
-93063=TREE07
-95065=TREE05
-95068=TREE04
-96067=TREE03
-87077=TREE04
-90072=TREE07
-49072=TREE07
-59049=TREE11
-74049=TREE09
-64053=TREE12
-64058=TREE17
-64056=TREE17
-59066=TREE17
-64071=TREE17
-65072=TREE17
-66073=TREE17
-68069=TREE17
-70071=TREE17
-60061=TREE17
-60059=TREE17
-69076=TREE17
-71077=TREE17
-83066=TREE17
-82064=TREE17
-91069=TREE17
-93069=TREE17
-86062=TREE17
-88062=TREE17
-90062=TREE17
-92062=TREE17
-72059=TREE17
-73057=TREE17
-74062=TREE17
-74067=TREE17
-73070=TREE17
-74070=TREE17
-82057=TREE17
-84057=TREE17
-84059=TREE17
-77056=TREE17
-77054=TREE17
-81052=TREE17
-49049=TREE17
-49041=TREE17
-49045=TREE17
-17046=TREE17
-17041=TREE17
-17043=TREE17
-49079=TREE17
-49077=TREE17
-64089=TREE17
-64091=TREE17
-66089=TREE17
-64093=TREE17
-69089=TREE17
-69093=TREE17
-73089=TREE17
-69086=TREE17
-70084=TREE17
-72084=TREE17
-74084=TREE17
-68059=TREE17
-49052=TREE17
-74053=TREE17
-73052=TREE17
-63081=TREE17
-65081=TREE17
-66085=TREE17
-65084=TREE17
-59077=TREE17
-63077=TREE17
-61076=TREE01
-70064=TREE01
-79057=TREE01
-13041=TREE04
-53081=TREE12
-69055=TREE07
-56085=TREE06
-31027=LT_SGN04
-35027=LT_SGN02
-35013=LT_SGN02
-31013=LT_SGN04
-59037=LT_EUR02
-51037=LT_EUR02
-28037=LT_EUR02
-65065=LT_EUR01
-75061=TRFF02
-76071=TRFF02
-67082=TRFF01
-57083=TRFF02
-58064=TRFF03
-66050=TRFF01
-75051=TRFF02
-57050=TRFF01
-50051=TRFF02
-51064=TRFF02
-50077=TRFF01
-84061=TRFF01
-85071=TRFF03
-67073=LT_EUR02
-66091=LT_EUR01
-69087=LT_EUR01
-65060=LT_EUR01
-65054=LT_EUR01
-74057=LT_EUR01
-77053=LT_EUR01
-83065=LT_EUR01
-92069=LT_EUR02
-83074=LT_EUR01
-83080=LT_EUR01
-77076=LT_EUR01
-74069=LT_EUR01
-77066=LT_EUR01
-77084=LT_EUR02
-69084=LT_EUR02
-62084=LT_EUR02
-59076=LT_EUR01
-59067=LT_EUR01
-56066=LT_EUR01
-49070=LT_EUR01
-49065=LT_EUR01
-56054=LT_EUR01
-56061=LT_EUR01
-62041=LT_EUR02
-69041=LT_EUR02
-71049=LT_EUR02
-61049=LT_EUR02
-49044=LT_EUR01
-27049=LT_EUR02
-40049=LT_EUR02
-29056=LT_EUR01
-39059=LT_EUR01
-14042=LT_EUR01
-17047=LT_EUR01
-9041=LT_EUR02
-22041=LT_EUR02
-74045=LT_EUR01
+[Lighting]
+Red=0.750000
+Blue=1.000000
+Green=0.750000
+Level=0.000000
+Ground=0.000000
+IonRed=0.300000
+Ambient=1.000000
+IonBlue=0.750000
+IonGreen=0.400000
+IonLevel=0.000000
+IonGround=0.000000
+IonAmbient=0.870000
 
-[Units]
-0=BadGuy1 House,MTNK,256,80,59,128,Guard,None,0,-1,0,-1,1,1
-1=BadGuy1 House,MTNK,256,55,32,64,Guard,092CF9A0,0,-1,0,-1,1,1
-2=BadGuy1 House,MTNK,256,58,32,64,Guard,092CF9A0,0,-1,0,-1,1,1
-3=BadGuy1 House,MTNK,256,58,35,64,Guard,092CF9A0,0,-1,0,-1,1,1
-4=BadGuy1 House,FV,256,67,90,32,Guard,None,0,-1,0,-1,1,1
-5=BadGuy1 House,MTNK,256,58,81,0,Guard,None,0,-1,0,-1,1,1
-6=BadGuy1 House,MTNK,256,44,71,32,Guard,None,0,-1,0,-1,1,1
-7=BadGuy1 House,MTNK,256,43,61,96,Guard,None,0,-1,0,-1,1,1
-8=BadGuy1 House,MTNK,256,50,43,128,Guard,08A82110,0,-1,0,-1,1,1
-9=BadGuy1 House,MTNK,256,51,43,128,Guard,None,0,-1,0,-1,1,1
-10=BadGuy1 House,MTNK,256,59,43,128,Guard,08A828D0,0,-1,0,-1,1,1
-11=BadGuy1 House,MTNK,256,60,43,128,Guard,None,0,-1,0,-1,1,1
-12=BadGuy1 House,FV,256,75,46,128,Guard,None,0,-1,0,-1,1,1
-13=BadGuy1 House,MTNK,256,62,53,96,Guard,None,0,-1,0,-1,1,1
-14=BadGuy1 House,FV,256,49,53,96,Guard,None,0,-1,0,-1,1,1
-15=Other1 House,HTK,256,51,79,0,Sleep,08A67870,0,-1,0,-1,1,1
-16=BadGuy1 House,FV,256,27,34,32,Guard,None,0,-1,0,-1,1,1
-17=Civie1 House,PICK,256,86,67,64,Sleep,None,0,-1,0,-1,1,1
-18=Civie1 House,PICK,256,73,57,64,Sleep,None,0,-1,0,-1,1,1
-19=Civie1 House,PICK,256,62,57,64,Sleep,None,0,-1,0,-1,1,1
-20=Civie1 House,PICK,256,57,57,64,Sleep,None,0,-1,0,-1,1,1
-21=Civie1 House,PICK,256,62,59,0,Sleep,None,0,-1,0,-1,1,1
-22=Civie1 House,PICK,256,82,72,0,Guard,None,0,-1,0,-1,1,1
-23=Civie1 House,PICK,256,70,50,192,Sleep,08A11500,0,-1,0,-1,1,1
-24=Civie1 House,PICK,256,79,51,192,Sleep,08A11500,0,-1,0,-1,1,1
-25=Civie1 House,PICK,256,59,49,0,Sleep,None,0,-1,0,-1,1,1
-26=Civie1 House,PICK,256,49,68,0,Sleep,08B4ABF0,0,-1,0,-1,1,1
-27=Civie1 House,PICK,256,38,21,0,Sleep,None,0,-1,0,-1,1,1
-28=Civie1 House,PICK,256,43,18,0,Guard,None,0,-1,0,-1,1,1
-29=Civie1 House,PICK,256,49,21,0,Sleep,None,0,-1,0,-1,1,1
-30=Civie1 House,PICK,256,50,38,128,Sleep,None,0,-1,0,-1,1,1
-31=Civie1 House,PICK,256,51,29,128,Sleep,None,0,-1,0,-1,1,1
-32=Civie1 House,PICK,256,50,41,0,Sleep,None,0,-1,0,-1,1,1
-33=Civie1 House,PICK,256,78,60,0,Sleep,089D5B70,0,-1,0,-1,1,1
-34=Civie1 House,PICK,256,64,87,0,Sleep,None,0,-1,0,-1,1,1
-35=Civie1 House,PICK,256,50,77,0,Sleep,None,0,-1,0,-1,1,1
-36=Other1 House,PICK,256,50,56,0,Guard,None,0,1,0,-1,1,1
-37=Other1 House,PICK,256,53,67,192,Guard,None,0,3,0,-1,1,1
-38=Other1 House,PICK,256,38,50,0,Sleep,089F2850,0,2,0,-1,1,1
-39=BadGuy1 House,MTNK,256,55,35,64,Guard,092CF9A0,0,-1,0,-1,1,1
-40=Civie1 House,EUROC,256,49,47,64,Sleep,None,0,-1,0,-1,1,1
-41=Civie1 House,CAR,256,43,49,0,Sleep,None,0,-1,0,-1,1,1
-42=Civie1 House,PTRUCK,256,83,78,96,Sleep,None,0,-1,0,-1,1,1
-43=Civie1 House,EUROC,256,75,72,224,Sleep,None,0,-1,0,-1,1,1
-44=Civie1 House,STANG,256,72,80,192,Sleep,None,0,-1,0,-1,1,1
-45=Civie1 House,SUVB,256,49,63,0,Sleep,None,0,-1,0,-1,1,1
-46=Civie1 House,TAXI,256,41,66,0,Sleep,None,0,-1,0,-1,1,1
+[Map]
+Size=0,0,34,66
+Theater=URBAN
+LocalSize=2,4,30,56
 
-[Infantry]
-0=Player House,IVAN,256,83,76,2,Guard,96,08E000A0,0,-1,0,1,1
-1=Player House,IVAN,256,83,76,3,Guard,160,08E000A0,0,-1,0,1,1
-2=Other3 House,SHK,256,81,79,3,Guard,0,087D3730,0,-1,0,1,1
-3=Other3 House,SHK,256,81,78,4,Guard,224,087D3730,0,-1,0,1,1
-4=Other3 House,SHK,256,79,78,4,Guard,64,087D3730,0,-1,0,1,1
-5=BadGuy1 House,E1,256,69,79,4,Guard,32,None,0,-1,0,1,1
-6=BadGuy1 House,E1,256,69,77,3,Guard,64,None,0,-1,0,1,1
-7=BadGuy1 House,E1,256,69,78,3,Guard,32,None,0,-1,0,1,1
-8=BadGuy1 House,E1,256,67,75,4,Guard,64,None,0,0,0,1,1
-9=BadGuy1 House,E1,256,66,63,4,Guard,128,None,0,-1,0,1,1
-10=BadGuy1 House,E1,256,67,65,4,Guard,96,None,0,-1,0,1,1
-11=BadGuy1 House,E1,256,67,61,3,Guard,128,None,0,-1,0,1,1
-12=BadGuy1 House,E1,256,68,63,4,Guard,128,None,0,-1,0,1,1
-13=BadGuy1 House,E1,256,85,57,4,Guard,160,None,0,-1,0,1,1
-14=BadGuy1 House,E1,256,81,60,2,Guard,128,None,0,-1,0,1,1
-15=BadGuy1 House,E1,256,54,36,3,Guard,64,092CF9A0,0,-1,0,1,1
-16=BadGuy1 House,E1,256,53,30,2,Guard,64,092CF9A0,0,-1,0,1,1
-17=BadGuy1 House,E1,256,69,86,3,Guard,0,None,0,-1,0,1,1
-18=BadGuy1 House,E1,256,68,86,3,Guard,0,None,0,-1,0,1,1
-19=BadGuy1 House,E1,256,68,88,4,Guard,0,None,0,-1,0,1,1
-20=BadGuy1 House,E1,256,69,87,4,Guard,64,None,0,-1,0,1,1
-21=BadGuy1 House,E1,256,59,79,3,Guard,0,None,0,-1,0,1,1
-22=BadGuy1 House,E1,256,63,81,3,Guard,0,None,0,-1,0,1,1
-23=BadGuy1 House,E1,256,43,64,4,Guard,64,None,0,-1,0,1,1
-24=BadGuy1 House,E1,256,46,64,3,Guard,64,None,0,-1,0,1,1
-25=BadGuy1 House,E1,256,45,66,3,Guard,32,None,0,-1,0,1,1
-26=BadGuy1 House,E1,256,46,66,3,Guard,96,None,0,-1,0,1,1
-27=BadGuy1 House,E1,256,44,42,3,Guard,0,None,0,-1,0,1,1
-28=BadGuy1 House,E1,256,43,40,2,Guard,96,None,0,-1,0,1,1
-29=BadGuy1 House,E1,256,27,32,4,Guard,64,None,0,-1,0,1,1
-30=BadGuy2 House,E1,256,42,34,2,Area Guard,192,None,0,-1,0,1,1
-31=BadGuy2 House,E1,256,43,35,2,Area Guard,160,None,0,-1,0,1,1
-32=BadGuy2 House,E1,256,43,33,3,Area Guard,192,None,0,-1,0,1,1
-33=BadGuy2 House,E1,256,42,32,3,Area Guard,224,None,0,-1,0,1,1
-34=BadGuy2 House,E1,256,43,32,3,Area Guard,192,None,0,-1,0,1,1
-35=Player House,E2,256,81,74,2,Guard,128,None,0,-1,0,1,1
-36=Player House,E2,256,79,74,4,Guard,32,None,0,-1,0,1,1
-37=Player House,E2,256,80,74,2,Guard,128,None,0,-1,0,1,1
-38=Player House,E2,256,79,73,2,Guard,128,None,0,-1,0,1,1
-39=Player House,E2,256,79,73,4,Guard,128,None,0,-1,0,1,1
-40=Player House,E2,256,80,73,4,Guard,128,None,0,-1,0,1,1
-41=Player House,E2,256,78,73,2,Guard,128,None,0,-1,0,1,1
-42=Player House,E2,256,81,73,4,Guard,128,None,0,-1,0,1,1
-43=Player House,E2,256,81,74,4,Guard,128,None,0,-1,0,1,1
-44=Player House,E2,256,80,73,2,Guard,128,None,0,-1,0,1,1
-45=Player House,E2,256,81,73,2,Guard,128,None,0,-1,0,1,1
-46=Player House,E2,256,81,75,3,Guard,32,None,0,-1,0,1,1
-47=Other3 House,SHK,256,79,77,2,Guard,128,087D3730,0,-1,0,1,1
-48=Player House,SENGINEER,256,78,76,2,Guard,64,None,0,-1,0,1,1
-49=Player House,SENGINEER,256,76,74,4,Guard,96,None,0,-1,0,1,1
+[Other1]
+Name=Other1
+Side=GDI
+Color=Grey
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans House
+MultiplayPassive=true
+
+[Other1 House]
+IQ=0
+Edge=South
+Color=Grey
+Allies=Other1 House
+Country=Other1
+Credits=20
+NodeCount=0
+TechLevel=0
+PercentBuilt=0
+PlayerControl=no
+
+[Other2]
+Name=Other2
+Side=GDI
+Color=Grey
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans House
+
+[Other2 House]
+IQ=2
+Edge=South
+Color=Grey
+Allies=Player House,BadGuy1 House,Civie1 House,Other1 House,Other2 House,Other3 House
+Country=Other2
+Credits=100
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=no
+
+[Other3]
+Name=Other3
+Side=GDI
+Color=Grey
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+ParentCountry=Germans House
+
+[Other3 House]
+IQ=0
+Edge=South
+Color=Soviet
+Allies=Player House,Other3 House
+Country=Other3
+Credits=0
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=yes
+
+[OverlayDataPack]
+1=BQAAIP4AIACASAAAIP4qDgCBAv4FAAqBCEALIAj+7AEAggQG/gYACgH5Igr/8AE4DoIFBf
+2=7+AQD/AAgpEoQBBQAGO/2BDP/3ATMagQBEAv/NASoagKkAACD+DgAAgQTSBAD+CAAAgQHK
+3=JgD+1AEAhAUAAAj+BgAAgQcAC/7yAQDIMwDQMwBEE9AZAP7mAQBEE//1ARkCE/f//QEsBo
+4=sEBQADCgoIAAIKCf/2ATcE//cBMwb/CAQhDIEB//8BKhD/+AEyBmwAC/7+BAAKwBECgQLL
+5=LBb+AwAKgQz+4gEAcf8x+GAJEf//AAIqDsIsCgIPxBEC/vABABQcIgA0Fv6sAwCANQAAIP
+6=4vCACCAgj+AwAAgQT+DAAAyjQI/uYBAIEF1igK//MBTgiBAf7yAQD/8wFBDO0ECP6pDwCA
+7=BQAAIP4AIACAIQAAIP5BEACCAgz+/wEAgQH+/AEAgQT+/wEAhAMKCgj+vQkAgAUAACD+AC
+8=AAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+
+9=ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAAC
+10=D+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUA
+11=ACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgAUAACD+ACAAgA
+12=UAACD+ACAAgAUAACD+ACAAgA==
+
+[OverlayPack]
+1=BQAAIP4AIP+AOwAAIP4qDv/+BwAAUAv/8QE6DP4IAAKC//9QCP/vATwO//8BLAz/AggqEi
+2=32//MBNg7+BgD/AgBCCv7MAf+AjAAAIP4OAP+BANIEAMwRANAZAP7IAf+EAP8YGP4GAP+B
+3=GCHm/gYAGP7qAf//AAIOAOLwA//3ATMEgQL//gErBoEAAgD+AwAAEAX/+AE0CP79Af//AA
+4=YpDAwA//8BLBD+BwACAgrMLBYgDP/hAUkU/gcAAGAMySUY/wQCKhQWI//3AUYYVBD/+AEx
+5=Cv67Af+AJAAAIP4vCP+CAAAQBVANYAX/7wFBBtYoCv/zA04I/xYCHgb+qQ//gAUAACD+AC
+6=D/gB0AACD+QRD/ggAA/wACQg7/+QNGECX+/wECQRD+vgf/gAUAACD+ACD/gAUAACD+ACD/
+7=gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+AC
+8=D/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+
+9=ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAAC
+10=D+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUAACD+ACD/gAUA
+11=ACD+ACD/gA==
+
+[Player]
+Name=Player
+Side=Nod
+Color=Soviet
+Prefix=G
+Suffix=Allied
+SmartAI=yes
+CostUnitsMult=1
+ParentCountry=Russians House
+
+[Player House]
+IQ=0
+Edge=South
+Color=Soviet
+Allies=Player House,BadGuy3 House,Other2 House,Other3 House
+Country=Player
+Credits=25
+NodeCount=0
+TechLevel=10
+PercentBuilt=0
+PlayerControl=yes
+
+[Ranking]
+ParTimeEasy=00:30:00
+ParTimeHard=00:12:00
+OverParTitle=GUI:ParTitleSov05
+ParTimeMedium=00:20:00
+UnderParTitle=GUI:ParTitleSov06
+OverParMessage=GUI:OverParMsgSov05
+UnderParMessage=GUI:UnderParMsgSov05
+
+[ScriptTypes]
+0=089DADC0
+1=089311C0
+2=0844E980
+3=076E35A0
+4=0EBF5DBC
+5=0A99854C
+6=0B458BAC
+7=0B4582FC
+8=0B459C1C
+9=0B4596AC
+10=09FF1DBC
+11=0A090DBC
+12=084C3DBC
+13=0A1C903C
+14=08444DBC
+
+[SpecialFlags]
+Inert=no
+FogOfWar=no
+IonStorms=no
+MCVDeploy=no
+Meteorites=no
+Visceroids=no
+TiberiumGrows=no
+InitialVeteran=no
+HarvesterImmune=no
+TiberiumSpreads=yes
+TiberiumExplosive=no
+DestroyableBridges=no
+FixedAlliance House=no
 
 [Structures]
+0=Other3 House,TESLA,256,84,66,0,None,1,0,1,0,0,None,None,None,0,0
 1016543=Other2 House,CAPARS01,256,46,32,0,0AD6CDCC,0,0,0,0,0,None,None,None,1,0
 1016544=Civie1 House,CAWASH07,256,53,26,0,092CF9A0,0,0,1,0,0,None,None,None,0,0
 1016545=Civie1 House,CAWASH07,256,53,47,0,08A82110,0,0,1,0,0,None,None,None,0,0
@@ -1433,158 +2136,59 @@ LocalSize=2,4,30,56
 1016697=Civie1 House,CAWASH07,256,86,61,0,None,0,0,1,0,0,None,None,None,0,0
 1016698=Civie1 House,CAPARS05,256,53,60,0,08B4ABF0,0,0,1,0,0,None,None,None,0,0
 
-[OverlayPack]
-1=CQAAIIH//v4f/4H/gD4AACCB//4pDv+BADABUAv+8AH/ggACQAGC//9QCP7tAf+BAP/wAT
-2=kQ/xIIGhIt9v/zATYOMAECAEIK/ssB/4H/gIsAACCB/8oAAIEA0gQAzBEA0BkA/sgB/4QA
-3=/xgYMAqBGCHmgRggAf7qAf//AAIOAOLwA//3ATMEgQL//gErBoEAAgAAARAF/vUB/wIA/v
-4=0B//8ABikMDAD+/QH/ggACQAECCswsFiAM/uAB/x39LgFQDMklGP8EAioUFiP/9wFGGFQQ
-5=//gBMQr+ugH/gf+AKAAAIIH//i4I/4IAABAFUA1gBf7uAf/KQQj/AARBCP4RAv8oI/6oD/
-6=+B/4AJAAAggf/+/h//gf+AIAAAIIH//kAQ/4IAAP7/Af///QFCEP8BAkIQAAH+vAn/gf+A
-7=CQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gA
-8=kAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJ
-9=AAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQ
-10=AAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkA
-11=ACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAA
-12=Aggf/+/h//gf+ACQAAIIH//v4f/4H/gAkAACCB//7+H/+B/4AJAAAggf/+/h//gf+ACQAA
-13=IIH//v4f/4H/gAkAACCB//7+H/+B/4A=
-
-[OverlayDataPack]
-1=CQAAIIEA/v4fAIEAgEcAACCBAP4pDgCCAgoQAYEIQAsgCP7sAQCCBAYiABH5Igr/8AE4Do
-2=IFBf7+AQD/AAgpEoQBBQAGO/2BDP72AQCCAQBEAv/NASoagKUAACCBAMoAAIEE0gQAUAGB
-3=AcomAP7UAQCEBQAACDAKgQcAC/7yAQDIMwDQMwBEE9AZAP7mAQBEE//1ARkCE/f//QEsBo
-4=sEBQADCgoIAAIKCf71AQCBBf/3ATMG/wgEIQyBAf//ASoQ//gBMgZsAAv+EAHAEQKBAsss
-5=FgABgQz+4gEAcf8x+GAJEf//AAIqDsIsCgIPxBEC/vABABQcIgA0Fv6rAwCBAIA4AAAggQ
-6=D+LggAggIIAAWBBMkjCMo0CP7mAQCBBdYoCv7mAQDKQQqBAf7yAQD/8wFBDO0ECP6oDwCB
-7=AIAJAAAggQD+/h8AgQCAJQAAIIEA/kAQAIICDP7/AQCBAf78AQCBBP7/AQCEAwoKCP68CQ
-8=CBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8A
-9=gQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAI
-10=EAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCB
-11=AIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQ
-12=CACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEA
-13=gAkAACCBAP7+HwCBAIAJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgAkAACCBAP7+HwCBAI
-14=AJAAAggQD+/h8AgQCACQAAIIEA/v4fAIEAgA==
-
-[ScriptTypes]
-0=089DADC0
-1=089311C0
-2=0844E980
-3=076E35A0
-4=0EBF5DBC
-5=0A99854C
-6=0B458BAC
-7=0B4582FC
-8=0B459C1C
-9=0B4596AC
-10=09FF1DBC
-11=0A090DBC
-12=084C3DBC
-13=0A1C903C
-14=08444DBC
-
-[089DADC0]
-Name=Suicide Run
-0=3,3
-1=0,1
-
-[089311C0]
-Name=CivCar1Path
-0=3,26
-1=3,27
-2=3,28
-3=3,29
-4=3,30
-5=3,31
-6=3,32
-7=3,33
-8=3,34
-9=3,35
-10=6,1
-
-[0844E980]
-Name=CivCar2Path
-0=3,52
-1=3,53
-2=3,54
-3=3,55
-4=3,56
-5=3,57
-6=6,1
-
-[076E35A0]
-Name=CivCar3Path
-0=3,78
-1=3,79
-2=3,80
-3=3,81
-4=3,82
-5=3,83
-6=6,1
-
-[0EBF5DBC]
-Name=Just Sit There
-0=3,61
-1=8,1
-2=20,13
-
-[0A99854C]
-Name=Just Sit There Really
-0=11,13
-
-[0B458BAC]
-Name=AM AN AO AL Patrol
-0=16,38
-1=16,39
-2=16,40
-3=16,37
-4=6,1
-
-[0B4582FC]
-Name=CF AP CB CA Patrol
-0=16,83
-1=16,41
-2=16,79
-3=16,78
-4=6,1
-
-[0B459C1C]
-Name=AX AW AV AU Patrol
-0=16,49
-1=16,48
-2=16,47
-3=16,46
-4=6,1
-
-[0B4596AC]
-Name=AR AQ AT AS Patrol
-0=16,43
-1=16,42
-2=16,45
-3=16,44
-4=6,1
-
-[09FF1DBC]
-Name=AZ AY Patrol
-0=16,51
-1=16,50
-2=6,1
-
-[0A090DBC]
-Name=BH BG Patrol
-0=16,59
-1=16,58
-2=6,1
-
-[084C3DBC]
-Name=Change to Other3
-0=20,20
-
-[0A1C903C]
-Name=Change to Player
-0=20,13
-
-[08444DBC]
-Name=Guard Area
-0=11,11
+[Tags]
+078D8150=0,Reveal Way O,078D8320
+078D84D0=0,Reveal Way N,078D86A0
+078D8C10=0,Reveal Way M,078DF210
+078D9AC0=0,Reveal Way Q,078D9C90
+078D9D70=0,Reveal Way P,078D9F40
+083B76BC=0,_Flip Build Tab,083B646C
+0843C690=0,Full Trak Discovered,0843CCA0
+08445B0C=2,Re-enable Reinforce BG1,08445BEC
+08445CDC=2,Reinforce BG1,08445DBC
+0844AF50=0,CreateCivCar2Team,0844F520
+084AFC6C=2,Tesla Built By Player,084AFE9C
+0857BAAC=2,Objective 3 Reminder,0857BEFC
+087D3730=0,Tesla Selected,087D3A80
+088C9910=0,CreateCivCar1Team,08930180
+088D0650=0,Reveal Way E,088D0A90
+088D5E50=0,Reveal Way F,088D00E0
+08907F50=0,Reveal Way A,088601B0
+08978D70=0,Final Rush,08978F40
+0897DA60=0,Player Near Tower,0897D490
+089BA130=0,Suicide Dies,089BA6A0
+089C1B00=0,CreateCivCar3Team,089C1F40
+089D5B70=0,Reveal Way C,089D6140
+089DDCD0=0,Suicide GI,089DE250
+089F2850=0,Transport Discovered,089F31A0
+08A11500=0,Reveal Way S,08A11920
+08A67870=0,Flak Trak 2 Discovered,08A67270
+08A82110=0,Reveal Way U,08A82380
+08A828D0=0,Reveal Way T,08A829A0
+08AB84E0=0,Win Timer,08AB8750
+08AB8B50=0,Player Loses,08AB8D40
+08B381A0=0,Reveal Way Y,08B37710
+08B4ABF0=0,Reveal Way W and X,08B4B0F0
+08B4B3C0=0,Reveal Way V,08B4BB20
+08B82ABC=0,Objective 2,08B82CBC
+08B82DAC=0,Objective1,08B8375C
+08E000A0=0,Ivan Hint,08DFF090
+0915F1B0=0,Tesla Talk,0915F590
+092C8810=0,Flak Trak 1 Discovered,092CB280
+092CF260=0,Reveal Way H,092CF430
+092CF9A0=0,Reveal Way G,092CFE40
+09EEBE5C=0,Full Trak Change,09EEBF3C
+0A0A9BCC=2,Tesla To Other3,0A0ACC3C
+0A12BDCC=0,Ambient City,0A12A7AC
+0A12E50C=0,Ambient Ocean,0A1201BC
+0A67A4AC=2,Cheer,0A67A58C
+0A67AB8C=0,Win,0A67AC6C
+0A70756C=0,Tower Destroyed Backup,0A70764C
+0AD6CDCC=2,Paris Tower,0AD6F19C
+0B009A2C=0,_Radar Movie 2,0B009B0C
+0B009BFC=0,_Radar Movie 1,0B00823C
+0B493DEC=0,Start Patrols,0B49294C
+0CB23C9C=0,Win Delay,0CB2164C
 
 [TaskForces]
 0=089DD810
@@ -1605,95 +2209,6 @@ Name=Guard Area
 15=09ED76CC
 16=09ED733C
 
-[089DD810]
-Name=Suicide GI TF
-0=1,E1
-Group=-1
-
-[092AC620]
-Name=CivCar1
-0=1,PICK
-Group=-1
-
-[077DC4A0]
-Name=RE_Full Transport
-0=1,SAPC
-1=6,SHK
-Group=-1
-
-[0AF56B7C]
-Name=Full Trak
-0=2,E2
-1=3,SHK
-2=1,HTK
-Group=-1
-
-[0B45562C]
-Name=2 GIs
-0=2,E1
-Group=-1
-
-[083C465C]
-Name=1 Tesla Trooper
-0=1,SHK
-Group=-1
-
-[083FB0AC]
-Name=1 Flak Trak
-0=1,HTK
-Group=-1
-
-[0843F29C]
-Name=Re_6GIs_2 Tanks
-0=6,E1
-1=2,MTNK
-Group=-1
-
-[084404FC]
-Name=Re_3 IFVs
-0=3,FV
-Group=-1
-
-[0A0EC4BC]
-Name=1 Transport
-0=1,SAPC
-Group=-1
-
-[08A72790]
-Name=10 Conscripts
-0=10,E2
-Group=-1
-
-[08A70D40]
-Name=8 Conscripts
-0=8,E2
-Group=-1
-
-[08A70C40]
-Name=6 Conscripts
-0=6,E2
-Group=-1
-
-[08A70B40]
-Name=4 Conscripts
-0=4,E2
-Group=-1
-
-[08A70A40]
-Name=2 Conscripts
-0=2,E2
-Group=-1
-
-[09ED76CC]
-Name=6 Tesla Troopers
-0=6,SHK
-Group=-1
-
-[09ED733C]
-Name=3 Tesla Troopers
-0=3,SHK
-Group=-1
-
 [TeamTypes]
 0=07701760
 1=08AB64E0
@@ -1712,860 +2227,364 @@ Group=-1
 14=084413FC
 15=08444A1C
 
-[07701760]
-Name=Suicide GI
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=20
-Max=1
-TechLevel=0
-Group=0
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Tag=089BA130
-Waypoint=B
-Script=089DADC0
-TaskForce=089DD810
-
-[08AB64E0]
-Name=CivCar1Team
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Other1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=20
-Max=1
-TechLevel=0
-Group=1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AA
-Script=089311C0
-TaskForce=092AC620
-
-[076E4560]
-Name=CivCar2Team
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Other1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=20
-Max=1
-TechLevel=0
-Group=2
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=BF
-Script=0844E980
-TaskForce=092AC620
-
-[076E41E0]
-Name=CivCar3Team
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Other1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=yes
-Priority=20
-Max=1
-TechLevel=0
-Group=3
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=CA
-Script=076E35A0
-TaskForce=092AC620
-
-[0EBF61CC]
-Name=Full Transport Team
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=Other3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=20
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0EBF5DBC
-TaskForce=077DC4A0
-
-[088B124C]
-Name=Full Trak Team
-VeteranLevel=1
-Loadable=no
-Full=yes
-Annoyance=no
-GuardSlower=no
-House=Other3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=20
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Script=0A99854C
-TaskForce=0AF56B7C
-
-[0B458E1C]
-Name=GI Patrol 1
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AL
-Script=0B458BAC
-TaskForce=0B45562C
-
-[0B45856C]
-Name=GI Patrol 2
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=CA
-Script=0B4582FC
-TaskForce=0B45562C
-
-[0B4586BC]
-Name=GI Patrol 3
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AU
-Script=0B459C1C
-TaskForce=0B45562C
-
-[0B45991C]
-Name=GI Patrol 4
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AS
-Script=0B4596AC
-TaskForce=0B45562C
-
-[09FF31AC]
-Name=GI Patrol 5
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=AV
-Script=09FF1DBC
-TaskForce=0B45562C
-
-[0A0912DC]
-Name=GI Patrol 6
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=2
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=BG
-Script=0A090DBC
-TaskForce=0B45562C
-
-[083D089C]
-Name=1 Tesla Trooper Team
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Player
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=20
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=BI
-Script=084C3DBC
-TaskForce=083C465C
-
-[0A0EC38C]
-Name=1 Flak Trak Team
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=Other3
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=no
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=no
-Suicide=no
-Priority=7
-Max=1
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=no
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=R
-Script=0A1C903C
-TaskForce=083FB0AC
-
-[084413FC]
-Name=Re_6 GIs_2 Tanks Team
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=yes
-UseTransportOrigin=no
-Whiner=no
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=G
-Script=08444DBC
-TaskForce=0843F29C
-
-[08444A1C]
-Name=Re_3 IFV Team
-VeteranLevel=1
-Loadable=no
-Full=no
-Annoyance=no
-GuardSlower=no
-House=BadGuy1
-Recruiter=no
-Autocreate=no
-Prebuild=no
-Reinforce=no
-Droppod=yes
-UseTransportOrigin=no
-Whiner=yes
-LooseRecruit=no
-Aggressive=yes
-Suicide=no
-Priority=7
-Max=4
-TechLevel=0
-Group=-1
-OnTransOnly=no
-AvoidThreats=no
-IonImmune=no
-TransportsReturnOnUnload=no
-AreTeamMembersRecruitable=yes
-IsBaseDefense=no
-OnlyTargetHouseEnemy=no
-Waypoint=BG
-Script=08444DBC
-TaskForce=084404FC
-
-[AITriggerTypesEnable]
-0CAD0DCC-G=yes
-0CAD0C7C-G=yes
-0CAD0B2C-G=yes
-0CA6621C-G=yes
-0CDF8EDC-G=yes
-0CDF8D8C-G=yes
-0C0C7AEC-G=yes
-0D62199C-G=yes
-0CDF899C-G=yes
-0D6216FC-G=yes
-0D6215AC-G=yes
-0D62145C-G=yes
-0D0803CC-G=yes
-0C32599C-G=yes
-0CE23AAC-G=yes
-0CA1F84C-G=yes
-0CE26CAC-G=yes
-0CE26B5C-G=yes
-0CAD145C-G=yes
-0CAD130C-G=yes
-0CE2395C-G=yes
-0D084B5C-G=yes
-0D084A0C-G=yes
-0D0848BC-G=yes
-0CAD2AEC-G=yes
-0D08461C-G=yes
-0D0873DC-G=yes
-0C8E2C3C-G=yes
-0CAD25AC-G=yes
-0D087D8C-G=yes
-0C8B81BC-G=yes
-0CADDEDC-G=yes
-0C92C45C-G=yes
-0C9565AC-G=yes
-0C92C1BC-G=yes
-0CADD99C-G=yes
-0C9561BC-G=yes
-0CE2EA2C-G=yes
-0CE2E8DC-G=yes
-0C955C3C-G=yes
-0C955AEC-G=yes
-0C8C71BC-G=yes
-0C8C6EDC-G=yes
-0D052AEC-G=yes
-0CE44D0C-G=yes
-0CA5945C-G=yes
-0CAD2C3C-G=yes
-0D535EDC-G=yes
-0AA846FC-G=yes
-0AA845AC-G=yes
-0C8C645C-G=yes
-0AD2BAEC-G=yes
-0C96F5AC-G=yes
-0C96F45C-G=yes
-0CB2CEDC-G=yes
-0C91D45C-G=yes
-0CAD5AEC-G=yes
-0D2C45DC-G=yes
-0D2C448C-G=yes
-0C8C56FC-G=yes
-0D2C41EC-G=yes
-0CA6AEDC-G=yes
-0C0D251C-G=yes
-0C8C51BC-G=yes
-0CA24D8C-G=yes
-0C8BC5AC-G=yes
-0C8C4C3C-G=yes
-0D53430C-G=yes
-0ECCFCAC-G=yes
-0ECCFA7C-G=yes
-0C8EEEDC-G=yes
-0C0D184C-G=yes
-0ECCF68C-G=yes
-0C8C430C-G=yes
-0C87B99C-G=yes
-0ECCF29C-G=yes
-0ECCF14C-G=yes
-0C8EEAEC-G=yes
-0C87B45C-G=yes
-0ECCBC3C-G=yes
-0C8EE1BC-G=yes
-0ECCB7FC-G=yes
-0C32D84C-G=yes
-0ECCB55C-G=yes
-0ECCB40C-G=yes
-0ECCB2BC-G=yes
-0CA2D99C-G=yes
-0CB29EDC-G=yes
-0C8C2C3C-G=yes
-0C8C2AEC-G=yes
-0A31295C-G=yes
-0C87E5AC-G=yes
-0D022C6C-G=yes
-0D022B1C-G=yes
-0C1246FC-G=yes
-0C1245AC-G=yes
-0D0B3B9C-G=yes
-0CA2A04C-G=yes
-0CA2B06C-G=yes
-0CA2FEDC-G=yes
-0D53130C-G=yes
-0D2769BC-G=yes
-0A452E5C-G=yes
-0A452C6C-G=yes
-0A44F2CC-G=yes
-0A44F17C-G=yes
-0D53099C-G=yes
+[Terrain]
+9041=LT_EUR02
+13041=TREE04
+14042=LT_EUR01
+17041=TREE17
+17043=TREE17
+17046=TREE17
+17047=LT_EUR01
+18048=TREE18
+22041=LT_EUR02
+22045=TREE17
+25044=TREE01
+25049=TREE07
+26046=TREE04
+27048=TREE17
+27049=LT_EUR02
+28037=LT_EUR02
+28045=TREE03
+29044=TREE17
+29046=TREE07
+29049=TREE10
+29052=TREE01
+29056=LT_EUR01
+31013=LT_SGN04
+31027=LT_SGN04
+35013=LT_SGN02
+35027=LT_SGN02
+38052=TREE01
+38056=TREE01
+38060=TREE01
+38064=TREE01
+38065=TREE17
+39044=TREE01
+39047=TREE03
+39049=TREE17
+39059=LT_EUR01
+40049=LT_EUR02
+40067=TREE17
+41046=TREE10
+41048=TREE07
+42045=TREE05
+42069=TREE17
+44071=TREE17
+48045=TREE03
+48074=TREE10
+49041=TREE17
+49044=LT_EUR01
+49045=TREE17
+49049=TREE17
+49052=TREE17
+49065=LT_EUR01
+49070=LT_EUR01
+49072=TREE07
+49077=TREE17
+49079=TREE17
+50051=TRFF02
+50077=TRFF01
+51037=LT_EUR02
+51064=TRFF02
+53081=TREE12
+54053=TREE01
+56054=LT_EUR01
+56061=LT_EUR01
+56062=TREE03
+56066=LT_EUR01
+56085=TREE06
+57050=TRFF01
+57083=TRFF02
+58064=TRFF03
+59037=LT_EUR02
+59041=TREE03
+59049=TREE11
+59066=TREE17
+59067=LT_EUR01
+59076=LT_EUR01
+59077=TREE17
+60059=TREE17
+60061=TREE17
+61049=LT_EUR02
+61076=TREE01
+62041=LT_EUR02
+62084=LT_EUR02
+63077=TREE17
+63081=TREE17
+64053=TREE12
+64056=TREE17
+64058=TREE17
+64071=TREE17
+64089=TREE17
+64091=TREE17
+64093=TREE17
+65054=LT_EUR01
+65060=LT_EUR01
+65065=LT_EUR01
+65072=TREE17
+65081=TREE17
+65084=TREE17
+66050=TRFF01
+66073=TREE17
+66085=TREE17
+66089=TREE17
+66091=LT_EUR01
+66095=TREE03
+67073=LT_EUR02
+67082=TRFF01
+68059=TREE17
+68069=TREE17
+69041=LT_EUR02
+69055=TREE07
+69076=TREE17
+69084=LT_EUR02
+69086=TREE17
+69087=LT_EUR01
+69089=TREE17
+69093=TREE17
+70053=TREE03
+70064=TREE01
+70071=TREE17
+70084=TREE17
+71049=LT_EUR02
+71077=TREE17
+72059=TREE17
+72084=TREE17
+73052=TREE17
+73057=TREE17
+73070=TREE17
+73089=TREE17
+74045=LT_EUR01
+74049=TREE09
+74053=TREE17
+74057=LT_EUR01
+74062=TREE17
+74067=TREE17
+74069=LT_EUR01
+74070=TREE17
+74075=TREE01
+74084=TREE17
+75051=TRFF02
+75061=TRFF02
+76071=TRFF02
+77053=LT_EUR01
+77054=TREE17
+77056=TREE17
+77066=LT_EUR01
+77074=TREE17
+77076=LT_EUR01
+77084=LT_EUR02
+77085=TREE17
+78049=TREE17
+78076=TREE17
+79057=TREE01
+79068=TREE03
+81052=TREE17
+81081=TREE17
+82057=TREE17
+82064=TREE17
+82074=TREE17
+83055=TREE10
+83065=LT_EUR01
+83066=TREE17
+83074=LT_EUR01
+83076=TREE17
+83080=LT_EUR01
+84057=TREE17
+84059=TREE17
+84061=TRFF01
+85071=TRFF03
+86062=TREE17
+87077=TREE04
+88062=TREE17
+90062=TREE17
+90072=TREE07
+91069=TREE17
+92062=TREE17
+92069=LT_EUR02
+93063=TREE07
+93069=TREE17
+95065=TREE05
+95068=TREE04
+96067=TREE03
 
 [Triggers]
+078D8320=Americans House,<none>,Reveal Way O,0,1,1,1,0
+078D86A0=Americans House,<none>,Reveal Way N,0,1,1,1,0
+078D9C90=Americans House,<none>,Reveal Way Q,0,1,1,1,0
+078D9F40=Americans House,<none>,Reveal Way P,0,1,1,1,0
+078DF210=Americans House,<none>,Reveal Way M,0,1,1,1,0
+083B646C=Americans House,<none>,_Flip Build Tab,0,1,1,1,0
+0843CCA0=Americans House,<none>,Full Trak Discovered,0,1,1,1,0
+08445BEC=Americans House,<none>,Re-enable Reinforce BG1,1,1,1,1,0
+08445DBC=Player,<none>,Reinforce BG1,0,1,1,1,0
+0844F520=Other1,<none>,CreateCivCar2Team,0,1,1,1,0
+084AFE9C=Player,<none>,Tesla Built By Player,0,1,1,1,0
+0857BEFC=Americans House,<none>,Objective 3 Reminder,1,1,1,1,0
+087D3A80=Americans House,<none>,Tesla Selected,0,1,1,1,0
 088601B0=Americans House,<none>,Reveal Way A,0,1,1,1,0
+088D00E0=Americans House,<none>,Reveal Way F,0,1,1,1,0
+088D0A90=Americans House,<none>,Reveal Way E,0,1,1,1,0
+08930180=Other1,<none>,CreateCivCar1Team,0,1,1,1,0
+08978F40=Americans House,<none>,Final Rush,1,1,1,1,0
+0897D490=Other2,<none>,Player Near Tower,0,1,1,1,0
+089BA6A0=Americans House,<none>,Suicide Dies,0,1,1,1,0
+089C1F40=Other1,<none>,CreateCivCar3Team,0,1,1,1,0
 089D6140=Americans House,<none>,Reveal Way C,0,1,1,1,0
 089DE250=Americans House,<none>,Suicide GI,0,1,1,1,0
-089BA6A0=Americans House,<none>,Suicide Dies,0,1,1,1,0
-0915F590=Americans House,<none>,Tesla Talk,1,1,1,1,0
-08930180=Other1,<none>,CreateCivCar1Team,0,1,1,1,0
-0844F520=Other1,<none>,CreateCivCar2Team,0,1,1,1,0
-089C1F40=Other1,<none>,CreateCivCar3Team,0,1,1,1,0
-088D0A90=Americans House,<none>,Reveal Way E,0,1,1,1,0
-088D00E0=Americans House,<none>,Reveal Way F,0,1,1,1,0
-092CFE40=Americans House,<none>,Reveal Way G,0,1,1,1,0
-092CF430=Americans House,<none>,Reveal Way H,0,1,1,1,0
-092CB280=Americans House,<none>,Flak Trak 1 Discovered,0,1,1,1,0
-08A67270=Americans House,<none>,Flak Trak 2 Discovered,0,1,1,1,0
 089F31A0=Americans House,<none>,Transport Discovered,0,1,1,1,0
-078DF210=Americans House,<none>,Reveal Way M,0,1,1,1,0
-078D86A0=Americans House,<none>,Reveal Way N,0,1,1,1,0
-078D8320=Americans House,<none>,Reveal Way O,0,1,1,1,0
-078D9F40=Americans House,<none>,Reveal Way P,0,1,1,1,0
-078D9C90=Americans House,<none>,Reveal Way Q,0,1,1,1,0
-0843CCA0=Americans House,<none>,Full Trak Discovered,0,1,1,1,0
-09EEBF3C=Americans House,<none>,Full Trak Change,1,1,1,1,0
 08A11920=Americans House,<none>,Reveal Way S,0,1,1,1,0
-08A829A0=Americans House,<none>,Reveal Way T,0,1,1,1,0
+08A67270=Americans House,<none>,Flak Trak 2 Discovered,0,1,1,1,0
 08A82380=Americans House,<none>,Reveal Way U,0,1,1,1,0
-08B4BB20=Americans House,<none>,Reveal Way V,0,1,1,1,0
-08B4B0F0=Americans House,<none>,Reveal Way W and X,0,1,1,1,0
-08B37710=Americans House,<none>,Reveal Way Y,0,1,1,1,0
-0897D490=Other2,<none>,Player Near Tower,0,1,1,1,0
-08978F40=Americans House,<none>,Final Rush,1,1,1,1,0
-08B82CBC=Americans House,<none>,Objective 2,1,1,1,1,0
+08A829A0=Americans House,<none>,Reveal Way T,0,1,1,1,0
 08AB8750=Player,<none>,Win Timer,1,1,1,1,0
-08445DBC=Player,<none>,Reinforce BG1,0,1,1,1,0
-08445BEC=Americans House,<none>,Re-enable Reinforce BG1,1,1,1,1,0
-0AD6A15C=Other2,<none>,Tower Energized,1,1,1,1,0
-0857BEFC=Americans House,<none>,Objective 3 Reminder,1,1,1,1,0
-0CB2164C=Americans House,<none>,Win Delay,1,1,1,1,0
-0A70764C=Other3,<none>,Tower Destroyed Backup,1,1,1,1,0
-0A67AC6C=Player,<none>,Win,1,1,1,1,0
-0A67A58C=Player,<none>,Cheer,1,1,1,1,0
 08AB8D40=Player,<none>,Player Loses,0,1,1,1,0
+08B37710=Americans House,<none>,Reveal Way Y,0,1,1,1,0
+08B4B0F0=Americans House,<none>,Reveal Way W and X,0,1,1,1,0
+08B4BB20=Americans House,<none>,Reveal Way V,0,1,1,1,0
+08B82CBC=Americans House,<none>,Objective 2,1,1,1,1,0
 08B8375C=Americans House,<none>,Objective1,0,1,1,1,0
-087D3A80=Americans House,<none>,Tesla Selected,0,1,1,1,0
 08DFF090=Americans House,<none>,Ivan Hint,0,1,1,1,0
+0915F590=Americans House,<none>,Tesla Talk,1,1,1,1,0
+092CB280=Americans House,<none>,Flak Trak 1 Discovered,0,1,1,1,0
+092CF430=Americans House,<none>,Reveal Way H,0,1,1,1,0
+092CFE40=Americans House,<none>,Reveal Way G,0,1,1,1,0
+09EEBF3C=Americans House,<none>,Full Trak Change,1,1,1,1,0
+0A0ACC3C=Player,<none>,Tesla To Other3,1,1,1,1,0
 0A1201BC=Americans House,<none>,Ambient Ocean,0,1,1,1,0
 0A12A7AC=Americans House,<none>,Ambient City,0,1,1,1,0
-0B49294C=Americans House,<none>,Start Patrols,0,1,1,1,0
+0A67A58C=Player,<none>,Cheer,1,1,1,1,0
+0A67AC6C=Player,<none>,Win,1,1,1,1,0
+0A70764C=Other3,<none>,Tower Destroyed Backup,1,1,1,1,0
+0AD6A15C=Other2,<none>,Tower Energized,1,1,1,1,0
+0AD6F19C=Americans House,0AD6A15C,Tower Destroyed,0,1,1,1,0
 0B00823C=Americans House,<none>,_Radar Movie 1,0,1,1,1,0
 0B009B0C=Americans House,<none>,_Radar Movie 2,0,1,1,1,0
-083B646C=Americans House,<none>,_Flip Build Tab,0,1,1,1,0
-084AFE9C=Player,<none>,Tesla Built By Player,0,1,1,1,0
-0A0ACC3C=Player,<none>,Tesla To Other3,1,1,1,1,0
-0AD6F19C=Americans House,0AD6A15C,Tower Destroyed,0,1,1,1,0
+0B49294C=Americans House,<none>,Start Patrols,0,1,1,1,0
+0CB2164C=Americans House,<none>,Win Delay,1,1,1,1,0
 
-[Events]
-088601B0=1,4,0,0
-089D6140=1,4,0,0
-089DE250=1,47,0,20
-089BA6A0=1,48,0,0
-0915F590=1,13,0,2
-08930180=1,47,0,3
-0844F520=1,47,0,2
-089C1F40=1,47,0,2
-088D0A90=1,4,0,0
-088D00E0=1,4,0,0
-092CFE40=1,4,0,0
-092CF430=1,4,0,0
-092CB280=1,4,0,0
-08A67270=1,4,0,0
-089F31A0=1,4,0,0
-078DF210=1,4,0,0
-078D86A0=1,4,0,0
-078D8320=1,4,0,0
-078D9F40=1,4,0,0
-078D9C90=1,4,0,0
-0843CCA0=1,4,0,0
-09EEBF3C=1,13,0,2
-08A11920=1,4,0,0
-08A829A0=1,4,0,0
-08A82380=1,4,0,0
-08B4BB20=1,4,0,0
-08B4B0F0=1,4,0,0
-08B37710=1,4,0,0
-0897D490=1,1,0,20
-08978F40=1,13,0,10
-08B82CBC=1,13,0,2
-08AB8750=1,9,0,14
-08445DBC=1,9,0,14
-08445BEC=1,13,0,2
-0AD6A15C=1,13,0,1
-0857BEFC=1,13,0,100
-0CB2164C=1,13,0,15
-0A70764C=1,57,0,104
-0A67AC6C=1,13,0,10
-0A67A58C=1,13,0,3
-08AB8D40=2,11,0,20,57,0,11
-08B8375C=1,47,0,3
-087D3A80=1,33,0,0
-08DFF090=1,33,0,0
-0A1201BC=1,13,0,0
-0A12A7AC=1,47,0,0
-0B49294C=1,47,0,0
-0B00823C=1,47,0,0
-0B009B0C=1,1,0,20
-083B646C=1,47,0,1
-084AFE9C=1,21,0,2
-0A0ACC3C=1,13,0,2
-0AD6F19C=1,48,0,0
+[Units]
+0=BadGuy1 House,MTNK,256,80,59,128,Guard,None,0,-1,0,-1,1,1
+1=BadGuy1 House,MTNK,256,55,32,64,Guard,092CF9A0,0,-1,0,-1,1,1
+2=BadGuy1 House,MTNK,256,58,32,64,Guard,092CF9A0,0,-1,0,-1,1,1
+3=BadGuy1 House,MTNK,256,58,35,64,Guard,092CF9A0,0,-1,0,-1,1,1
+4=BadGuy1 House,FV,256,67,90,32,Guard,None,0,-1,0,-1,1,1
+5=BadGuy1 House,MTNK,256,58,81,0,Guard,None,0,-1,0,-1,1,1
+6=BadGuy1 House,MTNK,256,44,71,32,Guard,None,0,-1,0,-1,1,1
+7=BadGuy1 House,MTNK,256,43,61,96,Guard,None,0,-1,0,-1,1,1
+8=BadGuy1 House,MTNK,256,50,43,128,Guard,08A82110,0,-1,0,-1,1,1
+9=BadGuy1 House,MTNK,256,51,43,128,Guard,None,0,-1,0,-1,1,1
+10=BadGuy1 House,MTNK,256,59,43,128,Guard,08A828D0,0,-1,0,-1,1,1
+11=BadGuy1 House,MTNK,256,60,43,128,Guard,None,0,-1,0,-1,1,1
+12=BadGuy1 House,FV,256,75,46,128,Guard,None,0,-1,0,-1,1,1
+13=BadGuy1 House,MTNK,256,62,53,96,Guard,None,0,-1,0,-1,1,1
+14=BadGuy1 House,FV,256,49,53,96,Guard,None,0,-1,0,-1,1,1
+15=Other1 House,HTK,256,51,79,0,Sleep,08A67870,0,-1,0,-1,1,1
+16=BadGuy1 House,FV,256,27,34,32,Guard,None,0,-1,0,-1,1,1
+17=Civie1 House,PICK,256,86,67,64,Sleep,None,0,-1,0,-1,1,1
+18=Civie1 House,PICK,256,73,57,64,Sleep,None,0,-1,0,-1,1,1
+19=Civie1 House,PICK,256,62,57,64,Sleep,None,0,-1,0,-1,1,1
+20=Civie1 House,PICK,256,57,57,64,Sleep,None,0,-1,0,-1,1,1
+21=Civie1 House,PICK,256,62,59,0,Sleep,None,0,-1,0,-1,1,1
+22=Civie1 House,PICK,256,82,72,0,Guard,None,0,-1,0,-1,1,1
+23=Civie1 House,PICK,256,70,50,192,Sleep,08A11500,0,-1,0,-1,1,1
+24=Civie1 House,PICK,256,79,51,192,Sleep,08A11500,0,-1,0,-1,1,1
+25=Civie1 House,PICK,256,59,49,0,Sleep,None,0,-1,0,-1,1,1
+26=Civie1 House,PICK,256,49,68,0,Sleep,08B4ABF0,0,-1,0,-1,1,1
+27=Civie1 House,PICK,256,38,21,0,Sleep,None,0,-1,0,-1,1,1
+28=Civie1 House,PICK,256,43,18,0,Guard,None,0,-1,0,-1,1,1
+29=Civie1 House,PICK,256,49,21,0,Sleep,None,0,-1,0,-1,1,1
+30=Civie1 House,PICK,256,50,38,128,Sleep,None,0,-1,0,-1,1,1
+31=Civie1 House,PICK,256,51,29,128,Sleep,None,0,-1,0,-1,1,1
+32=Civie1 House,PICK,256,50,41,0,Sleep,None,0,-1,0,-1,1,1
+33=Civie1 House,PICK,256,78,60,0,Sleep,089D5B70,0,-1,0,-1,1,1
+34=Civie1 House,PICK,256,64,87,0,Sleep,None,0,-1,0,-1,1,1
+35=Civie1 House,PICK,256,50,77,0,Sleep,None,0,-1,0,-1,1,1
+36=Other1 House,PICK,256,50,56,0,Guard,None,0,1,0,-1,1,1
+37=Other1 House,PICK,256,53,67,192,Guard,None,0,3,0,-1,1,1
+38=Other1 House,PICK,256,38,50,0,Sleep,089F2850,0,2,0,-1,1,1
+39=BadGuy1 House,MTNK,256,55,35,64,Guard,092CF9A0,0,-1,0,-1,1,1
+40=Civie1 House,EUROC,256,49,47,64,Sleep,None,0,-1,0,-1,1,1
+41=Civie1 House,CAR,256,43,49,0,Sleep,None,0,-1,0,-1,1,1
+42=Civie1 House,PTRUCK,256,83,78,96,Sleep,None,0,-1,0,-1,1,1
+43=Civie1 House,EUROC,256,75,72,224,Sleep,None,0,-1,0,-1,1,1
+44=Civie1 House,STANG,256,72,80,192,Sleep,None,0,-1,0,-1,1,1
+45=Civie1 House,SUVB,256,49,63,0,Sleep,None,0,-1,0,-1,1,1
+46=Civie1 House,TAXI,256,41,66,0,Sleep,None,0,-1,0,-1,1,1
 
-[Actions]
-088601B0=1,17,0,0,0,0,0,0,A
-089D6140=1,17,0,2,0,0,0,0,C
-089DE250=1,4,1,07701760,0,0,0,0,A
-089BA6A0=1,17,0,1,0,0,0,0,B
-0915F590=1,21,6,Mis_S5_TeslaGuy,0,0,0,0,A
-08930180=1,4,1,08AB64E0,0,0,0,0,A
-0844F520=1,4,1,076E4560,0,0,0,0,A
-089C1F40=1,4,1,076E41E0,0,0,0,0,A
-088D0A90=1,17,0,4,0,0,0,0,E
-088D00E0=1,17,0,5,0,0,0,0,F
-092CFE40=1,17,0,6,0,0,0,0,G
-092CF430=3,17,0,7,0,0,0,0,H,17,0,6,0,0,0,0,G,17,0,53,0,0,0,0,BB
-092CB280=5,17,0,8,0,0,0,0,I,14,0,13,0,0,0,0,A,55,0,2,0,0,0,0,AK,19,7,FlakTroopAttackCommand,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
-08A67270=5,17,0,10,0,0,0,0,K,14,0,13,0,0,0,0,A,55,0,2,0,0,0,0,Z,19,7,FlakTroopAttackCommand,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
-089F31A0=5,80,1,0EBF61CC,0,0,0,0,L,17,0,11,0,0,0,0,L,55,0,2,0,0,0,0,L,19,7,GenSovWaterSelect,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
-078DF210=1,17,0,12,0,0,0,0,M
-078D86A0=1,17,0,13,0,0,0,0,N
-078D8320=1,17,0,14,0,0,0,0,O
-078D9F40=1,17,0,15,0,0,0,0,P
-078D9C90=1,17,0,16,0,0,0,0,Q
-0843CCA0=6,80,1,088B124C,0,0,0,0,R,17,0,17,0,0,0,0,R,55,0,2,0,0,0,0,R,19,7,FlakTroopAttackCommand,0,0,0,0,A,53,2,09EEBF3C,0,0,0,0,A,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A
-09EEBF3C=1,4,1,0A0EC38C,0,0,0,0,A
-08A11920=1,17,0,18,0,0,0,0,S
-08A829A0=1,17,0,19,0,0,0,0,T
-08A82380=1,17,0,20,0,0,0,0,U
-08B4BB20=1,17,0,21,0,0,0,0,V
-08B4B0F0=2,17,0,22,0,0,0,0,W,17,0,23,0,0,0,0,X
-08B37710=1,17,0,24,0,0,0,0,Y
-0897D490=8,53,2,08978F40,0,0,0,0,A,11,4,MISSION:Objective1,0,0,0,0,A,53,2,08B82CBC,0,0,0,0,A,53,2,08AB8750,0,0,0,0,A,54,2,08445DBC,0,0,0,0,A,54,2,08445BEC,0,0,0,0,A,53,2,0AD6A15C,0,0,0,0,A,54,2,087D3A80,0,0,0,0,A
-08978F40=3,6,0,14,0,0,0,0,A,11,4,MISSION:Sov05c,0,0,0,0,A,53,2,0857BEFC,0,0,0,0,A
-08B82CBC=1,11,4,MISSION:Sov05b,0,0,0,0,A
-08AB8750=4,53,2,0CB2164C,0,0,0,0,A,11,4,MISSION:Objective2,0,0,0,0,A,54,2,0857BEFC,0,0,0,0,A,11,4,MISSION:Objective3,0,0,0,0,A
-08445DBC=5,7,1,08444A1C,0,0,0,0,A,7,1,084413FC,0,0,0,0,A,54,2,08445DBC,0,0,0,0,A,53,2,08445BEC,0,0,0,0,A,11,4,MISSION:Sov05a,0,0,0,0,A
-08445BEC=3,54,2,08445BEC,0,0,0,0,A,53,2,08445DBC,0,0,0,0,A,21,6,EVA_EnemyAirArmadaDetected,0,0,0,0,A
-0AD6A15C=3,14,0,20,0,0,0,0,A,53,2,0A70764C,0,0,0,0,A,54,2,0AD6A15C,0,0,0,0,A
-0857BEFC=2,11,4,MISSION:Sov05c,0,0,0,0,A,6,0,14,0,0,0,0,A
-0CB2164C=2,53,2,0A67AC6C,0,0,0,0,A,53,2,0A67A58C,0,0,0,0,A
-0A70764C=1,2,0,13,0,0,0,0,A
-0A67AC6C=1,1,0,13,0,0,0,0,A
-0A67A58C=1,113,0,13,0,0,0,0,A
-08AB8D40=1,2,0,13,0,0,0,0,A
-08B8375C=1,11,4,MISSION:Sov05a,0,0,0,0,A
-087D3A80=1,53,2,0915F590,0,0,0,0,A
-08DFF090=3,100,0,116,0,0,0,0,A,114,0,2,0,0,0,0,A,115,9,371,0,0,0,0,120
-0A1201BC=6,99,7,_Amb_OceanLight,0,0,0,0,BA,99,7,_Amb_BirdsHarbor,0,0,0,0,BA,99,7,_Amb_OceanLight,0,0,0,0,BF,99,7,_Amb_BirdsHarbor,0,0,0,0,BF,99,7,_Amb_OceanLight,0,0,0,0,N,99,7,_Amb_BirdsHarbor,0,0,0,0,N
-0A12A7AC=6,99,7,_Amb_UrbanMurmur1,0,0,0,0,CC,99,7,_Amb_UrbanMurmur2,0,0,0,0,CF,99,7,_Amb_UrbanMurmur1,0,0,0,0,AC,99,7,_Amb_UrbanMurmur2,0,0,0,0,C,99,7,_Amb_UrbanMurmur1,0,0,0,0,AA,99,7,_Amb_UrbanMurmur2,0,0,0,0,R
-0B49294C=6,7,1,0B458E1C,0,0,0,0,A,7,1,0B45856C,0,0,0,0,A,7,1,0B4586BC,0,0,0,0,A,7,1,0B45991C,0,0,0,0,A,7,1,09FF31AC,0,0,0,0,A,7,1,0A0912DC,0,0,0,0,A
-0B00823C=1,100,0,91,0,0,0,0,A
-0B009B0C=1,100,0,92,0,0,0,0,A
-083B646C=1,114,0,2,0,0,0,0,A
-084AFE9C=2,54,2,084AFE9C,0,0,0,0,A,53,2,0A0ACC3C,0,0,0,0,A
-0A0ACC3C=3,54,2,0A0ACC3C,0,0,0,0,A,4,1,083D089C,0,0,0,0,A,53,2,084AFE9C,0,0,0,0,A
-0AD6F19C=2,2,0,13,0,0,0,0,A,54,2,0AD6F19C,0,0,0,0,A
+[Waypoints]
+0=67071
+1=81079
+2=66085
+3=76074
+4=93067
+5=76062
+6=33057
+7=33050
+8=65094
+9=66057
+10=83050
+11=50026
+12=42034
+13=35031
+14=21027
+15=42020
+16=28023
+17=15043
+18=50078
+19=54067
+20=54055
+21=59052
+22=67045
+23=71043
+24=54052
+25=79051
+26=50050
+27=50064
+28=57064
+29=57083
+30=68083
+31=68075
+32=69073
+33=65069
+34=67067
+35=67050
+36=65092
+37=84061
+38=76061
+39=76070
+40=84070
+41=75060
+42=57051
+43=57063
+44=51063
+45=51051
+46=57040
+47=51040
+48=51050
+49=57050
+50=58082
+51=58064
+52=29038
+53=29040
+54=50040
+55=50051
+56=58051
+57=58038
+58=33039
+59=33027
+60=72080
+61=53032
+78=67051
+79=75051
+80=75071
+81=85071
+82=85060
+83=67060
+98=74078
 
-[Tags]
-089BA130=0,Suicide Dies,089BA6A0
-08907F50=0,Reveal Way A,088601B0
-089D5B70=0,Reveal Way C,089D6140
-089DDCD0=0,Suicide GI,089DE250
-088C9910=0,CreateCivCar1Team,08930180
-0844AF50=0,CreateCivCar2Team,0844F520
-089C1B00=0,CreateCivCar3Team,089C1F40
-088D0650=0,Reveal Way E,088D0A90
-088D5E50=0,Reveal Way F,088D00E0
-092CF9A0=0,Reveal Way G,092CFE40
-092CF260=0,Reveal Way H,092CF430
-092C8810=0,Flak Trak 1 Discovered,092CB280
-08A67870=0,Flak Trak 2 Discovered,08A67270
-089F2850=0,Transport Discovered,089F31A0
-078D8C10=0,Reveal Way M,078DF210
-078D84D0=0,Reveal Way N,078D86A0
-078D8150=0,Reveal Way O,078D8320
-078D9D70=0,Reveal Way P,078D9F40
-078D9AC0=0,Reveal Way Q,078D9C90
-0843C690=0,Full Trak Discovered,0843CCA0
-08A11500=0,Reveal Way S,08A11920
-08A828D0=0,Reveal Way T,08A829A0
-08A82110=0,Reveal Way U,08A82380
-08B4B3C0=0,Reveal Way V,08B4BB20
-08B4ABF0=0,Reveal Way W and X,08B4B0F0
-08B381A0=0,Reveal Way Y,08B37710
-0897DA60=0,Player Near Tower,0897D490
-08978D70=0,Final Rush,08978F40
-08AB8B50=0,Player Loses,08AB8D40
-08AB84E0=0,Win Timer,08AB8750
-08B82DAC=0,Objective1,08B8375C
-08B82ABC=0,Objective 2,08B82CBC
-0915F1B0=0,Tesla Talk,0915F590
-087D3730=0,Tesla Selected,087D3A80
-08E000A0=0,Ivan Hint,08DFF090
-0A12E50C=0,Ambient Ocean,0A1201BC
-0A12BDCC=0,Ambient City,0A12A7AC
-0B493DEC=0,Start Patrols,0B49294C
-0B009BFC=0,_Radar Movie 1,0B00823C
-0B009A2C=0,_Radar Movie 2,0B009B0C
-083B76BC=0,_Flip Build Tab,083B646C
-084AFC6C=2,Tesla Built By Player,084AFE9C
-0A0A9BCC=2,Tesla To Other3,0A0ACC3C
-09EEBE5C=0,Full Trak Change,09EEBF3C
-08445CDC=2,Reinforce BG1,08445DBC
-08445B0C=2,Re-enable Reinforce BG1,08445BEC
-0AD6CDCC=2,Paris Tower,0AD6F19C
-0857BAAC=2,Objective 3 Reminder,0857BEFC
-0A67AB8C=0,Win,0A67AC6C
-0A67A4AC=2,Cheer,0A67A58C
-0CB23C9C=0,Win Delay,0CB2164C
-0A70756C=0,Tower Destroyed Backup,0A70764C
+
 
 [Digest]
 1=xGnLMpiiV5jZEyJX47VcL63fdCY=
+

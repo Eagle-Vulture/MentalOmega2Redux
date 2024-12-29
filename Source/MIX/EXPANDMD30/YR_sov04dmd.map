@@ -28,7 +28,7 @@ TechLevel=11
 [Basic]
 Win=<none>
 Lose=<none>
-Name=
+Name=YRS4
 Brief=S04_F00e
 Intro=<none>
 Theme=No theme
@@ -6707,7 +6707,7 @@ FixedAlliance House=no
 1027138=YuriCountry House,YABRCK,256,92,27,0,093D8ADC,0,0,1,0,0,None,None,None,1,0
 1027141=YuriCountry House,YATECH,256,105,28,0,None,1,0,1,0,0,None,None,None,1,0
 1027144=YuriCountry House,YAPOWR,256,109,15,0,None,1,0,1,0,0,None,None,None,1,0
-1027151=YuriCountry House,NAPSIS,256,94,25,0,None,1,0,1,0,0,None,None,None,1,0
+1027151=YuriCountry House,YAPSIS,256,94,25,0,None,1,0,1,0,0,None,None,None,1,0
 1027154=Neutral,CAOILD,256,160,68,0,0923F54C,0,0,1,0,0,None,None,None,0,0
 1027159=Neutral,CAOILD,256,41,113,0,0B210EDC,0,0,1,0,0,None,None,None,0,0
 1027164=Alliance House,YABRCK,256,35,92,0,04384B3C,0,0,1,0,0,None,None,None,1,0

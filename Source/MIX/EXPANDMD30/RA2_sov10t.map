@@ -14,7 +14,7 @@ Value=50
 [Basic]
 Win=<none>
 Lose=<none>
-Name=
+Name=RA2S10
 Brief=S10_f00e
 Intro=<none>
 Theme=Destroy
@@ -4845,6 +4845,8 @@ DestroyableBridges=no
 FixedAlliance House=no
 
 [Structures]
+0=BadGuy1 House,CAMACH,256,142,74,64,None,1,0,1,0,0,None,None,None,0,0
+1=BadGuy2 House,CAFHOSP,256,142,80,64,None,1,0,1,0,0,None,None,None,0,0
 1038178=BadGuy2 House,GACNST,256,87,135,0,08970390,1,0,1,0,0,None,None,None,0,0
 1038181=BadGuy2 House,GAPILE,256,96,136,0,08970390,1,0,1,0,0,None,None,None,0,0
 1038184=BadGuy2 House,GAREFN,256,91,144,0,08970390,1,0,1,0,0,None,None,None,0,0
