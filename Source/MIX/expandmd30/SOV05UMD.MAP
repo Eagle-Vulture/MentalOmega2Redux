@@ -256,7 +256,7 @@ Capturable=yes
 [YAPOWR]
 Power=300
 
-[YAPSYT]
+[YARAIL]
 Power=-50
 
 [YuriCountry]
@@ -3852,10 +3852,10 @@ DestroyableBridges=yes
 330=Russians House,NALASR,256,96,109,0,None,1,0,1,0,0,None,None,None,0,0
 331=Russians House,NALASR,256,107,110,0,None,1,0,1,0,0,None,None,None,0,0
 332=Russians House,NAHLPAD,256,94,126,64,None,1,0,1,0,0,None,None,None,0,0
-333=YuriCountry House,YAPSYT,256,119,87,64,None,1,0,1,0,0,None,None,None,1,0
-334=YuriCountry House,YAPSYT,256,110,87,64,None,1,0,1,0,0,None,None,None,1,0
-335=YuriCountry House,YAPSYT,256,103,80,64,None,1,1,1,0,0,None,None,None,1,0
-336=YuriCountry House,YAPSYT,256,126,80,64,None,1,1,1,0,0,None,None,None,0,0
+333=YuriCountry House,YARAIL,256,119,87,64,None,1,0,1,0,0,None,None,None,1,0
+334=YuriCountry House,YARAIL,256,110,87,64,None,1,0,1,0,0,None,None,None,1,0
+335=YuriCountry House,YARAIL,256,103,80,64,None,1,1,1,0,0,None,None,None,1,0
+336=YuriCountry House,YARAIL,256,126,80,64,None,1,1,1,0,0,None,None,None,0,0
 337=YuriCountry House,YAACID,256,101,102,160,None,1,0,1,0,0,None,None,None,1,0
 338=YuriCountry House,YAACID,256,128,105,96,None,1,0,1,0,0,None,None,None,1,0
 339=Russians House,NAHLPAD,256,94,129,64,None,1,0,1,0,0,None,None,None,0,0
@@ -4135,7 +4135,7 @@ DestroyableBridges=yes
 650=YuriCountry House,NACLON,256,69,82,64,None,1,0,1,0,0,None,None,None,0,0
 652=Neutral House,CAARMY03,256,88,89,64,None,1,0,1,0,0,None,None,None,0,0
 653=Neutral House,DRAGSTAT,256,88,84,64,None,1,0,1,0,0,None,None,None,0,0
-654=YuriCountry House,YAPSYT,256,77,90,64,None,1,0,1,0,0,None,None,None,1,0
+654=YuriCountry House,YARAIL,256,77,90,64,None,1,0,1,0,0,None,None,None,1,0
 656=Neutral House,CASIN03E,256,56,107,64,None,1,0,1,0,0,None,None,None,0,0
 657=Neutral House,CASIN03E,256,56,106,64,None,1,0,1,0,0,None,None,None,0,0
 658=Neutral House,CASIN03E,256,57,104,64,None,1,0,1,0,0,None,None,None,0,0
