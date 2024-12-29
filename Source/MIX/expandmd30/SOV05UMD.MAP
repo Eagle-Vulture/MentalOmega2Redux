@@ -208,6 +208,9 @@ Selectable=no
 [SHADOW]
 TechLevel=11
 
+[STARF]
+ForbiddenHouses=YuriCountry,UriArmy,Headquaters,Scorpion
+
 [SVAP]
 SuperWeapon=SpyPlaneSpecial
 
@@ -275,6 +278,7 @@ ParentCountry=YuriCountry
 0=1,BORIS
 1=1,CHITZ
 2=1,VOLKOV
+3=5,CYBORG
 Name=BORIS ON A FUCKING PLANE
 Group=-1
 
@@ -2057,8 +2061,8 @@ PlayerControl=no
 18=Special House
 
 [Infantry]
-0=Neutral House,CIV1,256,34,39,0,Guard,64,None,0,-1,0,1,0
-1=Neutral House,CIV2,256,36,39,1,Guard,64,None,0,-1,0,1,0
+0=Neutral House,CIV1,256,33,40,0,Guard,64,None,0,-1,0,1,0
+1=Neutral House,CIV2,256,35,40,0,Guard,64,None,0,-1,0,1,0
 2=Neutral House,CIVC,256,38,90,0,Guard,64,None,0,-1,0,1,0
 3=Neutral House,CIVB,256,36,89,2,Guard,64,None,0,-1,0,1,0
 4=Neutral House,CIVC,256,41,86,2,Guard,64,None,0,-1,0,1,0
@@ -2182,7 +2186,7 @@ PlayerControl=no
 122=YuriCountry House,INIT,256,61,65,1,Area Guard,64,None,0,-1,0,1,0
 123=YuriCountry House,INIT,256,61,69,1,Area Guard,64,None,0,-1,0,1,0
 124=YuriCountry House,BRUTE,256,61,57,0,Area Guard,64,None,0,-1,0,1,0
-125=YuriCountry House,BRUTE,256,66,58,1,Area Guard,64,None,0,-1,0,1,0
+125=YuriCountry House,BRUTE,256,62,57,0,Area Guard,64,None,0,-1,0,1,0
 126=YuriCountry House,INIT,256,59,80,1,Area Guard,64,None,0,-1,0,1,0
 127=YuriCountry House,INIT,256,57,72,0,Area Guard,64,None,0,-1,0,1,0
 128=YuriCountry House,INIT,256,57,75,0,Area Guard,64,None,0,-1,0,1,0
@@ -3664,7 +3668,7 @@ DestroyableBridges=yes
 146=Neutral House,CAPARK05,256,53,32,64,None,1,0,1,0,0,None,None,None,0,0
 147=Neutral House,CAPARK05,256,53,35,64,None,1,0,1,0,0,None,None,None,0,0
 148=Neutral House,CAWT01,256,62,50,64,None,1,0,1,0,0,None,None,None,0,0
-149=YuriCountry House,YAACID,256,65,55,128,None,1,0,1,0,0,None,None,None,1,0
+149=YuriCountry House,YAACID,256,65,57,128,None,1,0,1,0,0,None,None,None,1,0
 150=Neutral House,CAMISC03,256,55,29,64,None,1,0,1,0,0,None,None,None,0,0
 151=Neutral House,CAFRMB,256,57,29,64,None,1,0,1,0,0,None,None,None,0,0
 152=Neutral House,CANEWY15,256,59,37,64,None,1,0,1,0,0,None,None,None,0,0
@@ -3691,7 +3695,7 @@ DestroyableBridges=yes
 173=Neutral House,CAMISC03,256,54,16,64,None,1,0,1,0,0,None,None,None,0,0
 174=Neutral House,CAMSC11,256,57,93,64,None,1,0,1,0,0,None,None,None,0,0
 175=UriArmy House,CAOILD,256,57,95,64,None,1,0,1,0,0,None,None,None,0,0
-176=Russians House,SVAP,256,93,123,64,None,1,0,1,0,0,None,None,None,0,0
+176=Russians House,SVAP,256,93,122,64,None,1,0,1,0,0,None,None,None,0,0
 177=Neutral House,CAMISC02,256,54,17,64,None,1,0,1,0,0,None,None,None,0,0
 178=Neutral House,CAWASH07,256,50,25,64,None,1,0,1,0,0,None,None,None,0,0
 179=Neutral House,CAWASH07,256,46,25,64,None,1,0,1,0,0,None,None,None,0,0
@@ -3847,14 +3851,18 @@ DestroyableBridges=yes
 329=Russians House,NALASR,256,101,112,0,None,1,0,1,0,0,None,None,None,0,0
 330=Russians House,NALASR,256,96,109,0,None,1,0,1,0,0,None,None,None,0,0
 331=Russians House,NALASR,256,107,110,0,None,1,0,1,0,0,None,None,None,0,0
+332=Russians House,NAHLPAD,256,94,126,64,None,1,0,1,0,0,None,None,None,0,0
 333=YuriCountry House,YAPSYT,256,119,87,64,None,1,0,1,0,0,None,None,None,1,0
 334=YuriCountry House,YAPSYT,256,110,87,64,None,1,0,1,0,0,None,None,None,1,0
 335=YuriCountry House,YAPSYT,256,103,80,64,None,1,1,1,0,0,None,None,None,1,0
 336=YuriCountry House,YAPSYT,256,126,80,64,None,1,1,1,0,0,None,None,None,0,0
 337=YuriCountry House,YAACID,256,101,102,160,None,1,0,1,0,0,None,None,None,1,0
 338=YuriCountry House,YAACID,256,128,105,96,None,1,0,1,0,0,None,None,None,1,0
+339=Russians House,NAHLPAD,256,94,129,64,None,1,0,1,0,0,None,None,None,0,0
 340=YuriCountry House,YAACID,256,124,102,0,None,1,0,1,0,0,None,None,None,1,0
 341=YuriCountry House,YAACID,256,105,96,128,None,1,0,1,0,0,None,None,None,1,0
+342=UriArmy House,CA_genoild,256,46,78,64,None,1,0,1,0,0,None,None,None,0,0
+343=UriArmy House,CA_genoild,256,42,78,64,None,1,0,1,0,0,None,None,None,0,0
 348=YuriCountry House,YAACID,256,124,88,64,None,1,0,1,0,0,None,None,None,1,0
 351=Neutral House,CATEXS06,51,107,98,64,None,1,0,1,0,0,None,None,None,0,0
 352=Neutral House,CATEXS07,30,120,98,64,None,1,0,1,0,0,None,None,None,0,0
@@ -4501,7 +4509,7 @@ DestroyableBridges=yes
 64=YuriCountry House,YTNK,256,42,42,64,Area Guard,None,0,-1,0,-1,1,0
 65=YuriCountry House,YTNK,256,45,52,64,Area Guard,None,0,-1,0,-1,1,0
 66=YuriCountry House,YTNK,256,47,54,96,Area Guard,None,0,-1,0,-1,1,0
-67=YuriCountry House,LTNK,256,34,42,64,Area Guard,None,0,-1,0,-1,1,0
+67=YuriCountry House,LTNK,256,39,42,64,Area Guard,None,0,-1,0,-1,1,0
 68=YuriCountry House,LTNK,256,37,86,32,Area Guard,None,0,-1,0,-1,1,0
 69=YuriCountry House,LTNK,256,39,82,224,Area Guard,None,0,-1,0,-1,1,0
 70=YuriCountry House,YTNK,256,33,84,64,Area Guard,None,0,-1,0,-1,1,0
@@ -4581,7 +4589,7 @@ PlayerControl=no
 15=134087
 16=80044
 17=51045
-18=43059
+18=34049
 19=33045
 20=61067
 21=84136
@@ -4591,7 +4599,7 @@ PlayerControl=no
 25=115125
 26=70087
 27=117098
-28=42060
+28=33049
 29=28040
 30=84114
 31=128099
@@ -4639,8 +4647,8 @@ PlayerControl=no
 73=42022
 74=42035
 75=84027
-98=41062
-99=41063
+98=32050
+99=32051
 
 [YuriCountry House]
 IQ=5
