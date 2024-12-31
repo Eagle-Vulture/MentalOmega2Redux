@@ -5909,13 +5909,15 @@ DestroyableBridges=yes
 346=Neutral House,CATAS39,256,193,227,64,None,1,0,1,0,0,None,None,None,0,0
 347=Neutral House,CATAS40,256,193,230,64,None,1,0,1,0,0,None,None,None,0,0
 348=Neutral House,CATAS41,256,193,233,64,None,1,0,1,0,0,None,None,None,0,0
-349=YuriCountry House,YAPSYB,256,172,114,64,None,1,0,1,0,0,None,None,None,0,0
+349=YuriCountry House,YAPSYB,256,170,116,64,None,1,0,1,0,0,None,None,None,0,0
 350=YuriCountry House,CACOLO01,256,186,173,64,None,1,0,1,0,0,None,None,None,0,0
 351=YuriCountry House,YARAIL,256,172,91,64,None,1,0,1,0,0,None,None,None,0,0
 352=YuriCountry House,YARAIL,256,176,91,64,None,1,0,1,0,0,None,None,None,0,0
 353=YuriCountry House,YARAIL,256,181,91,64,None,1,0,1,0,0,None,None,None,0,0
 354=YuriCountry House,YAINVIS,256,183,99,64,None,1,0,1,0,0,None,None,None,0,0
-355=YuriCountry House,NAPSYB,256,175,111,64,None,1,0,1,0,0,None,None,None,0,0
+355=YuriCountry House,NAPSYB,256,171,110,64,None,1,0,1,0,0,None,None,None,0,0
+356=YuriCountry House,YAPSIS,256,176,116,64,None,1,0,1,0,0,None,None,None,0,0
+357=YuriCountry House,NAPSIS,256,176,110,64,None,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,AI Auto Production America House,01000000

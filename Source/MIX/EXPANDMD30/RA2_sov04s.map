@@ -4843,6 +4843,8 @@ FixedAlliance House=no
 
 [Structures]
 0=Player House,NAREFN,256,50,129,64,None,1,0,1,0,0,None,None,None,0,0
+1=Player House,NAPOWR,256,52,126,0,None,1,0,1,0,0,None,None,None,0,0
+2=Player House,NAPOWR,256,54,124,0,None,1,0,1,0,0,None,None,None,0,0
 1029308=Civilian House,INYELWLAMP,256,97,23,0,None,0,0,1,0,0,None,None,None,0,0
 1029309=Civilian House,INYELWLAMP,256,97,62,0,None,0,0,1,0,0,None,None,None,0,0
 1029310=Civilian House,INPURPLAMP,256,90,32,0,None,0,0,1,0,0,None,None,None,0,0
@@ -4890,7 +4892,6 @@ FixedAlliance House=no
 1029358=Civilian House,CAEUR1,256,79,124,0,0B9E12CC,0,0,1,0,0,None,None,None,0,0
 1029359=Civilian House,CAHSE01,256,82,129,0,0B9E12CC,0,0,1,0,0,None,None,None,0,0
 1029360=Civilian House,CAFARM06,256,116,46,0,0B9F196C,0,0,1,0,0,None,None,None,0,0
-1029361=Player House,NAPOWR,256,58,137,0,None,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 08BA2A10=0,BG1 All to Hunt,08BA2DC0
