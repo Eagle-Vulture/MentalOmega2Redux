@@ -1124,6 +1124,9 @@ Name=Cosmonauts AI Script
 
 [01000111]
 0=1,KAMS
+1=1,PELI
+2=1,Disk 
+3=1,SovHokum
 Name=Kaamos
 Group=-1
 
