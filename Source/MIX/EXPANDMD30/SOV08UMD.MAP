@@ -8,6 +8,10 @@ TechLevel=11
 [Aboreus]
 Value=50
 
+[yapsya3x3new]
+Power = 0
+Powered = false
+
 [Alliance]
 Name=Alliance
 Side=GDI

@@ -2,6 +2,10 @@
 ; Get it at http://www.westwood.com
 ; note that all comments were truncated
 
+[yapsya3x3new]
+Power = 0
+Powered = false
+
 [Alliance]
 Name=Alliance
 Side=GDI

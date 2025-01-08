@@ -600,7 +600,7 @@ AreTeamMembersRecruitable=no
 Name=16-17
 
 [01000087]
-0=1,MTNK
+0=1,AERO
 1=2,StormLT
 2=1,ABRM
 Name=2 Grizzly, 2 IFV
@@ -650,7 +650,8 @@ AreTeamMembersRecruitable=no
 Name=18-19
 
 [01000090]
-0=3,ABRM
+0=1,ABRM
+0=2,StormLT
 Name=3 Mirages
 Group=-1
 
@@ -698,7 +699,8 @@ AreTeamMembersRecruitable=no
 Name=20-21
 
 [01000093]
-0=4,StormLT
+0=2,StormLT
+0=1,ABRM
 Name=4 IFV
 Group=-1
 

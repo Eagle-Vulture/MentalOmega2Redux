@@ -1649,6 +1649,10 @@ AreTeamMembersRecruitable=no
 01000131=3,21,6,EVA_ReinforcementsHaveArrived,0,0,0,0,A,7,1,01000130,0,0,0,0,A,17,0,49,0,0,0,0,A
 01000133=5,99,7,_Amb_WavesLake,0,0,0,0,AZ,99,7,_Amb_DesertHawk,0,0,0,0,AP,99,7,_Amb_WindPlains,0,0,0,0,AN,99,7,_Amb_DesertHawk,0,0,0,0,BA,99,7,_Amb_CricketDesert,0,0,0,0,BB
 
+[yapsya3x3new]
+Power = 0
+Powered = false
+
 [Alliance House]
 IQ=5
 Edge=North
