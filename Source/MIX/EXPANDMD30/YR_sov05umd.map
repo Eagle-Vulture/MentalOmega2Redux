@@ -11305,6 +11305,16 @@ FixedAlliance House=no
 17=YuriCountry House,SMIN,256,173,134,0,Guard,None,0,-1,0,-1,1,1
 18=Yuri2Country,SMIN,256,148,88,0,Guard,None,0,-1,0,-1,1,1
 19=Yuri2Country,SMIN,256,141,89,0,Guard,None,0,-1,0,-1,1,1
+20=YuriCountry House,YHVR,256,133,155,128,Sleep,None,0,-1,0,-1,1,0
+21=YuriCountry House,YHVR,256,135,155,128,Sleep,None,0,-1,0,-1,1,0
+22=YuriCountry House,YHVR,256,141,156,128,Sleep,None,0,-1,0,-1,1,0
+23=YuriCountry House,YHVR,256,152,135,0,Sleep,None,0,-1,0,-1,1,0
+24=YuriCountry House,YHVR,256,155,135,0,Sleep,None,0,-1,0,-1,1,0
+25=YuriCountry House,YHVR,256,161,133,0,Sleep,None,0,-1,0,-1,1,0
+26=YuriCountry House,YHVR,256,164,133,0,Sleep,None,0,-1,0,-1,1,0
+27=YuriCountry House,YHVR,256,113,132,0,Sleep,None,0,-1,0,-1,1,0
+28=YuriCountry House,YHVR,256,120,133,0,Sleep,None,0,-1,0,-1,1,0
+29=YuriCountry House,YHVR,256,104,142,160,Sleep,None,0,-1,0,-1,1,0
 
 [VariableNames]
 0=Sub Pen Destroyed,0
