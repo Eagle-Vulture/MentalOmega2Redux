@@ -61,3 +61,13 @@ Read more about license: https://creativecommons.org/licenses/by-nc/4.0/legalcod
 ## Credits
 
 *Under construction*
+
+| Author(s)      | Source Materials                 |
+| -------------- | -------------------------------- |
+| Westwood       | Resources of TS and RA2: YR      |
+| Mentalmeisters | Resources of Mental Omega 2.0psi |
+| Fryone         | Voxels, sprites, ini-code        |
+| Midian-P       | Voxels, sprites, ini-code        |
+| Volkov T-666   | Voxels, sprites, ini-code        |
+| Salted Old     | Voxels, sprites, ini-code        |
+| YuriPrime      | Voxels, sprites, ini-code        |
