@@ -71,3 +71,4 @@ Read more about license: https://creativecommons.org/licenses/by-nc/4.0/legalcod
 | Volkov T-666   | Voxels, sprites, ini-code        |
 | Salted Old     | Voxels, sprites, ini-code        |
 | YuriPrime      | Voxels, sprites, ini-code        |
+| ppap11404      | VFX sprites                      |
